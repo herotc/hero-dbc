@@ -12,4 +12,6 @@ set BUILD=24015
 set INPATH=..\..\AethysDBC\CDN\7.2.0.%BUILD%\DBFilesClient
 set GTINPATH=..\..\AethysDBC\CDN\7.2.0.%BUILD%\GameTables
 
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellCooldowns > %OUTPATH%\SpellCooldowns.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellMisc > %OUTPATH%\SpellMisc.csv
