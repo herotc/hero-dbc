@@ -14,6 +14,7 @@ generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
+
 with open(os.path.join(generatedDir, 'SpellCooldowns.csv')) as csvfile:
     reader = csv.DictReader(csvfile)
     with open(os.path.join(parsedDir, 'TriggerGCD.lua'), 'w', encoding='utf-8') as file:

@@ -13,6 +13,9 @@ set BUILD=25195
 set INPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\DBFilesClient
 set GTINPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\GameTables
 
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv Creature > %OUTPATH%\Creature.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv CreatureImmunities > %OUTPATH%\CreatureImmunities.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv CreatureType > %OUTPATH%\CreatureType.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellCooldowns > %OUTPATH%\SpellCooldowns.csv
