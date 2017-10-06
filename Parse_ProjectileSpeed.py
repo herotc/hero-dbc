@@ -13,11 +13,11 @@ import csv
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
-Spells = {}
-
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
-# Since Blizzard only gives us an id and not the spell id, we have to parse Spell.db to retrieve the Spell ID.
+# Since Blizzard stores the Projectile Speed in SpellMisc and that SpellMisc doesn't contain the id_spell but only the id_misc
+# we have to parse Spell.db to map the id_spell & id_misc.
+Spells = {}
 with open(os.path.join(generatedDir, 'Spell.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
