@@ -17075,5 +17075,5 @@ AethysCore.Enum.TriggerGCD = {
   [255322] = false,
   [255324] = false,
   [255341] = false,
-  [250185] = false,
+  [250185] = false
 }
