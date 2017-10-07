@@ -24,4 +24,5 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellMisc > %OU
 cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py
 py -3 Parse_ProjectileSpeed.py
-py -3 Parse_ItemRange.py
+py -3 Parse_ItemRangeUnfiltered.py
+py -3 Parse_SpellMeleeRange.py
