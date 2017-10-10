@@ -36,7 +36,7 @@ with open(os.path.join(generatedDir, 'SpellRange.csv')) as csvfile:
         min_range = float(row['min_range_1'])
         max_range = float(row['max_range_1'])
         if max_range > 0 and max_range <= 100:
-            Ranges[row['id']] = [str(int(min_range)), str(int(max_range)), int(row['flag'])]
+            Ranges[row['id']] = [str(int(min_range)), str(int(max_range)), int(row['flags'])]
 
 with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
