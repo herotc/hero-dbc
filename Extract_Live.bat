@@ -26,5 +26,6 @@ cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py
 py -3 Parse_ProjectileSpeed.py
 py -3 Parse_ItemRangeUnfiltered.py
+py -3 Parse_ItemRangeFiltered.py
 py -3 Parse_SpellMeleeRange.py
 py -3 Parse_SpellTickTime.py
