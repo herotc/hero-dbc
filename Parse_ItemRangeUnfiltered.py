@@ -46,12 +46,12 @@ with open(os.path.join(generatedDir, 'SpellRange.csv')) as csvfile:
         # Hostile
         min_range = float(row['min_range_1'])
         max_range = float(row['max_range_1'])
-        if min_range == 0 and max_range > 0 and max_range <= 100:
+        if min_range == 0 and max_range >= 5 and max_range <= 100:
             Ranges[row['id']] = [max_range, int(row['flag'])]
         # Friendly
         min_range = float(row['min_range_2'])
         max_range = float(row['max_range_2'])
-        if min_range == 0 and max_range > 0 and max_range <= 100:
+        if min_range == 0 and max_range >= 5 and max_range <= 100:
             Ranges[row['id']] = [max_range, int(row['flag'])]
 
 # Make a table for each range computation (melee, ranged) containing all possible items for a given range
