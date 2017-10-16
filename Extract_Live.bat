@@ -21,6 +21,7 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellCooldowns 
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellRange > %OUTPATH%\SpellRange.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellMisc > %OUTPATH%\SpellMisc.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellEffect > %OUTPATH%\SpellEffect.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellDuration > %OUTPATH%\SpellDuration.csv
 
 cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py
@@ -29,3 +30,4 @@ py -3 Parse_ItemRangeUnfiltered.py
 py -3 Parse_ItemRangeFiltered.py
 py -3 Parse_SpellMeleeRange.py
 py -3 Parse_SpellTickTime.py
+py -3 Parse_SpellDuration.py
