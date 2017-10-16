@@ -45,10 +45,13 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
         file.write('AethysCore.Enum.SpellDuration = {\n')
         iMax = len(ValidRows)-1
         for i, row in enumerate(ValidRows):
+            baseDuration = int(Durations[row['id_duration']][1])
+            pandemic = int(float(Durations[row['id_duration']][1])*0.3)
+            maxDuration = baseDuration + pandemic
             if i == iMax:
-                file.write('  [' + Spells[row['id']] + '] = {' + Durations[row['id_duration']][1] + ', ' + Durations[row['id_duration']][2] + '}\n')
+                file.write('  [' + Spells[row['id']] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(int(maxDuration)) + '}\n')
             else:
-                file.write('  [' + Spells[row['id']] + '] = {' + Durations[row['id_duration']][1] + ', ' + Durations[row['id_duration']][2] + '},\n')
+                file.write('  [' + Spells[row['id']] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(int(maxDuration)) + '},\n')
         file.write('}\n')
 
 
