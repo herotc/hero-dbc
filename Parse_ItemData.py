@@ -16,7 +16,7 @@ parsedDir = os.path.join('DBC', 'parsed')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
-def itemType(x):
+def computeItemType(x):
     return {
         1: 'head',
         2: 'neck',
@@ -31,9 +31,9 @@ def itemType(x):
         12: 'trinket',
         16: 'back',
         20: 'chest'
-    }.get(x, 'unknown')
+    }.get(x, '')
     
-def itemMaterial(x):
+def computeItemMaterial(x):
     return {
         6: 'plate',
         5: 'mail',
@@ -55,19 +55,54 @@ def computeBonusID(set):
     if set == "T20":
         return "1512/3563"
 
+def computeLegClass(classmask):
+    return {
+        1: 'warrior',
+        2: 'paladin',
+        4: 'hunter',
+        8: 'rogue',
+        16: 'priest',
+        32: 'death_knight',
+        35: 'warrior/paladin/death_knight',
+        64: 'shaman',
+        68: 'hunter/shaman',
+        128: 'mage',
+        256: 'warlock',
+        400: 'priest/mage/warlock',
+        512: 'monk',
+        1024: 'druid',
+        2048: 'demon_hunter',
+        3592: 'rogue/monk/druid/demon_hunter',
+        65535: 'All'
+    }.get(classmask, '')
+
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
-    ValidRows = []
+    ValidItemsRows = []
+    ValidLegendariesRows = []
     for row in reader:
         if not row['inv_type'] == '0' and (row['ilevel'] == '930' or row['ilevel'] == '940' or row['ilevel'] == '1000' or (row['ilevel'] == '890' and not row['item_set'] == '0')):
-            ValidRows.append(row)
+            ValidItemsRows.append(row)
+        if row['ilevel'] == '910' and int(row['quality']) == 5:
+            ValidLegendariesRows.append(row)
     with open(os.path.join(parsedDir, 'ItemData.json'), 'w', encoding='utf-8') as file:
         file.write('{\n')
-        iMax = len(ValidRows)-1
-        for i, row in enumerate(ValidRows):
+        file.write('\t"Items": [')
+        iMax = len(ValidItemsRows)-1
+        for i, row in enumerate(ValidItemsRows):
             set = computeSet(int(row['item_set']),int(row['ilevel']))
             if i == iMax:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + itemType(int(row['inv_type'])) + '", "material": "' + itemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"}\n')
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"}\n')
             else:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + itemType(int(row['inv_type'])) + '", "material": "' + itemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"},\n')
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"},\n')
+        file.write('],\n')
+        file.write('\t"legendaries": [')
+        iMax = len(ValidLegendariesRows)-1
+        for i, row in enumerate(ValidLegendariesRows):
+            set = computeSet(int(row['item_set']),int(row['ilevel']))
+            if i == iMax:
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "class": "' + computeLegClass(int(row['class_mask'])) + '", "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "bonus_id": "3630"}\n')
+            else:
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "class": "' + computeLegClass(int(row['class_mask'])) + '", "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "bonus_id": "3630"},\n')
+        file.write(']\n')
         file.write('}\n')
