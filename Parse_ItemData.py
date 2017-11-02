@@ -49,10 +49,13 @@ def computeSet(set,ilvl):
     if ilvl == 930 or ilvl == 940:
         return "T21"
         
-def computeBonusID(set):
+def computeBonusID(set,quality):
     if set == "" or set == "T21":
-        return "3612/1502"
-    if set == "T20":
+        if set == "" and quality == 5: #legendaries
+            return "3630"
+        else: #T21
+            return "3612/1502"
+    if set == "T20": #T20
         return "1512/3563"
 
 def computeLegClass(classmask):
@@ -92,17 +95,17 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
         for i, row in enumerate(ValidItemsRows):
             set = computeSet(int(row['item_set']),int(row['ilevel']))
             if i == iMax:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"}\n')
+                file.write('  { "id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "set":"' + set + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}\n')
             else:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "set": "' + set + '", "bonus_id": "' + computeBonusID(set) + '"},\n')
+                file.write('  { "id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "set":"' + set + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"},\n')
         file.write('],\n')
         file.write('\t"legendaries": [')
-        iMax = len(ValidLegendariesRows)-1
-        for i, row in enumerate(ValidLegendariesRows):
+        jMax = len(ValidLegendariesRows)-1
+        for j, row in enumerate(ValidLegendariesRows):
             set = computeSet(int(row['item_set']),int(row['ilevel']))
-            if i == iMax:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "class": "' + computeLegClass(int(row['class_mask'])) + '", "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "bonus_id": "3630"}\n')
+            if j == jMax:
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "enable":false,"level":' + row['ilevel'] + ', "class":"' + computeLegClass(int(row['class_mask'])) + '", "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}\n')
             else:
-                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "level": ' + row['ilevel'] + ', "class": "' + computeLegClass(int(row['class_mask'])) + '", "type": "' + computeItemType(int(row['inv_type'])) + '", "material": "' + computeItemMaterial(int(row['material'])) + '", "bonus_id": "3630"},\n')
+                file.write('  { "id":' + row['id'] + ', "name": "' + row['name'] + '", "enable":false, "level":' + row['ilevel'] + ', "class":"' + computeLegClass(int(row['class_mask'])) + '", "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"},\n')
         file.write(']\n')
         file.write('}\n')
