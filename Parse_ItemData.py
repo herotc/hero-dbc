@@ -88,42 +88,47 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     ValidItemsRows = {}
     ValidLegendariesRows = {}
-
+    
+    #Read rows and order them with each inventory type, class and material
     for row in reader:
+        #inv_type = 0 : non equipable items
+        #ilvl : 930/940/1000 = argus, 890, only T20 
         if not row['inv_type'] == '0' and (row['ilevel'] == '930' or row['ilevel'] == '940' or row['ilevel'] == '1000' or (row['ilevel'] == '890' and not row['item_set'] == '0')):
             itemType = computeItemType(int(row['inv_type']))
             itemMaterial = computeItemMaterial(int(row['material']))
-            
-            if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back":
+            if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
                 if itemType not in ValidItemsRows:
-                    ValidItemsRows[itemType] = {}
+                    ValidItemsRows[itemType] = {} #Disctionnary because we need to order more
                 if itemMaterial not in ValidItemsRows[itemType]:
-                    ValidItemsRows[itemType][itemMaterial] = []
+                    ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
                 ValidItemsRows[itemType][itemMaterial].append(row)
             else:
-                addValidRow(ValidItemsRows,itemType,row,[])
-        if row['ilevel'] == '910' and int(row['quality']) == 5:
+                addValidRow(ValidItemsRows,itemType,row,[]) # for non material items, handle them directly
+        
+        #Legendaries : baseilvl = 910      
+        if row['ilevel'] == '910' and int(row['quality']) == 5: 
             mask = computeLegClass(int(row['class_mask']))
-            if "/" in mask:
+            if "/" in mask: # cut the multiple spec legendaries and handle them separatly
                 t = mask.split('/')
                 for i in range(len(t)):
                     addValidRow(ValidLegendariesRows,t[i],row,[])
-            elif mask == "All":
-                for key in ValidLegendariesRows:
+            elif mask == "All": # for leg available for all, add them to all classes
+                for key in ValidLegendariesRows: #TODO : handle the case where an all legendary is before it's class definition
                     addValidRow(ValidLegendariesRows,key,row,[])
-            else:
+            else: 
                 addValidRow(ValidLegendariesRows,mask,row,[])
+                
+    #Prints everything to the file in the right order          
     with open(os.path.join(parsedDir, 'ItemData.json'), 'w', encoding='utf-8') as file:
         file.write('{\n')
+        
         file.write('\t"Items": {\n')
         keymax = len(ValidItemsRows)
         keycount = 0
         for key in ValidItemsRows:
             keycount = keycount + 1
-            
             file.write('\t\t"'+key+'": ')
-            
-            if not key == "trinket" and not key == "neck" and not key == "finger" and not key == "back":
+            if not key == "trinket" and not key == "neck" and not key == "finger" and not key == "back": #handle no materal separatly
                 file.write('{\n')
                 keymax2 = len(ValidItemsRows[key])
                 keycount2 = 0
@@ -134,9 +139,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                     for i, row in enumerate(ValidItemsRows[key][key2]):
                         set = computeSet(int(row['item_set']),int(row['ilevel']))
                         classstring = ""
-                        if not set == "":
+                        if not set == "": #Add class when there is an item set
                             classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
-                            
                         file.write('\t\t\t\t{"id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + key + '", "material":"' + key2 + '", "set":"' + set + '"' + classstring + ', "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}')
                         if not i == iMax:
                             file.write(',')
