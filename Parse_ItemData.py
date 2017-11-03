@@ -49,10 +49,13 @@ def computeSet(set,ilvl):
     if ilvl == 930 or ilvl == 940:
         return "T21"
         
-def computeBonusID(set,quality):
+def computeBonusID(set,quality,id):
     if set == "" or set == "T21":
         if set == "" and quality == 5: #legendaries
-            return "3630"
+            if id == 154172: #Amanthul specific
+                return "4213"
+            else:
+                return "3630"
         else: #T21
             return "3612/1502"
     if set == "T20": #T20
@@ -83,6 +86,26 @@ def addValidRow(dict, index , row, objtype):
     if index not in dict:
         dict[index] = objtype
     dict[index].append(row)
+    
+def printRow(row):
+    stringToPrint = ""
+    enableString = ""
+    setString = ""
+    classstring = ""
+    
+    set = computeSet(int(row['item_set']),int(row['ilevel']))
+    
+    if row['ilevel'] == '910' and int(row['quality']) == 5:
+        enableString= ', "enable":"false"'
+    else:
+        setString = ', "set":"' + set + '"'
+        if not set == "": 
+            classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
+            
+    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
+    
+    return stringToPrint
+    
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
@@ -141,7 +164,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                         classstring = ""
                         if not set == "": #Add class when there is an item set
                             classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
-                        file.write('\t\t\t\t{"id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + key + '", "material":"' + key2 + '", "set":"' + set + '"' + classstring + ', "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}')
+                        file.write('\t\t\t\t'+printRow(row))
+                        # file.write('\t\t\t\t{"id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + key + '", "material":"' + key2 + '", "set":"' + set + '"' + classstring + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}')
                         if not i == iMax:
                             file.write(',')
                         file.write('\n')
@@ -155,7 +179,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                 iMax = len(ValidItemsRows[key])-1
                 for i, row in enumerate(ValidItemsRows[key]):
                     set = computeSet(int(row['item_set']),int(row['ilevel']))
-                    file.write('\t\t\t{"id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + key + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "set":"' + set + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}')
+                    file.write('\t\t\t'+printRow(row))
+                    # file.write('\t\t\t{"id":' + row['id'] + ', "name":"' + row['name'] + '", "level":' + row['ilevel'] + ', "type":"' + key + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "set":"' + set + '", "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}')
                     if not i == iMax:
                         file.write(',')
                     file.write('\n')
@@ -174,7 +199,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
             file.write('\t\t"'+key+'": [\n')
             for j, row in enumerate(ValidLegendariesRows[key]):
                 set = computeSet(int(row['item_set']),int(row['ilevel']))
-                file.write('\t\t\t{"id":' + row['id'] + ', "name": "' + row['name'] + '", "enable":false, "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "bonus_id":"' + computeBonusID(set,int(row['quality'])) + '"}')
+                file.write('\t\t\t'+printRow(row))
+                # file.write('\t\t\t{"id":' + row['id'] + ', "name": "' + row['name'] + '", "enable":false, "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '", "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}')
                 if not j == jMax:
                     file.write(',')
                 file.write('\n')
