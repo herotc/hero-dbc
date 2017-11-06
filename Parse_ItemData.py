@@ -79,32 +79,47 @@ def computeLegClass(classmask):
         1024: 'druid',
         2048: 'demon_hunter',
         3592: 'rogue/monk/druid/demon_hunter',
-        65535: 'All'
+        65535: 'warrior/paladin/hunter/rogue/priest/death_knight/shaman/mage/warlock/monk/druid/demon_hunter'
     }.get(classmask, '')
 
 def addValidRow(dict, index , row, objtype): 
     if index not in dict:
         dict[index] = objtype
     dict[index].append(row)
+
+def computeGemNumber(row):
+    gemnb = 0
+    if not int(row['socket_color_1']) == 0:
+        gemnb = gemnb + 1
+        if not int(row['socket_color_2']) == 0:
+            gemnb = gemnb + 1
+            if not int(row['socket_color_3']) == 0:
+                gemnb = gemnb + 1
+    return gemnb
     
 def printRow(row):
     stringToPrint = ""
     enableString = ""
     setString = ""
     classstring = ""
+    gems = ""
     
     set = computeSet(int(row['item_set']),int(row['ilevel']))
     
+    
     if row['ilevel'] == '910' and int(row['quality']) == 5:
-        enableString= ', "enable":"false"'
+        enableString = ', "enable":"false"'
+        gems = ', "gems":'+ str(computeGemNumber(row))
     else:
         setString = ', "set":"' + set + '"'
         if not set == "": 
-            classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
+            classstring = ', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
             
-    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
+    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + gems + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
     
     return stringToPrint
+
+
     
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
@@ -121,7 +136,7 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
             itemMaterial = computeItemMaterial(int(row['material']))
             if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
                 if itemType not in ValidItemsRows:
-                    ValidItemsRows[itemType] = {} #Disctionnary because we need to order more
+                    ValidItemsRows[itemType] = {} #Dictionnary because we need to order more
                 if itemMaterial not in ValidItemsRows[itemType]:
                     ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
                 ValidItemsRows[itemType][itemMaterial].append(row)
@@ -135,9 +150,6 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                 t = mask.split('/')
                 for i in range(len(t)):
                     addValidRow(ValidLegendariesRows,t[i],row,[])
-            elif mask == "All": # for leg available for all, add them to all classes
-                for key in ValidLegendariesRows: #TODO : handle the case where an all legendary is before it's class definition
-                    addValidRow(ValidLegendariesRows,key,row,[])
             else: 
                 addValidRow(ValidLegendariesRows,mask,row,[])
                 
