@@ -10,7 +10,6 @@ import sys
 import os
 import csv
 import json
-from pprint import pprint
 
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
