@@ -109,7 +109,7 @@ def printRow(row):
     gems = ', "gems":'+ str(computeGemNumber(row))
     
     if row['ilevel'] == '910' and int(row['quality']) == 5:
-        enableString = ', "enable":"false"'
+        enableString = ', "enable":false'
     else:
         setString = ', "set":"' + set + '"'
         if not set == "": 
