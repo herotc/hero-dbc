@@ -82,6 +82,40 @@ def computeLegClass(classmask):
         65535: 'warrior/paladin/hunter/rogue/priest/death_knight/shaman/mage/warlock/monk/druid/demon_hunter'
     }.get(classmask, '')
 
+def computeItemStat(mask):
+    return {
+        3 : 'agi',
+        4 : 'str',
+        5 : 'int',
+        7 : 'stam',
+        32: 'crit',
+        36: 'haste',
+        40: 'vers',
+        49: 'mastery',
+        50: 'bonus_armor',
+        62: 'leech',
+        63: 'avoidance',
+        71: 'agi/str/int',
+        72: 'agi/str',
+        73: 'agi/int',
+        74: 'str/int',
+    }.get(mask, '')
+    
+def getItemStats(row):
+    statString = ""
+    if not int(row['stat_type_1']) == -1:
+        statString = ', "stats":"' + computeItemStat(int(row['stat_type_1']))
+        if not int(row['stat_type_2']) == -1:
+            statString = statString + "/" + computeItemStat(int(row['stat_type_2']))
+            if not int(row['stat_type_3']) == -1:
+                statString = statString + "/" + computeItemStat(int(row['stat_type_3']))
+                if not int(row['stat_type_4']) == -1:
+                    statString = statString + "/" + computeItemStat(int(row['stat_type_4']))
+                    if not int(row['stat_type_5']) == -1:
+                        statString = statString + "/" + computeItemStat(int(row['stat_type_5']))
+        statString = statString + '"'
+    return statString
+
 def addValidRow(dict, index , row, objtype): 
     if index not in dict:
         dict[index] = objtype
@@ -114,7 +148,7 @@ def printRow(row):
         if not set == "": 
             classstring = ', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
             
-    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + gems + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
+    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + getItemStats(row) + gems + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
     
     return stringToPrint
 
