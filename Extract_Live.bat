@@ -9,7 +9,7 @@ REM Escaped by "" due to spaces
 set CACHEDIR="C:\Program Files (x86)\World of Warcraft\Cache\ADB\enUS"
 
 set PATCH=7.3.2
-set BUILD=25383
+set BUILD=25455
 set INPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\DBFilesClient
 set GTINPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\GameTables
 
@@ -32,3 +32,4 @@ py -3 Parse_ItemRangeFiltered.py
 py -3 Parse_SpellMeleeRange.py
 py -3 Parse_SpellTickTime.py
 py -3 Parse_SpellDuration.py
+py -3 Parse_ItemData.py
