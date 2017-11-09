@@ -104,7 +104,7 @@ def computeItemStat(mask):
 def getItemStats(row):
     statString = ""
     if not int(row['stat_type_1']) == -1:
-        statString = ', "stats":"' + computeItemStat(int(row['stat_type_1']))
+        statString = computeItemStat(int(row['stat_type_1']))
         if not int(row['stat_type_2']) == -1:
             statString = statString + "/" + computeItemStat(int(row['stat_type_2']))
             if not int(row['stat_type_3']) == -1:
@@ -113,7 +113,6 @@ def getItemStats(row):
                     statString = statString + "/" + computeItemStat(int(row['stat_type_4']))
                     if not int(row['stat_type_5']) == -1:
                         statString = statString + "/" + computeItemStat(int(row['stat_type_5']))
-        statString = statString + '"'
     return statString
 
 def addValidRow(dict, index , row, objtype): 
@@ -130,29 +129,28 @@ def computeGemNumber(row):
             if not int(row['socket_color_3']) == 0:
                 gemnb = gemnb + 1
     return gemnb
-    
-def printRow(row):
-    stringToPrint = ""
-    enableString = ""
-    setString = ""
-    classstring = ""
-    gems = ""
-    
+
+def PrepareRow(row):
+    preparedRow = {}
+    preparedRow["id"] = row['id']
+    preparedRow["name"] = row['name']
+    preparedRow["level"] = row['ilevel']
+    preparedRow["type"] = computeItemType(int(row['inv_type']))
+    preparedRow["material"] = computeItemMaterial(int(row['material']))
+    preparedRow["stats"] = getItemStats(row)
+
     set = computeSet(int(row['item_set']),int(row['ilevel']))
-    gems = ', "gems":'+ str(computeGemNumber(row))
-    
+
     if row['ilevel'] == '910' and int(row['quality']) == 5:
-        enableString = ', "enable":false'
-    else:
-        setString = ', "set":"' + set + '"'
-        if not set == "": 
-            classstring = ', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
-            
-    stringToPrint = '{"id":' + row['id'] + ', "name":"' + row['name'] + '"'+ enableString +', "level":' + row['ilevel'] + ', "type":"' + computeItemType(int(row['inv_type'])) + '", "material":"' + computeItemMaterial(int(row['material'])) + '"'+ setString + classstring + getItemStats(row) + gems + ', "bonus_id":"' + computeBonusID(set,int(row['quality']),int(row['id'])) + '"}'
-    
-    return stringToPrint
+        preparedRow["enable"] = False
+    else:   
+        preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
+        if not set == "":
+            preparedRow["clase"] = computeLegClass(int(row['class_mask']))        
+    preparedRow["gems"] = computeGemNumber(row)
+    preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']))
 
-
+    return preparedRow
     
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
@@ -172,9 +170,11 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                     ValidItemsRows[itemType] = {} #Dictionnary because we need to order more
                 if itemMaterial not in ValidItemsRows[itemType]:
                     ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
-                ValidItemsRows[itemType][itemMaterial].append(row)
+                ValidItemsRows[itemType][itemMaterial].append(PrepareRow(row))
             else:
-                addValidRow(ValidItemsRows,itemType,row,[]) # for non material items, handle them directly
+                if itemType not in ValidItemsRows:
+                    ValidItemsRows[itemType] = []
+                ValidItemsRows[itemType].append(PrepareRow(row))
         
         #Legendaries : baseilvl = 910      
         if row['ilevel'] == '910' and int(row['quality']) == 5: 
@@ -191,11 +191,11 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                             ValidLegendariesRows[t[i]][itemType] = {} #Dictionnary because we need to order more
                         if itemMaterial not in ValidLegendariesRows[t[i]][itemType]:
                             ValidLegendariesRows[t[i]][itemType][itemMaterial] = [] #List of item ordered
-                        ValidLegendariesRows[t[i]][itemType][itemMaterial].append(row)
+                        ValidLegendariesRows[t[i]][itemType][itemMaterial].append(PrepareRow(row))
                     else:
                         if itemType not in ValidLegendariesRows[t[i]]:
                             ValidLegendariesRows[t[i]][itemType] = [] #Dictionnary because we need to order more
-                        ValidLegendariesRows[t[i]][itemType].append(row)
+                        ValidLegendariesRows[t[i]][itemType].append(PrepareRow(row))
 
             else: 
                 if mask not in ValidLegendariesRows:
@@ -205,115 +205,14 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                         ValidLegendariesRows[mask][itemType] = {} #Dictionnary because we need to order more
                     if itemMaterial not in ValidLegendariesRows[mask][itemType]:
                         ValidLegendariesRows[mask][itemType][itemMaterial] = [] #List of item ordered
-                    ValidLegendariesRows[mask][itemType][itemMaterial].append(row)
+                    ValidLegendariesRows[mask][itemType][itemMaterial].append(PrepareRow(row))
                 else:
                     if itemType not in ValidLegendariesRows[mask]:
                         ValidLegendariesRows[mask][itemType] = [] #Dictionnary because we need to order more
-                    ValidLegendariesRows[mask][itemType].append(row)
+                    ValidLegendariesRows[mask][itemType].append(PrepareRow(row))
           
-    #Prints everything to the file in the right order          
+    #Prints everything to the files  
     with open(os.path.join(parsedDir, 'generatorItemData.json'), 'w', encoding='utf-8') as file:
-        file.write('{\n')
-        
-        file.write('\t"items": {\n')
-        keymax = len(ValidItemsRows)
-        keycount = 0
-        for key in ValidItemsRows:
-            keycount = keycount + 1
-            file.write('\t\t"'+key+'": ')
-            if not key == "trinket" and not key == "neck" and not key == "finger" and not key == "back": #handle no materal separatly
-                file.write('{\n')
-                keymax2 = len(ValidItemsRows[key])
-                keycount2 = 0
-                for key2 in ValidItemsRows[key]:
-                    keycount2 = keycount2 + 1
-                    iMax = len(ValidItemsRows[key][key2])-1
-                    file.write('\t\t\t"'+key2+'": [\n')
-                    for i, row in enumerate(ValidItemsRows[key][key2]):
-                        set = computeSet(int(row['item_set']),int(row['ilevel']))
-                        classstring = ""
-                        if not set == "": #Add class when there is an item set
-                            classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
-                        file.write('\t\t\t\t'+printRow(row))
-                        if not i == iMax:
-                            file.write(',')
-                        file.write('\n')
-                    file.write('\t\t\t]')    
-                    if not keycount2 == keymax2:
-                        file.write(',')
-                    file.write('\n')
-                file.write('\t\t}') 
-            else:
-                file.write('[\n')
-                iMax = len(ValidItemsRows[key])-1
-                for i, row in enumerate(ValidItemsRows[key]):
-                    set = computeSet(int(row['item_set']),int(row['ilevel']))
-                    file.write('\t\t\t'+printRow(row))
-                    if not i == iMax:
-                        file.write(',')
-                    file.write('\n')
-                file.write('\t\t]')    
-            if not keycount == keymax:
-                file.write(',')
-            file.write('\n')
-        file.write('\t},\n')
-        
-        file.write('\t"legendaries": {\n')
-        keyclassmax = len(ValidLegendariesRows)
-        keyclasscount = 0
-        
-        for keyclass in ValidLegendariesRows:
-            keyclasscount = keyclasscount + 1
-            keytypeMax = len(ValidLegendariesRows[keyclass])
-            keytypecount = 0
-            file.write('\t\t"'+keyclass+'": {\n')
-            
-            for keytype in ValidLegendariesRows[keyclass]:
-                keytypecount = keytypecount + 1
-                file.write('\t\t\t"'+keytype+'": ')
-                
-                if not keytype == "trinket" and not keytype == "neck" and not keytype == "finger" and not keytype == "back": #handle no materal separatly
-                    file.write('{\n')
-                    keyMaterialmax = len(ValidLegendariesRows[keyclass][keytype])
-                    keyMaterialmaxcount = 0
-                    
-                    for keyMaterial in ValidLegendariesRows[keyclass][keytype]:
-                        keyMaterialmaxcount = keyMaterialmaxcount + 1
-                        keyItemsMax = len(ValidLegendariesRows[keyclass][keytype][keyMaterial])-1
-                        file.write('\t\t\t\t"'+keyMaterial+'": [\n')
-                        
-                        for i, row in enumerate(ValidLegendariesRows[keyclass][keytype][keyMaterial]):
-                            set = computeSet(int(row['item_set']),int(row['ilevel']))
-                            classstring = ""
-                            if not set == "": #Add class when there is an item set
-                                classstring =', "class":"' + computeLegClass(int(row['class_mask'])) + '"'
-                            file.write('\t\t\t\t\t'+printRow(row))
-                            if not i == keyItemsMax:
-                                file.write(',')
-                            file.write('\n')
-                        file.write('\t\t\t\t]')    
-                        if not keyMaterialmaxcount == keyMaterialmax:
-                            file.write(',')
-                        file.write('\n')
-                    file.write('\t\t\t}') 
-                else:
-                    file.write('[\n')
-                    keyItemsMax = len(ValidLegendariesRows[keyclass][keytype])-1
-                    
-                    for i, row in enumerate(ValidLegendariesRows[keyclass][keytype]):
-                        set = computeSet(int(row['item_set']),int(row['ilevel']))
-                        file.write('\t\t\t\t'+printRow(row))
-                        if not i == keyItemsMax:
-                            file.write(',')
-                        file.write('\n')
-                    file.write('\t\t\t]')
-                    
-                if not keytypecount == keytypeMax:
-                    file.write(',')
-                file.write('\n')
-            file.write('\t\t}')    
-            if not keyclasscount == keyclassmax:
-                    file.write(',')
-            file.write('\n')
-        file.write('\t}\n')
-        file.write('}\n')
+        json.dump(ValidItemsRows, file, indent=4)
+    with open(os.path.join(parsedDir, 'generatorLegendaryData.json'), 'w', encoding='utf-8') as fileLegendary:
+        json.dump(ValidLegendariesRows, fileLegendary, indent=4)
