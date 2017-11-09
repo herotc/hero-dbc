@@ -254,37 +254,21 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                 for i in range(len(t)):
                     if t[i] not in ValidLegendariesRows:
                         ValidLegendariesRows[t[i]] = {}
-                    current_class = '' + t[i]
-                    for j in range(len(classTable[current_class])):  
-                        if classTable[current_class][j] not in ValidLegendariesRows[t[i]]:
+                    for j in range(len(classTable[t[i]])):  
+                        if classTable[t[i]][j] not in ValidLegendariesRows[t[i]]:
                             ValidLegendariesRows[t[i]][classTable[t[i]][j]] = {}    
-                        if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
-                            if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
-                                ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = {} #Dictionnary because we need to order more
-                            if itemMaterial not in ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType]:
-                                ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType][itemMaterial] = [] #List of item ordered
-                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType][itemMaterial].append(PrepareRow(row))
-                        else:
-                            if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
-                                ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] #Dictionnary because we need to order more
-                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row))
-
+                        if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
+                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] #Dictionnary because we need to order more
+                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row))
             else: 
-                for j in range(len(classTable[mask])):
-                    if mask not in ValidLegendariesRows:
+                if mask not in ValidLegendariesRows:
                         ValidLegendariesRows[mask] = {}
+                for j in range(len(classTable[mask])):
                     if classTable[mask][j] not in ValidLegendariesRows[mask]:
                         ValidLegendariesRows[mask][classTable[mask][j]] = {}
-                    if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
-                        if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
-                            ValidLegendariesRows[mask][classTable[mask][j]][itemType] = {} #Dictionnary because we need to order more
-                        if itemMaterial not in ValidLegendariesRows[mask][classTable[mask][j]][itemType]:
-                            ValidLegendariesRows[mask][classTable[mask][j]][itemType][itemMaterial] = [] #List of item ordered
-                        ValidLegendariesRows[mask][classTable[mask][j]][itemType][itemMaterial].append(PrepareRow(row))
-                    else:
-                        if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
-                            ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] #Dictionnary because we need to order more
-                        ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row))
+                    if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
+                        ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] #List of item ordered
+                    ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row))
           
     #Prints everything to the files  
     with open(os.path.join(parsedDir, 'generatorItemData.json'), 'w', encoding='utf-8') as file:
