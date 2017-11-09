@@ -9,7 +9,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/crit",
                 "set": "T20",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -21,7 +21,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/mastery",
                 "set": "T20",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -33,7 +33,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/mastery",
                 "set": "T20",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -78,7 +78,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/crit",
                 "set": "T21",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -90,7 +90,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/crit",
                 "set": "T21",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -102,7 +102,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/haste",
                 "set": "T21",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -127,7 +127,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -139,7 +139,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/mastery",
                 "set": "T20",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -151,7 +151,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T20",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -163,7 +163,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/mastery",
                 "set": "T20",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -208,7 +208,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/mastery",
                 "set": "T21",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -220,7 +220,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T21",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -232,7 +232,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T21",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -244,7 +244,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/vers",
                 "set": "T21",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -269,7 +269,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -281,7 +281,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T20",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -326,7 +326,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/vers/mastery",
                 "set": "T21",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -338,7 +338,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T21",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -363,7 +363,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/crit",
                 "set": "T20",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -375,7 +375,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/haste",
                 "set": "T20",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -387,7 +387,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/vers",
                 "set": "T20",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -421,7 +421,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/vers",
                 "set": "T21",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -433,7 +433,7 @@
                 "material": "cloth",
                 "stats": "stam/int/vers/crit",
                 "set": "T21",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -445,7 +445,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/crit",
                 "set": "T21",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -482,7 +482,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/mastery",
             "set": "T20",
-            "clase": "death_knight",
+            "class": "death_knight",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -494,7 +494,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/vers",
             "set": "T20",
-            "clase": "demon_hunter",
+            "class": "demon_hunter",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -506,7 +506,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/crit",
             "set": "T20",
-            "clase": "druid",
+            "class": "druid",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -518,7 +518,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/crit",
             "set": "T20",
-            "clase": "hunter",
+            "class": "hunter",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -530,7 +530,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/vers/mastery",
             "set": "T20",
-            "clase": "mage",
+            "class": "mage",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -542,7 +542,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/vers/mastery",
             "set": "T20",
-            "clase": "monk",
+            "class": "monk",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -554,7 +554,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/vers",
             "set": "T20",
-            "clase": "paladin",
+            "class": "paladin",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -566,7 +566,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/mastery",
             "set": "T20",
-            "clase": "priest",
+            "class": "priest",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -578,7 +578,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/haste",
             "set": "T20",
-            "clase": "rogue",
+            "class": "rogue",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -590,7 +590,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/vers/crit",
             "set": "T20",
-            "clase": "shaman",
+            "class": "shaman",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -602,7 +602,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/vers",
             "set": "T20",
-            "clase": "warlock",
+            "class": "warlock",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -614,7 +614,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/crit",
             "set": "T20",
-            "clase": "warrior",
+            "class": "warrior",
             "gems": 0,
             "bonus_id": "1512/3563"
         },
@@ -659,7 +659,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/haste",
             "set": "T21",
-            "clase": "death_knight",
+            "class": "death_knight",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -671,7 +671,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/crit",
             "set": "T21",
-            "clase": "demon_hunter",
+            "class": "demon_hunter",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -683,7 +683,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/vers",
             "set": "T21",
-            "clase": "druid",
+            "class": "druid",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -695,7 +695,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/vers",
             "set": "T21",
-            "clase": "hunter",
+            "class": "hunter",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -707,7 +707,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/crit",
             "set": "T21",
-            "clase": "mage",
+            "class": "mage",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -719,7 +719,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/haste",
             "set": "T21",
-            "clase": "monk",
+            "class": "monk",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -731,7 +731,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/vers",
             "set": "T21",
-            "clase": "paladin",
+            "class": "paladin",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -743,7 +743,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/haste/vers",
             "set": "T21",
-            "clase": "priest",
+            "class": "priest",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -755,7 +755,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/vers/crit",
             "set": "T21",
-            "clase": "rogue",
+            "class": "rogue",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -767,7 +767,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/mastery/vers",
             "set": "T21",
-            "clase": "shaman",
+            "class": "shaman",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -779,7 +779,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/crit/haste",
             "set": "T21",
-            "clase": "warlock",
+            "class": "warlock",
             "gems": 0,
             "bonus_id": "3612/1502"
         },
@@ -791,7 +791,7 @@
             "material": "mail",
             "stats": "stam/agi/str/int/vers/haste",
             "set": "T21",
-            "clase": "warrior",
+            "class": "warrior",
             "gems": 0,
             "bonus_id": "3612/1502"
         }
@@ -806,7 +806,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/vers",
                 "set": "T20",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -818,7 +818,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/crit",
                 "set": "T20",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -830,7 +830,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/crit",
                 "set": "T20",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -853,7 +853,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/mastery",
                 "set": "T21",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -865,7 +865,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/vers",
                 "set": "T21",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -877,7 +877,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/mastery",
                 "set": "T21",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -924,7 +924,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/mastery",
                 "set": "T20",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -936,7 +936,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/vers",
                 "set": "T20",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -948,7 +948,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -960,7 +960,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/crit",
                 "set": "T20",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -994,7 +994,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T21",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1006,7 +1006,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T21",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1018,7 +1018,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T21",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1030,7 +1030,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T21",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1055,7 +1055,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/vers/crit",
                 "set": "T20",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1067,7 +1067,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/vers",
                 "set": "T20",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1101,7 +1101,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/haste/crit",
                 "set": "T21",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1113,7 +1113,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T21",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1138,7 +1138,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/vers",
                 "set": "T20",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1150,7 +1150,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/vers",
                 "set": "T20",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1162,7 +1162,7 @@
                 "material": "cloth",
                 "stats": "stam/int/vers/mastery",
                 "set": "T20",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1196,7 +1196,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/haste",
                 "set": "T21",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1208,7 +1208,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/haste",
                 "set": "T21",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1220,7 +1220,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/vers",
                 "set": "T21",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1258,7 +1258,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/haste",
                 "set": "T20",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1270,7 +1270,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/vers",
                 "set": "T20",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1282,7 +1282,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/haste",
                 "set": "T20",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1316,7 +1316,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/crit",
                 "set": "T21",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1328,7 +1328,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/mastery",
                 "set": "T21",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1340,7 +1340,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/crit",
                 "set": "T21",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1365,7 +1365,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/vers",
                 "set": "T20",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1377,7 +1377,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T20",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1389,7 +1389,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T20",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1401,7 +1401,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T20",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1424,7 +1424,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/mastery",
                 "set": "T21",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1436,7 +1436,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T21",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1448,7 +1448,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/vers",
                 "set": "T21",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1460,7 +1460,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/mastery",
                 "set": "T21",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1496,7 +1496,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/crit/mastery",
                 "set": "T20",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1508,7 +1508,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1542,7 +1542,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/vers/haste",
                 "set": "T21",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1554,7 +1554,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T21",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1590,7 +1590,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/vers",
                 "set": "T20",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1602,7 +1602,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/vers",
                 "set": "T20",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1614,7 +1614,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/mastery",
                 "set": "T20",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1648,7 +1648,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/haste",
                 "set": "T21",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1660,7 +1660,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/mastery",
                 "set": "T21",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1672,7 +1672,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/vers",
                 "set": "T21",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1699,7 +1699,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/vers",
                 "set": "T20",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1711,7 +1711,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/haste",
                 "set": "T20",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1723,7 +1723,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/vers",
                 "set": "T20",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1757,7 +1757,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/vers",
                 "set": "T21",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1769,7 +1769,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/haste",
                 "set": "T21",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1781,7 +1781,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/vers",
                 "set": "T21",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1817,7 +1817,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/crit",
                 "set": "T20",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1829,7 +1829,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1841,7 +1841,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T20",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1853,7 +1853,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/haste",
                 "set": "T20",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1887,7 +1887,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/vers",
                 "set": "T21",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1899,7 +1899,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T21",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1911,7 +1911,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T21",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1923,7 +1923,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/vers",
                 "set": "T21",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -1959,7 +1959,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T20",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -1971,7 +1971,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T20",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2005,7 +2005,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T21",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2017,7 +2017,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/haste/mastery",
                 "set": "T21",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2053,7 +2053,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/crit",
                 "set": "T20",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2065,7 +2065,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/haste",
                 "set": "T20",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2077,7 +2077,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/haste",
                 "set": "T20",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2100,7 +2100,7 @@
                 "material": "cloth",
                 "stats": "stam/int/crit/vers",
                 "set": "T21",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2112,7 +2112,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/crit",
                 "set": "T21",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2124,7 +2124,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/mastery",
                 "set": "T21",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2162,7 +2162,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/mastery",
                 "set": "T20",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2174,7 +2174,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/mastery",
                 "set": "T20",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2186,7 +2186,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/haste/vers",
                 "set": "T20",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2209,7 +2209,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/crit/vers",
                 "set": "T21",
-                "clase": "death_knight",
+                "class": "death_knight",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2221,7 +2221,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/vers/haste",
                 "set": "T21",
-                "clase": "paladin",
+                "class": "paladin",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2233,7 +2233,7 @@
                 "material": "plate",
                 "stats": "stam/str/int/mastery/crit",
                 "set": "T21",
-                "clase": "warrior",
+                "class": "warrior",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2269,7 +2269,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/crit",
                 "set": "T20",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2281,7 +2281,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/crit",
                 "set": "T20",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2293,7 +2293,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/crit/vers",
                 "set": "T20",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2305,7 +2305,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/mastery/vers",
                 "set": "T20",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2339,7 +2339,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T21",
-                "clase": "demon_hunter",
+                "class": "demon_hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2351,7 +2351,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/mastery",
                 "set": "T21",
-                "clase": "druid",
+                "class": "druid",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2363,7 +2363,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/vers/mastery",
                 "set": "T21",
-                "clase": "monk",
+                "class": "monk",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2375,7 +2375,7 @@
                 "material": "leather",
                 "stats": "stam/agi/int/haste/vers",
                 "set": "T21",
-                "clase": "rogue",
+                "class": "rogue",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2411,7 +2411,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/mastery/vers",
                 "set": "T20",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2423,7 +2423,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/crit/mastery",
                 "set": "T20",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2457,7 +2457,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/crit/haste",
                 "set": "T21",
-                "clase": "hunter",
+                "class": "hunter",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2469,7 +2469,7 @@
                 "material": "mail",
                 "stats": "stam/agi/int/vers/crit",
                 "set": "T21",
-                "clase": "shaman",
+                "class": "shaman",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2494,7 +2494,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/haste",
                 "set": "T20",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2506,7 +2506,7 @@
                 "material": "cloth",
                 "stats": "stam/int/vers/crit",
                 "set": "T20",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2518,7 +2518,7 @@
                 "material": "cloth",
                 "stats": "stam/int/haste/crit",
                 "set": "T20",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "1512/3563"
             },
@@ -2552,7 +2552,7 @@
                 "material": "cloth",
                 "stats": "stam/int/vers/mastery",
                 "set": "T21",
-                "clase": "mage",
+                "class": "mage",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2564,7 +2564,7 @@
                 "material": "cloth",
                 "stats": "stam/int/mastery/vers",
                 "set": "T21",
-                "clase": "priest",
+                "class": "priest",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },
@@ -2576,7 +2576,7 @@
                 "material": "cloth",
                 "stats": "stam/int/vers/mastery",
                 "set": "T21",
-                "clase": "warlock",
+                "class": "warlock",
                 "gems": 0,
                 "bonus_id": "3612/1502"
             },

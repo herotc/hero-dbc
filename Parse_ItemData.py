@@ -212,7 +212,7 @@ def PrepareRow(row):
     else:   
         preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
         if not set == "":
-            preparedRow["clase"] = computeLegClass(int(row['class_mask']))        
+            preparedRow["class"] = computeLegClass(int(row['class_mask']))
     preparedRow["gems"] = computeGemNumber(row)
     preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']))
 
