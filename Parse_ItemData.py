@@ -196,7 +196,6 @@ def checkLegStatus(legClass,legSpec,itemType,id):
         if legClass in LegendaryDataList and legSpec in LegendaryDataList[legClass] and itemType in LegendaryDataList[legClass][legSpec]:
             for item in LegendaryDataList[legClass][legSpec][itemType]:
                 if int(item['id']) == id:
-                    print(str(id) + " : "+str(item['enable']))
                     return item['enable']
     return False
 
@@ -289,11 +288,9 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     
     #Read rows and order them with each inventory type, class and material
     for row in reader:
-        #inv_type = 0 : non equipable items
         #ilvl : 930/940/1000 = argus, 890, only T20 
         if int(row['ilevel']) == 930 or int(row['ilevel']) == 940 or int(row['ilevel']) == 1000 or (int(row['ilevel']) == 890 and not int(row['item_set']) == 0):
             itemType = computeItemType(int(row['inv_type']))
-            
             if itemType == 'relic' and int(row['gem_props']) != 0:
                 if itemType not in ValidItemsRows:
                     ValidItemsRows[itemType] = {}
@@ -305,9 +302,9 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                 itemMaterial = computeItemMaterial(int(row['material']))
                 if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
                     if itemType not in ValidItemsRows:
-                        ValidItemsRows[itemType] = {} #Dictionnary because we need to order more
+                        ValidItemsRows[itemType] = {} 
                     if itemMaterial not in ValidItemsRows[itemType]:
-                        ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
+                        ValidItemsRows[itemType][itemMaterial] = [] 
                     ValidItemsRows[itemType][itemMaterial].append(PrepareRow(row))
                 else:
                     if itemType not in ValidItemsRows:
@@ -328,8 +325,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                         if classTable[t[i]][j] not in ValidLegendariesRows[t[i]]:
                             ValidLegendariesRows[t[i]][classTable[t[i]][j]] = {}    
                         if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
-                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] #Dictionnary because we need to order more
-                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row,t[i],j))
+                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] 
+                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row,t[i],classTable[t[i]][j]))
             else: 
                 if mask not in ValidLegendariesRows:
                         ValidLegendariesRows[mask] = {}
@@ -337,7 +334,7 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                     if classTable[mask][j] not in ValidLegendariesRows[mask]:
                         ValidLegendariesRows[mask][classTable[mask][j]] = {}
                     if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
-                        ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] #List of item ordered
+                        ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] 
                     ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row,mask,classTable[mask][j]))
   
     #Prints everything to the files  
