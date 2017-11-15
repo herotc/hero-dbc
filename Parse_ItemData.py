@@ -16,6 +16,7 @@ parsedDir = os.path.join('DBC', 'parsed')
 
 classTable = {}
 relicTypeTable = {}
+itemEncounterTable = {}
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
@@ -133,6 +134,14 @@ def createRelicTypeTable():
             if not relicType == '':
                 relicTypeTable[int(row['id'])] = relicType
 
+def createItemEncounterTable():
+    global itemEncounterTable
+    with open(os.path.join(generatedDir, 'JournalEncounterItem.csv')) as csvfile:
+        reader = csv.DictReader(csvfile, escapechar='\\')
+        for row in reader:
+            print("added :"+row['id_item']+"-"+row['id_encounter'])
+            itemEncounterTable[int(row['id_item'])] = int(row['id_encounter'])                
+                
 def computeSet(set,ilvl):
     if set == 0:
         return ""
@@ -207,11 +216,6 @@ def getItemStats(row):
                         statString = statString + "/" + computeItemStat(int(row['stat_type_5']))
     return statString
 
-def addValidRow(dict, index , row, objtype): 
-    if index not in dict:
-        dict[index] = objtype
-    dict[index].append(row)
-
 def computeGemNumber(row):
     gemnb = 0
     if not int(row['socket_color_1']) == 0:
@@ -224,13 +228,18 @@ def computeGemNumber(row):
 
 def PrepareRow(row):
     preparedRow = {}
-    preparedRow["id"] = row['id']
+    preparedRow["id"] = int(row['id'])
     preparedRow["name"] = row['name']
     preparedRow["level"] = int(row['ilevel'])
     preparedRow["type"] = computeItemType(int(row['inv_type']))
     
     if preparedRow["type"] == 'relic':
         preparedRow["relicType"] = relicTypeTable[int(row['gem_props'])]
+        print(preparedRow["id"],preparedRow["id"] in itemEncounterTable)
+        if preparedRow["id"] in itemEncounterTable and itemEncounterTable[preparedRow["id"]] == 2031:
+            preparedRow["bonus_id"] = "3612/1512"
+        else:
+            preparedRow["bonus_id"] = "3612/1502"
     else:
         preparedRow["material"] = computeItemMaterial(int(row['material']))
         preparedRow["stats"] = getItemStats(row)
@@ -251,6 +260,7 @@ def PrepareRow(row):
 # Program Start
 createSpecTable()
 createRelicTypeTable()
+createItemEncounterTable()
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
