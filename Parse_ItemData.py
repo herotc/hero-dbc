@@ -226,7 +226,7 @@ def PrepareRow(row):
     preparedRow = {}
     preparedRow["id"] = row['id']
     preparedRow["name"] = row['name']
-    preparedRow["level"] = row['ilevel']
+    preparedRow["level"] = int(row['ilevel'])
     preparedRow["type"] = computeItemType(int(row['inv_type']))
     
     if preparedRow["type"] == 'relic':
@@ -237,7 +237,7 @@ def PrepareRow(row):
 
         set = computeSet(int(row['item_set']),int(row['ilevel']))
 
-        if row['ilevel'] == '910' and int(row['quality']) == 5:
+        if int(row['ilevel']) == 910 and int(row['quality']) == 5:
             preparedRow["enable"] = False
         else:   
             preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
@@ -261,7 +261,7 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     for row in reader:
         #inv_type = 0 : non equipable items
         #ilvl : 930/940/1000 = argus, 890, only T20 
-        if row['ilevel'] == '930' or row['ilevel'] == '940' or row['ilevel'] == '1000' or (row['ilevel'] == '890' and not row['item_set'] == '0'):
+        if int(row['ilevel']) == 930 or int(row['ilevel']) == 940 or int(row['ilevel']) == 1000 or (int(row['ilevel']) == 890 and not int(row['item_set']) == 0):
             itemType = computeItemType(int(row['inv_type']))
             
             if itemType == 'relic' and int(row['gem_props']) != 0:
@@ -285,7 +285,7 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                     ValidItemsRows[itemType].append(PrepareRow(row))
         
         #Legendaries : baseilvl = 910  
-        if row['ilevel'] == '910' and int(row['quality']) == 5: 
+        if int(row['ilevel']) == 910 and int(row['quality']) == 5: 
             mask = computeLegClass(int(row['class_mask']))
             itemType = computeItemType(int(row['inv_type']))
             itemMaterial = computeItemMaterial(int(row['material']))
