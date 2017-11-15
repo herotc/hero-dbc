@@ -149,7 +149,12 @@ def computeSet(set,ilvl):
     if ilvl == 930 or ilvl == 940:
         return "T21"
         
-def computeBonusID(set,quality,id):
+def computeBonusID(set,quality,id,type):
+    if type == 'relic':
+        if id in itemEncounterTable and itemEncounterTable[id] == 2031:
+            return "3612/1512"
+        else:
+            return "3612/1502"
     if set == "" or set == "T21":
         if set == "" and quality == 5: #legendaries
             if id == 154172: #Amanthul specific
@@ -234,10 +239,7 @@ def PrepareRow(row):
     
     if preparedRow["type"] == 'relic':
         preparedRow["relicType"] = relicTypeTable[int(row['gem_props'])]
-        if preparedRow["id"] in itemEncounterTable and itemEncounterTable[preparedRow["id"]] == 2031:
-            preparedRow["bonus_id"] = "3612/1512"
-        else:
-            preparedRow["bonus_id"] = "3612/1502"
+        preparedRow["bonus_id"] = computeBonusID("","",preparedRow["id"],preparedRow["type"])
     else:
         preparedRow["material"] = computeItemMaterial(int(row['material']))
         preparedRow["stats"] = getItemStats(row)
@@ -251,7 +253,7 @@ def PrepareRow(row):
             if not set == "":
                 preparedRow["class"] = computeLegClass(int(row['class_mask']))
         preparedRow["gems"] = computeGemNumber(row)
-        preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']))
+        preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']),preparedRow["type"])
 
     return preparedRow
     
