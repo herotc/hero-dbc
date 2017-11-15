@@ -139,7 +139,6 @@ def createItemEncounterTable():
     with open(os.path.join(generatedDir, 'JournalEncounterItem.csv')) as csvfile:
         reader = csv.DictReader(csvfile, escapechar='\\')
         for row in reader:
-            print("added :"+row['id_item']+"-"+row['id_encounter'])
             itemEncounterTable[int(row['id_item'])] = int(row['id_encounter'])                
                 
 def computeSet(set,ilvl):
@@ -235,7 +234,6 @@ def PrepareRow(row):
     
     if preparedRow["type"] == 'relic':
         preparedRow["relicType"] = relicTypeTable[int(row['gem_props'])]
-        print(preparedRow["id"],preparedRow["id"] in itemEncounterTable)
         if preparedRow["id"] in itemEncounterTable and itemEncounterTable[preparedRow["id"]] == 2031:
             preparedRow["bonus_id"] = "3612/1512"
         else:
