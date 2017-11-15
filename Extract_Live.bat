@@ -23,6 +23,7 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellMisc > %OU
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellEffect > %OUTPATH%\SpellEffect.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellDuration > %OUTPATH%\SpellDuration.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv ItemSparse > %OUTPATH%\ItemSparse.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv GemProperties > %OUTPATH%\GemProperties.csv
 
 cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py

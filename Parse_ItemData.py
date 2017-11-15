@@ -15,11 +15,13 @@ generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
 classTable = {}
+relicTypeTable = {}
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
 def computeItemType(x):
     return {
+        0: 'relic',
         1: 'head',
         2: 'neck',
         3: 'shoulders',
@@ -42,6 +44,20 @@ def computeItemMaterial(x):
         8: 'leather',
         7: 'cloth'
     }.get(x, '')
+    
+def computeRelicType(x):
+    return {
+        64: 'iron',
+        128:'blood',
+        256:'shadow',
+        512: 'fel',
+        1024: 'arcane',
+        2048: 'frost',
+        4096: 'fire',
+        16384: 'life',
+        32768: 'storm',
+        65536: 'holy'
+    }.get(x,'')
 
 def createSpecTable():
     global classTable
@@ -107,6 +123,16 @@ def createSpecTable():
     classTable['warrior'][1] = 'fury'
     classTable['warrior'][2] = 'protection'
     
+def createRelicTypeTable():
+    global relicTypeTable
+    with open(os.path.join(generatedDir, 'GemProperties.csv')) as csvfile:
+        reader = csv.DictReader(csvfile, escapechar='\\')
+        for row in reader:
+            
+            relicType = computeRelicType(int(row['color']))
+            if not relicType == '':
+                relicTypeTable[int(row['id'])] = relicType
+
 def computeSet(set,ilvl):
     if set == 0:
         return ""
@@ -202,24 +228,29 @@ def PrepareRow(row):
     preparedRow["name"] = row['name']
     preparedRow["level"] = row['ilevel']
     preparedRow["type"] = computeItemType(int(row['inv_type']))
-    preparedRow["material"] = computeItemMaterial(int(row['material']))
-    preparedRow["stats"] = getItemStats(row)
+    
+    if preparedRow["type"] == 'relic':
+        preparedRow["relicType"] = relicTypeTable[int(row['gem_props'])]
+    else:
+        preparedRow["material"] = computeItemMaterial(int(row['material']))
+        preparedRow["stats"] = getItemStats(row)
 
-    set = computeSet(int(row['item_set']),int(row['ilevel']))
+        set = computeSet(int(row['item_set']),int(row['ilevel']))
 
-    if row['ilevel'] == '910' and int(row['quality']) == 5:
-        preparedRow["enable"] = False
-    else:   
-        preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
-        if not set == "":
-            preparedRow["class"] = computeLegClass(int(row['class_mask']))
-    preparedRow["gems"] = computeGemNumber(row)
-    preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']))
+        if row['ilevel'] == '910' and int(row['quality']) == 5:
+            preparedRow["enable"] = False
+        else:   
+            preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
+            if not set == "":
+                preparedRow["class"] = computeLegClass(int(row['class_mask']))
+        preparedRow["gems"] = computeGemNumber(row)
+        preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']))
 
     return preparedRow
     
 # Program Start
 createSpecTable()
+createRelicTypeTable()
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
@@ -230,19 +261,28 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     for row in reader:
         #inv_type = 0 : non equipable items
         #ilvl : 930/940/1000 = argus, 890, only T20 
-        if not row['inv_type'] == '0' and (row['ilevel'] == '930' or row['ilevel'] == '940' or row['ilevel'] == '1000' or (row['ilevel'] == '890' and not row['item_set'] == '0')):
+        if row['ilevel'] == '930' or row['ilevel'] == '940' or row['ilevel'] == '1000' or (row['ilevel'] == '890' and not row['item_set'] == '0'):
             itemType = computeItemType(int(row['inv_type']))
-            itemMaterial = computeItemMaterial(int(row['material']))
-            if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
+            
+            if itemType == 'relic' and int(row['gem_props']) != 0:
                 if itemType not in ValidItemsRows:
-                    ValidItemsRows[itemType] = {} #Dictionnary because we need to order more
-                if itemMaterial not in ValidItemsRows[itemType]:
-                    ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
-                ValidItemsRows[itemType][itemMaterial].append(PrepareRow(row))
-            else:
-                if itemType not in ValidItemsRows:
-                    ValidItemsRows[itemType] = []
-                ValidItemsRows[itemType].append(PrepareRow(row))
+                    ValidItemsRows[itemType] = {}
+                relictype = relicTypeTable[int(row['gem_props'])]
+                if relictype not in ValidItemsRows[itemType]:
+                    ValidItemsRows[itemType][relictype] = []
+                ValidItemsRows[itemType][relictype].append(PrepareRow(row))
+            elif not itemType == 'relic':
+                itemMaterial = computeItemMaterial(int(row['material']))
+                if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
+                    if itemType not in ValidItemsRows:
+                        ValidItemsRows[itemType] = {} #Dictionnary because we need to order more
+                    if itemMaterial not in ValidItemsRows[itemType]:
+                        ValidItemsRows[itemType][itemMaterial] = [] #List of item ordered
+                    ValidItemsRows[itemType][itemMaterial].append(PrepareRow(row))
+                else:
+                    if itemType not in ValidItemsRows:
+                        ValidItemsRows[itemType] = []
+                    ValidItemsRows[itemType].append(PrepareRow(row))
         
         #Legendaries : baseilvl = 910  
         if row['ilevel'] == '910' and int(row['quality']) == 5: 

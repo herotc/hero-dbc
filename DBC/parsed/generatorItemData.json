@@ -3574,5 +3574,447 @@
             "gems": 0,
             "bonus_id": "3612/1502"
         }
-    ]
+    ],
+    "relic": {
+        "arcane": [
+            {
+                "id": "152024",
+                "name": "Fallen Magi's Seerstone",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            },
+            {
+                "id": "152025",
+                "name": "Thu'rayan Lash",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            },
+            {
+                "id": "152026",
+                "name": "Prototype Titan-Disc",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            },
+            {
+                "id": "152027",
+                "name": "Gravitational Condensate",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            },
+            {
+                "id": "152344",
+                "name": "Meto's Orb of Entropy",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            },
+            {
+                "id": "155846",
+                "name": "Miniaturized Cosmic Beacon",
+                "level": "930",
+                "type": "relic",
+                "relicType": "arcane"
+            }
+        ],
+        "blood": [
+            {
+                "id": "152028",
+                "name": "Spurting Reaver Heart",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            },
+            {
+                "id": "152029",
+                "name": "Shivarran Cachabon",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            },
+            {
+                "id": "152030",
+                "name": "Scourge of Perverse Desire",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            },
+            {
+                "id": "152092",
+                "name": "Nathrezim Incisor",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            },
+            {
+                "id": "152295",
+                "name": "Svirax's Grim Trophy",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            },
+            {
+                "id": "155847",
+                "name": "Cruor of the Avenger",
+                "level": "930",
+                "type": "relic",
+                "relicType": "blood"
+            }
+        ],
+        "fel": [
+            {
+                "id": "152031",
+                "name": "Doomfire Dynamo",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            },
+            {
+                "id": "152032",
+                "name": "Twisted Engineer's Fel-Infuser",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            },
+            {
+                "id": "152033",
+                "name": "Sliver of Corruption",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            },
+            {
+                "id": "152034",
+                "name": "Obliterator Propellant",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            },
+            {
+                "id": "152345",
+                "name": "Vilemus' Bile",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            },
+            {
+                "id": "155848",
+                "name": "Condensed Blight Orb",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fel"
+            }
+        ],
+        "fire": [
+            {
+                "id": "152035",
+                "name": "Blazing Dreadsteed Horseshoe",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            },
+            {
+                "id": "152036",
+                "name": "Hellfire Ignition Switch",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            },
+            {
+                "id": "152037",
+                "name": "Tormentor's Brand",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            },
+            {
+                "id": "152038",
+                "name": "Pyretic Bronze Clasp",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            },
+            {
+                "id": "152294",
+                "name": "Fel Mistress' Brand",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            },
+            {
+                "id": "155849",
+                "name": "Flickering Ember of Rage",
+                "level": "930",
+                "type": "relic",
+                "relicType": "fire"
+            }
+        ],
+        "frost": [
+            {
+                "id": "152039",
+                "name": "Viscous Reaver-Coolant",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            },
+            {
+                "id": "152040",
+                "name": "Frigid Gloomstone",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            },
+            {
+                "id": "152041",
+                "name": "Sublimating Portal Frost",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            },
+            {
+                "id": "152042",
+                "name": "Hoarfrost-Beast Talon",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            },
+            {
+                "id": "152346",
+                "name": "Frigid Earring",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            },
+            {
+                "id": "155850",
+                "name": "Rime of the Spirit Realm",
+                "level": "930",
+                "type": "relic",
+                "relicType": "frost"
+            }
+        ],
+        "holy": [
+            {
+                "id": "152043",
+                "name": "Lightshield Amplifier",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            },
+            {
+                "id": "152044",
+                "name": "Spark of Everburning Light",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            },
+            {
+                "id": "152045",
+                "name": "Venerated Puresoul Idol",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            },
+            {
+                "id": "152046",
+                "name": "Coven Prayer Bead",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            },
+            {
+                "id": "152347",
+                "name": "Occularus' Unblemished Lens",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            },
+            {
+                "id": "155851",
+                "name": "Reorigination Spark",
+                "level": "930",
+                "type": "relic",
+                "relicType": "holy"
+            }
+        ],
+        "iron": [
+            {
+                "id": "152047",
+                "name": "Ironvine Thorn",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            },
+            {
+                "id": "152048",
+                "name": "Decimator Crankshaft",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            },
+            {
+                "id": "152049",
+                "name": "Fel-Engraved Handbell",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            },
+            {
+                "id": "152292",
+                "name": "Spike of Immortal Command",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            },
+            {
+                "id": "152293",
+                "name": "Fasces of the Endless Legions",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            },
+            {
+                "id": "155855",
+                "name": "Mote of the Forgemaster",
+                "level": "930",
+                "type": "relic",
+                "relicType": "iron"
+            }
+        ],
+        "life": [
+            {
+                "id": "152050",
+                "name": "Mysterious Petrified Egg",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            },
+            {
+                "id": "152051",
+                "name": "Eidolon of Life",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            },
+            {
+                "id": "152052",
+                "name": "Sporemound Seedling",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            },
+            {
+                "id": "152053",
+                "name": "Essence of the Burgeoning Brood",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            },
+            {
+                "id": "152291",
+                "name": "Fraternal Fervor",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            },
+            {
+                "id": "155854",
+                "name": "Root of the Lifebinder",
+                "level": "930",
+                "type": "relic",
+                "relicType": "life"
+            }
+        ],
+        "shadow": [
+            {
+                "id": "152054",
+                "name": "Unwavering Soul Essence",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            },
+            {
+                "id": "152055",
+                "name": "Kin'garoth's Oil-Sump",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            },
+            {
+                "id": "152056",
+                "name": "Corrupting Dewclaw",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            },
+            {
+                "id": "152057",
+                "name": "Crepuscular Skitterer Egg",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            },
+            {
+                "id": "152290",
+                "name": "Censer of Dark Intent",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            },
+            {
+                "id": "155852",
+                "name": "Volatile Soul Fragment",
+                "level": "930",
+                "type": "relic",
+                "relicType": "shadow"
+            }
+        ],
+        "storm": [
+            {
+                "id": "152058",
+                "name": "Stormcaller's Fury",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            },
+            {
+                "id": "152059",
+                "name": "Whistling Ulna",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            },
+            {
+                "id": "152060",
+                "name": "Neuroshock Electrode",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            },
+            {
+                "id": "152061",
+                "name": "Droplets of the Cleansing Storm",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            },
+            {
+                "id": "152348",
+                "name": "Sotanathor's Thundering Hoof",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            },
+            {
+                "id": "155853",
+                "name": "Conch of the Thunderer",
+                "level": "930",
+                "type": "relic",
+                "relicType": "storm"
+            }
+        ]
+    }
 }
