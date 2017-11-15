@@ -13,10 +13,14 @@ import json
 
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
+ItemDataList = ""
+LegendaryDataList = ""
 
 classTable = {}
 relicTypeTable = {}
 itemEncounterTable = {}
+
+checkLeg = False
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
@@ -186,6 +190,15 @@ def computeLegClass(classmask):
         3592: 'rogue/monk/druid/demon_hunter',
         65535: 'warrior/paladin/hunter/rogue/priest/death_knight/shaman/mage/warlock/monk/druid/demon_hunter'
     }.get(classmask, '')
+    
+def checkLegStatus(legClass,legSpec,itemType,id):
+    if checkLeg:
+        if legClass in LegendaryDataList and legSpec in LegendaryDataList[legClass] and itemType in LegendaryDataList[legClass][legSpec]:
+            for item in LegendaryDataList[legClass][legSpec][itemType]:
+                if int(item['id']) == id:
+                    print(str(id) + " : "+str(item['enable']))
+                    return item['enable']
+    return False
 
 def computeItemStat(mask):
     return {
@@ -229,8 +242,8 @@ def computeGemNumber(row):
             if not int(row['socket_color_3']) == 0:
                 gemnb = gemnb + 1
     return gemnb
-
-def PrepareRow(row):
+  
+def PrepareRow(row,rowClass="",rowSpec=""):
     preparedRow = {}
     preparedRow["id"] = int(row['id'])
     preparedRow["name"] = row['name']
@@ -247,7 +260,7 @@ def PrepareRow(row):
         set = computeSet(int(row['item_set']),int(row['ilevel']))
 
         if int(row['ilevel']) == 910 and int(row['quality']) == 5:
-            preparedRow["enable"] = False
+            preparedRow["enable"] = checkLegStatus(rowClass,rowSpec,preparedRow["type"],preparedRow["id"])
         else:   
             preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
             if not set == "":
@@ -261,6 +274,13 @@ def PrepareRow(row):
 createSpecTable()
 createRelicTypeTable()
 createItemEncounterTable()
+
+if os.path.isfile('../AutoSimC/generatorItemData.json') and os.path.isfile('../AutoSimC/generatorLegendaryData.json'): 
+    with open('../AutoSimC/generatorItemData.json') as existingitemDataFile:
+        with open('../AutoSimC/generatorLegendaryData.json') as existinglegendaryDataFile: 
+            ItemDataList = json.load(existingitemDataFile)
+            LegendaryDataList = json.load(existinglegendaryDataFile)
+            checkLeg = True
     
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
@@ -309,7 +329,7 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                             ValidLegendariesRows[t[i]][classTable[t[i]][j]] = {}    
                         if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
                             ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] #Dictionnary because we need to order more
-                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row))
+                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row,t[i],j))
             else: 
                 if mask not in ValidLegendariesRows:
                         ValidLegendariesRows[mask] = {}
@@ -318,8 +338,8 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                         ValidLegendariesRows[mask][classTable[mask][j]] = {}
                     if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
                         ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] #List of item ordered
-                    ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row))
-          
+                    ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row,mask,classTable[mask][j]))
+  
     #Prints everything to the files  
     with open(os.path.join(parsedDir, 'generatorItemData.json'), 'w', encoding='utf-8') as file:
         json.dump(ValidItemsRows, file, indent=4)
