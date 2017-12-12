@@ -5742,7 +5742,7 @@
         }
     },
     "hunter": {
-        "beast Mastery": {
+        "beast_mastery": {
             "neck": [
                 {
                     "id": 132444,
@@ -5928,7 +5928,7 @@
                     "type": "wrists",
                     "material": "mail",
                     "stats": "stam/agi/int/crit/haste",
-                    "enable": true,
+                    "enable": false,
                     "gems": 0,
                     "bonus_id": "3630"
                 },
@@ -6035,7 +6035,7 @@
                     "type": "chest",
                     "material": "cloth",
                     "stats": "stam/agi/haste/mastery",
-                    "enable": true,
+                    "enable": false,
                     "gems": 0,
                     "bonus_id": "3630"
                 }
