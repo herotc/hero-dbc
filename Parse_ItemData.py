@@ -84,7 +84,7 @@ def createSpecTable():
     classTable['druid'][3] = 'restoration'
     # Hunter 
     classTable['hunter'] = {}
-    classTable['hunter'][0] = 'beast Mastery'
+    classTable['hunter'][0] = 'beast_mastery'
     classTable['hunter'][1] = 'marksmanship'
     classTable['hunter'][2] = 'survival'
     # Mage 
