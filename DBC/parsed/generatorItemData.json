@@ -1729,7 +1729,7 @@
             },
             {
                 "id": 152015,
-                "name": "Greaves of Mercurial Alliegance",
+                "name": "Greaves of Mercurial Allegiance",
                 "level": 930,
                 "type": "legs",
                 "material": "plate",
@@ -3404,17 +3404,6 @@
             "set": "",
             "gems": 0,
             "bonus_id": "3612/1502"
-        },
-        {
-            "id": 154172,
-            "name": "Aman'Thul's Vision",
-            "level": 940,
-            "type": "trinket",
-            "material": "",
-            "stats": "vers/mastery/crit/haste",
-            "set": "",
-            "gems": 0,
-            "bonus_id": "4213"
         },
         {
             "id": 154173,
