@@ -1,4 +1,4 @@
-id,id_spell,cooldown_duration,cooldown_group_duration,cooldown_charges,cooldown_group,id_specialization,index,trigger_type
+id,id_spell,cooldown_duration,cooldown_group_duration,cooldown_charges,cooldown_group,id_specialization,index,trigger_type,id_parent
 2,7,-1,-1,100,0,0,0,0,17
 3,433,0,1000,-1,11,0,0,0,117
 4,439,0,60000,-1,30,0,0,0,118

@@ -1,4 +1,4 @@
-id_item,id_encounter,flags_1,flags_2,unk_1,id
+id_item,id_encounter,flags_1,flags_2,unk_1,id,id_parent
 2169,89,1,255,2,9111,89
 5195,89,1,255,2,9112,89
 65163,89,2,255,2,9113,89

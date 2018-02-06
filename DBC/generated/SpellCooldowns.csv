@@ -1,4 +1,4 @@
-id,category_cooldown,cooldown,gcd_cooldown,unk_1
+id,category_cooldown,cooldown,gcd_cooldown,unk_1,id_parent
 2,0,7500,1500,0,17
 5,0,0,1000,0,53
 6,300000,0,1500,0,66
