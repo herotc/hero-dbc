@@ -17,8 +17,7 @@ parsedDir = os.path.join('DBC', 'parsed')
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
 
 ## Mapping
-# id_item & id_spell from ItemEffect
-# id_spell & id_misc from Spell
+# id_item & id_parent from ItemEffect
 # id_misc & id_range from SpellMisc
 # id_range & min_range/max_range from SpellRange
 
@@ -27,15 +26,7 @@ Items = {}
 with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
-        Items[row['id_spell']] = row['id_item']
-# Get every misc id associated to every spell id associated to an item effect
-Spells = {}
-with open(os.path.join(generatedDir, 'Spell.csv')) as csvfile:
-    reader = csv.DictReader(csvfile, escapechar='\\')
-    for row in reader:
-        id_spell = row['id']
-        if id_spell in Items:
-            Spells[row['id_misc']] = id_spell
+        Items[row['id_spell']] = row['id_parent']
 # Get every 'valid' ranges for our parser, those that aren't a range but a single value.
 # We only take values with a min_range of 0 and a max_range between 0 and 100 (WoW limit for range check))
 Ranges = {}
@@ -64,7 +55,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
         id_misc = row['id']
-        if id_misc in Spells:
+        if id_misc in Items:
             id_range = row['id_range']
             if id_range in Ranges:
                 max_range = Ranges[id_range][0]
@@ -76,7 +67,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
                 if not max_range in ItemRangeT:
                     ItemRangeT[max_range] = []
                 # Convert it to int for later sorting
-                ItemRangeT[max_range].append(int(Items[Spells[id_misc]]))
+                ItemRangeT[max_range].append(int(Items[id_misc]))
 
 # For nice output we sort the dict into a list of tuples [ (range1, [items]), (range2, [items]), ... ]
 ItemRange['Melee'] = sorted(ItemRange['Melee'].items(), key=operator.itemgetter(0))
