@@ -59985,5 +59985,6 @@ AethysCore.Enum.SpellMeleeRange = {
   [262708] = {true, 0, 5},
   [262732] = {false, 0, 40},
   [262878] = {false, 0, 30},
-  [262879] = {false, 0, 30}
+  [262879] = {false, 0, 30},
+  [266159] = {false, 0, 40}
 }
