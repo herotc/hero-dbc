@@ -25,6 +25,9 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellDuration >
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv ItemSparse > %OUTPATH%\ItemSparse.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv GemProperties > %OUTPATH%\GemProperties.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv JournalEncounterItem > %OUTPATH%\JournalEncounterItem.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellAuraOptions > %OUTPATH%\SpellAuraOptions.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellProcsPerMinute > %OUTPATH%\SpellProcsPerMinute.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --cache %CACHEDIR% -t csv SpellProcsPerMinuteMod > %OUTPATH%\SpellProcsPerMinuteMod.csv
 
 cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py
@@ -35,3 +38,4 @@ py -3 Parse_SpellMeleeRange.py
 py -3 Parse_SpellTickTime.py
 py -3 Parse_SpellDuration.py
 py -3 Parse_ItemData.py
+py -3 Parse_RPPM.py
