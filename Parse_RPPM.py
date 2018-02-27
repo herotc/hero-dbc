@@ -127,10 +127,10 @@ with open(os.path.join(parsedDir, 'ItemRPPM.lua'), 'w', encoding='utf-8') as fil
     file.write('MoreItemInfo.Enum.ItemRPPM = {\n')
     itemRowMax = len(Items) - 1
     for i, itemRow in enumerate(Items):
-        file.write('['+str(itemRow)+'] = {\n')
+        file.write('\t['+str(itemRow)+'] = {\n')
 
         # Write base RPPM
-        file.write('\t[0] = '+ str(BasePPM[PPMID[Items[itemRow]]]))
+        file.write('\t\t[0] = '+ str(BasePPM[PPMID[Items[itemRow]]]))
         if PPMID[Items[itemRow]] in ModPPM:
             file.write(',')
         file.write('\n')
@@ -140,26 +140,22 @@ with open(os.path.join(parsedDir, 'ItemRPPM.lua'), 'w', encoding='utf-8') as fil
             # Write RPPM mods
             for j, modRow in enumerate(ModPPM[PPMID[Items[itemRow]]]):
                 if type(ModPPM[PPMID[Items[itemRow]]][modRow]) == bool:
-                    file.write('\t["' + modRow + '"] = ' + ('true' if ModPPM[PPMID[Items[itemRow]]][modRow] else 'false'))
+                    file.write('\t\t["' + modRow + '"] = ' + ('true' if ModPPM[PPMID[Items[itemRow]]][modRow] else 'false'))
                 if type(ModPPM[PPMID[Items[itemRow]]][modRow]) == dict:
                     modDictRowMax = len(ModPPM[PPMID[Items[itemRow]]][modRow]) - 1
-                    file.write('\t["' + modRow + '"] = {\n')
+                    file.write('\t\t["' + modRow + '"] = {\n')
                     for k, modDictRow in enumerate(ModPPM[PPMID[Items[itemRow]]][modRow]):
-                        file.write('\t\t['+str(modDictRow)+'] = '+ str(ModPPM[PPMID[Items[itemRow]]][modRow][modDictRow]))
+                        file.write('\t\t\t['+str(modDictRow)+'] = '+ str(ModPPM[PPMID[Items[itemRow]]][modRow][modDictRow]))
                         if not k == modDictRowMax:
                             file.write(',')
                         file.write('\n')
-                        # print(modDictRow,ModPPM[PPMID[Items[itemRow]]][modRow][modDictRow])
-                    file.write('\t}')
+                    file.write('\t\t}')
                 if not j == modRowMax:
                     file.write(',')
                 file.write('\n')
-
-        if i == itemRowMax:
-            file.write('}\n')
-        else:
-            file.write('},\n')
-
-
+        file.write('\t}')
+        if not i == itemRowMax:
+            file.write(',')
+        file.write('\n')
     file.write('}\n')
 
