@@ -38,4 +38,5 @@ py -3 Parse_SpellMeleeRange.py
 py -3 Parse_SpellTickTime.py
 py -3 Parse_SpellDuration.py
 py -3 Parse_ItemData.py
+py -3 Parse_ItemSpell.py
 py -3 Parse_RPPM.py

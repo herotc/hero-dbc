@@ -87,23 +87,23 @@ with open(os.path.join(generatedDir, 'SpellProcsPerMinuteMod.csv')) as csvfile:
             if int(row['id_parent']) not in ModPPM: 
                 ModPPM[int(row['id_parent'])] = {}
             if modType == 'HASTE' or modType == 'CRIT': # Haste and crit modifier only have a boolean
-                ModPPM[int(row['id_parent'])][modType] = True
+                ModPPM[int(row['id_parent'])][int(row['unk_1'])] = True
             if modType == 'CLASS': #for class mak , we have to iterate through the mask to determine which class it concerns
                 racemask = int(row['id_chr_spec'])
                 for i in range(12,0,-1): 
                     if racemask - computeClass(i) >= 0: 
-                        if modType not in ModPPM[int(row['id_parent'])]: 
-                            ModPPM[int(row['id_parent'])][modType] = {}
-                        if i not in ModPPM[int(row['id_parent'])][modType]: 
-                            ModPPM[int(row['id_parent'])][modType][i] = {}
-                        ModPPM[int(row['id_parent'])][modType][i] = BasePPM[int(row['id_parent'])] * (1.0 + float(row['coefficient'])) # Calcs the modified ppm
+                        if int(row['unk_1']) not in ModPPM[int(row['id_parent'])]: 
+                            ModPPM[int(row['id_parent'])][int(row['unk_1'])] = {}
+                        if i not in ModPPM[int(row['id_parent'])][int(row['unk_1'])]: 
+                            ModPPM[int(row['id_parent'])][int(row['unk_1'])][i] = {}
+                        ModPPM[int(row['id_parent'])][int(row['unk_1'])][i] = BasePPM[int(row['id_parent'])] * (1.0 + float(row['coefficient'])) # Calcs the modified ppm
                         racemask = racemask - computeClass(i)
             if modType == 'SPEC' or modType == 'RACE': # list all spec and give them the coefficient
-                if modType not in ModPPM[int(row['id_parent'])]: 
-                    ModPPM[int(row['id_parent'])][modType] = {}
-                if int(row['id_chr_spec']) not in ModPPM[int(row['id_parent'])][modType]: 
-                    ModPPM[int(row['id_parent'])][modType][int(row['id_chr_spec'])] = {}
-                ModPPM[int(row['id_parent'])][modType][int(row['id_chr_spec'])] = BasePPM[int(row['id_parent'])] * (1.0 + float(row['coefficient'])) # Calcs the modified ppm
+                if int(row['unk_1']) not in ModPPM[int(row['id_parent'])]: 
+                    ModPPM[int(row['id_parent'])][int(row['unk_1'])] = {}
+                if int(row['id_chr_spec']) not in ModPPM[int(row['id_parent'])][int(row['unk_1'])]: 
+                    ModPPM[int(row['id_parent'])][int(row['unk_1'])][int(row['id_chr_spec'])] = {}
+                ModPPM[int(row['id_parent'])][int(row['unk_1'])][int(row['id_chr_spec'])] = BasePPM[int(row['id_parent'])] * (1.0 + float(row['coefficient'])) # Calcs the modified ppm
 
 # Get all the PPM id from a spell that comes from an item  
 PPMID = {}
@@ -122,12 +122,11 @@ with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
             Items[int(row['id_parent'])] = int(row['id_spell'])
 
 
-
-with open(os.path.join(parsedDir, 'ItemRPPM.lua'), 'w', encoding='utf-8') as file:
-    file.write('MoreItemInfo.Enum.ItemRPPM = {\n')
+with open(os.path.join(parsedDir, 'RPPM.lua'), 'w', encoding='utf-8') as file:
+    file.write('MoreItemInfo.Enum.RPPM = {\n')
     itemRowMax = len(Items) - 1
     for i, itemRow in enumerate(Items):
-        file.write('\t['+str(itemRow)+'] = {\n')
+        file.write('\t['+str(Items[itemRow])+'] = {\n')
 
         # Write base RPPM
         file.write('\t\t[0] = '+ str(BasePPM[PPMID[Items[itemRow]]]))
@@ -140,10 +139,10 @@ with open(os.path.join(parsedDir, 'ItemRPPM.lua'), 'w', encoding='utf-8') as fil
             # Write RPPM mods
             for j, modRow in enumerate(ModPPM[PPMID[Items[itemRow]]]):
                 if type(ModPPM[PPMID[Items[itemRow]]][modRow]) == bool:
-                    file.write('\t\t["' + modRow + '"] = ' + ('true' if ModPPM[PPMID[Items[itemRow]]][modRow] else 'false'))
+                    file.write('\t\t[' + str(modRow) + '] = ' + ('true' if ModPPM[PPMID[Items[itemRow]]][modRow] else 'false'))
                 if type(ModPPM[PPMID[Items[itemRow]]][modRow]) == dict:
                     modDictRowMax = len(ModPPM[PPMID[Items[itemRow]]][modRow]) - 1
-                    file.write('\t\t["' + modRow + '"] = {\n')
+                    file.write('\t\t[' + str(modRow) + '] = {\n')
                     for k, modDictRow in enumerate(ModPPM[PPMID[Items[itemRow]]][modRow]):
                         file.write('\t\t\t['+str(modDictRow)+'] = '+ str(ModPPM[PPMID[Items[itemRow]]][modRow][modDictRow]))
                         if not k == modDictRowMax:
