@@ -6,28 +6,33 @@ cd ..\dbc_extract3
 set OUTPATH=..\..\AethysDBC\DBC\generated
 set RUNFILE=dbc_extract.py
 REM Escaped by "" due to spaces
-set CACHEDIR="C:\Program Files (x86)\World of Warcraft Beta\Cache\ADB\enUS\DBCache.bin"
+REM HOTFIX=1 to enable hotfix extract, HOTFIX=0 to disable
+set HOTFIX=1
+if %HOTFIX% == 1 (
+  set CACHEDIR="C:\Program Files (x86)\World of Warcraft Beta\Cache\ADB\enUS\DBCache.bin"
+  set HOTFIXSTRING=--hotfix %CACHEDIR%
+)
 
 set PATCH=8.0.1
 set BUILD=26476
 set INPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\DBFilesClient
 set GTINPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\GameTables
 
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Creature > %OUTPATH%\Creature.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv CreatureType > %OUTPATH%\CreatureType.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellCooldowns > %OUTPATH%\SpellCooldowns.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellRange > %OUTPATH%\SpellRange.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellMisc > %OUTPATH%\SpellMisc.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellEffect > %OUTPATH%\SpellEffect.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellDuration > %OUTPATH%\SpellDuration.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv ItemSparse > %OUTPATH%\ItemSparse.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv GemProperties > %OUTPATH%\GemProperties.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv JournalEncounterItem > %OUTPATH%\JournalEncounterItem.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellAuraOptions > %OUTPATH%\SpellAuraOptions.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinute > %OUTPATH%\SpellProcsPerMinute.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinuteMod > %OUTPATH%\SpellProcsPerMinuteMod.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv Creature > %OUTPATH%\Creature.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv CreatureType > %OUTPATH%\CreatureType.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv Spell > %OUTPATH%\Spell.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellCooldowns > %OUTPATH%\SpellCooldowns.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellRange > %OUTPATH%\SpellRange.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellMisc > %OUTPATH%\SpellMisc.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellEffect > %OUTPATH%\SpellEffect.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellDuration > %OUTPATH%\SpellDuration.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv ItemSparse > %OUTPATH%\ItemSparse.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv GemProperties > %OUTPATH%\GemProperties.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv JournalEncounterItem > %OUTPATH%\JournalEncounterItem.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellAuraOptions > %OUTPATH%\SpellAuraOptions.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellProcsPerMinute > %OUTPATH%\SpellProcsPerMinute.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% %HOTFIXSTRING% -t csv SpellProcsPerMinuteMod > %OUTPATH%\SpellProcsPerMinuteMod.csv
 
 cd ..\..\AethysDBC
 py -3 Parse_TriggerGCD.py
