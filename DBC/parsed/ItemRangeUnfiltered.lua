@@ -3057,6 +3057,7 @@ AethysCore.Enum.ItemRangeUnfiltered = {
       146505,
       146642,
       147708,
+      147791,
       149461,
       149475,
       149482
@@ -4201,7 +4202,6 @@ AethysCore.Enum.ItemRangeUnfiltered = {
       137238,
       137240,
       137249,
-      137261,
       137269,
       137274,
       137306,
@@ -4432,7 +4432,6 @@ AethysCore.Enum.ItemRangeUnfiltered = {
       147681,
       147688,
       147693,
-      147791,
       147792,
       147869,
       147897,
@@ -4487,7 +4486,8 @@ AethysCore.Enum.ItemRangeUnfiltered = {
       160659,
       160663,
       161215,
-      161321
+      161321,
+      161773
     }
   }
 }

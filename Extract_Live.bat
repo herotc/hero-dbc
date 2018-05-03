@@ -9,7 +9,7 @@ REM Escaped by "" due to spaces
 set CACHEDIR="C:\Program Files (x86)\World of Warcraft Beta\Cache\ADB\enUS\DBCache.bin"
 
 set PATCH=8.0.1
-set BUILD=26476
+set BUILD=26530
 set INPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\DBFilesClient
 set GTINPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\GameTables
 
