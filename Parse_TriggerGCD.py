@@ -22,7 +22,7 @@ with open(os.path.join(generatedDir, 'SpellCooldowns.csv')) as csvfile:
         iMax = len(reader)-1
         for i, row in enumerate(reader):
             if i == iMax:
-                file.write('  [' + row['id_parent'] + '] = ' + str(int(row['gcd_cooldown'])/1000) + '\n')
+                file.write('  [' + row['id_parent'] + '] = ' + row['gcd_cooldown'] + '\n')
             else:
-                file.write('  [' + row['id_parent'] + '] = ' + str(int(row['gcd_cooldown'])/1000) + ',\n')
+                file.write('  [' + row['id_parent'] + '] = ' + row['gcd_cooldown'] + ',\n')
         file.write('}\n')
