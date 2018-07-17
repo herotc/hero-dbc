@@ -22,7 +22,7 @@ itemEncounterTable = {}
 
 checkLeg = False
 
-os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
+os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'hero-dbc'))
 
 def computeItemType(x):
     return {

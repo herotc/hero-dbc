@@ -19,7 +19,7 @@ from slpp import slpp as lua
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
-os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
+os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'hero-dbc'))
 
 with open(os.path.join(generatedDir, 'ItemRangeFiltered.lua')) as luafile:
     data = luafile.read().replace('\n', '')

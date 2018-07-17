@@ -13,7 +13,7 @@ import csv
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
-os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'AethysDBC'))
+os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'hero-dbc'))
 
 ## Mapping
 # id_parent & proj_speed from SpellMisc

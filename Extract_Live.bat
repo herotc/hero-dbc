@@ -1,17 +1,17 @@
-cd C:\Users\Aethys\Documents\GitHub\AethysDBC
+cd C:\Users\Aethys\Documents\GitHub\hero-dbc
 cd ..\simc\casc_extract
-call py -3 casc_extract.py -m batch --cdn --beta -o ..\..\AethysDBC\CDN
+call py -3 casc_extract.py -m batch --cdn --beta -o ..\..\hero-dbc\CDN
 
 cd ..\dbc_extract3
-set OUTPATH=..\..\AethysDBC\DBC\generated
+set OUTPATH=..\..\hero-dbc\DBC\generated
 set RUNFILE=dbc_extract.py
 REM Escaped by "" due to spaces
 set CACHEDIR="C:\Program Files (x86)\World of Warcraft Beta\Cache\ADB\enUS\DBCache.bin"
 
 set PATCH=8.0.1
 set BUILD=26530
-set INPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\DBFilesClient
-set GTINPATH=..\..\AethysDBC\CDN\%PATCH%.%BUILD%\GameTables
+set INPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\DBFilesClient
+set GTINPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\GameTables
 
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Creature > %OUTPATH%\Creature.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv CreatureType > %OUTPATH%\CreatureType.csv
@@ -29,7 +29,7 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellAuraOptio
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinute > %OUTPATH%\SpellProcsPerMinute.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinuteMod > %OUTPATH%\SpellProcsPerMinuteMod.csv
 
-cd ..\..\AethysDBC
+cd ..\..\hero-dbc
 py -3 Parse_TriggerGCD.py
 py -3 Parse_ProjectileSpeed.py
 py -3 Parse_ItemRangeUnfiltered.py
