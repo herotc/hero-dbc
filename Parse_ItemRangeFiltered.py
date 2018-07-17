@@ -55,7 +55,7 @@ for key, value in ItemRangeFiltered.items():
             ItemRange[key][key2] = {**ItemRangeString, **ItemRangeInt}
 
 with open(os.path.join(parsedDir, 'ItemRange.lua'), 'w', encoding='utf-8') as file:
-    file.write('AethysCore.Enum.ItemRange = {\n')
+    file.write('HeroLib.Enum.ItemRange = {\n')
     i, iMax = 0, len(ItemRange)
     for key, value in ItemRange.items():
         i += 1

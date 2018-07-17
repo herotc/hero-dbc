@@ -38,7 +38,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
         if row['id_range'] in Ranges:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'SpellMeleeRange.lua'), 'w', encoding='utf-8') as file:
-        file.write('AethysCore.Enum.SpellMeleeRange = {\n')
+        file.write('HeroLib.Enum.SpellMeleeRange = {\n')
         iMax = len(ValidRows)-1
         for i, row in enumerate(ValidRows):
             if i == iMax:

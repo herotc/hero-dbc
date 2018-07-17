@@ -1,4 +1,4 @@
-AethysCore.Enum.ItemRange = {
+HeroLib.Enum.ItemRange = {
   Hostile = {
     RangeIndex = {"Melee", 5, 7, 8, 10, 15, 20, 25, 30, 35, 38, 40, 45, 50, 55, 60, 70, 80, 90, 100},
     ItemRange = {

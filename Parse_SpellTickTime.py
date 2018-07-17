@@ -22,7 +22,7 @@ with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
         if not int(row['amplitude']) == 0:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'TickTime.lua'), 'w', encoding='utf-8') as file:
-        file.write('AethysCore.Enum.TickTime = {\n')
+        file.write('HeroLib.Enum.TickTime = {\n')
         iMax = len(ValidRows)-1
         for i, row in enumerate(ValidRows):
             if i == iMax:

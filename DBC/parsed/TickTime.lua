@@ -1,4 +1,4 @@
-AethysCore.Enum.TickTime = {
+HeroLib.Enum.TickTime = {
   [66] = {1000, true},
   [96] = {2000, true},
   [134] = {3000, true},

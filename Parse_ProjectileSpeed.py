@@ -29,7 +29,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
         if float(row['proj_speed']) > 0:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'ProjectileSpeed.lua'), 'w', encoding='utf-8') as file:
-        file.write('AethysCore.Enum.ProjectileSpeed = {\n')
+        file.write('HeroLib.Enum.ProjectileSpeed = {\n')
         iMax = len(ValidRows)-1
         for i, row in enumerate(ValidRows):
             prj_speed_int = int(float(row['proj_speed']))

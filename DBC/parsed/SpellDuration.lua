@@ -1,4 +1,4 @@
-AethysCore.Enum.SpellDuration = {
+HeroLib.Enum.SpellDuration = {
   [13] = {30000, 39000},
   [17] = {15000, 19500},
   [25] = {5000, 6500},

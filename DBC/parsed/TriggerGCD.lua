@@ -1,4 +1,4 @@
-AethysCore.Enum.TriggerGCD = {
+HeroLib.Enum.TriggerGCD = {
   [17] = 1500,
   [53] = 1000,
   [66] = 1500,

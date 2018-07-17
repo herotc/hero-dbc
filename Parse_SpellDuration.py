@@ -34,7 +34,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
         if int(row['id_duration']) > 0 and row['id_duration'] in Durations:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'SpellDuration.lua'), 'w', encoding='utf-8') as file:
-        file.write('AethysCore.Enum.SpellDuration = {\n')
+        file.write('HeroLib.Enum.SpellDuration = {\n')
         iMax = len(ValidRows)-1
         for i, row in enumerate(ValidRows):
             baseDuration = int(Durations[row['id_duration']][1])

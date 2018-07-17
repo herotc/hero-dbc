@@ -1,4 +1,4 @@
-AethysCore.Enum.SpellMeleeRange = {
+HeroLib.Enum.SpellMeleeRange = {
   [11] = {false, 0, 100},
   [17] = {false, 0, 40},
   [25] = {true, 0, 5},

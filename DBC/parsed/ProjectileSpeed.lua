@@ -1,4 +1,4 @@
-AethysCore.Enum.ProjectileSpeed = {
+HeroLib.Enum.ProjectileSpeed = {
   [11] = 35,
   [59] = 25,
   [75] = 60,

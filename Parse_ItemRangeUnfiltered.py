@@ -74,7 +74,7 @@ ItemRange['Melee'] = sorted(ItemRange['Melee'].items(), key=operator.itemgetter(
 ItemRange['Ranged'] = sorted(ItemRange['Ranged'].items(), key=operator.itemgetter(0))
 
 with open(os.path.join(parsedDir, 'ItemRangeUnfiltered.lua'), 'w', encoding='utf-8') as file:
-    file.write('AethysCore.Enum.ItemRangeUnfiltered = {\n')
+    file.write('HeroLib.Enum.ItemRangeUnfiltered = {\n')
     i, iMax = 0, len(ItemRange)
     for key, value in ItemRange.items():
         i += 1

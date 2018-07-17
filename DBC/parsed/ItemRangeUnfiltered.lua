@@ -1,4 +1,4 @@
-AethysCore.Enum.ItemRangeUnfiltered = {
+HeroLib.Enum.ItemRangeUnfiltered = {
   Melee = {
     [5] = {
       880,
