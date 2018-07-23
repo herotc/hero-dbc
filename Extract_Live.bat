@@ -1,20 +1,17 @@
-cd C:\Users\Aethys\Documents\GitHub\hero-dbc
 cd ..\simc\casc_extract
-call py -3 casc_extract.py -m batch --cdn --beta -o ..\..\hero-dbc\CDN
+call py -3 casc_extract.py -m batch --cdn -o ..\..\hero-dbc\CDN
 
 cd ..\dbc_extract3
 set OUTPATH=..\..\hero-dbc\DBC\generated
 set RUNFILE=dbc_extract.py
 REM Escaped by "" due to spaces
-set CACHEDIR="C:\Program Files (x86)\World of Warcraft Beta\Cache\ADB\enUS\DBCache.bin"
+set CACHEDIR="C:\Program Files (x86)\World of Warcraft\Cache\ADB\enUS\DBCache.bin"
 
 set PATCH=8.0.1
-set BUILD=26530
+set BUILD=27144
 set INPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\DBFilesClient
 set GTINPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\GameTables
 
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Creature > %OUTPATH%\Creature.csv
-py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv CreatureType > %OUTPATH%\CreatureType.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellCooldowns > %OUTPATH%\SpellCooldowns.csv
