@@ -54,7 +54,7 @@ ItemRange = {
 with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
-        id_misc = row['id']
+        id_misc = row['id_parent']
         if id_misc in Items:
             id_range = row['id_range']
             if id_range in Ranges:
