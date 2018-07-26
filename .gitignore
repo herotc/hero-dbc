@@ -1,2 +1,12 @@
+# Project #
+###########
 CDN/*
-Lib/__pycache__
+
+# Project dependencies #
+########################
+__pycache__/
+
+# IDE #
+#######
+.idea/*
+.vscode/*
