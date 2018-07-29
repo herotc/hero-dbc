@@ -1,6 +1,7 @@
 # Project #
 ###########
 CDN/*
+!CDN/.gitkeep
 
 # Project dependencies #
 ########################
