@@ -31,7 +31,7 @@ with open(os.path.join(parsedDir, 'ItemSpell.lua'), 'w', encoding='utf-8') as fi
     file.write('MoreItemInfo.Enum.ItemSpell = {\n')
     itemRowMax = len(Items) - 1
     for i, itemRow in enumerate(Items):
-        file.write('\t[' + str(itemRow) + '] = ' + str(Items[itemRow]))
+        file.write('  [' + str(itemRow) + '] = ' + str(Items[itemRow]))
         if not i == itemRowMax:
             file.write(',')
         file.write('\n')
