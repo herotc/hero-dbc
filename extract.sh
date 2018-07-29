@@ -28,6 +28,12 @@ python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv Journa
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellAuraOptions > ${OUTPATH}/SpellAuraOptions.csv
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellProcsPerMinute > ${OUTPATH}/SpellProcsPerMinute.csv
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellProcsPerMinuteMod > ${OUTPATH}/SpellProcsPerMinuteMod.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv AzeriteEmpoweredItem > ${OUTPATH}/AzeriteEmpoweredItem.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv AzeriteItem > ${OUTPATH}/AzeriteItem.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv AzeritePower > ${OUTPATH}/AzeritePower.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv AzeritePowerSetMember > ${OUTPATH}/AzeritePowerSetMember.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv AzeriteTierUnlock > ${OUTPATH}/AzeriteTierUnlock.csv
+python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpecSetMember > ${OUTPATH}/SpecSetMember.csv
 
 cd ${HERODBCPATH}
 python3 parser/TriggerGCD.py
