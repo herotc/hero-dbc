@@ -13,13 +13,13 @@ import os
 import csv
 import operator
 import json
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'Lib'))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib'))
 from slpp import slpp as lua
 
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
-os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'hero-dbc'))
+os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 with open(os.path.join(generatedDir, 'ItemRangeFiltered.lua')) as luafile:
     data = luafile.read().replace('\n', '')

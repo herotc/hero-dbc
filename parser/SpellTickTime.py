@@ -13,7 +13,7 @@ import csv
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
 
-os.chdir(os.path.join(os.path.dirname(sys.path[0]), 'hero-dbc'))
+os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
