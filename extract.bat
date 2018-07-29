@@ -7,9 +7,10 @@ set RUNFILE=dbc_extract.py
 REM Escaped by "" due to spaces
 set CACHEDIR="C:\Program Files (x86)\World of Warcraft\Cache\ADB\enUS\DBCache.bin"
 
+set PATCH=8.0.1
 set BUILD=27178
-set INPATH=..\..\hero-dbc\CDN\%BUILD%\DBFilesClient
-set GTINPATH=..\..\hero-dbc\CDN\%BUILD%\GameTables
+set INPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\DBFilesClient
+set GTINPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\GameTables
 
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv

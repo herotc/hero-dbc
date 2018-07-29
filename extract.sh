@@ -11,9 +11,10 @@ OUTPATH=${HERODBCPATH}/DBC/generated
 RUNFILE=dbc_extract.py
 CACHEDIR="/Applications/World of Warcraft/Cache/ADB/enUS/DBCache.bin"
 
+PATCH=8.0.1
 BUILD=27178
-INPATH=${HERODBCPATH}/CDN/${BUILD}/DBFilesClient
-GTINPATH=${HERODBCPATH}/CDN/${BUILD}/GameTables
+INPATH=${HERODBCPATH}/CDN/${PATCH}.${BUILD}/DBFilesClient
+GTINPATH=${HERODBCPATH}/CDN/${PATCH}.${BUILD}/GameTables
 
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv ItemEffect > ${OUTPATH}/ItemEffect.csv
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv Spell > ${OUTPATH}/Spell.csv
