@@ -39,7 +39,7 @@ with open(path.join(heroDbcDirPath, 'extract.json')) as extractFile:
 
 # CDN (using simc/casc_extract)
 chdir(path.join(simcDirPath, 'casc_extract'))
-# system(f'python casc_extract.py -m batch --cdn -o {cdnDirPath}')
+system(f'python casc_extract.py -m batch --cdn -o {cdnDirPath}')
 
 patch, build = '1.0', '0'
 with scandir(cdnDirPath) as cdnDirs:

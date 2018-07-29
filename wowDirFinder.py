@@ -2,7 +2,7 @@
 
 import argparse
 import platform
-from os import path, environ
+from os import path
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--realm", default='live', choices=['live', 'ptr', 'alpha', 'beta'],
@@ -37,7 +37,6 @@ elif platformSystem == 'Windows':
     for driveLetter in driveLetters:
         for wowDirWindowsCommonPlace in wowDirWindowsCommonPlaces:
             guessedWowDirPath = wowDirWindowsCommonPlace.format(driveLetter, wowDirName)
-            print(guessedWowDirPath)
             if path.isdir(guessedWowDirPath):
                 wowDirPath = path.normcase(guessedWowDirPath)
 
