@@ -28,15 +28,15 @@ if platformSystem == 'Darwin':
         wowDirPath = path.normcase(guessedWowDirPath)
 elif platformSystem == 'Windows':
     wowDirWindowsCommonPlaces = [
-        '%(driveLetter)s:\%(wowDirName)s',
-        f'%(driveLetter)s:\{environ["ProgramFiles(x86)"]}\%(wowDirName)s',
-        f'%(driveLetter)s:\{environ["ProgramW6432"]}\%(wowDirName)s',
-        '%(driveLetter)s:\Games\%(wowDirName)s'
+        '{}\{}',
+        '{}\Program Files\{}',
+        '{}\Program Files (x86)\{}',
+        '{}\Games\{}'
     ]
     driveLetters = [chr(x) + ':' for x in range(65, 90) if path.exists(chr(x) + ':')]
     for driveLetter in driveLetters:
         for wowDirWindowsCommonPlace in wowDirWindowsCommonPlaces:
-            guessedWowDirPath = wowDirWindowsCommonPlace % (driveLetter, wowDirName)
+            guessedWowDirPath = wowDirWindowsCommonPlace.format(driveLetter, wowDirName)
             print(guessedWowDirPath)
             if path.isdir(guessedWowDirPath):
                 wowDirPath = path.normcase(guessedWowDirPath)
