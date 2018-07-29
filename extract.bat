@@ -7,10 +7,9 @@ set RUNFILE=dbc_extract.py
 REM Escaped by "" due to spaces
 set CACHEDIR="C:\Program Files (x86)\World of Warcraft\Cache\ADB\enUS\DBCache.bin"
 
-set PATCH=8.0.1
 set BUILD=27178
-set INPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\DBFilesClient
-set GTINPATH=..\..\hero-dbc\CDN\%PATCH%.%BUILD%\GameTables
+set INPATH=..\..\hero-dbc\CDN\%BUILD%\DBFilesClient
+set GTINPATH=..\..\hero-dbc\CDN\%BUILD%\GameTables
 
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv ItemEffect > %OUTPATH%\ItemEffect.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv Spell > %OUTPATH%\Spell.csv
@@ -25,15 +24,21 @@ py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv JournalEncount
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellAuraOptions > %OUTPATH%\SpellAuraOptions.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinute > %OUTPATH%\SpellProcsPerMinute.csv
 py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpellProcsPerMinuteMod > %OUTPATH%\SpellProcsPerMinuteMod.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv AzeriteEmpoweredItem > ${OUTPATH}/AzeriteEmpoweredItem.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv AzeriteItem > ${OUTPATH}/AzeriteItem.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv AzeritePower > ${OUTPATH}/AzeritePower.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv AzeritePowerSetMember > ${OUTPATH}/AzeritePowerSetMember.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv AzeriteTierUnlock > ${OUTPATH}/AzeriteTierUnlock.csv
+py -3 %RUNFILE% -p %INPATH% -b %BUILD% --hotfix %CACHEDIR% -t csv SpecSetMember > ${OUTPATH}/SpecSetMember.csv
 
 cd ..\..\hero-dbc
-py -3 Parse_TriggerGCD.py
-py -3 Parse_ProjectileSpeed.py
-py -3 Parse_ItemRangeUnfiltered.py
-py -3 Parse_ItemRangeFiltered.py
-py -3 Parse_SpellMeleeRange.py
-py -3 Parse_SpellTickTime.py
-py -3 Parse_SpellDuration.py
-py -3 Parse_ItemData.py
-py -3 Parse_ItemSpell.py
-py -3 Parse_RPPM.py
+py -3 parser/TriggerGCD.py
+py -3 parser/ProjectileSpeed.py
+py -3 parser/ItemRangeUnfiltered.py
+py -3 parser/ItemRangeFiltered.py
+py -3 parser/SpellMeleeRange.py
+py -3 parser/SpellTickTime.py
+py -3 parser/SpellDuration.py
+py -3 parser/ItemData.py
+py -3 parser/ItemSpell.py
+py -3 parser/RPPM.py
