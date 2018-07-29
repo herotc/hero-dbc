@@ -30,7 +30,7 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'ProjectileSpeed.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroLib.Enum.ProjectileSpeed = {\n')
-        iMax = len(ValidRows)-1
+        iMax = len(ValidRows) - 1
         for i, row in enumerate(ValidRows):
             prj_speed_int = int(float(row['proj_speed']))
             PrjSpeedRawValue += prj_speed_int
@@ -42,4 +42,4 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
         file.write('}\n')
 
 # Fun print
-print('Projectile Speed Mean : ' + str(PrjSpeedRawValue/PrjSpeedNbValue))
+print('Projectile Speed Mean : ' + str(PrjSpeedRawValue / PrjSpeedNbValue))

@@ -39,10 +39,14 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'SpellMeleeRange.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroLib.Enum.SpellMeleeRange = {\n')
-        iMax = len(ValidRows)-1
+        iMax = len(ValidRows) - 1
         for i, row in enumerate(ValidRows):
             if i == iMax:
-                file.write('  [' + row['id_parent'] + '] = {' + ('true' if Ranges[row['id_range']][2] == 1 else 'false') + ', ' + Ranges[row['id_range']][0] + ', ' + Ranges[row['id_range']][1] +'}\n')
+                file.write('  [' + row['id_parent'] + '] = {' + (
+                    'true' if Ranges[row['id_range']][2] == 1 else 'false') + ', ' + Ranges[row['id_range']][0] + ', ' +
+                           Ranges[row['id_range']][1] + '}\n')
             else:
-                file.write('  [' + row['id_parent'] + '] = {' + ('true' if Ranges[row['id_range']][2] == 1 else 'false') + ', ' + Ranges[row['id_range']][0] + ', ' + Ranges[row['id_range']][1] +'},\n')
+                file.write('  [' + row['id_parent'] + '] = {' + (
+                    'true' if Ranges[row['id_range']][2] == 1 else 'false') + ', ' + Ranges[row['id_range']][0] + ', ' +
+                           Ranges[row['id_range']][1] + '},\n')
         file.write('}\n')

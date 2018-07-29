@@ -24,6 +24,7 @@ checkLeg = False
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
+
 def computeItemType(x):
     return {
         0: 'relic',
@@ -41,7 +42,8 @@ def computeItemType(x):
         16: 'back',
         20: 'chest'
     }.get(x, '')
-    
+
+
 def computeItemMaterial(x):
     return {
         6: 'plate',
@@ -49,12 +51,13 @@ def computeItemMaterial(x):
         8: 'leather',
         7: 'cloth'
     }.get(x, '')
-    
+
+
 def computeRelicType(x):
     return {
         64: 'iron',
-        128:'blood',
-        256:'shadow',
+        128: 'blood',
+        256: 'shadow',
         512: 'fel',
         1024: 'arcane',
         2048: 'frost',
@@ -62,11 +65,12 @@ def computeRelicType(x):
         16384: 'life',
         32768: 'storm',
         65536: 'holy'
-    }.get(x,'')
+    }.get(x, '')
+
 
 def createSpecTable():
     global classTable
-    
+
     # Death Knight
     classTable['death_knight'] = {}
     classTable['death_knight'][0] = 'blood'
@@ -77,7 +81,7 @@ def createSpecTable():
     classTable['demon_hunter'][0] = 'havoc'
     classTable['demon_hunter'][1] = 'vengeance'
     # Druid                    
-    classTable['druid'] = {}    
+    classTable['druid'] = {}
     classTable['druid'][0] = 'balance'
     classTable['druid'][1] = 'feral'
     classTable['druid'][2] = 'guardian'
@@ -127,48 +131,53 @@ def createSpecTable():
     classTable['warrior'][0] = 'arms'
     classTable['warrior'][1] = 'fury'
     classTable['warrior'][2] = 'protection'
-    
+
+
 def createRelicTypeTable():
     global relicTypeTable
     with open(os.path.join(generatedDir, 'GemProperties.csv')) as csvfile:
         reader = csv.DictReader(csvfile, escapechar='\\')
         for row in reader:
-            
+
             relicType = computeRelicType(int(row['color']))
             if not relicType == '':
                 relicTypeTable[int(row['id'])] = relicType
+
 
 def createItemEncounterTable():
     global itemEncounterTable
     with open(os.path.join(generatedDir, 'JournalEncounterItem.csv')) as csvfile:
         reader = csv.DictReader(csvfile, escapechar='\\')
         for row in reader:
-            itemEncounterTable[int(row['id_item'])] = int(row['id_encounter'])                
-                
-def computeSet(set,ilvl):
+            itemEncounterTable[int(row['id_item'])] = int(row['id_encounter'])
+
+
+def computeSet(set, ilvl):
     if set == 0:
         return ""
     if ilvl == 890:
         return "T20"
     if ilvl == 930 or ilvl == 940:
         return "T21"
-        
-def computeBonusID(set,quality,id,type):
+
+
+def computeBonusID(set, quality, id, type):
     if type == 'relic':
         if id in itemEncounterTable and itemEncounterTable[id] == 2031:
             return "3612/1512"
         else:
             return "3612/1502"
     if set == "" or set == "T21":
-        if set == "" and quality == 5: #legendaries
-            if id == 154172: #Amanthul specific
+        if set == "" and quality == 5:  # legendaries
+            if id == 154172:  # Amanthul specific
                 return "4213"
             else:
                 return "3630"
-        else: #T21
+        else:  # T21
             return "3612/1502"
-    if set == "T20": #T20
+    if set == "T20":  # T20
         return "1512/3563"
+
 
 def computeLegClass(classmask):
     return {
@@ -190,21 +199,24 @@ def computeLegClass(classmask):
         3592: 'rogue/monk/druid/demon_hunter',
         65535: 'warrior/paladin/hunter/rogue/priest/death_knight/shaman/mage/warlock/monk/druid/demon_hunter'
     }.get(classmask, '')
-    
-def checkLegStatus(legClass,legSpec,itemType,id):
+
+
+def checkLegStatus(legClass, legSpec, itemType, id):
     if checkLeg:
-        if legClass in LegendaryDataList and legSpec in LegendaryDataList[legClass] and itemType in LegendaryDataList[legClass][legSpec]:
+        if legClass in LegendaryDataList and legSpec in LegendaryDataList[legClass] and itemType in \
+                LegendaryDataList[legClass][legSpec]:
             for item in LegendaryDataList[legClass][legSpec][itemType]:
                 if int(item['id']) == id:
                     return item['enable']
     return False
 
+
 def computeItemStat(mask):
     return {
-        3 : 'agi',
-        4 : 'str',
-        5 : 'int',
-        7 : 'stam',
+        3: 'agi',
+        4: 'str',
+        5: 'int',
+        7: 'stam',
         32: 'crit',
         36: 'haste',
         40: 'vers',
@@ -217,7 +229,8 @@ def computeItemStat(mask):
         73: 'agi/int',
         74: 'str/int',
     }.get(mask, '')
-    
+
+
 def getItemStats(row):
     statString = ""
     if not int(row['stat_type_1']) == -1:
@@ -232,6 +245,7 @@ def getItemStats(row):
                         statString = statString + "/" + computeItemStat(int(row['stat_type_5']))
     return statString
 
+
 def computeGemNumber(row):
     gemnb = 0
     if not int(row['socket_color_1']) == 0:
@@ -241,55 +255,58 @@ def computeGemNumber(row):
             if not int(row['socket_color_3']) == 0:
                 gemnb = gemnb + 1
     return gemnb
-  
-def PrepareRow(row,rowClass="",rowSpec=""):
+
+
+def PrepareRow(row, rowClass="", rowSpec=""):
     preparedRow = {}
     preparedRow["id"] = int(row['id'])
     preparedRow["name"] = row['name']
     preparedRow["level"] = int(row['ilevel'])
     preparedRow["type"] = computeItemType(int(row['inv_type']))
-    
+
     if preparedRow["type"] == 'relic':
         preparedRow["relicType"] = relicTypeTable[int(row['gem_props'])]
-        preparedRow["bonus_id"] = computeBonusID("","",preparedRow["id"],preparedRow["type"])
+        preparedRow["bonus_id"] = computeBonusID("", "", preparedRow["id"], preparedRow["type"])
     else:
         preparedRow["material"] = computeItemMaterial(int(row['material']))
         preparedRow["stats"] = getItemStats(row)
 
-        set = computeSet(int(row['item_set']),int(row['ilevel']))
+        set = computeSet(int(row['item_set']), int(row['ilevel']))
 
         if int(row['ilevel']) == 910 and int(row['quality']) == 5:
-            preparedRow["enable"] = checkLegStatus(rowClass,rowSpec,preparedRow["type"],preparedRow["id"])
-        else:   
-            preparedRow["set"] = computeSet(int(row['item_set']),int(row['ilevel']))
+            preparedRow["enable"] = checkLegStatus(rowClass, rowSpec, preparedRow["type"], preparedRow["id"])
+        else:
+            preparedRow["set"] = computeSet(int(row['item_set']), int(row['ilevel']))
             if not set == "":
                 preparedRow["class"] = computeLegClass(int(row['class_mask']))
         preparedRow["gems"] = computeGemNumber(row)
-        preparedRow["bonus_id"] = computeBonusID(set,int(row['quality']),int(row['id']),preparedRow["type"])
+        preparedRow["bonus_id"] = computeBonusID(set, int(row['quality']), int(row['id']), preparedRow["type"])
 
     return preparedRow
-    
+
+
 # Program Start
 createSpecTable()
 createRelicTypeTable()
 createItemEncounterTable()
 
-if os.path.isfile('../AutoSimC/generatorItemData.json') and os.path.isfile('../AutoSimC/generatorLegendaryData.json'): 
+if os.path.isfile('../AutoSimC/generatorItemData.json') and os.path.isfile('../AutoSimC/generatorLegendaryData.json'):
     with open('../AutoSimC/generatorItemData.json') as existingitemDataFile:
-        with open('../AutoSimC/generatorLegendaryData.json') as existinglegendaryDataFile: 
+        with open('../AutoSimC/generatorLegendaryData.json') as existinglegendaryDataFile:
             ItemDataList = json.load(existingitemDataFile)
             LegendaryDataList = json.load(existinglegendaryDataFile)
             checkLeg = True
-    
+
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     ValidItemsRows = {}
     ValidLegendariesRows = {}
-    
-    #Read rows and order them with each inventory type, class and material
+
+    # Read rows and order them with each inventory type, class and material
     for row in reader:
-        #ilvl : 930/940/1000 = argus, 890, only T20 
-        if int(row['ilevel']) == 930 or int(row['ilevel']) == 940 or int(row['ilevel']) == 1000 or (int(row['ilevel']) == 890 and not int(row['item_set']) == 0):
+        # ilvl : 930/940/1000 = argus, 890, only T20
+        if int(row['ilevel']) == 930 or int(row['ilevel']) == 940 or int(row['ilevel']) == 1000 or (
+                int(row['ilevel']) == 890 and not int(row['item_set']) == 0):
             itemType = computeItemType(int(row['inv_type']))
             if itemType == 'relic' and int(row['gem_props']) != 0:
                 if itemType not in ValidItemsRows:
@@ -300,44 +317,46 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
                 ValidItemsRows[itemType][relictype].append(PrepareRow(row))
             elif not itemType == 'relic':
                 itemMaterial = computeItemMaterial(int(row['material']))
-                if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back": #handle no materal separatly
+                if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back":  # handle no materal separatly
                     if itemType not in ValidItemsRows:
-                        ValidItemsRows[itemType] = {} 
+                        ValidItemsRows[itemType] = {}
                     if itemMaterial not in ValidItemsRows[itemType]:
-                        ValidItemsRows[itemType][itemMaterial] = [] 
+                        ValidItemsRows[itemType][itemMaterial] = []
                     ValidItemsRows[itemType][itemMaterial].append(PrepareRow(row))
                 else:
                     if itemType not in ValidItemsRows:
                         ValidItemsRows[itemType] = []
                     ValidItemsRows[itemType].append(PrepareRow(row))
-        
-        #Legendaries : baseilvl = 910  
-        if int(row['ilevel']) == 910 and int(row['quality']) == 5: 
+
+        # Legendaries : baseilvl = 910
+        if int(row['ilevel']) == 910 and int(row['quality']) == 5:
             mask = computeLegClass(int(row['class_mask']))
             itemType = computeItemType(int(row['inv_type']))
             itemMaterial = computeItemMaterial(int(row['material']))
-            if "/" in mask: # cut the multiple spec legendaries and handle them separatly
+            if "/" in mask:  # cut the multiple spec legendaries and handle them separatly
                 t = mask.split('/')
                 for i in range(len(t)):
                     if t[i] not in ValidLegendariesRows:
                         ValidLegendariesRows[t[i]] = {}
-                    for j in range(len(classTable[t[i]])):  
+                    for j in range(len(classTable[t[i]])):
                         if classTable[t[i]][j] not in ValidLegendariesRows[t[i]]:
-                            ValidLegendariesRows[t[i]][classTable[t[i]][j]] = {}    
+                            ValidLegendariesRows[t[i]][classTable[t[i]][j]] = {}
                         if itemType not in ValidLegendariesRows[t[i]][classTable[t[i]][j]]:
-                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = [] 
-                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(PrepareRow(row,t[i],classTable[t[i]][j]))
-            else: 
+                            ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType] = []
+                        ValidLegendariesRows[t[i]][classTable[t[i]][j]][itemType].append(
+                            PrepareRow(row, t[i], classTable[t[i]][j]))
+            else:
                 if mask not in ValidLegendariesRows:
-                        ValidLegendariesRows[mask] = {}
+                    ValidLegendariesRows[mask] = {}
                 for j in range(len(classTable[mask])):
                     if classTable[mask][j] not in ValidLegendariesRows[mask]:
                         ValidLegendariesRows[mask][classTable[mask][j]] = {}
                     if itemType not in ValidLegendariesRows[mask][classTable[mask][j]]:
-                        ValidLegendariesRows[mask][classTable[mask][j]][itemType] = [] 
-                    ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(PrepareRow(row,mask,classTable[mask][j]))
-  
-    #Prints everything to the files  
+                        ValidLegendariesRows[mask][classTable[mask][j]][itemType] = []
+                    ValidLegendariesRows[mask][classTable[mask][j]][itemType].append(
+                        PrepareRow(row, mask, classTable[mask][j]))
+
+    # Prints everything to the files
     with open(os.path.join(parsedDir, 'generatorItemData.json'), 'w', encoding='utf-8') as file:
         json.dump(ValidItemsRows, file, indent=4)
     with open(os.path.join(parsedDir, 'generatorLegendaryData.json'), 'w', encoding='utf-8') as fileLegendary:

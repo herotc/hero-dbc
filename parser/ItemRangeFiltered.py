@@ -13,6 +13,7 @@ import os
 import csv
 import operator
 import json
+
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib'))
 from slpp import slpp as lua
 
@@ -65,7 +66,7 @@ with open(os.path.join(parsedDir, 'ItemRange.lua'), 'w', encoding='utf-8') as fi
             j += 1
             k, kMax = 0, len(value2)
             if isinstance(value2, list):
-                file.write('    ' + key2 +' = {')
+                file.write('    ' + key2 + ' = {')
                 for _, value3 in enumerate(value2):
                     k += 1
                     if isinstance(value3, str):
@@ -79,13 +80,13 @@ with open(os.path.join(parsedDir, 'ItemRange.lua'), 'w', encoding='utf-8') as fi
                 else:
                     file.write('},\n')
             elif isinstance(value2, dict):
-                file.write('    ' + key2 +' = {\n')
+                file.write('    ' + key2 + ' = {\n')
                 for key3, value3 in value2.items():
                     k += 1
                     if isinstance(key3, str):
-                        file.write('      ' + str(key3) +' = {\n')
+                        file.write('      ' + str(key3) + ' = {\n')
                     else:
-                        file.write('      [' + str(key3) +'] = {\n')
+                        file.write('      [' + str(key3) + '] = {\n')
                     l, lMax = 0, len(value3)
                     for _, value4 in enumerate(value3):
                         l += 1

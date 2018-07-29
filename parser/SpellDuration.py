@@ -17,7 +17,7 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 ## Mapping
 # id_parent & proj_speed from SpellMisc
-       
+
 Durations = {}
 with open(os.path.join(generatedDir, 'SpellDuration.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
@@ -35,15 +35,15 @@ with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'SpellDuration.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroLib.Enum.SpellDuration = {\n')
-        iMax = len(ValidRows)-1
+        iMax = len(ValidRows) - 1
         for i, row in enumerate(ValidRows):
             baseDuration = int(Durations[row['id_duration']][1])
-            pandemic = int(float(Durations[row['id_duration']][1])*0.3)
+            pandemic = int(float(Durations[row['id_duration']][1]) * 0.3)
             maxDuration = baseDuration + pandemic
             if i == iMax:
-                file.write('  [' + row['id_parent'] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(int(maxDuration)) + '}\n')
+                file.write('  [' + row['id_parent'] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(
+                    int(maxDuration)) + '}\n')
             else:
-                file.write('  [' + row['id_parent'] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(int(maxDuration)) + '},\n')
+                file.write('  [' + row['id_parent'] + '] = {' + Durations[row['id_duration']][1] + ', ' + str(
+                    int(maxDuration)) + '},\n')
         file.write('}\n')
-
-

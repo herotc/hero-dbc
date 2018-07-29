@@ -19,7 +19,7 @@ with open(os.path.join(generatedDir, 'SpellCooldowns.csv')) as csvfile:
     reader = list(csv.DictReader(csvfile, escapechar='\\'))
     with open(os.path.join(parsedDir, 'TriggerGCD.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroLib.Enum.TriggerGCD = {\n')
-        iMax = len(reader)-1
+        iMax = len(reader) - 1
         for i, row in enumerate(reader):
             if i == iMax:
                 file.write('  [' + row['id_parent'] + '] = ' + row['gcd_cooldown'] + '\n')
