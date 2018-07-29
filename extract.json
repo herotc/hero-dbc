@@ -1,0 +1,35 @@
+{
+  "dbfiles": [
+    "ItemEffect",
+    "Spell",
+    "SpellCooldowns",
+    "SpellRange",
+    "SpellMisc",
+    "SpellEffect",
+    "SpellDuration",
+    "ItemSparse",
+    "GemProperties",
+    "JournalEncounterItem",
+    "SpellAuraOptions",
+    "SpellProcsPerMinute",
+    "SpellProcsPerMinuteMod",
+    "AzeriteEmpoweredItem",
+    "AzeriteItem",
+    "AzeritePower",
+    "AzeritePowerSetMember",
+    "AzeriteTierUnlock",
+    "SpecSetMember"
+  ],
+  "parsers": [
+    "TriggerGCD",
+    "ProjectileSpeed",
+    "ItemRangeUnfiltered",
+    "ItemRangeFiltered",
+    "SpellMeleeRange",
+    "SpellTickTime",
+    "SpellDuration",
+    "ItemData",
+    "ItemSpell",
+    "RPPM"
+  ]
+}
