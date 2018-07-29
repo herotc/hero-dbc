@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import datetime
 import json
 import subprocess
 from os import path, chdir, system, getcwd, scandir
@@ -42,11 +43,11 @@ chdir(path.join(simcDirPath, 'casc_extract'))
 system(f'python casc_extract.py -m batch --cdn -o {cdnDirPath}')
 
 patch, build = '1.0', '0'
-with scandir(cdnDirPath) as cdnDirs:
-    for cdnDir in cdnDirs:
-        dirName = cdnDir.name
-        if not dirName.startswith('.') and cdnDir.is_dir():
-            dirPartitions = dirName.rpartition('.')
+with scandir(cdnDirPath) as iterator:
+    for entry in iterator:
+        entryName = entry.name
+        if not entryName.startswith('.') and entry.is_dir():
+            dirPartitions = entryName.rpartition('.')
             dirPatch, dirBuild = dirPartitions[0], dirPartitions[2]
             if int(dirBuild) > int(build) and StrictVersion(dirPatch) > StrictVersion(patch):
                 patch, build = dirPatch, dirBuild
@@ -81,3 +82,15 @@ print('Parsing client data from CSV...')
 for parser in extract['parsers']:
     print(f'Parsing {parser}...')
     system(f'python {parser}.py')
+
+# Prepend meta infos to every lua parsed files
+luaMetas = f'-- Generated using WoW {version} client data on {datetime.datetime.now().isoformat()}.\n'
+with scandir(path.join(heroDbcDirPath, 'DBC', 'parsed')) as iterator:
+    for entry in iterator:
+        entryName = entry.name
+        if not entryName.startswith('.') and entryName.endswith('.lua') and entry.is_file():
+            with open(entry.path, 'r') as entryFile:
+                entryContent = entryFile.read()
+            with open(entry.path, 'w') as entryFile:
+                entryFile.write(luaMetas)
+                entryFile.write(entryContent)
