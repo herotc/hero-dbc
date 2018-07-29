@@ -1,16 +1,19 @@
-cd ../simc/casc_extract
-python3 casc_extract.py -m batch --cdn -o ../../hero-dbc/CDN
+#!/usr/bin/env bash
 
-cd ../dbc_extract3
-OUTPATH=../../hero-dbc/DBC/generated
+HERODBCPATH=$(pwd)
+SIMCPATH=$(dirname ${HERODBCPATH})/simc
+
+cd ${SIMCPATH}/casc_extract
+python3 casc_extract.py -m batch --cdn -o ${HERODBCPATH}/CDN
+
+cd ${SIMCPATH}/dbc_extract3
+OUTPATH=${HERODBCPATH}/DBC/generated
 RUNFILE=dbc_extract.py
-# Escaped by "" due to spaces
-CACHEDIR='/Applications/World of Warcraft/Cache/ADB/enUS/DBCache.bin'
+CACHEDIR="/Applications/World of Warcraft/Cache/ADB/enUS/DBCache.bin"
 
-PATCH=8.0.1
-BUILD=27144
-INPATH=../../hero-dbc/CDN/${PATCH}.${BUILD}/DBFilesClient
-GTINPATH=../../hero-dbc/CDN/${PATCH}.${BUILD}/GameTables
+BUILD=27178
+INPATH=${HERODBCPATH}/CDN/${BUILD}/DBFilesClient
+GTINPATH=${HERODBCPATH}/CDN/${BUILD}/GameTables
 
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv ItemEffect > ${OUTPATH}/ItemEffect.csv
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv Spell > ${OUTPATH}/Spell.csv
@@ -26,14 +29,14 @@ python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellA
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellProcsPerMinute > ${OUTPATH}/SpellProcsPerMinute.csv
 python3 ${RUNFILE} -p ${INPATH} -b ${BUILD} --hotfix "${CACHEDIR}" -t csv SpellProcsPerMinuteMod > ${OUTPATH}/SpellProcsPerMinuteMod.csv
 
-cd ../../hero-dbc
-python3 Parse_TriggerGCD.py
-python3 Parse_ProjectileSpeed.py
-python3 Parse_ItemRangeUnfiltered.py
-python3 Parse_ItemRangeFiltered.py
-python3 Parse_SpellMeleeRange.py
-python3 Parse_SpellTickTime.py
-python3 Parse_SpellDuration.py
-python3 Parse_ItemData.py
-python3 Parse_ItemSpell.py
-python3 Parse_RPPM.py
+cd ${HERODBCPATH}
+python3 parser/TriggerGCD.py
+python3 parser/ProjectileSpeed.py
+python3 parser/ItemRangeUnfiltered.py
+python3 parser/ItemRangeFiltered.py
+python3 parser/SpellMeleeRange.py
+python3 parser/SpellTickTime.py
+python3 parser/SpellDuration.py
+python3 parser/ItemData.py
+python3 parser/ItemSpell.py
+python3 parser/RPPM.py
