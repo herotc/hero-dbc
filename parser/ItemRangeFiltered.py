@@ -1,5 +1,3 @@
-# source: https://github.com/NiftyManiac/slpp/tree/py3
-
 # -*- coding: utf-8 -*-
 # pylint: disable=C0103
 # pylint: disable=C0301
@@ -10,12 +8,9 @@
 
 import sys
 import os
-import csv
 import operator
 import json
-
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib'))
-from slpp import slpp as lua
+from slpp import slpp as lua  # SLPP-23 package: https://pypi.org/project/SLPP-23
 
 generatedDir = os.path.join('DBC', 'generated')
 parsedDir = os.path.join('DBC', 'parsed')
