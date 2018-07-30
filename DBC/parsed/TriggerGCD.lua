@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27178 client data on 2018-07-30T00:24:00.310761.
+-- Generated using WoW 8.0.1.27178 client data on 2018-07-30T22:43:28.650466.
 HeroLib.Enum.TriggerGCD = {
   [17] = 1500,
   [53] = 1000,

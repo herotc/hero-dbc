@@ -3,7 +3,7 @@
 # pylint: disable=C0301
 
 """
-@author: Aethys256
+@author: Quentin Giraud <dev@aethys.io>
 """
 
 import sys

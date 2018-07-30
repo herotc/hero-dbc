@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27178 client data on 2018-07-30T00:24:00.310761.
+-- Generated using WoW 8.0.1.27178 client data on 2018-07-30T22:43:28.650466.
 HeroLib.Enum.ItemRange = {
   Hostile = {
     RangeIndex = {"Melee", 5, 7, 8, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 70, 80, 90, 100},
