@@ -5,6 +5,7 @@
     "SpellCooldowns",
     "SpellRange",
     "SpellMisc",
+    "SpellName",
     "SpellEffect",
     "SpellDuration",
     "ItemSparse",
@@ -14,7 +15,6 @@
     "SpellProcsPerMinute",
     "SpellProcsPerMinuteMod",
     "AzeriteEmpoweredItem",
-    "AzeriteItem",
     "AzeritePower",
     "AzeritePowerSetMember",
     "AzeriteTierUnlock",
@@ -30,6 +30,7 @@
     "SpellDuration",
     "ItemData",
     "ItemSpell",
-    "RPPM"
+    "RPPM",
+    "AzeritePower"
   ]
 }
