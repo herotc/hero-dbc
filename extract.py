@@ -49,7 +49,7 @@ with scandir(cdnDirPath) as iterator:
         if not entryName.startswith('.') and entry.is_dir():
             dirPartitions = entryName.rpartition('.')
             dirPatch, dirBuild = dirPartitions[0], dirPartitions[2]
-            if int(dirBuild) > int(build) and StrictVersion(dirPatch) > StrictVersion(patch):
+            if int(dirBuild) > int(build):
                 patch, build = dirPatch, dirBuild
 version = f'{patch}.{build}'
 print(f'Using {version} client data from the CDN.')
