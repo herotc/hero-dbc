@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27219 client data on 2018-08-01T08:41:37.754239.
+-- Generated using WoW 8.0.1.27219 client data on 2018-08-03T04:23:30.494798.
 HeroLib.Enum.TickTime = {
   [66] = {1000, true},
   [96] = {2000, true},
@@ -25904,8 +25904,10 @@ HeroLib.Enum.TickTime = {
   [161091] = {500, true},
   [272388] = {2000, true},
   [273359] = {2000, true},
-  [281111] = {2000, true},
   [258825] = {3000, true},
   [274787] = {1000, true},
+  [75592] = {8000, true},
+  [283089] = {1500, true},
+  [281111] = {2000, true},
   [182854] = {3000, true}
 }
