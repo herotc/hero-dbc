@@ -123,11 +123,17 @@ with open(os.path.join(parsedDir, 'AzeritePowerWithItems.json'), 'w') as jsonFil
 for power in azeritePowers:
     if power['sets']:
         powerClassesId = []
+
+        # Get classes and tier from the powerSet
         for powerSet in power['sets']:
             classId = powerSet['classId']
             if classId not in powerClassesId:
                 powerClassesId.append(classId)
+            # AFAIK there can be only one tier, so we register the first valid we find
+            if 'tier' in powerSet and 'tier' not in power:
+                power['tier'] = powerSet['tier']
         power['classesId'] = sorted(powerClassesId)
         del power['sets']
+
 with open(os.path.join(parsedDir, 'AzeritePower.json'), 'w') as jsonFile:
     json.dump(azeritePowers, jsonFile, indent=4)
