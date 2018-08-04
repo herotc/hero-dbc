@@ -3,6 +3,7 @@
         "powerId": 13,
         "spellId": 263978,
         "spellName": "Azerite Empowered",
+        "tier": 0,
         "classesId": [
             1,
             2,
@@ -22,6 +23,7 @@
         "powerId": 44,
         "spellId": 268599,
         "spellName": "Vampiric Speed",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -41,6 +43,7 @@
         "powerId": 15,
         "spellId": 263962,
         "spellName": "Resounding Protection",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -60,6 +63,7 @@
         "powerId": 82,
         "spellId": 280710,
         "spellName": "Champion of Azeroth",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -83,6 +87,7 @@
             262,
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -94,6 +99,7 @@
         "specsId": [
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -105,6 +111,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -116,6 +123,7 @@
         "specsId": [
             253
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -127,6 +135,7 @@
         "specsId": [
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -138,6 +147,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -149,6 +159,7 @@
         "specsId": [
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -160,6 +171,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -171,6 +183,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -182,6 +195,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -193,6 +207,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -204,6 +219,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -215,6 +231,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -226,6 +243,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -237,6 +255,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -248,6 +267,7 @@
         "specsId": [
             71
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -259,6 +279,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -270,6 +291,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -282,6 +304,7 @@
             250,
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -293,6 +316,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -304,6 +328,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -315,6 +340,7 @@
         "specsId": [
             65
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -326,6 +352,7 @@
         "specsId": [
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -337,6 +364,7 @@
         "specsId": [
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -348,6 +376,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -359,6 +388,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -370,6 +400,7 @@
         "specsId": [
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -381,6 +412,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -392,6 +424,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -403,6 +436,7 @@
         "specsId": [
             269
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -414,6 +448,7 @@
         "specsId": [
             102
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -425,6 +460,7 @@
         "specsId": [
             103
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -437,6 +473,7 @@
             103,
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -448,6 +485,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -459,6 +497,7 @@
         "specsId": [
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -467,6 +506,7 @@
         "powerId": 505,
         "spellId": 281841,
         "spellName": "Tradewinds",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -486,6 +526,7 @@
         "powerId": 485,
         "spellId": 280559,
         "spellName": "Laser Matrix",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -508,6 +549,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -519,6 +561,7 @@
         "specsId": [
             250
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -530,6 +573,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -541,6 +585,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -554,6 +599,7 @@
             66,
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -562,6 +608,7 @@
         "powerId": 479,
         "spellId": 280284,
         "spellName": "Dagger in the Back",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -584,6 +631,7 @@
         "specsId": [
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -595,6 +643,7 @@
         "specsId": [
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -603,6 +652,7 @@
         "powerId": 18,
         "spellId": 264108,
         "spellName": "Blood Siphon",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -622,6 +672,7 @@
         "powerId": 14,
         "spellId": 268594,
         "spellName": "Longstrider",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -641,6 +692,7 @@
         "powerId": 83,
         "spellId": 268437,
         "spellName": "Impassive Visage",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -660,6 +712,7 @@
         "powerId": 98,
         "spellId": 271536,
         "spellName": "Crystalline Carapace",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -673,6 +726,7 @@
         "powerId": 19,
         "spellId": 267880,
         "spellName": "Woundbinder",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -685,6 +739,7 @@
         "powerId": 42,
         "spellId": 267883,
         "spellName": "Savior",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -697,6 +752,7 @@
         "powerId": 21,
         "spellId": 263984,
         "spellName": "Elemental Whirl",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -719,6 +775,7 @@
         "specsId": [
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -730,6 +787,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -741,6 +799,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -749,6 +808,7 @@
         "powerId": 31,
         "spellId": 266937,
         "spellName": "Gutripper",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -771,6 +831,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -782,6 +843,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -793,6 +855,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -804,6 +867,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -815,6 +879,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -826,6 +891,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -834,6 +900,7 @@
         "powerId": 101,
         "spellId": 271557,
         "spellName": "Shimmering Haven",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -847,6 +914,7 @@
         "powerId": 6,
         "spellId": 27973,
         "spellName": "Strength",
+        "tier": 2,
         "classesId": [
             3,
             7
@@ -856,6 +924,7 @@
         "powerId": 7,
         "spellId": 41695,
         "spellName": "Agility 20",
+        "tier": 2,
         "classesId": [
             3,
             7
@@ -865,6 +934,7 @@
         "powerId": 1,
         "spellId": 55564,
         "spellName": "Increase Versatility 15",
+        "tier": 3,
         "classesId": [
             3,
             7
@@ -874,6 +944,7 @@
         "powerId": 8,
         "spellId": 92322,
         "spellName": "Item - Proc Mastery",
+        "tier": 3,
         "classesId": [
             3,
             7
@@ -883,6 +954,7 @@
         "powerId": 2,
         "spellId": 261582,
         "spellName": "Haste",
+        "tier": 3,
         "classesId": [
             3,
             7
@@ -892,6 +964,7 @@
         "powerId": 90,
         "spellId": 271260,
         "spellName": "Uncertainty",
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -900,6 +973,7 @@
         "powerId": 104,
         "spellId": 267884,
         "spellName": "Bracing Chill",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -920,6 +994,7 @@
             270,
             264
         ],
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -932,6 +1007,7 @@
         "powerId": 105,
         "spellId": 267886,
         "spellName": "Ephemeral Recovery",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -944,6 +1020,7 @@
         "powerId": 87,
         "spellId": 268600,
         "spellName": "Self Reliance",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -963,6 +1040,7 @@
         "powerId": 86,
         "spellId": 268435,
         "spellName": "Azerite Fortification",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -982,6 +1060,7 @@
         "powerId": 20,
         "spellId": 267665,
         "spellName": "Lifespeed",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -995,6 +1074,7 @@
         "powerId": 193,
         "spellId": 273823,
         "spellName": "Blightborne Infusion",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1014,6 +1094,7 @@
         "powerId": 144,
         "spellId": 273131,
         "spellName": "Rejuvenating Grace",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1022,6 +1103,7 @@
         "powerId": 148,
         "spellId": 273140,
         "spellName": "Righteous Flames",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1030,6 +1112,7 @@
         "powerId": 84,
         "spellId": 268595,
         "spellName": "Bulwark of the Masses",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -1049,6 +1132,7 @@
         "powerId": 89,
         "spellId": 267683,
         "spellName": "Azerite Veins",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1062,6 +1146,7 @@
         "powerId": 103,
         "spellId": 267882,
         "spellName": "Concentrated Mending",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -1074,6 +1159,7 @@
         "powerId": 22,
         "spellId": 263987,
         "spellName": "Heed My Call",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1093,6 +1179,7 @@
         "powerId": 157,
         "spellId": 273790,
         "spellName": "Rezan's Fury",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1112,6 +1199,7 @@
         "powerId": 145,
         "spellId": 273134,
         "spellName": "Fortifying Auras",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1120,6 +1208,7 @@
         "powerId": 149,
         "spellId": 273142,
         "spellName": "Healing Hammer",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1128,6 +1217,7 @@
         "powerId": 153,
         "spellId": 273147,
         "spellName": "Deferred Sentence",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1136,6 +1226,7 @@
         "powerId": 146,
         "spellId": 273136,
         "spellName": "Critical Flash",
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1147,6 +1238,7 @@
         "specsId": [
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1158,6 +1250,7 @@
         "specsId": [
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1169,6 +1262,7 @@
         "specsId": [
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -1180,6 +1274,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -1191,6 +1286,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -1202,6 +1298,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -1213,6 +1310,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -1224,6 +1322,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -1235,6 +1334,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -1243,6 +1343,7 @@
         "powerId": 192,
         "spellId": 273682,
         "spellName": "Meticulous Scheming",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1265,6 +1366,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1276,6 +1378,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1287,6 +1390,7 @@
         "specsId": [
             65
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1298,6 +1402,7 @@
         "specsId": [
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1309,6 +1414,7 @@
         "specsId": [
             71
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1320,6 +1426,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1331,6 +1438,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1339,6 +1447,7 @@
         "powerId": 461,
         "spellId": 279926,
         "spellName": "Earthlink",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1358,6 +1467,7 @@
         "powerId": 459,
         "spellId": 279899,
         "spellName": "Unstable Flames",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1377,6 +1487,7 @@
         "powerId": 465,
         "spellId": 280011,
         "spellName": "March of the Damned",
+        "tier": 1,
         "classesId": [
             6
         ]
@@ -1385,6 +1496,7 @@
         "powerId": 471,
         "spellId": 280017,
         "spellName": "Gallant Steed",
+        "tier": 1,
         "classesId": [
             2
         ]
@@ -1393,6 +1505,7 @@
         "powerId": 477,
         "spellId": 280128,
         "spellName": "Bury the Hatchet",
+        "tier": 1,
         "classesId": [
             1
         ]
@@ -1401,6 +1514,7 @@
         "powerId": 196,
         "spellId": 280429,
         "spellName": "Swirling Sands",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1423,6 +1537,7 @@
         "specsId": [
             250
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1434,6 +1549,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1446,6 +1562,7 @@
             65,
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1459,6 +1576,7 @@
             66,
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1470,6 +1588,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1478,6 +1597,7 @@
         "powerId": 30,
         "spellId": 266180,
         "spellName": "Overwhelming Power",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1497,6 +1617,7 @@
         "powerId": 504,
         "spellId": 281514,
         "spellName": "Unstable Catalyst",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1519,6 +1640,7 @@
         "specsId": [
             250
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1530,6 +1652,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1541,6 +1664,7 @@
         "specsId": [
             66
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1552,6 +1676,7 @@
         "specsId": [
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1563,6 +1688,7 @@
         "specsId": [
             71
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1574,6 +1700,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1582,6 +1709,7 @@
         "powerId": 99,
         "spellId": 271540,
         "spellName": "Ablative Shielding",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1595,6 +1723,7 @@
         "powerId": 85,
         "spellId": 268596,
         "spellName": "Gemhide",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -1614,6 +1743,7 @@
         "powerId": 156,
         "spellId": 273150,
         "spellName": "Ruinous Bolt",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1636,6 +1766,7 @@
         "specsId": [
             250
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1647,6 +1778,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1658,6 +1790,7 @@
         "specsId": [
             65
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1669,6 +1802,7 @@
         "specsId": [
             71
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1680,6 +1814,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1688,6 +1823,7 @@
         "powerId": 486,
         "spellId": 280577,
         "spellName": "Glory in Battle",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1707,6 +1843,7 @@
         "powerId": 100,
         "spellId": 271546,
         "spellName": "Strength in Numbers",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1720,6 +1857,7 @@
         "powerId": 487,
         "spellId": 280579,
         "spellName": "Retaliatory Fury",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1742,6 +1880,7 @@
         "specsId": [
             65
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1754,6 +1893,7 @@
             71,
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1765,6 +1905,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1773,6 +1914,7 @@
         "powerId": 462,
         "spellId": 266936,
         "spellName": "Azerite Globules",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1792,6 +1934,7 @@
         "powerId": 463,
         "spellId": 267889,
         "spellName": "Blessed Portents",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -1804,6 +1947,7 @@
         "powerId": 201,
         "spellId": 280010,
         "spellName": "Runic Barrier",
+        "tier": 1,
         "classesId": [
             6
         ]
@@ -1812,6 +1956,7 @@
         "powerId": 206,
         "spellId": 274388,
         "spellName": "Stalwart Protector",
+        "tier": 1,
         "classesId": [
             2
         ]
@@ -1820,6 +1965,7 @@
         "powerId": 476,
         "spellId": 280023,
         "spellName": "Moment of Glory",
+        "tier": 1,
         "classesId": [
             1
         ]
@@ -1828,6 +1974,7 @@
         "powerId": 488,
         "spellId": 280582,
         "spellName": "Battlefield Focus",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1847,6 +1994,7 @@
         "powerId": 489,
         "spellId": 280598,
         "spellName": "Sylvanas' Resolve",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1869,6 +2017,7 @@
         "specsId": [
             251
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1880,6 +2029,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1891,6 +2041,7 @@
         "specsId": [
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1902,6 +2053,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1910,6 +2062,7 @@
         "powerId": 38,
         "spellId": 267879,
         "spellName": "On My Way",
+        "tier": 2,
         "classesId": [
             2,
             5,
@@ -1922,6 +2075,7 @@
         "powerId": 490,
         "spellId": 280580,
         "spellName": "Combined Might",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -1944,6 +2098,7 @@
         "specsId": [
             252
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -1957,6 +2112,7 @@
             66,
             70
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -1968,6 +2124,7 @@
         "specsId": [
             73
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -1976,6 +2133,7 @@
         "powerId": 43,
         "spellId": 267671,
         "spellName": "Winds of War",
+        "tier": 2,
         "classesId": [
             1,
             2,
@@ -1989,6 +2147,7 @@
         "powerId": 491,
         "spellId": 280581,
         "spellName": "Collective Will",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -2011,6 +2170,7 @@
         "specsId": [
             250
         ],
+        "tier": 3,
         "classesId": [
             6
         ]
@@ -2022,6 +2182,7 @@
         "specsId": [
             65
         ],
+        "tier": 3,
         "classesId": [
             2
         ]
@@ -2033,6 +2194,7 @@
         "specsId": [
             71
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -2044,6 +2206,7 @@
         "specsId": [
             72
         ],
+        "tier": 3,
         "classesId": [
             1
         ]
@@ -2052,6 +2215,7 @@
         "powerId": 481,
         "spellId": 280410,
         "spellName": "Incite the Pack",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -2074,6 +2238,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2086,6 +2251,7 @@
             577,
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2097,6 +2263,7 @@
         "specsId": [
             102
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2108,6 +2275,7 @@
         "specsId": [
             103
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2119,6 +2287,7 @@
         "specsId": [
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2130,6 +2299,7 @@
         "specsId": [
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2141,6 +2311,7 @@
         "specsId": [
             269
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2152,6 +2323,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2163,6 +2335,7 @@
         "specsId": [
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2171,6 +2344,7 @@
         "powerId": 202,
         "spellId": 274344,
         "spellName": "Soulmonger",
+        "tier": 1,
         "classesId": [
             12
         ]
@@ -2179,6 +2353,7 @@
         "powerId": 219,
         "spellId": 274813,
         "spellName": "Reawakening",
+        "tier": 1,
         "classesId": [
             11
         ]
@@ -2187,6 +2362,7 @@
         "powerId": 218,
         "spellId": 274762,
         "spellName": "Strength of Spirit",
+        "tier": 1,
         "classesId": [
             10
         ]
@@ -2195,6 +2371,7 @@
         "powerId": 217,
         "spellId": 274692,
         "spellName": "Footpad",
+        "tier": 1,
         "classesId": [
             4
         ]
@@ -2206,6 +2383,7 @@
         "specsId": [
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2217,6 +2395,7 @@
         "specsId": [
             102
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2228,6 +2407,7 @@
         "specsId": [
             103
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2241,6 +2421,7 @@
             104,
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2252,6 +2433,7 @@
         "specsId": [
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2263,6 +2445,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2274,6 +2457,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2285,6 +2469,7 @@
         "specsId": [
             269
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2296,6 +2481,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2307,6 +2493,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2318,6 +2505,7 @@
         "specsId": [
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2329,6 +2517,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2340,6 +2529,7 @@
         "specsId": [
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2351,6 +2541,7 @@
         "specsId": [
             102
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2362,6 +2553,7 @@
         "specsId": [
             103
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2373,6 +2565,7 @@
         "specsId": [
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2384,6 +2577,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2395,6 +2589,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2406,6 +2601,7 @@
         "specsId": [
             269
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2417,6 +2613,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2428,6 +2625,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2439,6 +2637,7 @@
         "specsId": [
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2450,6 +2649,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2462,6 +2662,7 @@
             103,
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2473,6 +2674,7 @@
         "specsId": [
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2484,6 +2686,7 @@
         "specsId": [
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2495,6 +2698,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2506,6 +2710,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2517,6 +2722,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2528,6 +2734,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2540,6 +2747,7 @@
             259,
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2548,6 +2756,7 @@
         "powerId": 194,
         "spellId": 273834,
         "spellName": "Filthy Transfusion",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -2570,6 +2779,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2581,6 +2791,7 @@
         "specsId": [
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2592,6 +2803,7 @@
         "specsId": [
             102
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2603,6 +2815,7 @@
         "specsId": [
             103
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2615,6 +2828,7 @@
             103,
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2627,6 +2841,7 @@
             102,
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2638,6 +2853,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2649,6 +2865,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2661,6 +2878,7 @@
             269,
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2672,6 +2890,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2683,6 +2902,7 @@
         "specsId": [
             261
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2691,6 +2911,7 @@
         "powerId": 466,
         "spellId": 280012,
         "spellName": "Burning Soul",
+        "tier": 1,
         "classesId": [
             12
         ]
@@ -2699,6 +2920,7 @@
         "powerId": 467,
         "spellId": 280013,
         "spellName": "Ursoc's Endurance",
+        "tier": 1,
         "classesId": [
             11
         ]
@@ -2707,6 +2929,7 @@
         "powerId": 470,
         "spellId": 280016,
         "spellName": "Sweep the Leg",
+        "tier": 1,
         "classesId": [
             10
         ]
@@ -2715,6 +2938,7 @@
         "powerId": 473,
         "spellId": 280020,
         "spellName": "Shrouded Mantle",
+        "tier": 1,
         "classesId": [
             4
         ]
@@ -2726,6 +2950,7 @@
         "specsId": [
             577
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2737,6 +2962,7 @@
         "specsId": [
             581
         ],
+        "tier": 3,
         "classesId": [
             12
         ]
@@ -2749,6 +2975,7 @@
             102,
             105
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2760,6 +2987,7 @@
         "specsId": [
             104
         ],
+        "tier": 3,
         "classesId": [
             11
         ]
@@ -2771,6 +2999,7 @@
         "specsId": [
             268
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2782,6 +3011,7 @@
         "specsId": [
             270
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2793,6 +3023,7 @@
         "specsId": [
             269
         ],
+        "tier": 3,
         "classesId": [
             10
         ]
@@ -2804,6 +3035,7 @@
         "specsId": [
             259
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2815,6 +3047,7 @@
         "specsId": [
             260
         ],
+        "tier": 3,
         "classesId": [
             4
         ]
@@ -2826,6 +3059,7 @@
         "specsId": [
             253
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2837,6 +3071,7 @@
         "specsId": [
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2848,6 +3083,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2861,6 +3097,7 @@
             264,
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -2872,6 +3109,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -2883,6 +3121,7 @@
         "specsId": [
             253
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2894,6 +3133,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2905,6 +3145,7 @@
         "specsId": [
             262
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -2916,6 +3157,7 @@
         "specsId": [
             253
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2928,6 +3170,7 @@
             253,
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2939,6 +3182,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -2951,6 +3195,7 @@
             262,
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -2962,6 +3207,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -2970,6 +3216,7 @@
         "powerId": 469,
         "spellId": 280014,
         "spellName": "Duck and Cover",
+        "tier": 1,
         "classesId": [
             3
         ]
@@ -2983,6 +3230,7 @@
             264,
             263
         ],
+        "tier": 1,
         "classesId": [
             7
         ]
@@ -2994,6 +3242,7 @@
         "specsId": [
             253
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3005,6 +3254,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3018,6 +3268,7 @@
             264,
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3029,6 +3280,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3040,6 +3292,7 @@
         "specsId": [
             262
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3051,6 +3304,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3059,6 +3313,7 @@
         "powerId": 203,
         "spellId": 274355,
         "spellName": "Shellshock",
+        "tier": 1,
         "classesId": [
             3
         ]
@@ -3072,6 +3327,7 @@
             264,
             263
         ],
+        "tier": 1,
         "classesId": [
             7
         ]
@@ -3083,6 +3339,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3094,6 +3351,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3105,6 +3363,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3116,6 +3375,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3124,6 +3384,7 @@
         "powerId": 205,
         "spellId": 274379,
         "spellName": "Eldritch Warding",
+        "tier": 1,
         "classesId": [
             8
         ]
@@ -3132,6 +3393,7 @@
         "powerId": 204,
         "spellId": 274366,
         "spellName": "Sanctum",
+        "tier": 1,
         "classesId": [
             5
         ]
@@ -3140,6 +3402,7 @@
         "powerId": 475,
         "spellId": 280022,
         "spellName": "Desperate Power",
+        "tier": 1,
         "classesId": [
             9
         ]
@@ -3148,6 +3411,7 @@
         "powerId": 492,
         "spellId": 280623,
         "spellName": "Liberator's Might",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3171,6 +3435,7 @@
             253,
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3182,6 +3447,7 @@
         "specsId": [
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3194,6 +3460,7 @@
             262,
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3205,6 +3472,7 @@
         "specsId": [
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3213,6 +3481,7 @@
         "powerId": 493,
         "spellId": 280624,
         "spellName": "Last Gift",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3232,6 +3501,7 @@
         "powerId": 494,
         "spellId": 280627,
         "spellName": "Battlefield Precision",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3251,6 +3521,7 @@
         "powerId": 495,
         "spellId": 280628,
         "spellName": "Anduin's Dedication",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3270,6 +3541,7 @@
         "powerId": 496,
         "spellId": 280625,
         "spellName": "Stronger Together",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3289,6 +3561,7 @@
         "powerId": 497,
         "spellId": 280626,
         "spellName": "Stand As One",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3311,6 +3584,7 @@
         "specsId": [
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3322,6 +3596,7 @@
         "specsId": [
             255
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3333,6 +3608,7 @@
         "specsId": [
             264
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
@@ -3344,6 +3620,7 @@
         "specsId": [
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3355,6 +3632,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3366,6 +3644,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3377,6 +3656,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3388,6 +3668,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3399,6 +3680,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3411,6 +3693,7 @@
             258,
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3422,6 +3705,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3433,6 +3717,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3444,6 +3729,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3455,6 +3741,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3466,6 +3753,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3477,6 +3765,7 @@
         "specsId": [
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3488,6 +3777,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3499,6 +3789,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3510,6 +3801,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3521,6 +3813,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3532,6 +3825,7 @@
         "specsId": [
             258
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3543,6 +3837,7 @@
         "specsId": [
             267
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3554,6 +3849,7 @@
         "specsId": [
             62
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3565,6 +3861,7 @@
         "specsId": [
             63
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3576,6 +3873,7 @@
         "specsId": [
             64
         ],
+        "tier": 3,
         "classesId": [
             8
         ]
@@ -3587,6 +3885,7 @@
         "specsId": [
             256
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3598,6 +3897,7 @@
         "specsId": [
             265
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3606,6 +3906,7 @@
         "powerId": 472,
         "spellId": 280018,
         "spellName": "Twist Magic",
+        "tier": 1,
         "classesId": [
             5
         ]
@@ -3614,6 +3915,7 @@
         "powerId": 208,
         "spellId": 274418,
         "spellName": "Lifeblood",
+        "tier": 1,
         "classesId": [
             9
         ]
@@ -3622,6 +3924,7 @@
         "powerId": 498,
         "spellId": 280163,
         "spellName": "Barrage Of Many Bombs",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3641,6 +3944,7 @@
         "powerId": 499,
         "spellId": 280168,
         "spellName": "Ricocheting Inflatable Pyrosaw",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3660,6 +3964,7 @@
         "powerId": 500,
         "spellId": 280174,
         "spellName": "Synaptic Spark Capacitor",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3679,6 +3984,7 @@
         "powerId": 501,
         "spellId": 280178,
         "spellName": "Relational Normalization Gizmo",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3701,6 +4007,7 @@
         "specsId": [
             257
         ],
+        "tier": 3,
         "classesId": [
             5
         ]
@@ -3712,6 +4019,7 @@
         "specsId": [
             266
         ],
+        "tier": 3,
         "classesId": [
             9
         ]
@@ -3720,6 +4028,7 @@
         "powerId": 480,
         "spellId": 280407,
         "spellName": "Blood Rite",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3739,6 +4048,7 @@
         "powerId": 195,
         "spellId": 273829,
         "spellName": "Secrets of the Deep",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3758,6 +4068,7 @@
         "powerId": 503,
         "spellId": 280172,
         "spellName": "Auto-Self-Cauterizer",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -3777,6 +4088,7 @@
         "powerId": 502,
         "spellId": 280181,
         "spellName": "Personal Absorb-o-Tron",
+        "tier": 1,
         "classesId": [
             1,
             2,
@@ -3796,6 +4108,7 @@
         "powerId": 468,
         "spellId": 280015,
         "spellName": "Cauterizing Blink",
+        "tier": 1,
         "classesId": [
             8
         ]
@@ -3804,6 +4117,7 @@
         "powerId": 478,
         "spellId": 280402,
         "spellName": "Tidal Surge",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3823,6 +4137,7 @@
         "powerId": 482,
         "spellId": 280380,
         "spellName": "Thunderous Blast",
+        "tier": 3,
         "classesId": [
             1,
             2,
@@ -3845,6 +4160,7 @@
         "specsId": [
             254
         ],
+        "tier": 3,
         "classesId": [
             3
         ]
@@ -3856,6 +4172,7 @@
         "specsId": [
             263
         ],
+        "tier": 3,
         "classesId": [
             7
         ]
