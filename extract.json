@@ -18,7 +18,8 @@
     "AzeritePower",
     "AzeritePowerSetMember",
     "AzeriteTierUnlock",
-    "SpecSetMember"
+    "SpecSetMember",
+    "Talent"
   ],
   "parsers": [
     "TriggerGCD",
@@ -31,6 +32,7 @@
     "ItemData",
     "ItemSpell",
     "RPPM",
-    "AzeritePower"
+    "AzeritePower",
+    "Talent"
   ]
 }
