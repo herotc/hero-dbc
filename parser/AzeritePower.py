@@ -32,7 +32,8 @@ validAzeritePowerSets = {}
 for entryId, entry in db['AzeriteEmpoweredItem'].items():
     if entry['id_item'] not in db['ItemSparse']:
         continue
-    validAzeritePowerSets[entryId] = entry
+    idPowerSet = entry['id_power_set']
+    validAzeritePowerSets[idPowerSet] = entry
 print(f'Found {len(validAzeritePowerSets)} valid azerite power sets out of {len(db["AzeriteEmpoweredItem"])} possible.')
 
 # Add valid azerite powers
