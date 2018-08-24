@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27377 client data on 2018-08-18T08:48:50.307981.
+-- Generated using WoW 8.0.1.27404 client data on 2018-08-24T05:30:43.063251.
 MoreItemInfo.Enum.ItemSpell = {
   [17] = 7,
   [117] = 433,
