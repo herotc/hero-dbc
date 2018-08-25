@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27404 client data on 2018-08-24T05:30:43.063251.
+-- Generated using WoW 8.0.1.27404 client data on 2018-08-25T09:38:32.919191.
 HeroLib.Enum.SpellMeleeRange = {
   [11] = {false, 0, 100},
   [17] = {false, 0, 40},
@@ -64700,7 +64700,7 @@ HeroLib.Enum.SpellMeleeRange = {
   [267198] = {false, 0, 15},
   [267199] = {false, 0, 15},
   [267193] = {false, 0, 40},
-  [267205] = {false, 0, 40},
+  [267205] = {false, 0, 50},
   [267206] = {false, 0, 8},
   [267211] = {false, 0, 40},
   [267212] = {false, 0, 100},
@@ -69290,5 +69290,7 @@ HeroLib.Enum.SpellMeleeRange = {
   [283810] = {false, 0, 10},
   [267467] = {false, 0, 5},
   [255316] = {false, 0, 5},
+  [284212] = {false, 0, 100},
+  [284236] = {false, 0, 20},
   [283845] = {false, 0, 100}
 }

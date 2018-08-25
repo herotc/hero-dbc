@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27404 client data on 2018-08-24T05:30:43.063251.
+-- Generated using WoW 8.0.1.27404 client data on 2018-08-25T09:38:32.919191.
 HeroLib.Enum.ProjectileSpeed = {
   [11] = 35,
   [59] = 25,
@@ -6700,7 +6700,6 @@ HeroLib.Enum.ProjectileSpeed = {
   [120329] = 35,
   [120330] = 35,
   [120348] = 18,
-  [120361] = 45,
   [120373] = 20,
   [120377] = 20,
   [120416] = 12,
