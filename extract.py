@@ -57,9 +57,10 @@ print(f'Using {version} client data from the CDN.')
 # DBC (using simc/dbc_extract3)
 chdir(path.join(simcDirPath, 'dbc_extract3'))
 
+gameTablesInPath = path.normcase(f'{cdnDirPath}/{version}/GameTables')
 clientDataInPath = path.normcase(f'{cdnDirPath}/{version}/DBFilesClient')
-clientDataOutPath = path.join(heroDbcDirPath, 'DBC', 'generated')
 
+gtExtractCmd = f'python dbc_extract.py -p "{gameTablesInPath}" -b {build}'
 dbcExtractCmd = f'python dbc_extract.py -p "{clientDataInPath}" -b {build}'
 
 if wowDirPath is None:
@@ -72,6 +73,14 @@ else:
     else:
         print('No WoW hotfix file found, will not use it.')
 
+# simc
+print('Updating simc data...')
+system(f'{gtExtractCmd} -t scale -o {path.join(simcDirPath, "engine/dbc/generated/sc_scale_data.inc")}')
+system(f'{dbcExtractCmd} -t output {path.join(simcDirPath, "dbc_extract3/live.conf")}')
+
+# hero-dbc
+print('Updating hero-dbc data...')
+clientDataOutPath = path.join(heroDbcDirPath, 'DBC', 'generated')
 for dbfile in extract['dbfiles']:
     print(f'Converting {dbfile} to CSV...')
     system(f'{dbcExtractCmd} -t csv {dbfile} > {path.join(clientDataOutPath, dbfile)}.csv')
