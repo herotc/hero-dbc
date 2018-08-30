@@ -14,6 +14,7 @@
     "SpellAuraOptions",
     "SpellProcsPerMinute",
     "SpellProcsPerMinuteMod",
+    "SpellItemEnchantment",
     "AzeriteEmpoweredItem",
     "AzeritePower",
     "AzeritePowerSetMember",
@@ -33,6 +34,7 @@
     "ItemSpell",
     "RPPM",
     "AzeritePower",
-    "Talent"
+    "Talent",
+    "SpellEnchant"
   ]
 }
