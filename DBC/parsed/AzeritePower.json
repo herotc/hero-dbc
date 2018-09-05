@@ -2409,38 +2409,6 @@
         ]
     },
     {
-        "powerId": 195,
-        "spellId": 273829,
-        "spellName": "Secrets of the Deep",
-        "tier": 3,
-        "classesId": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ]
-    },
-    {
-        "powerId": 402,
-        "spellId": 278655,
-        "spellName": "Sacred Flame",
-        "specsId": [
-            257
-        ],
-        "tier": 3,
-        "classesId": [
-            5
-        ]
-    },
-    {
         "powerId": 168,
         "spellId": 273331,
         "spellName": "Preheat",
@@ -2450,173 +2418,6 @@
         "tier": 3,
         "classesId": [
             8
-        ]
-    },
-    {
-        "powerId": 225,
-        "spellId": 279854,
-        "spellName": "Glacial Assault",
-        "specsId": [
-            64
-        ],
-        "tier": 3,
-        "classesId": [
-            8
-        ]
-    },
-    {
-        "powerId": 443,
-        "spellId": 276007,
-        "spellName": "Excoriate",
-        "specsId": [
-            266
-        ],
-        "tier": 3,
-        "classesId": [
-            9
-        ]
-    },
-    {
-        "powerId": 390,
-        "spellId": 278577,
-        "spellName": "Pressure Point",
-        "specsId": [
-            269
-        ],
-        "tier": 3,
-        "classesId": [
-            10
-        ]
-    },
-    {
-        "powerId": 111,
-        "spellId": 279524,
-        "spellName": "Blood Mist",
-        "specsId": [
-            103
-        ],
-        "tier": 3,
-        "classesId": [
-            11
-        ]
-    },
-    {
-        "powerId": 352,
-        "spellId": 278493,
-        "spellName": "Thirsting Blades",
-        "specsId": [
-            577
-        ],
-        "tier": 3,
-        "classesId": [
-            12
-        ]
-    },
-    {
-        "powerId": 160,
-        "spellId": 273236,
-        "spellName": "Infernal Armor",
-        "specsId": [
-            577,
-            581
-        ],
-        "tier": 3,
-        "classesId": [
-            12
-        ]
-    },
-    {
-        "powerId": 129,
-        "spellId": 272935,
-        "spellName": "Deadshot",
-        "specsId": [
-            260
-        ],
-        "tier": 3,
-        "classesId": [
-            4
-        ]
-    },
-    {
-        "powerId": 457,
-        "spellId": 279829,
-        "spellName": "Igneous Potential",
-        "specsId": [
-            262,
-            264
-        ],
-        "tier": 3,
-        "classesId": [
-            7
-        ]
-    },
-    {
-        "powerId": 203,
-        "spellId": 274355,
-        "spellName": "Shellshock",
-        "tier": 1,
-        "classesId": [
-            3
-        ]
-    },
-    {
-        "powerId": 211,
-        "spellId": 274441,
-        "spellName": "Dance of Death",
-        "specsId": [
-            253
-        ],
-        "tier": 3,
-        "classesId": [
-            3
-        ]
-    },
-    {
-        "powerId": 110,
-        "spellId": 272742,
-        "spellName": "Wildfire Cluster",
-        "specsId": [
-            255
-        ],
-        "tier": 3,
-        "classesId": [
-            3
-        ]
-    },
-    {
-        "powerId": 199,
-        "spellId": 274081,
-        "spellName": "Festermight",
-        "specsId": [
-            252
-        ],
-        "tier": 3,
-        "classesId": [
-            6
-        ]
-    },
-    {
-        "powerId": 433,
-        "spellId": 277639,
-        "spellName": "Seismic Wave",
-        "specsId": [
-            71
-        ],
-        "tier": 3,
-        "classesId": [
-            1
-        ]
-    },
-    {
-        "powerId": 118,
-        "spellId": 272824,
-        "spellName": "Deafening Crash",
-        "specsId": [
-            73
-        ],
-        "tier": 3,
-        "classesId": [
-            1
         ]
     },
     {
@@ -2781,6 +2582,18 @@
         ]
     },
     {
+        "powerId": 225,
+        "spellId": 279854,
+        "spellName": "Glacial Assault",
+        "specsId": [
+            64
+        ],
+        "tier": 3,
+        "classesId": [
+            8
+        ]
+    },
+    {
         "powerId": 463,
         "spellId": 267889,
         "spellName": "Blessed Portents",
@@ -2831,6 +2644,18 @@
         "spellName": "Gift of Forgiveness",
         "specsId": [
             256
+        ],
+        "tier": 3,
+        "classesId": [
+            5
+        ]
+    },
+    {
+        "powerId": 402,
+        "spellId": 278655,
+        "spellName": "Sacred Flame",
+        "specsId": [
+            257
         ],
         "tier": 3,
         "classesId": [
@@ -3045,6 +2870,26 @@
         ]
     },
     {
+        "powerId": 195,
+        "spellId": 273829,
+        "spellName": "Secrets of the Deep",
+        "tier": 3,
+        "classesId": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ]
+    },
+    {
         "powerId": 196,
         "spellId": 280429,
         "spellName": "Swirling Sands",
@@ -3184,6 +3029,18 @@
         ]
     },
     {
+        "powerId": 199,
+        "spellId": 274081,
+        "spellName": "Festermight",
+        "specsId": [
+            252
+        ],
+        "tier": 3,
+        "classesId": [
+            6
+        ]
+    },
+    {
         "powerId": 235,
         "spellId": 275496,
         "spellName": "Indomitable Justice",
@@ -3233,6 +3090,18 @@
             10,
             11,
             12
+        ]
+    },
+    {
+        "powerId": 433,
+        "spellId": 277639,
+        "spellName": "Seismic Wave",
+        "specsId": [
+            71
+        ],
+        "tier": 3,
+        "classesId": [
+            1
         ]
     },
     {
@@ -3310,6 +3179,18 @@
         "tier": 3,
         "classesId": [
             6
+        ]
+    },
+    {
+        "powerId": 118,
+        "spellId": 272824,
+        "spellName": "Deafening Crash",
+        "specsId": [
+            73
+        ],
+        "tier": 3,
+        "classesId": [
+            1
         ]
     },
     {
@@ -3433,6 +3314,19 @@
         ]
     },
     {
+        "powerId": 160,
+        "spellId": 273236,
+        "spellName": "Infernal Armor",
+        "specsId": [
+            577,
+            581
+        ],
+        "tier": 3,
+        "classesId": [
+            12
+        ]
+    },
+    {
         "powerId": 122,
         "spellId": 272871,
         "spellName": "Streaking Stars",
@@ -3517,6 +3411,18 @@
         ]
     },
     {
+        "powerId": 111,
+        "spellId": 279524,
+        "spellName": "Blood Mist",
+        "specsId": [
+            103
+        ],
+        "tier": 3,
+        "classesId": [
+            11
+        ]
+    },
+    {
         "powerId": 76,
         "spellId": 269621,
         "spellName": "Invigorating Brew",
@@ -3534,6 +3440,18 @@
         "spellName": "Poisoned Wire",
         "specsId": [
             259
+        ],
+        "tier": 3,
+        "classesId": [
+            4
+        ]
+    },
+    {
+        "powerId": 129,
+        "spellId": 272935,
+        "spellName": "Deadshot",
+        "specsId": [
+            260
         ],
         "tier": 3,
         "classesId": [
@@ -3663,6 +3581,18 @@
         ]
     },
     {
+        "powerId": 352,
+        "spellId": 278493,
+        "spellName": "Thirsting Blades",
+        "specsId": [
+            577
+        ],
+        "tier": 3,
+        "classesId": [
+            12
+        ]
+    },
+    {
         "powerId": 221,
         "spellId": 275350,
         "spellName": "Rigid Carapace",
@@ -3704,6 +3634,18 @@
         "spellName": "Misty Peaks",
         "specsId": [
             270
+        ],
+        "tier": 3,
+        "classesId": [
+            10
+        ]
+    },
+    {
+        "powerId": 390,
+        "spellId": 278577,
+        "spellName": "Pressure Point",
+        "specsId": [
+            269
         ],
         "tier": 3,
         "classesId": [
@@ -3760,6 +3702,19 @@
         ]
     },
     {
+        "powerId": 457,
+        "spellId": 279829,
+        "spellName": "Igneous Potential",
+        "specsId": [
+            262,
+            264
+        ],
+        "tier": 3,
+        "classesId": [
+            7
+        ]
+    },
+    {
         "powerId": 423,
         "spellId": 278715,
         "spellName": "Spouting Spirits",
@@ -3769,6 +3724,15 @@
         "tier": 3,
         "classesId": [
             7
+        ]
+    },
+    {
+        "powerId": 203,
+        "spellId": 274355,
+        "spellName": "Shellshock",
+        "tier": 1,
+        "classesId": [
+            3
         ]
     },
     {
@@ -3783,6 +3747,18 @@
         "tier": 1,
         "classesId": [
             7
+        ]
+    },
+    {
+        "powerId": 211,
+        "spellId": 274441,
+        "spellName": "Dance of Death",
+        "specsId": [
+            253
+        ],
+        "tier": 3,
+        "classesId": [
+            3
         ]
     },
     {
@@ -3845,6 +3821,18 @@
         "tier": 3,
         "classesId": [
             7
+        ]
+    },
+    {
+        "powerId": 110,
+        "spellId": 272742,
+        "spellName": "Wildfire Cluster",
+        "specsId": [
+            255
+        ],
+        "tier": 3,
+        "classesId": [
+            3
         ]
     },
     {

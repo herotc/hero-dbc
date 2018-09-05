@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27547 client data on 2018-09-01T09:12:31.267606.
+-- Generated using WoW 8.0.1.27547 client data on 2018-09-05T14:56:15.003460.
 MoreItemInfo.Enum.RPPM = {
   [15594] = {
     [0] = 1.5
@@ -2798,8 +2798,7 @@ MoreItemInfo.Enum.RPPM = {
     [1] = true
   },
   [268191] = {
-    [0] = 4.0,
-    [1] = true
+    [0] = 4.0
   },
   [268399] = {
     [0] = 1.0
