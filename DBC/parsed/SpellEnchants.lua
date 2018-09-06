@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27547 client data on 2018-09-05T14:56:15.003460.
+-- Generated using WoW 8.0.1.27547 client data on 2018-09-06T04:48:59.212055.
 MoreItemInfo.Enum.SpellEnchants = {
   [81] = 3,
   [107] = 3,
