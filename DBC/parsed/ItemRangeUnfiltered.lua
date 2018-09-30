@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27602 client data on 2018-09-08T06:32:26.483464.
+-- Generated using WoW 8.0.1.27843 client data on 2018-09-30T17:53:16.078281.
 HeroLib.Enum.ItemRangeUnfiltered = {
   Melee = {
     [5] = {
@@ -168,7 +168,9 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       159744,
       160751,
       163182,
-      163210
+      163210,
+      163986,
+      163987
     }
   },
   Ranged = {
