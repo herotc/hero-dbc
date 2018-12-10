@@ -39,8 +39,11 @@ with open(path.join(heroDbcDirPath, 'extract.json')) as extractFile:
     extract = json.load(extractFile)
 
 # CDN (using simc/casc_extract)
+cascExtractCmd = f'python casc_extract.py -m batch --cdn -o {cdnDirPath}'
+if realm != 'live':
+    cascExtractCmd += f' --{realm}'
 chdir(path.join(simcDirPath, 'casc_extract'))
-system(f'python casc_extract.py -m batch --cdn -o {cdnDirPath}')
+system(cascExtractCmd)
 
 patch, build = '1.0', '0'
 with scandir(cdnDirPath) as iterator:
@@ -60,8 +63,8 @@ chdir(path.join(simcDirPath, 'dbc_extract3'))
 gameTablesInPath = path.normcase(f'{cdnDirPath}/{version}/GameTables')
 clientDataInPath = path.normcase(f'{cdnDirPath}/{version}/DBFilesClient')
 
-gtExtractCmd = f'python dbc_extract.py -p "{gameTablesInPath}" -b {build}'
-dbcExtractCmd = f'python dbc_extract.py -p "{clientDataInPath}" -b {build}'
+gtExtractCmd = f'python dbc_extract.py -p "{gameTablesInPath}" -b {version}'
+dbcExtractCmd = f'python dbc_extract.py -p "{clientDataInPath}" -b {version}'
 
 if wowDirPath is None:
     print('WoW directory not specified nor found, will not use hotfix file.')
@@ -75,8 +78,16 @@ else:
 
 # simc
 print('Updating simc data...')
-system(f'{gtExtractCmd} -t scale -o {path.join(simcDirPath, "engine/dbc/generated/sc_scale_data.inc")}')
-system(f'{dbcExtractCmd} -t output {path.join(simcDirPath, "dbc_extract3/live.conf")}')
+simcGtExtractCmd = f'{gtExtractCmd} -t scale -o '
+simcDbcExtractCmd = f'{dbcExtractCmd} -t output '
+if realm == 'ptr':
+    simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data_ptr.inc")}'
+    simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/ptr.conf")}'
+else:
+    simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data.inc")}'
+    simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/live.conf")}'
+system(simcGtExtractCmd)
+system(simcDbcExtractCmd)
 
 # hero-dbc
 print('Updating hero-dbc data...')
