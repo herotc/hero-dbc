@@ -16,6 +16,10 @@ parsedDir = os.path.join('DBC', 'parsed')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
+# Load whitelisted specIds for some powerIds (from parser/AzeritePowerSpecsWhitelist.json)
+with open(os.path.join(os.getcwd(), 'parser', 'AzeritePowerSpecsWhitelist.json')) as specsWhitelistFile:
+    specsWhitelist = json.load(specsWhitelistFile)
+
 # Parse every csv files into dict
 db = {}
 dbFiles = ['AzeritePower', 'AzeritePowerSetMember', 'ItemSparse', 'AzeriteEmpoweredItem', 'SpellName',
@@ -73,6 +77,8 @@ for powerId, data in validAzeritePowers.items():
         for entryId, entry in db['SpecSetMember'].items():
             if powerIdSpecSetMember == entry['id_parent']:
                 powerSpecs.append(int(entry['id_spec']))
+        if powerId in specsWhitelist:
+            powerSpecs += specsWhitelist[powerId]
         power['specsId'] = powerSpecs
 
     # Retrieve the other infos by joining from AzeritePowerSetMember
