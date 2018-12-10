@@ -4,12 +4,13 @@ import datetime
 import json
 import subprocess
 from os import path, chdir, system, getcwd, scandir
-from distutils.version import StrictVersion
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--wowdir", dest="wowDir", help="Path to World of Warcraft directory.")
 parser.add_argument("--wowrealm", dest="wowRealm", default='live', choices=['live', 'ptr', 'alpha', 'beta'],
                     help="World of Warcraft realm type (live, ptr, alpha, beta).")
+parser.add_argument("--simc", action='store_true', dest='updateSimc', default=False,
+                    help='Use it to also update simc data.')
 args = parser.parse_args()
 
 topLevelWorkingDir = path.dirname(getcwd())
@@ -69,7 +70,10 @@ dbcExtractCmd = f'python dbc_extract.py -p "{clientDataInPath}" -b {version}'
 if wowDirPath is None:
     print('WoW directory not specified nor found, will not use hotfix file.')
 else:
-    hotfixFilePath = path.join(wowDirPath, 'Cache', 'ADB', 'enUS', 'DBCache.bin')
+    if realm == 'ptr':
+        hotfixFilePath = path.join(wowDirPath, '_ptr_', 'Cache', 'ADB', 'enUS', 'DBCache.bin')
+    else:
+        hotfixFilePath = path.join(wowDirPath, 'Cache', 'ADB', 'enUS', 'DBCache.bin')
     if path.isfile(hotfixFilePath):
         print(f'WoW hotfix file exists, using it from: "{hotfixFilePath}".')
         dbcExtractCmd += f' --hotfix="{hotfixFilePath}"'
@@ -77,17 +81,18 @@ else:
         print('No WoW hotfix file found, will not use it.')
 
 # simc
-print('Updating simc data...')
-simcGtExtractCmd = f'{gtExtractCmd} -t scale -o '
-simcDbcExtractCmd = f'{dbcExtractCmd} -t output '
-if realm == 'ptr':
-    simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data_ptr.inc")}'
-    simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/ptr.conf")}'
-else:
-    simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data.inc")}'
-    simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/live.conf")}'
-system(simcGtExtractCmd)
-system(simcDbcExtractCmd)
+if args.updateSimc is True:
+    print('Updating simc data...')
+    simcGtExtractCmd = f'{gtExtractCmd} -t scale -o '
+    simcDbcExtractCmd = f'{dbcExtractCmd} -t output '
+    if realm == 'ptr':
+        simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data_ptr.inc")} --prefix=ptr'
+        simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/ptr.conf")} --prefix=ptr'
+    else:
+        simcGtExtractCmd += f'{path.join(simcDirPath, "engine/dbc/generated/sc_scale_data.inc")}'
+        simcDbcExtractCmd += f'{path.join(simcDirPath, "dbc_extract3/live.conf")}'
+    system(simcGtExtractCmd)
+    system(simcDbcExtractCmd)
 
 # hero-dbc
 print('Updating hero-dbc data...')
