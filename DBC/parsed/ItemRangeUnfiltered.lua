@@ -1,4 +1,4 @@
--- Generated using WoW 8.0.1.27843 client data on 2018-09-30T17:53:16.078281.
+-- Generated using WoW 8.0.1.28153 client data on 2018-12-10T20:14:43.054998.
 HeroLib.Enum.ItemRangeUnfiltered = {
   Melee = {
     [5] = {
