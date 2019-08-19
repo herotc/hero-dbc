@@ -20,7 +20,9 @@
     "AzeritePowerSetMember",
     "AzeriteTierUnlock",
     "SpecSetMember",
-    "Talent"
+    "Talent",
+    "AzeriteEssence",
+    "AzeriteEssencePower"
   ],
   "parsers": [
     "TriggerGCD",

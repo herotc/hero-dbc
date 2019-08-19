@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 topLevelWorkingDir = path.dirname(getcwd())
 heroDbcDirPath = path.join(topLevelWorkingDir, 'hero-dbc')
-simcDirPath = path.join(topLevelWorkingDir, 'simc')
+simcDirPath = path.normpath(path.join(topLevelWorkingDir, '../simulationcraft/simc'))
 
 realm = args.wowRealm
 cdnDirPath = path.join(heroDbcDirPath, 'CDN')

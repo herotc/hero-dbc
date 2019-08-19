@@ -1,3 +1,7 @@
+-- Generated using WoW 8.2.0.31478 client data on 2019-08-19T14:12:07.181051.
+-- Generated using WoW 8.2.0.30948 client data on 2019-08-19T14:07:26.885005.
+-- Generated using WoW 8.2.0.30948 client data on 2019-07-02T23:10:23.133280.
+-- Generated using WoW 8.2.0.30948 client data on 2019-07-02T22:39:30.983400.
 -- Generated using WoW 8.1.5.29981 client data on 2019-04-18T10:33:03.890585.
 HeroLib.Enum.ItemRange = {
   Hostile = {
