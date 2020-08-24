@@ -1,0 +1,74 @@
+[
+    {
+        "covenantId": 1,
+        "covenantName": "Kyrian",
+        "soulbinds": [
+            {
+                "soulbindId": 7,
+                "soulbindName": "Pelagos"
+            },
+            {
+                "soulbindId": 13,
+                "soulbindName": "Kleia"
+            },
+            {
+                "soulbindId": 18,
+                "soulbindName": "Forgelite Prime Mikanikos"
+            }
+        ]
+    },
+    {
+        "covenantId": 2,
+        "covenantName": "Venthyr",
+        "soulbinds": [
+            {
+                "soulbindId": 3,
+                "soulbindName": "General Draven"
+            },
+            {
+                "soulbindId": 8,
+                "soulbindName": "Nadjia the Mistblade"
+            },
+            {
+                "soulbindId": 9,
+                "soulbindName": "Theotar the Mad Duke"
+            }
+        ]
+    },
+    {
+        "covenantId": 3,
+        "covenantName": "Night Fae",
+        "soulbinds": [
+            {
+                "soulbindId": 1,
+                "soulbindName": "Niya"
+            },
+            {
+                "soulbindId": 2,
+                "soulbindName": "Dreamweaver"
+            },
+            {
+                "soulbindId": 6,
+                "soulbindName": "Korayn"
+            }
+        ]
+    },
+    {
+        "covenantId": 4,
+        "covenantName": "Necrolord",
+        "soulbinds": [
+            {
+                "soulbindId": 4,
+                "soulbindName": "Plague Deviser Marileth"
+            },
+            {
+                "soulbindId": 5,
+                "soulbindName": "Emeni"
+            },
+            {
+                "soulbindId": 10,
+                "soulbindName": "Bonesmith Heirmir"
+            }
+        ]
+    }
+]

@@ -1,5 +1,6 @@
 {
   "dbfiles": [
+    "Covenant",
     "ItemEffect",
     "Spell",
     "SpellCooldowns",
@@ -9,31 +10,28 @@
     "SpellEffect",
     "SpellDuration",
     "ItemSparse",
+    "Soulbind",
+    "SoulbindConduit",
+    "SoulbindConduitItem",
+    "SoulbindConduitRank",
     "SpellAuraOptions",
     "SpellProcsPerMinute",
     "SpellProcsPerMinuteMod",
     "SpellItemEnchantment",
-    "AzeriteEmpoweredItem",
-    "AzeritePower",
-    "AzeritePowerSetMember",
-    "AzeriteTierUnlock",
     "SpecSetMember",
-    "Talent",
-    "AzeriteEssence",
-    "AzeriteEssencePower"
+    "Talent"
   ],
   "parsers": [
     "TriggerGCD",
     "ProjectileSpeed",
     "ItemRangeUnfiltered",
-    "ItemRangeFiltered",
     "SpellMeleeRange",
     "SpellTickTime",
     "SpellDuration",
     "ItemSpell",
     "RPPM",
-    "AzeritePower",
     "Talent",
+    "Soulbinds",
     "SpellEnchant"
   ]
 }
