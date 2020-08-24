@@ -9,22 +9,10 @@
                 }
             },
             "3": {
-                "0": {
-                    "spellId": 29838,
-                    "spellName": "Second Wind",
-                    "talentId": 15757
-                },
                 "1": {
                     "spellId": 202163,
                     "spellName": "Bounding Stride",
                     "talentId": 22627
-                }
-            },
-            "6": {
-                "0": {
-                    "spellId": 152278,
-                    "spellName": "Anger Management",
-                    "talentId": 21204
                 }
             }
         },
@@ -76,6 +64,11 @@
                 }
             },
             "3": {
+                "0": {
+                    "spellId": 29838,
+                    "spellName": "Second Wind",
+                    "talentId": 15757
+                },
                 "2": {
                     "spellId": 197690,
                     "spellName": "Defensive Stance",
@@ -84,7 +77,7 @@
             },
             "4": {
                 "0": {
-                    "spellId": 268243,
+                    "spellId": 334779,
                     "spellName": "Collateral Damage",
                     "talentId": 22392
                 },
@@ -117,6 +110,11 @@
                 }
             },
             "6": {
+                "0": {
+                    "spellId": 152278,
+                    "spellName": "Anger Management",
+                    "talentId": 21204
+                },
                 "1": {
                     "spellId": 262150,
                     "spellName": "Dreadnaught",
@@ -137,8 +135,8 @@
                     "talentId": 22632
                 },
                 "1": {
-                    "spellId": 202296,
-                    "spellName": "Endless Rage",
+                    "spellId": 280721,
+                    "spellName": "Sudden Death",
                     "talentId": 22633
                 },
                 "2": {
@@ -161,18 +159,18 @@
             },
             "2": {
                 "0": {
-                    "spellId": 215573,
-                    "spellName": "Inner Rage",
+                    "spellId": 206315,
+                    "spellName": "Massacre",
                     "talentId": 22379
                 },
                 "1": {
-                    "spellId": 280721,
-                    "spellName": "Sudden Death",
+                    "spellId": 335077,
+                    "spellName": "Frenzy",
                     "talentId": 22381
                 },
                 "2": {
-                    "spellId": 100130,
-                    "spellName": "Furious Slash",
+                    "spellId": 315720,
+                    "spellName": "Onslaught",
                     "talentId": 23372
                 }
             },
@@ -190,18 +188,18 @@
             },
             "4": {
                 "0": {
-                    "spellId": 202922,
-                    "spellName": "Carnage",
+                    "spellId": 335091,
+                    "spellName": "Seethe",
                     "talentId": 22383
                 },
                 "1": {
-                    "spellId": 206315,
-                    "spellName": "Massacre",
+                    "spellId": 215571,
+                    "spellName": "Frothing Berserker",
                     "talentId": 22393
                 },
                 "2": {
-                    "spellId": 215571,
-                    "spellName": "Frothing Berserker",
+                    "spellId": 335070,
+                    "spellName": "Cruelty",
                     "talentId": 19140
                 }
             },
@@ -224,13 +222,13 @@
             },
             "6": {
                 "0": {
-                    "spellId": 202751,
-                    "spellName": "Reckless Abandon",
+                    "spellId": 152278,
+                    "spellName": "Anger Management",
                     "talentId": 22405
                 },
                 "1": {
-                    "spellId": 152278,
-                    "spellName": "Anger Management",
+                    "spellId": 202751,
+                    "spellName": "Reckless Abandon",
                     "talentId": 22402
                 },
                 "2": {
@@ -243,8 +241,8 @@
         "73": {
             "0": {
                 "0": {
-                    "spellId": 202603,
-                    "spellName": "Into the Fray",
+                    "spellId": 316733,
+                    "spellName": "War Machine",
                     "talentId": 15760
                 },
                 "1": {
@@ -253,25 +251,20 @@
                     "talentId": 15759
                 },
                 "2": {
-                    "spellId": 202168,
-                    "spellName": "Impending Victory",
+                    "spellId": 236279,
+                    "spellName": "Devastator",
                     "talentId": 15774
                 }
             },
             "1": {
-                "0": {
-                    "spellId": 203201,
-                    "spellName": "Crackling Thunder",
-                    "talentId": 22373
-                },
                 "1": {
-                    "spellId": 202163,
-                    "spellName": "Bounding Stride",
+                    "spellId": 275339,
+                    "spellName": "Rumbling Earth",
                     "talentId": 22629
                 },
                 "2": {
-                    "spellId": 223657,
-                    "spellName": "Safeguard",
+                    "spellId": 107570,
+                    "spellName": "Storm Bolt",
                     "talentId": 22409
                 }
             },
@@ -282,8 +275,8 @@
                     "talentId": 22378
                 },
                 "1": {
-                    "spellId": 275336,
-                    "spellName": "Unstoppable Force",
+                    "spellId": 202743,
+                    "spellName": "Booming Voice",
                     "talentId": 22626
                 },
                 "2": {
@@ -294,64 +287,64 @@
             },
             "3": {
                 "0": {
-                    "spellId": 202095,
-                    "spellName": "Indomitable",
+                    "spellId": 203201,
+                    "spellName": "Crackling Thunder",
                     "talentId": 23096
                 },
-                "1": {
-                    "spellId": 202561,
-                    "spellName": "Never Surrender",
-                    "talentId": 23261
-                },
                 "2": {
-                    "spellId": 280001,
-                    "spellName": "Bolster",
+                    "spellId": 275338,
+                    "spellName": "Menace",
                     "talentId": 22488
                 }
             },
             "4": {
                 "0": {
-                    "spellId": 275338,
-                    "spellName": "Menace",
+                    "spellId": 202561,
+                    "spellName": "Never Surrender",
                     "talentId": 22384
                 },
                 "1": {
-                    "spellId": 275339,
-                    "spellName": "Rumbling Earth",
+                    "spellId": 202095,
+                    "spellName": "Indomitable",
                     "talentId": 22631
                 },
                 "2": {
-                    "spellId": 107570,
-                    "spellName": "Storm Bolt",
+                    "spellId": 202168,
+                    "spellName": "Impending Victory",
                     "talentId": 22800
                 }
             },
             "5": {
                 "0": {
-                    "spellId": 202743,
-                    "spellName": "Booming Voice",
+                    "spellId": 202603,
+                    "spellName": "Into the Fray",
                     "talentId": 22395
                 },
                 "1": {
-                    "spellId": 202572,
-                    "spellName": "Vengeance",
+                    "spellId": 275336,
+                    "spellName": "Unstoppable Force",
                     "talentId": 22544
                 },
                 "2": {
-                    "spellId": 236279,
-                    "spellName": "Devastator",
+                    "spellId": 228920,
+                    "spellName": "Ravager",
                     "talentId": 22401
                 }
             },
             "6": {
+                "0": {
+                    "spellId": 152278,
+                    "spellName": "Anger Management",
+                    "talentId": 23455
+                },
                 "1": {
                     "spellId": 203177,
                     "spellName": "Heavy Repercussions",
                     "talentId": 22406
                 },
                 "2": {
-                    "spellId": 228920,
-                    "spellName": "Ravager",
+                    "spellId": 280001,
+                    "spellName": "Bolster",
                     "talentId": 23099
                 }
             }
@@ -426,7 +419,7 @@
         "268": {
             "2": {
                 "0": {
-                    "spellId": 196721,
+                    "spellId": 325093,
                     "spellName": "Light Brewing",
                     "talentId": 22099
                 },
@@ -465,8 +458,8 @@
                     "talentId": 20184
                 },
                 "2": {
-                    "spellId": 132578,
-                    "spellName": "Invoke Niuzao, the Black Ox",
+                    "spellId": 325153,
+                    "spellName": "Exploding Keg",
                     "talentId": 22103
                 }
             },
@@ -477,8 +470,8 @@
                     "talentId": 22106
                 },
                 "1": {
-                    "spellId": 115295,
-                    "spellName": "Guard",
+                    "spellId": 325177,
+                    "spellName": "Celestial Flames",
                     "talentId": 22104
                 },
                 "2": {
@@ -532,8 +525,8 @@
                     "talentId": 23122
                 },
                 "2": {
-                    "spellId": 123904,
-                    "spellName": "Invoke Xuen, the White Tiger",
+                    "spellId": 325201,
+                    "spellName": "Dance of Chi-Ji",
                     "talentId": 22102
                 }
             },
@@ -606,7 +599,7 @@
                     "talentId": 22101
                 },
                 "2": {
-                    "spellId": 198664,
+                    "spellId": 325197,
                     "spellName": "Invoke Chi-Ji, the Red Crane",
                     "talentId": 22214
                 }
@@ -673,8 +666,8 @@
                     "talentId": 18576
                 },
                 "2": {
-                    "spellId": 132469,
-                    "spellName": "Typhoon",
+                    "spellId": 319454,
+                    "spellName": "Heart of the Wild",
                     "talentId": 18577
                 }
             },
@@ -829,7 +822,7 @@
                     "talentId": 21646
                 },
                 "1": {
-                    "spellId": 155672,
+                    "spellId": 319439,
                     "spellName": "Bloodtalons",
                     "talentId": 21649
                 },
@@ -856,13 +849,6 @@
                     "spellId": 155835,
                     "spellName": "Bristling Fur",
                     "talentId": 22420
-                }
-            },
-            "1": {
-                "1": {
-                    "spellId": 102793,
-                    "spellName": "Ursol's Vortex",
-                    "talentId": 22916
                 }
             },
             "2": {
@@ -932,8 +918,8 @@
                     "talentId": 18569
                 },
                 "1": {
-                    "spellId": 200383,
-                    "spellName": "Prosperity",
+                    "spellId": 50464,
+                    "spellName": "Nourish",
                     "talentId": 18574
                 },
                 "2": {
@@ -983,13 +969,13 @@
                     "talentId": 21716
                 },
                 "1": {
-                    "spellId": 197061,
-                    "spellName": "Stonebark",
+                    "spellId": 207385,
+                    "spellName": "Spring Blossoms",
                     "talentId": 18585
                 },
                 "2": {
-                    "spellId": 207385,
-                    "spellName": "Spring Blossoms",
+                    "spellId": 203651,
+                    "spellName": "Overgrowth",
                     "talentId": 22422
                 }
             },
@@ -1038,13 +1024,13 @@
                     "talentId": 21857
                 },
                 "1": {
-                    "spellId": 203555,
-                    "spellName": "Demon Blades",
+                    "spellId": 320374,
+                    "spellName": "Burning Hatred",
                     "talentId": 22765
                 },
                 "2": {
-                    "spellId": 258920,
-                    "spellName": "Immolation Aura",
+                    "spellId": 203555,
+                    "spellName": "Demon Blades",
                     "talentId": 22799
                 }
             },
@@ -1055,13 +1041,13 @@
                     "talentId": 22909
                 },
                 "1": {
-                    "spellId": 192939,
-                    "spellName": "Fel Mastery",
+                    "spellId": 275144,
+                    "spellName": "Unbound Chaos",
                     "talentId": 22494
                 },
                 "2": {
-                    "spellId": 258925,
-                    "spellName": "Fel Barrage",
+                    "spellId": 342817,
+                    "spellName": "Glaive Tempest",
                     "talentId": 21862
                 }
             },
@@ -1095,7 +1081,7 @@
                 },
                 "2": {
                     "spellId": 258860,
-                    "spellName": "Dark Slash",
+                    "spellName": "Essence Break",
                     "talentId": 21868
                 }
             },
@@ -1128,8 +1114,8 @@
                     "talentId": 21901
                 },
                 "2": {
-                    "spellId": 206491,
-                    "spellName": "Nemesis",
+                    "spellId": 258925,
+                    "spellName": "Fel Barrage",
                     "talentId": 22547
                 }
             }
@@ -1147,8 +1133,8 @@
                     "talentId": 22503
                 },
                 "2": {
-                    "spellId": 209400,
-                    "spellName": "Razor Spikes",
+                    "spellId": 232893,
+                    "spellName": "Felblade",
                     "talentId": 22504
                 }
             },
@@ -1171,18 +1157,18 @@
             },
             "2": {
                 "0": {
-                    "spellId": 227322,
-                    "spellName": "Flame Crash",
+                    "spellId": 320331,
+                    "spellName": "Infernal Armor",
                     "talentId": 22324
                 },
                 "1": {
-                    "spellId": 264002,
+                    "spellId": 336639,
                     "spellName": "Charred Flesh",
                     "talentId": 22541
                 },
                 "2": {
-                    "spellId": 232893,
-                    "spellName": "Felblade",
+                    "spellId": 247454,
+                    "spellName": "Spirit Bomb",
                     "talentId": 22540
                 }
             },
@@ -1222,18 +1208,18 @@
             },
             "5": {
                 "0": {
-                    "spellId": 264004,
-                    "spellName": "Gluttony",
+                    "spellId": 268175,
+                    "spellName": "Void Reaver",
                     "talentId": 22512
                 },
                 "1": {
-                    "spellId": 247454,
-                    "spellName": "Spirit Bomb",
+                    "spellId": 321453,
+                    "spellName": "Demonic",
                     "talentId": 22513
                 },
                 "2": {
-                    "spellId": 212084,
-                    "spellName": "Fel Devastation",
+                    "spellId": 263648,
+                    "spellName": "Soul Barrier",
                     "talentId": 22768
                 }
             },
@@ -1244,13 +1230,13 @@
                     "talentId": 22543
                 },
                 "1": {
-                    "spellId": 268175,
-                    "spellName": "Void Reaver",
-                    "talentId": 22548
+                    "spellId": 326853,
+                    "spellName": "Ruinous Bulwark",
+                    "talentId": 23464
                 },
                 "2": {
-                    "spellId": 263648,
-                    "spellName": "Soul Barrier",
+                    "spellId": 320341,
+                    "spellName": "Bulk Extraction",
                     "talentId": 21902
                 }
             }
@@ -1258,9 +1244,23 @@
     },
     "2": {
         "0": {
+            "0": {
+                "2": {
+                    "spellId": 114158,
+                    "spellName": "Light's Hammer",
+                    "talentId": 17569
+                }
+            },
+            "1": {
+                "2": {
+                    "spellId": 114165,
+                    "spellName": "Holy Prism",
+                    "talentId": 17577
+                }
+            },
             "2": {
                 "0": {
-                    "spellId": 198054,
+                    "spellId": 234299,
                     "spellName": "Fist of Justice",
                     "talentId": 22179
                 },
@@ -1275,11 +1275,33 @@
                     "talentId": 21811
                 }
             },
-            "5": {
+            "3": {
                 "0": {
-                    "spellId": 183778,
-                    "spellName": "Judgment of Light",
-                    "talentId": 22189
+                    "spellId": 114154,
+                    "spellName": "Unbreakable Spirit",
+                    "talentId": 22433
+                },
+                "1": {
+                    "spellId": 230332,
+                    "spellName": "Cavalier",
+                    "talentId": 22434
+                }
+            },
+            "4": {
+                "0": {
+                    "spellId": 223817,
+                    "spellName": "Divine Purpose",
+                    "talentId": 17597
+                },
+                "1": {
+                    "spellId": 105809,
+                    "spellName": "Holy Avenger",
+                    "talentId": 17599
+                },
+                "2": {
+                    "spellId": 152262,
+                    "spellName": "Seraphim",
+                    "talentId": 17601
                 }
             }
         },
@@ -1294,62 +1316,25 @@
                     "spellId": 223306,
                     "spellName": "Bestow Faith",
                     "talentId": 17567
-                },
-                "2": {
-                    "spellId": 114158,
-                    "spellName": "Light's Hammer",
-                    "talentId": 17569
                 }
             },
             "1": {
                 "0": {
-                    "spellId": 114154,
-                    "spellName": "Unbreakable Spirit",
+                    "spellId": 157047,
+                    "spellName": "Saved by the Light",
                     "talentId": 22176
                 },
                 "1": {
-                    "spellId": 230332,
-                    "spellName": "Cavalier",
+                    "spellId": 183778,
+                    "spellName": "Judgment of Light",
                     "talentId": 17575
-                },
-                "2": {
-                    "spellId": 214202,
-                    "spellName": "Rule of Law",
-                    "talentId": 17577
                 }
             },
             "3": {
-                "0": {
-                    "spellId": 183425,
-                    "spellName": "Devotion Aura",
-                    "talentId": 22181
-                },
-                "1": {
-                    "spellId": 183416,
-                    "spellName": "Aura of Sacrifice",
-                    "talentId": 17591
-                },
                 "2": {
-                    "spellId": 183415,
-                    "spellName": "Aura of Mercy",
+                    "spellId": 214202,
+                    "spellName": "Rule of Law",
                     "talentId": 17593
-                }
-            },
-            "4": {
-                "0": {
-                    "spellId": 183778,
-                    "spellName": "Judgment of Light",
-                    "talentId": 17597
-                },
-                "1": {
-                    "spellId": 114165,
-                    "spellName": "Holy Prism",
-                    "talentId": 17599
-                },
-                "2": {
-                    "spellId": 105809,
-                    "spellName": "Holy Avenger",
-                    "talentId": 22164
                 }
             },
             "5": {
@@ -1371,9 +1356,9 @@
             },
             "6": {
                 "0": {
-                    "spellId": 197646,
-                    "spellName": "Divine Purpose",
-                    "talentId": 21668
+                    "spellId": 325966,
+                    "spellName": "Glimmer of Light",
+                    "talentId": 21201
                 },
                 "1": {
                     "spellId": 156910,
@@ -1402,7 +1387,7 @@
                 "2": {
                     "spellId": 204019,
                     "spellName": "Blessed Hammer",
-                    "talentId": 22430
+                    "talentId": 23469
                 }
             },
             "1": {
@@ -1417,62 +1402,40 @@
                     "talentId": 22604
                 },
                 "2": {
-                    "spellId": 204035,
-                    "spellName": "Bastion of Light",
-                    "talentId": 22594
+                    "spellId": 327193,
+                    "spellName": "Moment of Glory",
+                    "talentId": 23468
                 }
             },
             "3": {
-                "0": {
-                    "spellId": 203797,
-                    "spellName": "Retribution Aura",
-                    "talentId": 22433
-                },
-                "1": {
-                    "spellId": 230332,
-                    "spellName": "Cavalier",
-                    "talentId": 22434
-                },
                 "2": {
                     "spellId": 204018,
                     "spellName": "Blessing of Spellwarding",
                     "talentId": 22435
                 }
             },
-            "4": {
-                "0": {
-                    "spellId": 114154,
-                    "spellName": "Unbreakable Spirit",
-                    "talentId": 22705
-                },
-                "1": {
-                    "spellId": 204077,
-                    "spellName": "Final Stand",
-                    "talentId": 21795
-                },
-                "2": {
-                    "spellId": 213652,
-                    "spellName": "Hand of the Protector",
-                    "talentId": 17601
-                }
-            },
             "5": {
+                "0": {
+                    "spellId": 315924,
+                    "spellName": "Hand of the Protector",
+                    "talentId": 22189
+                },
                 "1": {
                     "spellId": 204054,
                     "spellName": "Consecrated Ground",
                     "talentId": 22438
                 },
                 "2": {
-                    "spellId": 204150,
-                    "spellName": "Aegis of Light",
+                    "spellId": 183778,
+                    "spellName": "Judgment of Light",
                     "talentId": 23087
                 }
             },
             "6": {
                 "0": {
-                    "spellId": 203791,
-                    "spellName": "Last Defender",
-                    "talentId": 21201
+                    "spellId": 171648,
+                    "spellName": "Sanctified Wrath",
+                    "talentId": 23457
                 },
                 "1": {
                     "spellId": 204074,
@@ -1480,8 +1443,8 @@
                     "talentId": 21202
                 },
                 "2": {
-                    "spellId": 152262,
-                    "spellName": "Seraphim",
+                    "spellId": 204077,
+                    "spellName": "Final Stand",
                     "talentId": 22645
                 }
             }
@@ -1501,7 +1464,7 @@
                 "2": {
                     "spellId": 267798,
                     "spellName": "Execution Sentence",
-                    "talentId": 22175
+                    "talentId": 23467
                 }
             },
             "1": {
@@ -1516,50 +1479,16 @@
                     "talentId": 22592
                 },
                 "2": {
-                    "spellId": 24275,
-                    "spellName": "Hammer of Wrath",
-                    "talentId": 22593
-                }
-            },
-            "2": {
-                "0": {
-                    "spellId": 234299,
-                    "spellName": "Fist of Justice",
-                    "talentId": 22896
+                    "spellId": 326732,
+                    "spellName": "Empyrean Power",
+                    "talentId": 23466
                 }
             },
             "3": {
-                "0": {
-                    "spellId": 271580,
-                    "spellName": "Divine Judgment",
-                    "talentId": 22375
-                },
-                "1": {
-                    "spellId": 205228,
-                    "spellName": "Consecration",
-                    "talentId": 22182
-                },
-                "2": {
-                    "spellId": 255937,
-                    "spellName": "Wake of Ashes",
-                    "talentId": 22183
-                }
-            },
-            "4": {
-                "0": {
-                    "spellId": 114154,
-                    "spellName": "Unbreakable Spirit",
-                    "talentId": 22595
-                },
-                "1": {
-                    "spellId": 230332,
-                    "spellName": "Cavalier",
-                    "talentId": 22185
-                },
                 "2": {
                     "spellId": 205191,
                     "spellName": "Eye for an Eye",
-                    "talentId": 22186
+                    "talentId": 22183
                 }
             },
             "5": {
@@ -1574,16 +1503,16 @@
                     "talentId": 22483
                 },
                 "2": {
-                    "spellId": 210191,
-                    "spellName": "Word of Glory",
+                    "spellId": 326734,
+                    "spellName": "Healing Hands",
                     "talentId": 23086
                 }
             },
             "6": {
                 "0": {
-                    "spellId": 223817,
-                    "spellName": "Divine Purpose",
-                    "talentId": 22591
+                    "spellId": 317866,
+                    "spellName": "Sanctified Wrath",
+                    "talentId": 23456
                 },
                 "1": {
                     "spellId": 231895,
@@ -1673,7 +1602,7 @@
             "3": {
                 "0": {
                     "spellId": 257891,
-                    "spellName": "Venomous Bite",
+                    "spellName": "Spitting Cobra",
                     "talentId": 22441
                 },
                 "1": {
@@ -1716,8 +1645,8 @@
                     "talentId": 21986
                 },
                 "2": {
-                    "spellId": 194407,
-                    "spellName": "Spitting Cobra",
+                    "spellId": 321530,
+                    "spellName": "Bloodshed",
                     "talentId": 22295
                 }
             }
@@ -1747,8 +1676,8 @@
                     "talentId": 22495
                 },
                 "1": {
-                    "spellId": 260243,
-                    "spellName": "Volley",
+                    "spellId": 120360,
+                    "spellName": "Barrage",
                     "talentId": 22497
                 },
                 "2": {
@@ -1769,9 +1698,16 @@
                     "talentId": 22286
                 },
                 "2": {
-                    "spellId": 257284,
-                    "spellName": "Hunter's Mark",
+                    "spellId": 342049,
+                    "spellName": "Chimaera Shot",
                     "talentId": 21998
+                }
+            },
+            "4": {
+                "2": {
+                    "spellId": 321468,
+                    "spellName": "Binding Shackles",
+                    "talentId": 23463
                 }
             },
             "5": {
@@ -1781,8 +1717,8 @@
                     "talentId": 23063
                 },
                 "1": {
-                    "spellId": 120360,
-                    "spellName": "Barrage",
+                    "spellId": 321460,
+                    "spellName": "Dead Eye",
                     "talentId": 23104
                 },
                 "2": {
@@ -1803,8 +1739,8 @@
                     "talentId": 22308
                 },
                 "2": {
-                    "spellId": 198670,
-                    "spellName": "Piercing Shot",
+                    "spellId": 260243,
+                    "spellName": "Volley",
                     "talentId": 22288
                 }
             }
@@ -1963,7 +1899,7 @@
                     "talentId": 22337
                 },
                 "2": {
-                    "spellId": 111240,
+                    "spellId": 328085,
                     "spellName": "Blindside",
                     "talentId": 22339
                 }
@@ -2001,8 +1937,8 @@
                     "talentId": 22343
                 },
                 "1": {
-                    "spellId": 245388,
-                    "spellName": "Toxic Blade",
+                    "spellId": 193539,
+                    "spellName": "Alacrity",
                     "talentId": 23015
                 },
                 "2": {
@@ -2051,7 +1987,7 @@
                 "0": {
                     "spellId": 196924,
                     "spellName": "Acrobatic Strikes",
-                    "talentId": 19236
+                    "talentId": 23470
                 },
                 "1": {
                     "spellId": 256188,
@@ -2095,8 +2031,8 @@
                     "talentId": 23128
                 },
                 "2": {
-                    "spellId": 5171,
-                    "spellName": "Slice and Dice",
+                    "spellId": 343142,
+                    "spellName": "Dreadblades",
                     "talentId": 19250
                 }
             },
@@ -2126,8 +2062,8 @@
                     "talentId": 19233
                 },
                 "1": {
-                    "spellId": 91023,
-                    "spellName": "Find Weakness",
+                    "spellId": 343160,
+                    "spellName": "Premeditation",
                     "talentId": 19234
                 },
                 "2": {
@@ -2250,7 +2186,7 @@
                     "talentId": 19765
                 },
                 "2": {
-                    "spellId": 204065,
+                    "spellId": 314867,
                     "spellName": "Shadow Covenant",
                     "talentId": 19766
                 }
@@ -2328,8 +2264,8 @@
             },
             "6": {
                 "0": {
-                    "spellId": 238063,
-                    "spellName": "Lenience",
+                    "spellId": 321950,
+                    "spellName": "Light's Caress",
                     "talentId": 21183
                 },
                 "2": {
@@ -2352,8 +2288,8 @@
                     "talentId": 19753
                 },
                 "2": {
-                    "spellId": 200153,
-                    "spellName": "Enduring Renewal",
+                    "spellId": 341997,
+                    "spellName": "Renewed Faith",
                     "talentId": 19754
                 }
             },
@@ -2364,8 +2300,8 @@
                     "talentId": 22325
                 },
                 "1": {
-                    "spellId": 235189,
-                    "spellName": "Perseverance",
+                    "spellId": 64129,
+                    "spellName": "Body and Soul",
                     "talentId": 22326
                 }
             },
@@ -2410,8 +2346,8 @@
                     "talentId": 22327
                 },
                 "2": {
-                    "spellId": 204883,
-                    "spellName": "Circle of Healing",
+                    "spellId": 321377,
+                    "spellName": "Prayer Circle",
                     "talentId": 21754
                 }
             },
@@ -2441,13 +2377,13 @@
                     "talentId": 22328
                 },
                 "1": {
-                    "spellId": 162452,
-                    "spellName": "Shadowy Insight",
+                    "spellId": 321291,
+                    "spellName": "Death and Madness",
                     "talentId": 22136
                 },
                 "2": {
-                    "spellId": 205351,
-                    "spellName": "Shadow Word: Void",
+                    "spellId": 341273,
+                    "spellName": "Unfurling Darkness",
                     "talentId": 22314
                 }
             },
@@ -2475,8 +2411,8 @@
                     "talentId": 23126
                 },
                 "2": {
-                    "spellId": 263346,
-                    "spellName": "Dark Void",
+                    "spellId": 341385,
+                    "spellName": "Searing Nightmare",
                     "talentId": 23127
                 }
             },
@@ -2504,20 +2440,20 @@
                     "talentId": 22310
                 },
                 "1": {
-                    "spellId": 32379,
-                    "spellName": "Shadow Word: Death",
+                    "spellId": 199484,
+                    "spellName": "Psychic Link",
                     "talentId": 22311
                 },
                 "2": {
-                    "spellId": 205385,
+                    "spellId": 342834,
                     "spellName": "Shadow Crash",
                     "talentId": 21755
                 }
             },
             "5": {
                 "0": {
-                    "spellId": 199849,
-                    "spellName": "Lingering Insanity",
+                    "spellId": 341374,
+                    "spellName": "Damnation",
                     "talentId": 21718
                 },
                 "1": {
@@ -2533,17 +2469,17 @@
             },
             "6": {
                 "0": {
-                    "spellId": 193225,
-                    "spellName": "Legacy of the Void",
+                    "spellId": 341240,
+                    "spellName": "Ancient Madness",
                     "talentId": 21637
                 },
                 "1": {
-                    "spellId": 280711,
-                    "spellName": "Dark Ascension",
+                    "spellId": 193225,
+                    "spellName": "Legacy of the Void",
                     "talentId": 21978
                 },
                 "2": {
-                    "spellId": 193223,
+                    "spellId": 319952,
                     "spellName": "Surrender to Madness",
                     "talentId": 21979
                 }
@@ -2573,9 +2509,9 @@
                     "talentId": 19166
                 },
                 "2": {
-                    "spellId": 210764,
-                    "spellName": "Rune Strike",
-                    "talentId": 19217
+                    "spellId": 219809,
+                    "spellName": "Tombstone",
+                    "talentId": 23454
                 }
             },
             "1": {
@@ -2607,8 +2543,8 @@
                     "talentId": 22134
                 },
                 "2": {
-                    "spellId": 219809,
-                    "spellName": "Tombstone",
+                    "spellId": 317610,
+                    "spellName": "Relish in Blood",
                     "talentId": 22135
                 }
             },
@@ -2624,8 +2560,8 @@
                     "talentId": 22014
                 },
                 "2": {
-                    "spellId": 194679,
-                    "spellName": "Rune Tap",
+                    "spellId": 206940,
+                    "spellName": "Mark of Blood",
                     "talentId": 22015
                 }
             },
@@ -2653,13 +2589,13 @@
                     "talentId": 19230
                 },
                 "1": {
-                    "spellId": 195679,
-                    "spellName": "Bloodworms",
+                    "spellId": 48743,
+                    "spellName": "Death Pact",
                     "talentId": 19231
                 },
                 "2": {
-                    "spellId": 206940,
-                    "spellName": "Mark of Blood",
+                    "spellId": 195679,
+                    "spellName": "Bloodworms",
                     "talentId": 19232
                 }
             },
@@ -2769,13 +2705,13 @@
                     "talentId": 22531
                 },
                 "1": {
-                    "spellId": 194913,
-                    "spellName": "Glacial Advance",
+                    "spellId": 321995,
+                    "spellName": "Hypothermic Presence",
                     "talentId": 22533
                 },
                 "2": {
-                    "spellId": 279302,
-                    "spellName": "Frostwyrm's Fury",
+                    "spellId": 194913,
+                    "spellName": "Glacial Advance",
                     "talentId": 22535
                 }
             },
@@ -2861,7 +2797,7 @@
                     "talentId": 22524
                 },
                 "2": {
-                    "spellId": 130736,
+                    "spellId": 343294,
                     "spellName": "Soul Reaper",
                     "talentId": 22526
                 }
@@ -2885,13 +2821,13 @@
                     "talentId": 22532
                 },
                 "1": {
-                    "spellId": 152280,
-                    "spellName": "Defile",
+                    "spellId": 207317,
+                    "spellName": "Epidemic",
                     "talentId": 22534
                 },
                 "2": {
-                    "spellId": 207317,
-                    "spellName": "Epidemic",
+                    "spellId": 152280,
+                    "spellName": "Defile",
                     "talentId": 22536
                 }
             },
@@ -2902,13 +2838,13 @@
                     "talentId": 22030
                 },
                 "1": {
-                    "spellId": 207289,
-                    "spellName": "Unholy Frenzy",
+                    "spellId": 319230,
+                    "spellName": "Unholy Pact",
                     "talentId": 22110
                 },
                 "2": {
-                    "spellId": 49206,
-                    "spellName": "Summon Gargoyle",
+                    "spellId": 207289,
+                    "spellName": "Unholy Strike",
                     "talentId": 22538
                 }
             }
@@ -2963,13 +2899,13 @@
                     "talentId": 22356
                 },
                 "1": {
-                    "spellId": 108283,
+                    "spellId": 333919,
                     "spellName": "Echo of the Elements",
                     "talentId": 22357
                 },
                 "2": {
-                    "spellId": 117014,
-                    "spellName": "Elemental Blast",
+                    "spellId": 342243,
+                    "spellName": "Static Discharge",
                     "talentId": 22358
                 }
             },
@@ -2980,13 +2916,13 @@
                     "talentId": 23108
                 },
                 "1": {
-                    "spellId": 260897,
-                    "spellName": "Call the Thunder",
-                    "talentId": 22139
+                    "spellId": 320125,
+                    "spellName": "Echoing Shock",
+                    "talentId": 23460
                 },
                 "2": {
-                    "spellId": 210643,
-                    "spellName": "Totem Mastery",
+                    "spellId": 117014,
+                    "spellName": "Elemental Blast",
                     "talentId": 23190
                 }
             },
@@ -3069,35 +3005,35 @@
         "263": {
             "0": {
                 "0": {
-                    "spellId": 246035,
-                    "spellName": "Boulderfist",
+                    "spellId": 334046,
+                    "spellName": "Lashing Flames",
                     "talentId": 22354
                 },
                 "1": {
-                    "spellId": 201900,
-                    "spellName": "Hot Hand",
+                    "spellId": 262647,
+                    "spellName": "Forceful Winds",
                     "talentId": 22355
                 },
                 "2": {
-                    "spellId": 192106,
-                    "spellName": "Lightning Shield",
+                    "spellId": 117014,
+                    "spellName": "Elemental Blast",
                     "talentId": 22353
                 }
             },
             "1": {
                 "0": {
-                    "spellId": 197992,
-                    "spellName": "Landslide",
+                    "spellId": 334175,
+                    "spellName": "Stormfury",
                     "talentId": 22636
                 },
                 "1": {
-                    "spellId": 262647,
-                    "spellName": "Forceful Winds",
-                    "talentId": 22150
+                    "spellId": 201900,
+                    "spellName": "Hot Hand",
+                    "talentId": 23462
                 },
                 "2": {
-                    "spellId": 262395,
-                    "spellName": "Totem Mastery",
+                    "spellId": 342240,
+                    "spellName": "Ice Strike",
                     "talentId": 23109
                 }
             },
@@ -3120,18 +3056,18 @@
             },
             "3": {
                 "0": {
-                    "spellId": 192087,
-                    "spellName": "Searing Assault",
+                    "spellId": 210853,
+                    "spellName": "Elemental Assault",
                     "talentId": 23089
                 },
                 "1": {
-                    "spellId": 210853,
+                    "spellId": 334195,
                     "spellName": "Hailstorm",
                     "talentId": 23090
                 },
                 "2": {
-                    "spellId": 210727,
-                    "spellName": "Overcharge",
+                    "spellId": 333974,
+                    "spellName": "Fire Nova",
                     "talentId": 22171
                 }
             },
@@ -3149,8 +3085,8 @@
                     "talentId": 21973
                 },
                 "1": {
-                    "spellId": 197211,
-                    "spellName": "Fury of Air",
+                    "spellId": 320137,
+                    "spellName": "Stormkeeper",
                     "talentId": 22352
                 },
                 "2": {
@@ -3199,11 +3135,11 @@
                 "1": {
                     "spellId": 200076,
                     "spellName": "Deluge",
-                    "talentId": 22492
+                    "talentId": 23461
                 },
                 "2": {
-                    "spellId": 974,
-                    "spellName": "Earth Shield",
+                    "spellId": 320746,
+                    "spellName": "Surge of Earth",
                     "talentId": 21963
                 }
             },
@@ -3285,8 +3221,8 @@
                     "talentId": 22444
                 },
                 "1": {
-                    "spellId": 55342,
-                    "spellName": "Mirror Image",
+                    "spellId": 321358,
+                    "spellName": "Focus Magic",
                     "talentId": 22445
                 },
                 "2": {
@@ -3335,8 +3271,8 @@
             },
             "1": {
                 "0": {
-                    "spellId": 235463,
-                    "spellName": "Mana Shield",
+                    "spellId": 342249,
+                    "spellName": "Master of Time",
                     "talentId": 23072
                 },
                 "2": {
@@ -3352,13 +3288,13 @@
                     "talentId": 22453
                 },
                 "1": {
-                    "spellId": 205032,
-                    "spellName": "Charged Up",
+                    "spellId": 342231,
+                    "spellName": "Arcane Echo",
                     "talentId": 22467
                 },
                 "2": {
-                    "spellId": 157980,
-                    "spellName": "Supernova",
+                    "spellId": 114923,
+                    "spellName": "Nether Tempest",
                     "talentId": 22470
                 }
             },
@@ -3376,13 +3312,13 @@
                     "talentId": 22455
                 },
                 "1": {
-                    "spellId": 210725,
-                    "spellName": "Touch of the Magi",
+                    "spellId": 321387,
+                    "spellName": "Enlightened",
                     "talentId": 22449
                 },
                 "2": {
-                    "spellId": 114923,
-                    "spellName": "Nether Tempest",
+                    "spellId": 157980,
+                    "spellName": "Supernova",
                     "talentId": 22474
                 }
             },
@@ -3441,8 +3377,8 @@
                     "talentId": 22465
                 },
                 "2": {
-                    "spellId": 257541,
-                    "spellName": "Phoenix Flames",
+                    "spellId": 342344,
+                    "spellName": "From the Ashes",
                     "talentId": 22468
                 }
             },
@@ -3616,9 +3552,9 @@
                     "talentId": 19291
                 },
                 "2": {
-                    "spellId": 268358,
-                    "spellName": "Demonic Circle",
-                    "talentId": 19288
+                    "spellId": 5484,
+                    "spellName": "Howl of Terror",
+                    "talentId": 23465
                 }
             },
             "5": {
@@ -3644,13 +3580,13 @@
                     "talentId": 22039
                 },
                 "1": {
-                    "spellId": 198590,
-                    "spellName": "Drain Soul",
+                    "spellId": 334319,
+                    "spellName": "Inevitable Demise",
                     "talentId": 23140
                 },
                 "2": {
-                    "spellId": 264106,
-                    "spellName": "Deathbolt",
+                    "spellId": 198590,
+                    "spellName": "Drain Soul",
                     "talentId": 23141
                 }
             },
@@ -3685,8 +3621,8 @@
             },
             "5": {
                 "0": {
-                    "spellId": 32388,
-                    "spellName": "Shadow Embrace",
+                    "spellId": 334183,
+                    "spellName": "Dark Caller",
                     "talentId": 23139
                 },
                 "1": {
@@ -3716,13 +3652,13 @@
                     "talentId": 19290
                 },
                 "1": {
-                    "spellId": 267171,
-                    "spellName": "Demonic Strength",
+                    "spellId": 267211,
+                    "spellName": "Bilescourge Bombers",
                     "talentId": 22048
                 },
                 "2": {
-                    "spellId": 267211,
-                    "spellName": "Bilescourge Bombers",
+                    "spellId": 267171,
+                    "spellName": "Demonic Strength",
                     "talentId": 23138
                 }
             },
@@ -3738,7 +3674,7 @@
                     "talentId": 21694
                 },
                 "2": {
-                    "spellId": 265412,
+                    "spellId": 603,
                     "spellName": "Doom",
                     "talentId": 23158
                 }
@@ -3855,7 +3791,7 @@
                 },
                 "1": {
                     "spellId": 266086,
-                    "spellName": "Grimoire of Supremacy",
+                    "spellName": "Rain of Chaos",
                     "talentId": 23156
                 }
             },
