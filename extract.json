@@ -4,6 +4,7 @@
     "GarrTalent",
     "GarrTalentRank",
     "ItemEffect",
+    "RuneforgeLegendaryAbility",
     "Spell",
     "SpellCooldowns",
     "SpellRange",
@@ -24,16 +25,17 @@
     "Talent"
   ],
   "parsers": [
-    "TriggerGCD",
-    "ProjectileSpeed",
     "ItemRangeUnfiltered",
+    "ItemSpell",
+    "LegendaryItems",
+    "ProjectileSpeed",
+    "RPPM",
+    "SpellDuration",
+    "SpellEnchant",
     "SpellMeleeRange",
     "SpellTickTime",
-    "SpellDuration",
-    "ItemSpell",
-    "RPPM",
-    "Talent",
     "Soulbinds",
-    "SpellEnchant"
+    "Talent",
+    "TriggerGCD"
   ]
 }

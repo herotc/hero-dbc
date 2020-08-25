@@ -1,0 +1,2178 @@
+[
+    {
+        "legendaryBonusID": 6823,
+        "legendaryId": 2,
+        "legendaryName": "Slick Ice",
+        "legendarySpellID": 327508,
+        "specs": [
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6828,
+        "legendaryId": 3,
+        "legendaryName": "Cold Front",
+        "legendarySpellID": 327284,
+        "specs": [
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6829,
+        "legendaryId": 4,
+        "legendaryName": "Freezing Winds",
+        "legendarySpellID": 327364,
+        "specs": [
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6830,
+        "legendaryId": 5,
+        "legendaryName": "Glacial Fragments",
+        "legendarySpellID": 327492,
+        "specs": [
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6831,
+        "legendaryId": 6,
+        "legendaryName": "Expanded Potential",
+        "legendarySpellID": 327489,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6832,
+        "legendaryId": 7,
+        "legendaryName": "Disciplinary Command",
+        "legendarySpellID": 327365,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6937,
+        "legendaryId": 8,
+        "legendaryName": "Grisly Icicle",
+        "legendarySpellID": 333393,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 6834,
+        "legendaryId": 9,
+        "legendaryName": "Temporal Warp",
+        "legendarySpellID": 327351,
+        "specs": [
+            62
+        ]
+    },
+    {
+        "legendaryBonusID": 6931,
+        "legendaryId": 10,
+        "legendaryName": "Fevered Incantation",
+        "legendarySpellID": 333030,
+        "specs": [
+            63
+        ]
+    },
+    {
+        "legendaryBonusID": 6932,
+        "legendaryId": 11,
+        "legendaryName": "Firestorm",
+        "legendarySpellID": 333097,
+        "specs": [
+            63
+        ]
+    },
+    {
+        "legendaryBonusID": 6933,
+        "legendaryId": 12,
+        "legendaryName": "Molten Skyfall",
+        "legendarySpellID": 333167,
+        "specs": [
+            63
+        ]
+    },
+    {
+        "legendaryBonusID": 6934,
+        "legendaryId": 13,
+        "legendaryName": "Sun King's Blessing",
+        "legendarySpellID": 333313,
+        "specs": [
+            63
+        ]
+    },
+    {
+        "legendaryBonusID": 6926,
+        "legendaryId": 14,
+        "legendaryName": "Arcane Infinity",
+        "legendarySpellID": 332769,
+        "specs": [
+            62
+        ]
+    },
+    {
+        "legendaryBonusID": 6927,
+        "legendaryId": 15,
+        "legendaryName": "Arcane Bombardment",
+        "legendarySpellID": 332892,
+        "specs": [
+            62
+        ]
+    },
+    {
+        "legendaryBonusID": 6928,
+        "legendaryId": 16,
+        "legendaryName": "Siphon Storm",
+        "legendarySpellID": 332928,
+        "specs": [
+            62
+        ]
+    },
+    {
+        "legendaryBonusID": 6936,
+        "legendaryId": 17,
+        "legendaryName": "Triune Ward",
+        "legendarySpellID": 333373,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "legendaryBonusID": 7041,
+        "legendaryId": 18,
+        "legendaryName": "Sigil of the Illidari",
+        "legendarySpellID": 337504,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7042,
+        "legendaryId": 19,
+        "legendaryName": "Apexis Empowerment",
+        "legendarySpellID": 337532,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7043,
+        "legendaryId": 20,
+        "legendaryName": "Darkglare Medallion",
+        "legendarySpellID": 337534,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7044,
+        "legendaryId": 21,
+        "legendaryName": "Darkest Hour",
+        "legendarySpellID": 337539,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7049,
+        "legendaryId": 22,
+        "legendaryName": "Inner Demons",
+        "legendarySpellID": 337548,
+        "specs": [
+            577
+        ]
+    },
+    {
+        "legendaryBonusID": 7050,
+        "legendaryId": 23,
+        "legendaryName": "Chaos Theory",
+        "legendarySpellID": 337551,
+        "specs": [
+            577
+        ]
+    },
+    {
+        "legendaryBonusID": 7051,
+        "legendaryId": 24,
+        "legendaryName": "Erratic Fel Core",
+        "legendarySpellID": 337685,
+        "specs": [
+            577
+        ]
+    },
+    {
+        "legendaryBonusID": 7052,
+        "legendaryId": 25,
+        "legendaryName": "Fel Bombardment",
+        "legendarySpellID": 337775,
+        "specs": [
+            577
+        ]
+    },
+    {
+        "legendaryBonusID": 7045,
+        "legendaryId": 26,
+        "legendaryName": "Spirit of the Darkness Flame",
+        "legendarySpellID": 337541,
+        "specs": [
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7046,
+        "legendaryId": 27,
+        "legendaryName": "Razelikh's Defilement",
+        "legendarySpellID": 337544,
+        "specs": [
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7047,
+        "legendaryId": 28,
+        "legendaryName": "Cloak of Fel Flames",
+        "legendarySpellID": 337545,
+        "specs": [
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7048,
+        "legendaryId": 29,
+        "legendaryName": "Fiery Soul",
+        "legendarySpellID": 337547,
+        "specs": [
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 6953,
+        "legendaryId": 30,
+        "legendaryName": "Superstrain",
+        "legendarySpellID": 334974,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6954,
+        "legendaryId": 31,
+        "legendaryName": "Phearomones",
+        "legendarySpellID": 335177,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6947,
+        "legendaryId": 32,
+        "legendaryName": "Death's Embrace",
+        "legendarySpellID": 334728,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6948,
+        "legendaryId": 33,
+        "legendaryName": "Grip of the Everlasting",
+        "legendarySpellID": 334724,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6940,
+        "legendaryId": 34,
+        "legendaryName": "Bryndaor's Might",
+        "legendarySpellID": 334501,
+        "specs": [
+            250
+        ]
+    },
+    {
+        "legendaryBonusID": 6941,
+        "legendaryId": 35,
+        "legendaryName": "Crimson Rune Weapon",
+        "legendarySpellID": 334525,
+        "specs": [
+            250
+        ]
+    },
+    {
+        "legendaryBonusID": 6943,
+        "legendaryId": 36,
+        "legendaryName": "Gorefiend's Domination",
+        "legendarySpellID": 334580,
+        "specs": [
+            250
+        ]
+    },
+    {
+        "legendaryBonusID": 6942,
+        "legendaryId": 37,
+        "legendaryName": "Vampiric Aura",
+        "legendarySpellID": 334547,
+        "specs": [
+            250
+        ]
+    },
+    {
+        "legendaryBonusID": 6944,
+        "legendaryId": 38,
+        "legendaryName": "Koltira's Favor",
+        "legendarySpellID": 334583,
+        "specs": [
+            251
+        ]
+    },
+    {
+        "legendaryBonusID": 6945,
+        "legendaryId": 39,
+        "legendaryName": "Biting Cold",
+        "legendarySpellID": 334678,
+        "specs": [
+            251
+        ]
+    },
+    {
+        "legendaryBonusID": 6946,
+        "legendaryId": 40,
+        "legendaryName": "Absolute Zero",
+        "legendarySpellID": 334692,
+        "specs": [
+            251
+        ]
+    },
+    {
+        "legendaryBonusID": 7160,
+        "legendaryId": 41,
+        "legendaryName": "Rage of the Frozen Champion",
+        "legendarySpellID": 341724,
+        "specs": [
+            251
+        ]
+    },
+    {
+        "legendaryBonusID": 6949,
+        "legendaryId": 42,
+        "legendaryName": "Reanimated Shambler",
+        "legendarySpellID": 334836,
+        "specs": [
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6950,
+        "legendaryId": 43,
+        "legendaryName": "Frenzied Monstrosity",
+        "legendarySpellID": 334888,
+        "specs": [
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6951,
+        "legendaryId": 44,
+        "legendaryName": "Death's Certainty",
+        "legendarySpellID": 334898,
+        "specs": [
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 6952,
+        "legendaryId": 45,
+        "legendaryName": "Deadliest Coil",
+        "legendarySpellID": 334949,
+        "specs": [
+            252
+        ]
+    },
+    {
+        "legendaryBonusID": 7086,
+        "legendaryId": 46,
+        "legendaryName": "Draught of Deep Focus",
+        "legendarySpellID": 338658,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7085,
+        "legendaryId": 47,
+        "legendaryName": "Circle of Life and Death",
+        "legendarySpellID": 338657,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7110,
+        "legendaryId": 48,
+        "legendaryName": "Lycara's Fleeting Glimpse",
+        "legendarySpellID": 340059,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7084,
+        "legendaryId": 49,
+        "legendaryName": "Oath of the Elder Druid",
+        "legendarySpellID": 338608,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7087,
+        "legendaryId": 50,
+        "legendaryName": "Oneth's Clear Vision",
+        "legendarySpellID": 338661,
+        "specs": [
+            102
+        ]
+    },
+    {
+        "legendaryBonusID": 7088,
+        "legendaryId": 51,
+        "legendaryName": "Primordial Arcanic Pulsar",
+        "legendarySpellID": 338668,
+        "specs": [
+            102
+        ]
+    },
+    {
+        "legendaryBonusID": 7107,
+        "legendaryId": 52,
+        "legendaryName": "Balance of All Things",
+        "legendarySpellID": 339942,
+        "specs": [
+            102
+        ]
+    },
+    {
+        "legendaryBonusID": 7108,
+        "legendaryId": 53,
+        "legendaryName": "Timeworn Dreambinder",
+        "legendarySpellID": 339949,
+        "specs": [
+            102
+        ]
+    },
+    {
+        "legendaryBonusID": 7109,
+        "legendaryId": 54,
+        "legendaryName": "Frenzyband",
+        "legendarySpellID": 340053,
+        "specs": [
+            103
+        ]
+    },
+    {
+        "legendaryBonusID": 7091,
+        "legendaryId": 55,
+        "legendaryName": "Apex Predator's Craving",
+        "legendarySpellID": 339139,
+        "specs": [
+            103
+        ]
+    },
+    {
+        "legendaryBonusID": 7090,
+        "legendaryId": 56,
+        "legendaryName": "Eye of Fearful Symmetry",
+        "legendarySpellID": 339141,
+        "specs": [
+            103
+        ]
+    },
+    {
+        "legendaryBonusID": 7089,
+        "legendaryId": 57,
+        "legendaryName": "Cat-eye Curio",
+        "legendarySpellID": 339144,
+        "specs": [
+            103
+        ]
+    },
+    {
+        "legendaryBonusID": 7092,
+        "legendaryId": 58,
+        "legendaryName": "Luffa-Infused Embrace",
+        "legendarySpellID": 339060,
+        "specs": [
+            104
+        ]
+    },
+    {
+        "legendaryBonusID": 7093,
+        "legendaryId": 59,
+        "legendaryName": "The Natural Order's Will",
+        "legendarySpellID": 339063,
+        "specs": [
+            104
+        ]
+    },
+    {
+        "legendaryBonusID": 7094,
+        "legendaryId": 60,
+        "legendaryName": "Ursoc's Lingering Spirit",
+        "legendarySpellID": 339056,
+        "specs": [
+            104
+        ]
+    },
+    {
+        "legendaryBonusID": 7095,
+        "legendaryId": 61,
+        "legendaryName": "Legacy of the Sleeper",
+        "legendarySpellID": 339062,
+        "specs": [
+            104
+        ]
+    },
+    {
+        "legendaryBonusID": 7096,
+        "legendaryId": 62,
+        "legendaryName": "Memory of the Mother Tree",
+        "legendarySpellID": 339064,
+        "specs": [
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7097,
+        "legendaryId": 63,
+        "legendaryName": "The Dark Titan's Lesson",
+        "legendarySpellID": 338831,
+        "specs": [
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7098,
+        "legendaryId": 64,
+        "legendaryName": "Verdant Infusion",
+        "legendarySpellID": 338829,
+        "specs": [
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7099,
+        "legendaryId": 65,
+        "legendaryName": "Vision of Unending Growth",
+        "legendarySpellID": 338832,
+        "specs": [
+            105
+        ]
+    },
+    {
+        "legendaryBonusID": 7003,
+        "legendaryId": 66,
+        "legendaryName": "Call of the Wild",
+        "legendarySpellID": 336742,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7004,
+        "legendaryId": 67,
+        "legendaryName": "Nessingwary's Trapping Apparatus",
+        "legendarySpellID": 336743,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7005,
+        "legendaryId": 68,
+        "legendaryName": "Soulforge Embers",
+        "legendarySpellID": 336745,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7006,
+        "legendaryId": 69,
+        "legendaryName": "Craven Strategem",
+        "legendarySpellID": 336747,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7007,
+        "legendaryId": 70,
+        "legendaryName": "Dire Command",
+        "legendarySpellID": 336819,
+        "specs": [
+            253
+        ]
+    },
+    {
+        "legendaryBonusID": 7008,
+        "legendaryId": 71,
+        "legendaryName": "Flamewaker's Cobra Sting",
+        "legendarySpellID": 336822,
+        "specs": [
+            253
+        ]
+    },
+    {
+        "legendaryBonusID": 7009,
+        "legendaryId": 72,
+        "legendaryName": "Qa'pla, Eredun War Order",
+        "legendarySpellID": 336830,
+        "specs": [
+            253
+        ]
+    },
+    {
+        "legendaryBonusID": 7010,
+        "legendaryId": 73,
+        "legendaryName": "Rylakstalker's Piercing Fangs",
+        "legendarySpellID": 336844,
+        "specs": [
+            253
+        ]
+    },
+    {
+        "legendaryBonusID": 7011,
+        "legendaryId": 74,
+        "legendaryName": "Eagletalon's True Focus",
+        "legendarySpellID": 336849,
+        "specs": [
+            254
+        ]
+    },
+    {
+        "legendaryBonusID": 7012,
+        "legendaryId": 75,
+        "legendaryName": "Surging Shots",
+        "legendarySpellID": 336867,
+        "specs": [
+            254
+        ]
+    },
+    {
+        "legendaryBonusID": 7013,
+        "legendaryId": 76,
+        "legendaryName": "Serpentstalker's Trickery",
+        "legendarySpellID": 336870,
+        "specs": [
+            254
+        ]
+    },
+    {
+        "legendaryBonusID": 7014,
+        "legendaryId": 77,
+        "legendaryName": "Secrets of the Unblinking Vigil",
+        "legendarySpellID": 336878,
+        "specs": [
+            254
+        ]
+    },
+    {
+        "legendaryBonusID": 7015,
+        "legendaryId": 78,
+        "legendaryName": "Wildfire Cluster",
+        "legendarySpellID": 336895,
+        "specs": [
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7016,
+        "legendaryId": 79,
+        "legendaryName": "Rylakstalker's Confounding Strikes",
+        "legendarySpellID": 336901,
+        "specs": [
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7017,
+        "legendaryId": 80,
+        "legendaryName": "Latent Poison Injectors",
+        "legendarySpellID": 336902,
+        "specs": [
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7018,
+        "legendaryId": 81,
+        "legendaryName": "Butcher's Bone Fragments",
+        "legendarySpellID": 336907,
+        "specs": [
+            255
+        ]
+    },
+    {
+        "legendaryBonusID": 7184,
+        "legendaryId": 82,
+        "legendaryName": "Escape from Reality",
+        "legendarySpellID": 0,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7082,
+        "legendaryId": 83,
+        "legendaryName": "Invoker's Delight",
+        "legendarySpellID": 337298,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7080,
+        "legendaryId": 84,
+        "legendaryName": "Swiftsure Wraps",
+        "legendarySpellID": 337294,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7081,
+        "legendaryId": 85,
+        "legendaryName": "Fatal Touch",
+        "legendarySpellID": 337296,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7076,
+        "legendaryId": 86,
+        "legendaryName": "Charred Passions",
+        "legendarySpellID": 338138,
+        "specs": [
+            268
+        ]
+    },
+    {
+        "legendaryBonusID": 7077,
+        "legendaryId": 87,
+        "legendaryName": "Stormstout's Last Keg",
+        "legendarySpellID": 337288,
+        "specs": [
+            268
+        ]
+    },
+    {
+        "legendaryBonusID": 7078,
+        "legendaryId": 88,
+        "legendaryName": "Celestial Infusion",
+        "legendarySpellID": 337290,
+        "specs": [
+            268
+        ]
+    },
+    {
+        "legendaryBonusID": 7079,
+        "legendaryId": 89,
+        "legendaryName": "Shaohao's Might",
+        "legendarySpellID": 337570,
+        "specs": [
+            268
+        ]
+    },
+    {
+        "legendaryBonusID": 7075,
+        "legendaryId": 90,
+        "legendaryName": "Ancient Teachings of the Monastery",
+        "legendarySpellID": 337172,
+        "specs": [
+            270
+        ]
+    },
+    {
+        "legendaryBonusID": 7073,
+        "legendaryId": 91,
+        "legendaryName": "Yu'lon's Whisper",
+        "legendarySpellID": 337225,
+        "specs": [
+            270
+        ]
+    },
+    {
+        "legendaryBonusID": 7074,
+        "legendaryId": 92,
+        "legendaryName": "Clouded Focus",
+        "legendarySpellID": 337343,
+        "specs": [
+            270
+        ]
+    },
+    {
+        "legendaryBonusID": 7072,
+        "legendaryId": 93,
+        "legendaryName": "Tear of Morning",
+        "legendarySpellID": 337473,
+        "specs": [
+            270
+        ]
+    },
+    {
+        "legendaryBonusID": 7070,
+        "legendaryId": 94,
+        "legendaryName": "Xuen's Treasure",
+        "legendarySpellID": 337481,
+        "specs": [
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7068,
+        "legendaryId": 95,
+        "legendaryName": "Keefer's Skyreach",
+        "legendarySpellID": 337334,
+        "specs": [
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7071,
+        "legendaryId": 96,
+        "legendaryName": "Jade Ignition",
+        "legendarySpellID": 337483,
+        "specs": [
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7069,
+        "legendaryId": 97,
+        "legendaryName": "Last Emperor's Capacitor",
+        "legendarySpellID": 337292,
+        "specs": [
+            269
+        ]
+    },
+    {
+        "legendaryBonusID": 7053,
+        "legendaryId": 98,
+        "legendaryName": "Uther's Guard",
+        "legendarySpellID": 337600,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7055,
+        "legendaryId": 100,
+        "legendaryName": "Of Dusk and Dawn",
+        "legendarySpellID": 337746,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7056,
+        "legendaryId": 101,
+        "legendaryName": "The Magistrate's Judgment",
+        "legendarySpellID": 337681,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7128,
+        "legendaryId": 102,
+        "legendaryName": "Maraad's Dying Breath",
+        "legendarySpellID": 234848,
+        "specs": [
+            65
+        ]
+    },
+    {
+        "legendaryBonusID": 7059,
+        "legendaryId": 103,
+        "legendaryName": "Shock Barrier",
+        "legendarySpellID": 337825,
+        "specs": [
+            65
+        ]
+    },
+    {
+        "legendaryBonusID": 7057,
+        "legendaryId": 104,
+        "legendaryName": "Shadowbreaker, Dawn of the Sun",
+        "legendarySpellID": 337812,
+        "specs": [
+            65
+        ]
+    },
+    {
+        "legendaryBonusID": 7058,
+        "legendaryId": 105,
+        "legendaryName": "Inflorescence of the Sunwell",
+        "legendarySpellID": 337777,
+        "specs": [
+            65
+        ]
+    },
+    {
+        "legendaryBonusID": 7060,
+        "legendaryId": 106,
+        "legendaryName": "Holy Avenger's Engraved Sigil",
+        "legendarySpellID": 337831,
+        "specs": [
+            66
+        ]
+    },
+    {
+        "legendaryBonusID": 7061,
+        "legendaryId": 107,
+        "legendaryName": "The Ardent Protector's Sanctum",
+        "legendarySpellID": 337838,
+        "specs": [
+            66
+        ]
+    },
+    {
+        "legendaryBonusID": 7062,
+        "legendaryId": 108,
+        "legendaryName": "Bulwark of Righteous Fury",
+        "legendarySpellID": 337847,
+        "specs": [
+            66
+        ]
+    },
+    {
+        "legendaryBonusID": 7063,
+        "legendaryId": 109,
+        "legendaryName": "Reign of Endless Kings",
+        "legendarySpellID": 337850,
+        "specs": [
+            66
+        ]
+    },
+    {
+        "legendaryBonusID": 7067,
+        "legendaryId": 110,
+        "legendaryName": "Tempest of the Lightbringer",
+        "legendarySpellID": 337257,
+        "specs": [
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7066,
+        "legendaryId": 111,
+        "legendaryName": "Relentless Inquisitor",
+        "legendarySpellID": 337297,
+        "specs": [
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7065,
+        "legendaryId": 112,
+        "legendaryName": "Badge of the Mad Paragon",
+        "legendarySpellID": 337594,
+        "specs": [
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7064,
+        "legendaryId": 113,
+        "legendaryName": "Final Verdict",
+        "legendarySpellID": 337247,
+        "specs": [
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7114,
+        "legendaryId": 114,
+        "legendaryName": "Invigorating Shadowdust",
+        "legendarySpellID": 340080,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7113,
+        "legendaryId": 115,
+        "legendaryName": "Essence of Bloodfang",
+        "legendarySpellID": 340079,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7112,
+        "legendaryId": 116,
+        "legendaryName": "Tiny Toxic Blades",
+        "legendarySpellID": 340078,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7111,
+        "legendaryId": 117,
+        "legendaryName": "Mark of the Master Assassin",
+        "legendarySpellID": 340076,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7115,
+        "legendaryId": 118,
+        "legendaryName": "Dashing Scoundrel",
+        "legendarySpellID": 340081,
+        "specs": [
+            259
+        ]
+    },
+    {
+        "legendaryBonusID": 7116,
+        "legendaryId": 119,
+        "legendaryName": "Doomblade",
+        "legendarySpellID": 340082,
+        "specs": [
+            259
+        ]
+    },
+    {
+        "legendaryBonusID": 7117,
+        "legendaryId": 120,
+        "legendaryName": "Zoldyck Insignia",
+        "legendarySpellID": 340083,
+        "specs": [
+            259
+        ]
+    },
+    {
+        "legendaryBonusID": 7118,
+        "legendaryId": 121,
+        "legendaryName": "Dustwalker's Patch",
+        "legendarySpellID": 340084,
+        "specs": [
+            259
+        ]
+    },
+    {
+        "legendaryBonusID": 7122,
+        "legendaryId": 122,
+        "legendaryName": "Concealed Blunderbuss",
+        "legendarySpellID": 340088,
+        "specs": [
+            260
+        ]
+    },
+    {
+        "legendaryBonusID": 7121,
+        "legendaryId": 123,
+        "legendaryName": "Celerity",
+        "legendarySpellID": 340087,
+        "specs": [
+            260
+        ]
+    },
+    {
+        "legendaryBonusID": 7120,
+        "legendaryId": 124,
+        "legendaryName": "Guile Charm",
+        "legendarySpellID": 340086,
+        "specs": [
+            260
+        ]
+    },
+    {
+        "legendaryBonusID": 7119,
+        "legendaryId": 125,
+        "legendaryName": "Greenskin's Wickers",
+        "legendarySpellID": 340085,
+        "specs": [
+            260
+        ]
+    },
+    {
+        "legendaryBonusID": 7123,
+        "legendaryId": 126,
+        "legendaryName": "Finality",
+        "legendarySpellID": 340089,
+        "specs": [
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7124,
+        "legendaryId": 127,
+        "legendaryName": "Akaari's Soul Fragment",
+        "legendarySpellID": 340090,
+        "specs": [
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7125,
+        "legendaryId": 128,
+        "legendaryName": "The Rotten",
+        "legendarySpellID": 340091,
+        "specs": [
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 7126,
+        "legendaryId": 129,
+        "legendaryName": "Deathly Shadows",
+        "legendarySpellID": 340092,
+        "specs": [
+            261
+        ]
+    },
+    {
+        "legendaryBonusID": 6985,
+        "legendaryId": 130,
+        "legendaryName": "Ancestral Reminder",
+        "legendarySpellID": 336741,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6986,
+        "legendaryId": 131,
+        "legendaryName": "Deeptremor Stone",
+        "legendarySpellID": 336739,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6987,
+        "legendaryId": 132,
+        "legendaryName": "Deeply Rooted Elements",
+        "legendarySpellID": 336738,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6988,
+        "legendaryId": 133,
+        "legendaryName": "Chains of Devastation",
+        "legendarySpellID": 336735,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6989,
+        "legendaryId": 134,
+        "legendaryName": "Skybreaker's Fiery Demise",
+        "legendarySpellID": 336734,
+        "specs": [
+            262
+        ]
+    },
+    {
+        "legendaryBonusID": 6990,
+        "legendaryId": 135,
+        "legendaryName": "Elemental Equilibrium",
+        "legendarySpellID": 336730,
+        "specs": [
+            262
+        ]
+    },
+    {
+        "legendaryBonusID": 6991,
+        "legendaryId": 136,
+        "legendaryName": "Echoes of Great Sundering",
+        "legendarySpellID": 336215,
+        "specs": [
+            262
+        ]
+    },
+    {
+        "legendaryBonusID": 6992,
+        "legendaryId": 137,
+        "legendaryName": "Windspeaker's Lava Resurgence",
+        "legendarySpellID": 336063,
+        "specs": [
+            262
+        ]
+    },
+    {
+        "legendaryBonusID": 6993,
+        "legendaryId": 138,
+        "legendaryName": "Doom Winds",
+        "legendarySpellID": 335902,
+        "specs": [
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6994,
+        "legendaryId": 139,
+        "legendaryName": "Legacy of the Frost Witch",
+        "legendarySpellID": 335899,
+        "specs": [
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6995,
+        "legendaryId": 140,
+        "legendaryName": "Witch Doctor's Wolf Bones",
+        "legendarySpellID": 335897,
+        "specs": [
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6996,
+        "legendaryId": 141,
+        "legendaryName": "Primal Lava Actuators",
+        "legendarySpellID": 335895,
+        "specs": [
+            263
+        ]
+    },
+    {
+        "legendaryBonusID": 6997,
+        "legendaryId": 142,
+        "legendaryName": "Jonat's Natural Focus",
+        "legendarySpellID": 335893,
+        "specs": [
+            264
+        ]
+    },
+    {
+        "legendaryBonusID": 6998,
+        "legendaryId": 143,
+        "legendaryName": "Spiritwalker's Tidal Totem",
+        "legendarySpellID": 335891,
+        "specs": [
+            264
+        ]
+    },
+    {
+        "legendaryBonusID": 6999,
+        "legendaryId": 144,
+        "legendaryName": "Primal Tide Core",
+        "legendarySpellID": 335889,
+        "specs": [
+            264
+        ]
+    },
+    {
+        "legendaryBonusID": 7000,
+        "legendaryId": 145,
+        "legendaryName": "Earthen Harmony",
+        "legendarySpellID": 335886,
+        "specs": [
+            264
+        ]
+    },
+    {
+        "legendaryBonusID": 7161,
+        "legendaryId": 146,
+        "legendaryName": "Measured Contemplation",
+        "legendarySpellID": 341804,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 7002,
+        "legendaryId": 147,
+        "legendaryName": "Twins of the Sun Priestess",
+        "legendarySpellID": 336897,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6975,
+        "legendaryId": 148,
+        "legendaryName": "Cauterizing Shadows",
+        "legendarySpellID": 336370,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6972,
+        "legendaryId": 149,
+        "legendaryName": "Vault of Heavens",
+        "legendarySpellID": 336470,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6976,
+        "legendaryId": 150,
+        "legendaryName": "The Penitent One",
+        "legendarySpellID": 336011,
+        "specs": [
+            256
+        ]
+    },
+    {
+        "legendaryBonusID": 6978,
+        "legendaryId": 151,
+        "legendaryName": "Crystalline Reflection",
+        "legendarySpellID": 336507,
+        "specs": [
+            256
+        ]
+    },
+    {
+        "legendaryBonusID": 6979,
+        "legendaryId": 152,
+        "legendaryName": "Kiss of Death",
+        "legendarySpellID": 336133,
+        "specs": [
+            256
+        ]
+    },
+    {
+        "legendaryBonusID": 6980,
+        "legendaryId": 153,
+        "legendaryName": "Clarity of Mind",
+        "legendarySpellID": 336067,
+        "specs": [
+            256
+        ]
+    },
+    {
+        "legendaryBonusID": 6984,
+        "legendaryId": 154,
+        "legendaryName": "X'anshi, Return of Archbishop Benedictus",
+        "legendarySpellID": 337477,
+        "specs": [
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6977,
+        "legendaryId": 155,
+        "legendaryName": "Harmonious Apparatus",
+        "legendarySpellID": 336314,
+        "specs": [
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6974,
+        "legendaryId": 156,
+        "legendaryName": "Flash Concentration",
+        "legendarySpellID": 336266,
+        "specs": [
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6973,
+        "legendaryId": 157,
+        "legendaryName": "Divine Image",
+        "legendarySpellID": 336400,
+        "specs": [
+            257
+        ]
+    },
+    {
+        "legendaryBonusID": 6981,
+        "legendaryId": 158,
+        "legendaryName": "Painbreaker Psalm",
+        "legendarySpellID": 336165,
+        "specs": [
+            258
+        ]
+    },
+    {
+        "legendaryBonusID": 6982,
+        "legendaryId": 159,
+        "legendaryName": "Shadowflame Prism",
+        "legendarySpellID": 336143,
+        "specs": [
+            258
+        ]
+    },
+    {
+        "legendaryBonusID": 6983,
+        "legendaryId": 160,
+        "legendaryName": "Eternal Call to the Void",
+        "legendarySpellID": 336214,
+        "specs": [
+            258
+        ]
+    },
+    {
+        "legendaryBonusID": 7162,
+        "legendaryId": 161,
+        "legendaryName": "Talbadar's Stratagem",
+        "legendarySpellID": 342415,
+        "specs": [
+            258
+        ]
+    },
+    {
+        "legendaryBonusID": 7025,
+        "legendaryId": 162,
+        "legendaryName": "Wilfred's Sigil of Superior Summoning",
+        "legendarySpellID": 337020,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7026,
+        "legendaryId": 163,
+        "legendaryName": "Claw of Endereth",
+        "legendarySpellID": 337038,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7027,
+        "legendaryId": 164,
+        "legendaryName": "Mark of Borrowed Power",
+        "legendarySpellID": 337057,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7028,
+        "legendaryId": 165,
+        "legendaryName": "Pillars of the Dark Portal",
+        "legendarySpellID": 337065,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7029,
+        "legendaryId": 166,
+        "legendaryName": "Perpetual Agony of Azj'Aqir",
+        "legendarySpellID": 337106,
+        "specs": [
+            265
+        ]
+    },
+    {
+        "legendaryBonusID": 7030,
+        "legendaryId": 167,
+        "legendaryName": "Sacrolash's Dark Strike",
+        "legendarySpellID": 337111,
+        "specs": [
+            265
+        ]
+    },
+    {
+        "legendaryBonusID": 7031,
+        "legendaryId": 168,
+        "legendaryName": "Malefic Wrath",
+        "legendarySpellID": 337122,
+        "specs": [
+            265
+        ]
+    },
+    {
+        "legendaryBonusID": 7032,
+        "legendaryId": 169,
+        "legendaryName": "Wrath of Consumption",
+        "legendarySpellID": 337128,
+        "specs": [
+            265
+        ]
+    },
+    {
+        "legendaryBonusID": 7033,
+        "legendaryId": 170,
+        "legendaryName": "Implosive Potential",
+        "legendarySpellID": 337135,
+        "specs": [
+            266
+        ]
+    },
+    {
+        "legendaryBonusID": 7034,
+        "legendaryId": 171,
+        "legendaryName": "Grim Inquisitor's Dread Calling",
+        "legendarySpellID": 337141,
+        "specs": [
+            266
+        ]
+    },
+    {
+        "legendaryBonusID": 7035,
+        "legendaryId": 172,
+        "legendaryName": "Forces of the Horned Nightmare",
+        "legendarySpellID": 337146,
+        "specs": [
+            266
+        ]
+    },
+    {
+        "legendaryBonusID": 7036,
+        "legendaryId": 173,
+        "legendaryName": "Balespider's Burning Core",
+        "legendarySpellID": 337159,
+        "specs": [
+            266
+        ]
+    },
+    {
+        "legendaryBonusID": 7037,
+        "legendaryId": 174,
+        "legendaryName": "Odr, Shawl of the Ymirjar",
+        "legendarySpellID": 337163,
+        "specs": [
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7038,
+        "legendaryId": 175,
+        "legendaryName": "Cinders of the Azj'Aqir",
+        "legendarySpellID": 337166,
+        "specs": [
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7039,
+        "legendaryId": 176,
+        "legendaryName": "Madness of the Azj'Aqir",
+        "legendarySpellID": 337169,
+        "specs": [
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 7040,
+        "legendaryId": 177,
+        "legendaryName": "Embers of the Diabolic Raiment",
+        "legendarySpellID": 337272,
+        "specs": [
+            267
+        ]
+    },
+    {
+        "legendaryBonusID": 6955,
+        "legendaryId": 178,
+        "legendaryName": "Leaper",
+        "legendarySpellID": 335214,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6971,
+        "legendaryId": 179,
+        "legendaryName": "Seismic Reverberation",
+        "legendarySpellID": 335758,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6958,
+        "legendaryId": 180,
+        "legendaryName": "Misshapen Mirror",
+        "legendarySpellID": 335253,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6959,
+        "legendaryId": 181,
+        "legendaryName": "Signet of Tormented Kings",
+        "legendarySpellID": 335266,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6962,
+        "legendaryId": 182,
+        "legendaryName": "Enduring Blow",
+        "legendarySpellID": 335458,
+        "specs": [
+            71
+        ]
+    },
+    {
+        "legendaryBonusID": 6960,
+        "legendaryId": 183,
+        "legendaryName": "Battlelord",
+        "legendarySpellID": 335274,
+        "specs": [
+            71
+        ]
+    },
+    {
+        "legendaryBonusID": 6961,
+        "legendaryId": 184,
+        "legendaryName": "Exploiter",
+        "legendarySpellID": 335451,
+        "specs": [
+            71
+        ]
+    },
+    {
+        "legendaryBonusID": 6970,
+        "legendaryId": 185,
+        "legendaryName": "Unhinged",
+        "legendarySpellID": 335282,
+        "specs": [
+            71
+        ]
+    },
+    {
+        "legendaryBonusID": 6963,
+        "legendaryId": 186,
+        "legendaryName": "Cadence of Fujieda",
+        "legendarySpellID": 335555,
+        "specs": [
+            72
+        ]
+    },
+    {
+        "legendaryBonusID": 6964,
+        "legendaryId": 187,
+        "legendaryName": "Deathmaker",
+        "legendarySpellID": 335567,
+        "specs": [
+            72
+        ]
+    },
+    {
+        "legendaryBonusID": 6965,
+        "legendaryId": 188,
+        "legendaryName": "Reckless Defense",
+        "legendarySpellID": 335582,
+        "specs": [
+            72
+        ]
+    },
+    {
+        "legendaryBonusID": 6966,
+        "legendaryId": 189,
+        "legendaryName": "Will of the Berserker",
+        "legendarySpellID": 335594,
+        "specs": [
+            72
+        ]
+    },
+    {
+        "legendaryBonusID": 6956,
+        "legendaryId": 190,
+        "legendaryName": "Thunderlord",
+        "legendarySpellID": 335229,
+        "specs": [
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6957,
+        "legendaryId": 191,
+        "legendaryName": "The Wall",
+        "legendarySpellID": 335239,
+        "specs": [
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6967,
+        "legendaryId": 192,
+        "legendaryName": "Unbreakable Will",
+        "legendarySpellID": 335629,
+        "specs": [
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 6969,
+        "legendaryId": 193,
+        "legendaryName": "Reprisal",
+        "legendarySpellID": 335718,
+        "specs": [
+            73
+        ]
+    },
+    {
+        "legendaryBonusID": 7054,
+        "legendaryId": 196,
+        "legendaryName": "Liadrin's Fury Reborn",
+        "legendarySpellID": 337638,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "legendaryBonusID": 7100,
+        "legendaryId": 199,
+        "legendaryName": "Echo of Eonar",
+        "legendarySpellID": 338477,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7101,
+        "legendaryId": 200,
+        "legendaryName": "Judgment of the Arbiter",
+        "legendarySpellID": 339344,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7102,
+        "legendaryId": 201,
+        "legendaryName": "Norgannon's Sagacity",
+        "legendarySpellID": 339340,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7103,
+        "legendaryId": 202,
+        "legendaryName": "Sephuz's Proclamation",
+        "legendarySpellID": 339348,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7104,
+        "legendaryId": 203,
+        "legendaryName": "Stable Phantasma Lure",
+        "legendarySpellID": 339351,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7105,
+        "legendaryId": 204,
+        "legendaryName": "Third Eye of the Jailer",
+        "legendarySpellID": 339058,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7106,
+        "legendaryId": 205,
+        "legendaryName": "Vitality Sacrifice",
+        "legendarySpellID": 338743,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "legendaryBonusID": 7159,
+        "legendaryId": 206,
+        "legendaryName": "Maw Rattle",
+        "legendarySpellID": 340197,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    }
+]
