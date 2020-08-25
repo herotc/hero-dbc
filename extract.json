@@ -1,6 +1,8 @@
 {
   "dbfiles": [
     "Covenant",
+    "GarrTalent",
+    "GarrTalentRank",
     "ItemEffect",
     "Spell",
     "SpellCooldowns",

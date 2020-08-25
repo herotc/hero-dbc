@@ -32,8 +32,14 @@ with open(os.path.join(generatedDir, 'Covenant.csv')) as csvfile:
             'soulbinds': []
         }
         Covenants.append(covenant)
-    
 
+TreeSpell = {}
+# Parse Soulbind tree spells
+with open(os.path.join(generatedDir, 'GarrTalentRank.csv')) as csvfile:
+    reader = csv.DictReader(csvfile, escapechar='\\')
+    for row in reader:
+        if int(row['id_spell']) > 0:
+            TreeSpell[int(row['id_parent'])] = int(row['id_spell'])
 
 with open(os.path.join(generatedDir, 'Soulbind.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
@@ -41,11 +47,36 @@ with open(os.path.join(generatedDir, 'Soulbind.csv')) as csvfile:
     for row in reader:
         soulbind = {
             'soulbindId': int(row['id']),
-            'soulbindName': row['name']
+            'soulbindName': row['name'],
+            'soulbindTreeID': int(row['id_garr_talent_tree']),
+            'soulbindTree': {}
         }
+
+        # Get the soulbind tree
+        with open(os.path.join(generatedDir, 'GarrTalent.csv')) as csvfile:
+            reader = csv.DictReader(csvfile, escapechar='\\')
+            for rowTalents in reader:
+                if int(rowTalents['id_garr_talent_tree']) == int(row['id_garr_talent_tree']):
+                    soulbindAbility = {
+                        'soulbindAbilityId': int(rowTalents['id']), 
+                        'soulbindAbilityName': rowTalents['name']
+                    }
+                    # assign spell id
+                    if int(rowTalents['id']) in TreeSpell:
+                        soulbindAbility['soulbindAbilitySpellId'] = TreeSpell[int(rowTalents['id'])]
+                    if int(rowTalents['conduit_type']) > 0:
+                        soulbindAbility['soulbindAbilityConduitType'] = int(rowTalents['conduit_type'])
+                    if int(rowTalents['id_garr_talent_prereq']) > 0:
+                        soulbindAbility['soulbindAbilityPrereq'] = int(rowTalents['id_garr_talent_prereq'])
+                    if not int(rowTalents['tier']) in soulbind['soulbindTree']:
+                        soulbind['soulbindTree'][int(rowTalents['tier'])] = {}
+
+                    soulbind['soulbindTree'][int(rowTalents['tier'])][int(rowTalents['ui_order'])] = soulbindAbility
+
+        # Attach soulbind to covenant
         for index in range(len(Covenants)):
-            if Covenants[index]["covenantId"] == int(row['id_covenant']):
-                Covenants[index]["soulbinds"].append(soulbind)
+            if Covenants[index]['covenantId'] == int(row['id_covenant']):
+                Covenants[index]['soulbinds'].append(soulbind)
 
 # Full output
 with open(os.path.join(parsedDir, 'Soulbinds.json'), 'w') as jsonFile:
