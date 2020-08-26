@@ -25,6 +25,7 @@
     "Talent"
   ],
   "parsers": [
+    "Conduits",
     "ItemRangeUnfiltered",
     "ItemSpell",
     "LegendaryItems",
