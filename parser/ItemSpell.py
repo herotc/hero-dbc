@@ -28,7 +28,7 @@ with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
         Items[int(row['id_parent'])] = int(row['id_spell'])
 
 with open(os.path.join(parsedDir, 'ItemSpell.lua'), 'w', encoding='utf-8') as file:
-    file.write('MoreItemInfo.Enum.ItemSpell = {\n')
+    file.write('MoreTooltipInfo.Enum.ItemSpell = {\n')
     itemRowMax = len(Items) - 1
     for i, itemRow in enumerate(Items):
         file.write('  [' + str(itemRow) + '] = ' + str(Items[itemRow]))

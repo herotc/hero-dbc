@@ -120,7 +120,7 @@ with open(os.path.join(generatedDir, 'SpellAuraOptions.csv')) as csvfile:
             PPMID[int(row['id_parent'])] = int(row['id_ppm'])
 
 with open(os.path.join(parsedDir, 'RPPM.lua'), 'w', encoding='utf-8') as file:
-    file.write('MoreItemInfo.Enum.RPPM = {\n')
+    file.write('MoreTooltipInfo.Enum.RPPM = {\n')
     itemRowMax = len(PPMID) - 1
     for i, itemRow in enumerate(PPMID):
         file.write('  [' + str(itemRow) + '] = {\n')

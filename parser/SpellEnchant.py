@@ -38,7 +38,7 @@ with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
         if int(row['misc_value_1']) > 0 and row['misc_value_1'] in Enchants:
             ValidRows.append(row)
     with open(os.path.join(parsedDir, 'SpellEnchants.lua'), 'w', encoding='utf-8') as file:
-        file.write('MoreItemInfo.Enum.SpellEnchants = {\n')
+        file.write('MoreTooltipInfo.Enum.SpellEnchants = {\n')
         iMax = len(ValidRows) - 1
         for i, row in enumerate(ValidRows):
             if i == iMax:
