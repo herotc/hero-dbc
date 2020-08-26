@@ -21,7 +21,7 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 #Covenant.id = Soulbind.id_covenant
 
 
-# Get every spell id associated to an item effect
+# Get every covenants
 Covenants = []
 with open(os.path.join(generatedDir, 'Covenant.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
