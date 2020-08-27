@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.1.35598 client data on 2020-08-24T19:26:53.454349.
+-- Generated using WoW 9.0.1.35679 client data on 2020-08-27T10:41:01.325619.
 HeroLib.Enum.ItemRangeUnfiltered = {
   Melee = {
     [5] = {
@@ -185,7 +185,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       182771,
       183522,
       183725,
-      183806
+      183806,
+      183900
     },
     [8] = {
       180052,
@@ -905,6 +906,7 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       181456,
       181497,
       181558,
+      181618,
       181796,
       182479,
       183689,
@@ -987,8 +989,10 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       152730,
       174928,
       178602,
+      178899,
       178901,
-      182301
+      182301,
+      183901
     },
     [9] = {
       72578,
@@ -1404,6 +1408,7 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       172904,
       172924,
       172955,
+      173048,
       173771,
       173773,
       173774,
@@ -1447,7 +1452,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       183118,
       183126,
       183187,
-      183807
+      183807,
+      183939
     },
     [12] = {
       137440,
@@ -1717,7 +1723,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       179921,
       179978,
       179983,
-      180356
+      180356,
+      180692
     },
     [18] = {
       142375,
@@ -2076,7 +2083,6 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       180454,
       180674,
       180675,
-      180810,
       180876,
       183045,
       183105
@@ -2692,7 +2698,7 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       180689,
       180690,
       180691,
-      180692,
+      180810,
       180874,
       181284,
       181460,
@@ -2709,7 +2715,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       182969,
       183165,
       183398,
-      183602
+      183602,
+      183944
     },
     [35] = {
       2299,
@@ -3426,7 +3433,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       41265,
       73801,
       106981,
-      159144
+      159144,
+      179923
     },
     [80] = {
       24538,

@@ -740,8 +740,8 @@
             },
             "6": {
                 "0": {
-                    "spellId": 202342,
-                    "spellName": "Shooting Stars",
+                    "spellId": 343647,
+                    "spellName": "Solstice",
                     "talentId": 21648
                 },
                 "1": {
@@ -1462,7 +1462,7 @@
                     "talentId": 22557
                 },
                 "2": {
-                    "spellId": 267798,
+                    "spellId": 343527,
                     "spellName": "Execution Sentence",
                     "talentId": 23467
                 }
@@ -1520,8 +1520,8 @@
                     "talentId": 22215
                 },
                 "2": {
-                    "spellId": 84963,
-                    "spellName": "Inquisition",
+                    "spellId": 343721,
+                    "spellName": "Final Reckoning",
                     "talentId": 22634
                 }
             }
@@ -2210,8 +2210,8 @@
             },
             "6": {
                 "1": {
-                    "spellId": 271466,
-                    "spellName": "Luminous Barrier",
+                    "spellId": 109964,
+                    "spellName": "Spirit Shell",
                     "talentId": 21184
                 }
             }
@@ -2264,8 +2264,8 @@
             },
             "6": {
                 "0": {
-                    "spellId": 321950,
-                    "spellName": "Light's Caress",
+                    "spellId": 238063,
+                    "spellName": "Lenience",
                     "talentId": 21183
                 },
                 "2": {
@@ -2844,7 +2844,7 @@
                 },
                 "2": {
                     "spellId": 207289,
-                    "spellName": "Unholy Strike",
+                    "spellName": "Unholy Assault",
                     "talentId": 22538
                 }
             }
@@ -3312,8 +3312,8 @@
                     "talentId": 22455
                 },
                 "1": {
-                    "spellId": 321387,
-                    "spellName": "Enlightened",
+                    "spellId": 153626,
+                    "spellName": "Arcane Orb",
                     "talentId": 22449
                 },
                 "2": {
@@ -3329,8 +3329,8 @@
                     "talentId": 21144
                 },
                 "2": {
-                    "spellId": 153626,
-                    "spellName": "Arcane Orb",
+                    "spellId": 321387,
+                    "spellName": "Enlightened",
                     "talentId": 21145
                 }
             }

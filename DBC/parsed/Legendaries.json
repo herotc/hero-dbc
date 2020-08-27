@@ -1174,7 +1174,7 @@
         "legendaryBonusID": 7184,
         "legendaryId": 82,
         "legendaryName": "Escape from Reality",
-        "legendarySpellID": 0,
+        "legendarySpellID": 343250,
         "specs": [
             268,
             270,
@@ -2801,9 +2801,9 @@
         ]
     },
     {
-        "InventoryTypeMask": 1600,
+        "InventoryTypeMask": 2624,
         "itemSlot": [
-            "Hands",
+            "Finger",
             "Wrist",
             "Waist"
         ],
@@ -2851,11 +2851,11 @@
         ]
     },
     {
-        "InventoryTypeMask": 1538,
+        "InventoryTypeMask": 3584,
         "itemSlot": [
+            "Finger",
             "Hands",
-            "Wrist",
-            "Head"
+            "Wrist"
         ],
         "legendaryBonusID": 7101,
         "legendaryId": 200,
