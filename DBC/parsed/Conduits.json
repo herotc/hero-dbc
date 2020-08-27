@@ -2,1506 +2,2706 @@
     {
         "conduitId": 5,
         "conduitName": "Stalwart Guardian",
-        "conduitSpellID": 334993
+        "conduitSpellID": 334993,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 7,
         "conduitName": "Brutal Vitality",
-        "conduitSpellID": 335010
+        "conduitSpellID": 335010,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 8,
         "conduitName": "Inspiring Presence",
-        "conduitSpellID": 335034
+        "conduitSpellID": 335034,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 9,
         "conduitName": "Safeguard",
-        "conduitSpellID": 335196
+        "conduitSpellID": 335196,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 10,
         "conduitName": "Iron Maiden",
-        "conduitSpellID": 335225
+        "conduitSpellID": 335225,
+        "specs": [
+            73
+        ]
     },
     {
         "conduitId": 11,
         "conduitName": "Ashen Juggernaut",
-        "conduitSpellID": 335232
+        "conduitSpellID": 335232,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 12,
         "conduitName": "Crash the Ramparts",
-        "conduitSpellID": 335242
+        "conduitSpellID": 335242,
+        "specs": [
+            71
+        ]
     },
     {
         "conduitId": 13,
         "conduitName": "Cacophonous Roar",
-        "conduitSpellID": 335250
+        "conduitSpellID": 335250,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 14,
         "conduitName": "Merciless Bonegrinder",
-        "conduitSpellID": 335260
+        "conduitSpellID": 335260,
+        "specs": [
+            71
+        ]
     },
     {
         "conduitId": 15,
         "conduitName": "Harm Denial",
-        "conduitSpellID": 336379
+        "conduitSpellID": 336379,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 16,
         "conduitName": "Inner Fury",
-        "conduitSpellID": 336452
+        "conduitSpellID": 336452,
+        "specs": [
+            269
+        ]
     },
     {
         "conduitId": 17,
         "conduitName": "Unrelenting Cold",
-        "conduitSpellID": 336460
+        "conduitSpellID": 336460,
+        "specs": [
+            64
+        ]
     },
     {
         "conduitId": 18,
         "conduitName": "Shivering Core",
-        "conduitSpellID": 336472
+        "conduitSpellID": 336472,
+        "specs": [
+            64
+        ]
     },
     {
         "conduitId": 19,
         "conduitName": "Calculated Strikes",
-        "conduitSpellID": 336526
+        "conduitSpellID": 336526,
+        "specs": [
+            269
+        ]
     },
     {
         "conduitId": 20,
         "conduitName": "Icy Propulsion",
-        "conduitSpellID": 336522
+        "conduitSpellID": 336522,
+        "specs": [
+            64
+        ]
     },
     {
         "conduitId": 21,
         "conduitName": "Ice Bite",
-        "conduitSpellID": 336569
+        "conduitSpellID": 336569,
+        "specs": [
+            64
+        ]
     },
     {
         "conduitId": 22,
         "conduitName": "Coordinated Offensive",
-        "conduitSpellID": 336598
+        "conduitSpellID": 336598,
+        "specs": [
+            269
+        ]
     },
     {
         "conduitId": 23,
         "conduitName": "Winter's Protection",
-        "conduitSpellID": 336613
+        "conduitSpellID": 336613,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 24,
         "conduitName": "Xuen's Bond",
-        "conduitSpellID": 336616
+        "conduitSpellID": 336616,
+        "specs": [
+            269
+        ]
     },
     {
         "conduitId": 25,
         "conduitName": "Grounding Breath",
-        "conduitSpellID": 336632
+        "conduitSpellID": 336632,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 26,
         "conduitName": "Flow of Time",
-        "conduitSpellID": 336636
+        "conduitSpellID": 336636,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 27,
         "conduitName": "Indelible Victory",
-        "conduitSpellID": 336191
+        "conduitSpellID": 336191,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 28,
         "conduitName": "Jade Bond",
-        "conduitSpellID": 336773
+        "conduitSpellID": 336773,
+        "specs": [
+            270
+        ]
     },
     {
         "conduitId": 29,
         "conduitName": "Grounding Surge",
-        "conduitSpellID": 336777
+        "conduitSpellID": 336777,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 30,
         "conduitName": "Infernal Cascade",
-        "conduitSpellID": 336821
+        "conduitSpellID": 336821,
+        "specs": [
+            63
+        ]
     },
     {
         "conduitId": 31,
         "conduitName": "Resplendent Mist",
-        "conduitSpellID": 336812
+        "conduitSpellID": 336812,
+        "specs": [
+            270
+        ]
     },
     {
         "conduitId": 32,
         "conduitName": "Master Flame",
-        "conduitSpellID": 336852
+        "conduitSpellID": 336852,
+        "specs": [
+            63
+        ]
     },
     {
         "conduitId": 33,
         "conduitName": "Fortifying Ingredients",
-        "conduitSpellID": 336853
+        "conduitSpellID": 336853,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 34,
         "conduitName": "Arcane Prodigy",
-        "conduitSpellID": 336873
+        "conduitSpellID": 336873,
+        "specs": [
+            62
+        ]
     },
     {
         "conduitId": 35,
         "conduitName": "Lingering Numbness",
-        "conduitSpellID": 336884
+        "conduitSpellID": 336884,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 36,
         "conduitName": "Nether Precision",
-        "conduitSpellID": 336886
+        "conduitSpellID": 336886,
+        "specs": [
+            62
+        ]
     },
     {
         "conduitId": 37,
         "conduitName": "Dizzying Tumble",
-        "conduitSpellID": 336890
+        "conduitSpellID": 336890,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 38,
         "conduitName": "Discipline of the Grove",
-        "conduitSpellID": 336992
+        "conduitSpellID": 336992,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 39,
         "conduitName": "Gift of the Lich",
-        "conduitSpellID": 336999
+        "conduitSpellID": 336999,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 40,
         "conduitName": "Ire of the Ascended",
-        "conduitSpellID": 337058
+        "conduitSpellID": 337058,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 41,
         "conduitName": "Swift Transference",
-        "conduitSpellID": 337078
+        "conduitSpellID": 337078,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 42,
         "conduitName": "Tumbling Technique",
-        "conduitSpellID": 337084
+        "conduitSpellID": 337084,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 43,
         "conduitName": "Siphoned Malice",
-        "conduitSpellID": 337087
+        "conduitSpellID": 337087,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 44,
         "conduitName": "Rising Sun Revival",
-        "conduitSpellID": 337099
+        "conduitSpellID": 337099,
+        "specs": [
+            270
+        ]
     },
     {
         "conduitId": 45,
         "conduitName": "Cryo-Freeze",
-        "conduitSpellID": 337123
+        "conduitSpellID": 337123,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 46,
         "conduitName": "Scalding Brew",
-        "conduitSpellID": 337119
+        "conduitSpellID": 337119,
+        "specs": [
+            268
+        ]
     },
     {
         "conduitId": 47,
         "conduitName": "Celestial Effervescence",
-        "conduitSpellID": 337134
+        "conduitSpellID": 337134,
+        "specs": [
+            268
+        ]
     },
     {
         "conduitId": 48,
         "conduitName": "Diverted Energy",
-        "conduitSpellID": 337136
+        "conduitSpellID": 337136,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 49,
         "conduitName": "Unnerving Focus",
-        "conduitSpellID": 337154
+        "conduitSpellID": 337154,
+        "specs": [
+            73
+        ]
     },
     {
         "conduitId": 50,
         "conduitName": "Depths of Insanity",
-        "conduitSpellID": 337162
+        "conduitSpellID": 337162,
+        "specs": [
+            72
+        ]
     },
     {
         "conduitId": 51,
         "conduitName": "Magi's Brand",
-        "conduitSpellID": 337192
+        "conduitSpellID": 337192,
+        "specs": [
+            62
+        ]
     },
     {
         "conduitId": 52,
         "conduitName": "Hack and Slash",
-        "conduitSpellID": 337214
+        "conduitSpellID": 337214,
+        "specs": [
+            72
+        ]
     },
     {
         "conduitId": 53,
         "conduitName": "Flame Accretion",
-        "conduitSpellID": 337224
+        "conduitSpellID": 337224,
+        "specs": [
+            63
+        ]
     },
     {
         "conduitId": 54,
         "conduitName": "Nourishing Chi",
-        "conduitSpellID": 337241
+        "conduitSpellID": 337241,
+        "specs": [
+            270
+        ]
     },
     {
         "conduitId": 55,
         "conduitName": "Artifice of the Archmage",
-        "conduitSpellID": 337240
+        "conduitSpellID": 337240,
+        "specs": [
+            62
+        ]
     },
     {
         "conduitId": 56,
         "conduitName": "Evasive Stride",
-        "conduitSpellID": 337250
+        "conduitSpellID": 337250,
+        "specs": [
+            268
+        ]
     },
     {
         "conduitId": 57,
         "conduitName": "Walk with the Ox",
-        "conduitSpellID": 337264
+        "conduitSpellID": 337264,
+        "specs": [
+            268
+        ]
     },
     {
         "conduitId": 58,
         "conduitName": "Incantation of Swiftness",
-        "conduitSpellID": 337275
+        "conduitSpellID": 337275,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 59,
         "conduitName": "Strike with Clarity",
-        "conduitSpellID": 337286
+        "conduitSpellID": 337286,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 60,
         "conduitName": "Bone Marrow Hops",
-        "conduitSpellID": 337295
+        "conduitSpellID": 337295,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 61,
         "conduitName": "Tempest Barrier",
-        "conduitSpellID": 337293
+        "conduitSpellID": 337293,
+        "specs": [
+            62,
+            63,
+            64
+        ]
     },
     {
         "conduitId": 62,
         "conduitName": "Imbued Reflections",
-        "conduitSpellID": 337301
+        "conduitSpellID": 337301,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 63,
         "conduitName": "Way of the Fae",
-        "conduitSpellID": 337303
+        "conduitSpellID": 337303,
+        "specs": [
+            268,
+            270,
+            269
+        ]
     },
     {
         "conduitId": 64,
         "conduitName": "Vicious Contempt",
-        "conduitSpellID": 337302
+        "conduitSpellID": 337302,
+        "specs": [
+            72
+        ]
     },
     {
         "conduitId": 65,
         "conduitName": "Eternal Hunger",
-        "conduitSpellID": 337381
+        "conduitSpellID": 337381,
+        "specs": [
+            252
+        ]
     },
     {
         "conduitId": 66,
         "conduitName": "Translucent Image",
-        "conduitSpellID": 337662
+        "conduitSpellID": 337662,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 67,
         "conduitName": "Move with Grace",
-        "conduitSpellID": 337678
+        "conduitSpellID": 337678,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 68,
         "conduitName": "Chilled Resilience",
-        "conduitSpellID": 337704
+        "conduitSpellID": 337704,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 69,
         "conduitName": "Clear Mind",
-        "conduitSpellID": 337707
+        "conduitSpellID": 337707,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 70,
         "conduitName": "Spirit Drain",
-        "conduitSpellID": 337705
+        "conduitSpellID": 337705,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 71,
         "conduitName": "Charitable Soul",
-        "conduitSpellID": 337715
+        "conduitSpellID": 337715,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 72,
         "conduitName": "Light's Inspiration",
-        "conduitSpellID": 337748
+        "conduitSpellID": 337748,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 73,
         "conduitName": "Power Unto Others",
-        "conduitSpellID": 337762
+        "conduitSpellID": 337762,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 74,
         "conduitName": "Reinforced Shell",
-        "conduitSpellID": 337764
+        "conduitSpellID": 337764,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 75,
         "conduitName": "Shining Radiance",
-        "conduitSpellID": 337778
+        "conduitSpellID": 337778,
+        "specs": [
+            256
+        ]
     },
     {
         "conduitId": 74,
         "conduitName": "Reinforced Shell",
-        "conduitSpellID": 337764
+        "conduitSpellID": 337764,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 76,
         "conduitName": "Pain Transformation",
-        "conduitSpellID": 337786
+        "conduitSpellID": 337786,
+        "specs": [
+            256
+        ]
     },
     {
         "conduitId": 77,
         "conduitName": "Exaltation",
-        "conduitSpellID": 337790
+        "conduitSpellID": 337790,
+        "specs": [
+            256
+        ]
     },
     {
         "conduitId": 78,
         "conduitName": "Lasting Spirit",
-        "conduitSpellID": 337811
+        "conduitSpellID": 337811,
+        "specs": [
+            257
+        ]
     },
     {
         "conduitId": 79,
         "conduitName": "Accelerated Cold",
-        "conduitSpellID": 337822
+        "conduitSpellID": 337822,
+        "specs": [
+            251
+        ]
     },
     {
         "conduitId": 80,
         "conduitName": "Withering Plague",
-        "conduitSpellID": 337884
+        "conduitSpellID": 337884,
+        "specs": [
+            250
+        ]
     },
     {
         "conduitId": 81,
         "conduitName": "Swift Penitence",
-        "conduitSpellID": 337891
+        "conduitSpellID": 337891,
+        "specs": [
+            256
+        ]
     },
     {
         "conduitId": 82,
         "conduitName": "Focused Mending",
-        "conduitSpellID": 337914
+        "conduitSpellID": 337914,
+        "specs": [
+            257
+        ]
     },
     {
         "conduitId": 83,
         "conduitName": "Eradicating Blow",
-        "conduitSpellID": 337934
+        "conduitSpellID": 337934,
+        "specs": [
+            251
+        ]
     },
     {
         "conduitId": 84,
         "conduitName": "Resonant Words",
-        "conduitSpellID": 337947
+        "conduitSpellID": 337947,
+        "specs": [
+            257
+        ]
     },
     {
         "conduitId": 85,
         "conduitName": "Mental Recovery",
-        "conduitSpellID": 337954
+        "conduitSpellID": 337954,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 86,
         "conduitName": "Blood Bond",
-        "conduitSpellID": 337957
+        "conduitSpellID": 337957,
+        "specs": [
+            250
+        ]
     },
     {
         "conduitId": 87,
         "conduitName": "Courageous Ascension",
-        "conduitSpellID": 337966
+        "conduitSpellID": 337966,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 88,
         "conduitName": "Hardened Bones",
-        "conduitSpellID": 337972
+        "conduitSpellID": 337972,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 89,
         "conduitName": "Embrace Death",
-        "conduitSpellID": 337980
+        "conduitSpellID": 337980,
+        "specs": [
+            252
+        ]
     },
     {
         "conduitId": 90,
         "conduitName": "Festering Transfusion",
-        "conduitSpellID": 337979
+        "conduitSpellID": 337979,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 91,
         "conduitName": "Biting Cold",
-        "conduitSpellID": 337988
+        "conduitSpellID": 337988,
+        "specs": [
+            251
+        ]
     },
     {
         "conduitId": 92,
         "conduitName": "Astral Protection",
-        "conduitSpellID": 337964
+        "conduitSpellID": 337964,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 93,
         "conduitName": "Refreshing Waters",
-        "conduitSpellID": 337974
+        "conduitSpellID": 337974,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 94,
         "conduitName": "Vital Accretion",
-        "conduitSpellID": 337981
+        "conduitSpellID": 337981,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 95,
         "conduitName": "Thunderous Paws",
-        "conduitSpellID": 338033
+        "conduitSpellID": 338033,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 96,
         "conduitName": "Totemic Surge",
-        "conduitSpellID": 338042
+        "conduitSpellID": 338042,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 97,
         "conduitName": "Crippling Hex",
-        "conduitSpellID": 338054
+        "conduitSpellID": 338054,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 98,
         "conduitName": "Spiritual Resonance",
-        "conduitSpellID": 338048
+        "conduitSpellID": 338048,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 99,
         "conduitName": "Fleeting Wind",
-        "conduitSpellID": 338093
+        "conduitSpellID": 338093,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 100,
         "conduitName": "Earth and Sky",
-        "conduitSpellID": 338307
+        "conduitSpellID": 338307,
+        "specs": [
+            262
+        ]
     },
     {
         "conduitId": 101,
         "conduitName": "Fae Fermata",
-        "conduitSpellID": 338305
+        "conduitSpellID": 338305,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 102,
         "conduitName": "High Voltage",
-        "conduitSpellID": 338131
+        "conduitSpellID": 338131,
+        "specs": [
+            262
+        ]
     },
     {
         "conduitId": 103,
         "conduitName": "Shake the Foundations",
-        "conduitSpellID": 338252
+        "conduitSpellID": 338252,
+        "specs": [
+            262
+        ]
     },
     {
         "conduitId": 104,
         "conduitName": "Call of Flame",
-        "conduitSpellID": 338303
+        "conduitSpellID": 338303,
+        "specs": [
+            262
+        ]
     },
     {
         "conduitId": 105,
         "conduitName": "Shattered Perceptions",
-        "conduitSpellID": 338315
+        "conduitSpellID": 338315,
+        "specs": [
+            258,
+            256,
+            257
+        ]
     },
     {
         "conduitId": 106,
         "conduitName": "Unending Grip",
-        "conduitSpellID": 338311
+        "conduitSpellID": 338311,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 107,
         "conduitName": "Haunting Apparitions",
-        "conduitSpellID": 338319
+        "conduitSpellID": 338319,
+        "specs": [
+            258
+        ]
     },
     {
         "conduitId": 108,
         "conduitName": "Insatiable Appetite",
-        "conduitSpellID": 338330
+        "conduitSpellID": 338330,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 109,
         "conduitName": "Unruly Winds",
-        "conduitSpellID": 338318
+        "conduitSpellID": 338318,
+        "specs": [
+            263
+        ]
     },
     {
         "conduitId": 110,
         "conduitName": "Focused Lightning",
-        "conduitSpellID": 338322
+        "conduitSpellID": 338322,
+        "specs": [
+            263
+        ]
     },
     {
         "conduitId": 111,
         "conduitName": "Magma Fist",
-        "conduitSpellID": 338331
+        "conduitSpellID": 338331,
+        "specs": [
+            263
+        ]
     },
     {
         "conduitId": 112,
         "conduitName": "Chilled to the Core",
-        "conduitSpellID": 338325
+        "conduitSpellID": 338325,
+        "specs": [
+            263
+        ]
     },
     {
         "conduitId": 113,
         "conduitName": "Mind Devourer",
-        "conduitSpellID": 338332
+        "conduitSpellID": 338332,
+        "specs": [
+            258
+        ]
     },
     {
         "conduitId": 114,
         "conduitName": "Rabid Shadows",
-        "conduitSpellID": 338338
+        "conduitSpellID": 338338,
+        "specs": [
+            258
+        ]
     },
     {
         "conduitId": 115,
         "conduitName": "Dissonant Echoes",
-        "conduitSpellID": 338342
+        "conduitSpellID": 338342,
+        "specs": [
+            258
+        ]
     },
     {
         "conduitId": 116,
         "conduitName": "Holy Oration",
-        "conduitSpellID": 338345
+        "conduitSpellID": 338345,
+        "specs": [
+            257
+        ]
     },
     {
         "conduitId": 117,
         "conduitName": "Embrace of Earth",
-        "conduitSpellID": 338329
+        "conduitSpellID": 338329,
+        "specs": [
+            264
+        ]
     },
     {
         "conduitId": 118,
         "conduitName": "Swirling Currents",
-        "conduitSpellID": 338339
+        "conduitSpellID": 338339,
+        "specs": [
+            264
+        ]
     },
     {
         "conduitId": 119,
         "conduitName": "Heavy Rainfall",
-        "conduitSpellID": 338343
+        "conduitSpellID": 338343,
+        "specs": [
+            264
+        ]
     },
     {
         "conduitId": 120,
         "conduitName": "Nature's Reach",
-        "conduitSpellID": 338346
+        "conduitSpellID": 338346,
+        "specs": [
+            264
+        ]
     },
     {
         "conduitId": 121,
         "conduitName": "Meat Shield",
-        "conduitSpellID": 338435
+        "conduitSpellID": 338435,
+        "specs": [
+            250
+        ]
     },
     {
         "conduitId": 122,
         "conduitName": "Unleashed Frenzy",
-        "conduitSpellID": 338492
+        "conduitSpellID": 338492,
+        "specs": [
+            251
+        ]
     },
     {
         "conduitId": 123,
         "conduitName": "Debilitating Malady",
-        "conduitSpellID": 338516
+        "conduitSpellID": 338516,
+        "specs": [
+            250
+        ]
     },
     {
         "conduitId": 124,
         "conduitName": "Convocation of the Dead",
-        "conduitSpellID": 338553
+        "conduitSpellID": 338553,
+        "specs": [
+            252
+        ]
     },
     {
         "conduitId": 125,
         "conduitName": "Lingering Plague",
-        "conduitSpellID": 338566
+        "conduitSpellID": 338566,
+        "specs": [
+            252
+        ]
     },
     {
         "conduitId": 126,
         "conduitName": "Impenetrable Gloom",
-        "conduitSpellID": 338628
+        "conduitSpellID": 338628,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 127,
         "conduitName": "Brutal Grasp",
-        "conduitSpellID": 338651
+        "conduitSpellID": 338651,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 128,
         "conduitName": "Proliferation",
-        "conduitSpellID": 338664
+        "conduitSpellID": 338664,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 129,
         "conduitName": "Divine Call",
-        "conduitSpellID": 338741
+        "conduitSpellID": 338741,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 130,
         "conduitName": "Fel Defender",
-        "conduitSpellID": 338671
+        "conduitSpellID": 338671,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 131,
         "conduitName": "Viscous Ink",
-        "conduitSpellID": 338682
+        "conduitSpellID": 338682,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 132,
         "conduitName": "Shattered Restoration",
-        "conduitSpellID": 338793
+        "conduitSpellID": 338793,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 133,
         "conduitName": "Shielding Words",
-        "conduitSpellID": 338787
+        "conduitSpellID": 338787,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 134,
         "conduitName": "Felfire Haste",
-        "conduitSpellID": 338799
+        "conduitSpellID": 338799,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 135,
         "conduitName": "Ravenous Consumption",
-        "conduitSpellID": 338835
+        "conduitSpellID": 338835,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 137,
         "conduitName": "Enfeebled Mark",
-        "conduitSpellID": 339018
+        "conduitSpellID": 339018,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 138,
         "conduitName": "Demonic Parole",
-        "conduitSpellID": 339048
+        "conduitSpellID": 339048,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 139,
         "conduitName": "Empowered Release",
-        "conduitSpellID": 339059
+        "conduitSpellID": 339059,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 140,
         "conduitName": "Spirit Attunement",
-        "conduitSpellID": 339109
+        "conduitSpellID": 339109,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 141,
         "conduitName": "Golden Path",
-        "conduitSpellID": 339114
+        "conduitSpellID": 339114,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 142,
         "conduitName": "Stalwart as a Crusader",
-        "conduitSpellID": 339124
+        "conduitSpellID": 339124,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 143,
         "conduitName": "Necrotic Barrage",
-        "conduitSpellID": 339129
+        "conduitSpellID": 339129,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 144,
         "conduitName": "Fel Celerity",
-        "conduitSpellID": 339130
+        "conduitSpellID": 339130,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 143,
         "conduitName": "Necrotic Barrage",
-        "conduitSpellID": 339129
+        "conduitSpellID": 339129,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 144,
         "conduitName": "Fel Celerity",
-        "conduitSpellID": 339130
+        "conduitSpellID": 339130,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 145,
         "conduitName": "Lost in Darkness",
-        "conduitSpellID": 339149
+        "conduitSpellID": 339149,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 146,
         "conduitName": "Elysian Dirge",
-        "conduitSpellID": 339182
+        "conduitSpellID": 339182,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 147,
         "conduitName": "Tumbling Waves",
-        "conduitSpellID": 339186
+        "conduitSpellID": 339186,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 148,
         "conduitName": "Essential Extraction",
-        "conduitSpellID": 339183
+        "conduitSpellID": 339183,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 149,
         "conduitName": "Lavish Harvest",
-        "conduitSpellID": 339185
+        "conduitSpellID": 339185,
+        "specs": [
+            262,
+            264,
+            263
+        ]
     },
     {
         "conduitId": 150,
         "conduitName": "Demon's Touch",
-        "conduitSpellID": 339151
+        "conduitSpellID": 339151,
+        "specs": [
+            577
+        ]
     },
     {
         "conduitId": 151,
         "conduitName": "Dancing with Fate",
-        "conduitSpellID": 339228
+        "conduitSpellID": 339228,
+        "specs": [
+            577
+        ]
     },
     {
         "conduitId": 152,
         "conduitName": "Serrated Glaive",
-        "conduitSpellID": 339230
+        "conduitSpellID": 339230,
+        "specs": [
+            577
+        ]
     },
     {
         "conduitId": 153,
         "conduitName": "Growing Inferno",
-        "conduitSpellID": 339231
+        "conduitSpellID": 339231,
+        "specs": [
+            577
+        ]
     },
     {
         "conduitId": 154,
         "conduitName": "Piercing Verdict",
-        "conduitSpellID": 339259
+        "conduitSpellID": 339259,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 157,
         "conduitName": "Markman's Advantage",
-        "conduitSpellID": 339264
+        "conduitSpellID": 339264,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 158,
         "conduitName": "Veteran's Repute",
-        "conduitSpellID": 339265
+        "conduitSpellID": 339265,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 159,
         "conduitName": "Light's Barding",
-        "conduitSpellID": 339268
+        "conduitSpellID": 339268,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 160,
         "conduitName": "Resolute Barrier",
-        "conduitSpellID": 339272
+        "conduitSpellID": 339272,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 161,
         "conduitName": "Wrench Evil",
-        "conduitSpellID": 339292
+        "conduitSpellID": 339292,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 157,
         "conduitName": "Markman's Advantage",
-        "conduitSpellID": 339264
+        "conduitSpellID": 339264,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 162,
         "conduitName": "Accrued Vitality",
-        "conduitSpellID": 339282
+        "conduitSpellID": 339282,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 163,
         "conduitName": "Echoing Blessings",
-        "conduitSpellID": 339316
+        "conduitSpellID": 339316,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 164,
         "conduitName": "Light's Reach",
-        "conduitSpellID": 339371
+        "conduitSpellID": 339371,
+        "specs": [
+            70
+        ]
     },
     {
         "conduitId": 165,
         "conduitName": "Harrowing Punishment",
-        "conduitSpellID": 339370
+        "conduitSpellID": 339370,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 166,
         "conduitName": "Harmony of the Tortollan",
-        "conduitSpellID": 339377
+        "conduitSpellID": 339377,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 167,
         "conduitName": "Truth's Wake",
-        "conduitSpellID": 339374
+        "conduitSpellID": 339374,
+        "specs": [
+            70
+        ]
     },
     {
         "conduitId": 166,
         "conduitName": "Harmony of the Tortollan",
-        "conduitSpellID": 339377
+        "conduitSpellID": 339377,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 168,
         "conduitName": "Shade of Terror",
-        "conduitSpellID": 339379
+        "conduitSpellID": 339379,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 169,
         "conduitName": "Mortal Combo",
-        "conduitSpellID": 339386
+        "conduitSpellID": 339386,
+        "specs": [
+            71
+        ]
     },
     {
         "conduitId": 170,
         "conduitName": "Rejuvenating Wind",
-        "conduitSpellID": 339399
+        "conduitSpellID": 339399,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 171,
         "conduitName": "Demonic Momentum",
-        "conduitSpellID": 339411
+        "conduitSpellID": 339411,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 172,
         "conduitName": "Soul Furnace",
-        "conduitSpellID": 339423
+        "conduitSpellID": 339423,
+        "specs": [
+            581
+        ]
     },
     {
         "conduitId": 173,
         "conduitName": "Resilience of the Hunter",
-        "conduitSpellID": 339459
+        "conduitSpellID": 339459,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 174,
         "conduitName": "Corrupting Leer",
-        "conduitSpellID": 339455
+        "conduitSpellID": 339455,
+        "specs": [
+            265
+        ]
     },
     {
         "conduitId": 175,
         "conduitName": "Reversal of Fortune",
-        "conduitSpellID": 339495
+        "conduitSpellID": 339495,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 176,
         "conduitName": "Templar's Vindication",
-        "conduitSpellID": 339531
+        "conduitSpellID": 339531,
+        "specs": [
+            70
+        ]
     },
     {
         "conduitId": 177,
         "conduitName": "Enkindled Spirit",
-        "conduitSpellID": 339570
+        "conduitSpellID": 339570,
+        "specs": [
+            65
+        ]
     },
     {
         "conduitId": 178,
         "conduitName": "Cheetah's Vigor",
-        "conduitSpellID": 339558
+        "conduitSpellID": 339558,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 179,
         "conduitName": "Demon Muzzle",
-        "conduitSpellID": 339587
+        "conduitSpellID": 339587,
+        "specs": [
+            581
+        ]
     },
     {
         "conduitId": 180,
         "conduitName": "Roaring Fire",
-        "conduitSpellID": 339644
+        "conduitSpellID": 339644,
+        "specs": [
+            581
+        ]
     },
     {
         "conduitId": 181,
         "conduitName": "Tactical Retreat",
-        "conduitSpellID": 339651
+        "conduitSpellID": 339651,
+        "specs": [
+            253,
+            254,
+            255
+        ]
     },
     {
         "conduitId": 182,
         "conduitName": "Virtuous Command",
-        "conduitSpellID": 339518
+        "conduitSpellID": 339518,
+        "specs": [
+            70
+        ]
     },
     {
         "conduitId": 183,
         "conduitName": "Ferocious Appetite",
-        "conduitSpellID": 339704
+        "conduitSpellID": 339704,
+        "specs": [
+            253
+        ]
     },
     {
         "conduitId": 184,
         "conduitName": "Resplendent Light",
-        "conduitSpellID": 339712
+        "conduitSpellID": 339712,
+        "specs": [
+            65
+        ]
     },
     {
         "conduitId": 185,
         "conduitName": "One With the Beast",
-        "conduitSpellID": 339750
+        "conduitSpellID": 339750,
+        "specs": [
+            253
+        ]
     },
     {
         "conduitId": 186,
         "conduitName": "Show of Force",
-        "conduitSpellID": 339818
+        "conduitSpellID": 339818,
+        "specs": [
+            73
+        ]
     },
     {
         "conduitId": 187,
         "conduitName": "Repeat Decree",
-        "conduitSpellID": 339895
+        "conduitSpellID": 339895,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 188,
         "conduitName": "Sharpshooter's Focus",
-        "conduitSpellID": 339920
+        "conduitSpellID": 339920,
+        "specs": [
+            254
+        ]
     },
     {
         "conduitId": 189,
         "conduitName": "Brutal Projectiles",
-        "conduitSpellID": 339924
+        "conduitSpellID": 339924,
+        "specs": [
+            254
+        ]
     },
     {
         "conduitId": 190,
         "conduitName": "Destructive Reverberations",
-        "conduitSpellID": 339939
+        "conduitSpellID": 339939,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 191,
         "conduitName": "Disturb the Peace",
-        "conduitSpellID": 339948
+        "conduitSpellID": 339948,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     },
     {
         "conduitId": 192,
         "conduitName": "Deadly Chain",
-        "conduitSpellID": 339973
+        "conduitSpellID": 339973,
+        "specs": [
+            254
+        ]
     },
     {
         "conduitId": 193,
         "conduitName": "Focused Light",
-        "conduitSpellID": 339984
+        "conduitSpellID": 339984,
+        "specs": [
+            65
+        ]
     },
     {
         "conduitId": 192,
         "conduitName": "Deadly Chain",
-        "conduitSpellID": 339973
+        "conduitSpellID": 339973,
+        "specs": [
+            254
+        ]
     },
     {
         "conduitId": 194,
         "conduitName": "Untempered Dedication",
-        "conduitSpellID": 339987
+        "conduitSpellID": 339987,
+        "specs": [
+            65
+        ]
     },
     {
         "conduitId": 195,
         "conduitName": "Vengeful Shock",
-        "conduitSpellID": 340006
+        "conduitSpellID": 340006,
+        "specs": [
+            66
+        ]
     },
     {
         "conduitId": 196,
         "conduitName": "Punish the Guilty",
-        "conduitSpellID": 340012
+        "conduitSpellID": 340012,
+        "specs": [
+            66
+        ]
     },
     {
         "conduitId": 197,
         "conduitName": "Resolute Defender",
-        "conduitSpellID": 340023
+        "conduitSpellID": 340023,
+        "specs": [
+            66
+        ]
     },
     {
         "conduitId": 198,
         "conduitName": "Increased Scrutiny",
-        "conduitSpellID": 340028
+        "conduitSpellID": 340028,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 199,
         "conduitName": "Powerful Precision",
-        "conduitSpellID": 340033
+        "conduitSpellID": 340033,
+        "specs": [
+            254
+        ]
     },
     {
         "conduitId": 200,
         "conduitName": "Brooding Pool",
-        "conduitSpellID": 340063
+        "conduitSpellID": 340063,
+        "specs": [
+            577,
+            581
+        ]
     },
     {
         "conduitId": 201,
         "conduitName": "Rolling Agony",
-        "conduitSpellID": 339481
+        "conduitSpellID": 339481,
+        "specs": [
+            265
+        ]
     },
     {
         "conduitId": 202,
         "conduitName": "Focused Malignancy",
-        "conduitSpellID": 339500
+        "conduitSpellID": 339500,
+        "specs": [
+            265
+        ]
     },
     {
         "conduitId": 203,
         "conduitName": "Cold Embrace",
-        "conduitSpellID": 339576
+        "conduitSpellID": 339576,
+        "specs": [
+            265
+        ]
     },
     {
         "conduitId": 204,
         "conduitName": "Borne of Blood",
-        "conduitSpellID": 339578
+        "conduitSpellID": 339578,
+        "specs": [
+            266
+        ]
     },
     {
         "conduitId": 205,
         "conduitName": "Carnivorous Stalkers",
-        "conduitSpellID": 339656
+        "conduitSpellID": 339656,
+        "specs": [
+            266
+        ]
     },
     {
         "conduitId": 206,
         "conduitName": "Tyrant's Soul",
-        "conduitSpellID": 339766
+        "conduitSpellID": 339766,
+        "specs": [
+            266
+        ]
     },
     {
         "conduitId": 207,
         "conduitName": "Fel Commando",
-        "conduitSpellID": 339845
+        "conduitSpellID": 339845,
+        "specs": [
+            266
+        ]
     },
     {
         "conduitId": 208,
         "conduitName": "Duplicitous Havoc",
-        "conduitSpellID": 339890
+        "conduitSpellID": 339890,
+        "specs": [
+            267
+        ]
     },
     {
         "conduitId": 209,
         "conduitName": "Royal Decree",
-        "conduitSpellID": 340030
+        "conduitSpellID": 340030,
+        "specs": [
+            66
+        ]
     },
     {
         "conduitId": 210,
         "conduitName": "The Long Summer",
-        "conduitSpellID": 340185
+        "conduitSpellID": 340185,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 211,
         "conduitName": "Ashen Remains",
-        "conduitSpellID": 339892
+        "conduitSpellID": 339892,
+        "specs": [
+            267
+        ]
     },
     {
         "conduitId": 212,
         "conduitName": "Combusting Engine",
-        "conduitSpellID": 339896
+        "conduitSpellID": 339896,
+        "specs": [
+            267
+        ]
     },
     {
         "conduitId": 213,
         "conduitName": "Righteous Might",
-        "conduitSpellID": 340192
+        "conduitSpellID": 340192,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 214,
         "conduitName": "Infernal Brand",
-        "conduitSpellID": 340041
+        "conduitSpellID": 340041,
+        "specs": [
+            267
+        ]
     },
     {
         "conduitId": 215,
         "conduitName": "Hallowed Discernment",
-        "conduitSpellID": 340212
+        "conduitSpellID": 340212,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 216,
         "conduitName": "Ringing Clarity",
-        "conduitSpellID": 340218
+        "conduitSpellID": 340218,
+        "specs": [
+            65,
+            66,
+            70
+        ]
     },
     {
         "conduitId": 217,
         "conduitName": "Soul Tithe",
-        "conduitSpellID": 340229
+        "conduitSpellID": 340229,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 218,
         "conduitName": "Prolonged Decimation",
-        "conduitSpellID": 340268
+        "conduitSpellID": 340268,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 219,
         "conduitName": "Catastrophic Origin",
-        "conduitSpellID": 340316
+        "conduitSpellID": 340316,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 220,
         "conduitName": "Exhumed Soul",
-        "conduitSpellID": 340348
+        "conduitSpellID": 340348,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 221,
         "conduitName": "Kilrogg's Cunning",
-        "conduitSpellID": 58081
+        "conduitSpellID": 58081,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 222,
         "conduitName": "Diabolic Bloodstone",
-        "conduitSpellID": 340562
+        "conduitSpellID": 340562,
+        "specs": [
+            265,
+            266,
+            267
+        ]
     },
     {
         "conduitId": 223,
         "conduitName": "Echoing Call",
-        "conduitSpellID": 340876
+        "conduitSpellID": 340876,
+        "specs": [
+            253
+        ]
     },
     {
         "conduitId": 224,
         "conduitName": "Strength of the Pack",
-        "conduitSpellID": 341222
+        "conduitSpellID": 341222,
+        "specs": [
+            255
+        ]
     },
     {
         "conduitId": 225,
         "conduitName": "Reverberation",
-        "conduitSpellID": 341264
+        "conduitSpellID": 341264,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 226,
         "conduitName": "Stinging Strike",
-        "conduitSpellID": 341246
+        "conduitSpellID": 341246,
+        "specs": [
+            255
+        ]
     },
     {
         "conduitId": 227,
         "conduitName": "Sudden Fractures",
-        "conduitSpellID": 341272
+        "conduitSpellID": 341272,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 228,
         "conduitName": "Septic Shock",
-        "conduitSpellID": 341309
+        "conduitSpellID": 341309,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 229,
         "conduitName": "Slaughter Scars",
-        "conduitSpellID": 341310
+        "conduitSpellID": 341310,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 230,
         "conduitName": "Nimble Fingers",
-        "conduitSpellID": 341311
+        "conduitSpellID": 341311,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 231,
         "conduitName": "Recuperator",
-        "conduitSpellID": 341312
+        "conduitSpellID": 341312,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 232,
         "conduitName": "Cloaked in Shadows",
-        "conduitSpellID": 341529
+        "conduitSpellID": 341529,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 233,
         "conduitName": "Quick Decisions",
-        "conduitSpellID": 341531
+        "conduitSpellID": 341531,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 234,
         "conduitName": "Fade to Nothing",
-        "conduitSpellID": 341532
+        "conduitSpellID": 341532,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 235,
         "conduitName": "Rushed Setup",
-        "conduitSpellID": 341534
+        "conduitSpellID": 341534,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 236,
         "conduitName": "Prepared for All",
-        "conduitSpellID": 341535
+        "conduitSpellID": 341535,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 237,
         "conduitName": "Poisoned Katar",
-        "conduitSpellID": 341536
+        "conduitSpellID": 341536,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 238,
         "conduitName": "Well-Placed Steel",
-        "conduitSpellID": 341537
+        "conduitSpellID": 341537,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 239,
         "conduitName": "Maim, Mangle",
-        "conduitSpellID": 341538
+        "conduitSpellID": 341538,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 240,
         "conduitName": "Lethal Poisons",
-        "conduitSpellID": 341539
+        "conduitSpellID": 341539,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 241,
         "conduitName": "Triple Threat",
-        "conduitSpellID": 341540
+        "conduitSpellID": 341540,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 242,
         "conduitName": "Ambidexterity",
-        "conduitSpellID": 341542
+        "conduitSpellID": 341542,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 243,
         "conduitName": "Slight of Hand",
-        "conduitSpellID": 341543
+        "conduitSpellID": 341543,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 244,
         "conduitName": "Count the Odds",
-        "conduitSpellID": 341546
+        "conduitSpellID": 341546,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 245,
         "conduitName": "Deeper Daggers",
-        "conduitSpellID": 341549
+        "conduitSpellID": 341549,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 246,
         "conduitName": "Planned Execution",
-        "conduitSpellID": 341556
+        "conduitSpellID": 341556,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 247,
         "conduitName": "Stiletto Staccato",
-        "conduitSpellID": 341559
+        "conduitSpellID": 341559,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 248,
         "conduitName": "Perforated Veins",
-        "conduitSpellID": 341567
+        "conduitSpellID": 341567,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 225,
         "conduitName": "Reverberation",
-        "conduitSpellID": 341264
+        "conduitSpellID": 341264,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 227,
         "conduitName": "Sudden Fractures",
-        "conduitSpellID": 341272
+        "conduitSpellID": 341272,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 228,
         "conduitName": "Septic Shock",
-        "conduitSpellID": 341309
+        "conduitSpellID": 341309,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 229,
         "conduitName": "Slaughter Scars",
-        "conduitSpellID": 341310
+        "conduitSpellID": 341310,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 230,
         "conduitName": "Nimble Fingers",
-        "conduitSpellID": 341311
+        "conduitSpellID": 341311,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 249,
         "conduitName": "Controlled Destruction",
-        "conduitSpellID": 341325
+        "conduitSpellID": 341325,
+        "specs": [
+            63
+        ]
     },
     {
         "conduitId": 250,
         "conduitName": "Withering Ground",
-        "conduitSpellID": 341344
+        "conduitSpellID": 341344,
+        "specs": [
+            250,
+            251,
+            252
+        ]
     },
     {
         "conduitId": 251,
         "conduitName": "Deadly Tandem",
-        "conduitSpellID": 341350
+        "conduitSpellID": 341350,
+        "specs": [
+            255
+        ]
     },
     {
         "conduitId": 252,
         "conduitName": "Flame Infusion",
-        "conduitSpellID": 341399
+        "conduitSpellID": 341399,
+        "specs": [
+            255
+        ]
     },
     {
         "conduitId": 253,
         "conduitName": "Bloodletting",
-        "conduitSpellID": 341440
+        "conduitSpellID": 341440,
+        "specs": [
+            253
+        ]
     },
     {
         "conduitId": 232,
         "conduitName": "Cloaked in Shadows",
-        "conduitSpellID": 341529
+        "conduitSpellID": 341529,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 233,
         "conduitName": "Quick Decisions",
-        "conduitSpellID": 341531
+        "conduitSpellID": 341531,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 234,
         "conduitName": "Fade to Nothing",
-        "conduitSpellID": 341532
+        "conduitSpellID": 341532,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 235,
         "conduitName": "Rushed Setup",
-        "conduitSpellID": 341534
+        "conduitSpellID": 341534,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 236,
         "conduitName": "Prepared for All",
-        "conduitSpellID": 341535
+        "conduitSpellID": 341535,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 237,
         "conduitName": "Poisoned Katar",
-        "conduitSpellID": 341536
+        "conduitSpellID": 341536,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 238,
         "conduitName": "Well-Placed Steel",
-        "conduitSpellID": 341537
+        "conduitSpellID": 341537,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 239,
         "conduitName": "Maim, Mangle",
-        "conduitSpellID": 341538
+        "conduitSpellID": 341538,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 240,
         "conduitName": "Lethal Poisons",
-        "conduitSpellID": 341539
+        "conduitSpellID": 341539,
+        "specs": [
+            259
+        ]
     },
     {
         "conduitId": 241,
         "conduitName": "Triple Threat",
-        "conduitSpellID": 341540
+        "conduitSpellID": 341540,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 242,
         "conduitName": "Ambidexterity",
-        "conduitSpellID": 341542
+        "conduitSpellID": 341542,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 243,
         "conduitName": "Slight of Hand",
-        "conduitSpellID": 341543
+        "conduitSpellID": 341543,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 244,
         "conduitName": "Count the Odds",
-        "conduitSpellID": 341546
+        "conduitSpellID": 341546,
+        "specs": [
+            260
+        ]
     },
     {
         "conduitId": 245,
         "conduitName": "Deeper Daggers",
-        "conduitSpellID": 341549
+        "conduitSpellID": 341549,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 246,
         "conduitName": "Planned Execution",
-        "conduitSpellID": 341556
+        "conduitSpellID": 341556,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 247,
         "conduitName": "Stiletto Staccato",
-        "conduitSpellID": 341559
+        "conduitSpellID": 341559,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 248,
         "conduitName": "Perforated Veins",
-        "conduitSpellID": 341567
+        "conduitSpellID": 341567,
+        "specs": [
+            261
+        ]
     },
     {
         "conduitId": 254,
         "conduitName": "Tough as Bark",
-        "conduitSpellID": 340529
+        "conduitSpellID": 340529,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 255,
         "conduitName": "Ursine Vigor",
-        "conduitSpellID": 340540
+        "conduitSpellID": 340540,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 256,
         "conduitName": "Innate Resolve",
-        "conduitSpellID": 340543
+        "conduitSpellID": 340543,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 257,
         "conduitName": "Tireless Pursuit",
-        "conduitSpellID": 340545
+        "conduitSpellID": 340545,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 258,
         "conduitName": "Born Anew",
-        "conduitSpellID": 341280
+        "conduitSpellID": 341280,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 259,
         "conduitName": "Front of the Pack",
-        "conduitSpellID": 341450
+        "conduitSpellID": 341450,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 260,
         "conduitName": "Born of the Wilds",
-        "conduitSpellID": 341451
+        "conduitSpellID": 341451,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 261,
         "conduitName": "Stellar Inspiration",
-        "conduitSpellID": 340720
+        "conduitSpellID": 340720,
+        "specs": [
+            102
+        ]
     },
     {
         "conduitId": 262,
         "conduitName": "Precise Alignment",
-        "conduitSpellID": 340706
+        "conduitSpellID": 340706,
+        "specs": [
+            102
+        ]
     },
     {
         "conduitId": 263,
         "conduitName": "Fury of the Skies",
-        "conduitSpellID": 340708
+        "conduitSpellID": 340708,
+        "specs": [
+            102
+        ]
     },
     {
         "conduitId": 264,
         "conduitName": "Umbral Intensity",
-        "conduitSpellID": 340719
+        "conduitSpellID": 340719,
+        "specs": [
+            102
+        ]
     },
     {
         "conduitId": 265,
         "conduitName": "Taste for Blood",
-        "conduitSpellID": 340682
+        "conduitSpellID": 340682,
+        "specs": [
+            103
+        ]
     },
     {
         "conduitId": 266,
         "conduitName": "Incessant Hunter",
-        "conduitSpellID": 340686
+        "conduitSpellID": 340686,
+        "specs": [
+            103
+        ]
     },
     {
         "conduitId": 267,
         "conduitName": "Sudden Ambush",
-        "conduitSpellID": 340694
+        "conduitSpellID": 340694,
+        "specs": [
+            103
+        ]
     },
     {
         "conduitId": 268,
         "conduitName": "Carnivorous Instinct",
-        "conduitSpellID": 340705
+        "conduitSpellID": 340705,
+        "specs": [
+            103
+        ]
     },
     {
         "conduitId": 231,
         "conduitName": "Recuperator",
-        "conduitSpellID": 341312
+        "conduitSpellID": 341312,
+        "specs": [
+            259,
+            260,
+            261
+        ]
     },
     {
         "conduitId": 269,
         "conduitName": "Unchecked Aggression",
-        "conduitSpellID": 340552
+        "conduitSpellID": 340552,
+        "specs": [
+            104
+        ]
     },
     {
         "conduitId": 270,
         "conduitName": "Savage Combatant",
-        "conduitSpellID": 340609
+        "conduitSpellID": 340609,
+        "specs": [
+            104
+        ]
     },
     {
         "conduitId": 271,
         "conduitName": "Well-Honed Instincts",
-        "conduitSpellID": 340553
+        "conduitSpellID": 340553,
+        "specs": [
+            104
+        ]
     },
     {
         "conduitId": 272,
         "conduitName": "Layered Mane",
-        "conduitSpellID": 340605
+        "conduitSpellID": 340605,
+        "specs": [
+            104
+        ]
     },
     {
         "conduitId": 273,
         "conduitName": "Unstoppable Growth",
-        "conduitSpellID": 340549
+        "conduitSpellID": 340549,
+        "specs": [
+            105
+        ]
     },
     {
         "conduitId": 274,
         "conduitName": "Flash of Clarity",
-        "conduitSpellID": 340616
+        "conduitSpellID": 340616,
+        "specs": [
+            105
+        ]
     },
     {
         "conduitId": 275,
         "conduitName": "Floral Recycling",
-        "conduitSpellID": 340621
+        "conduitSpellID": 340621,
+        "specs": [
+            105
+        ]
     },
     {
         "conduitId": 276,
         "conduitName": "Ready for Anything",
-        "conduitSpellID": 340550
+        "conduitSpellID": 340550,
+        "specs": [
+            105
+        ]
     },
     {
         "conduitId": 277,
         "conduitName": "Deep Allegiance",
-        "conduitSpellID": 341378
+        "conduitSpellID": 341378,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 278,
         "conduitName": "Evolved Swarm",
-        "conduitSpellID": 341447
+        "conduitSpellID": 341447,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 279,
         "conduitName": "Conflux of Elements",
-        "conduitSpellID": 341446
+        "conduitSpellID": 341446,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     },
     {
         "conduitId": 280,
         "conduitName": "Endless Thirst",
-        "conduitSpellID": 341383
+        "conduitSpellID": 341383,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
     }
 ]

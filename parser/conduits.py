@@ -19,10 +19,11 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 ## Mapping
 #SoulbindConduitRank.id_spell = SpellName.id
+#SoulbindConduit.id = SoulbindConduitRank.id_parent
 
 # Parse every csv files into dict
 db = {}
-dbFiles = ['SpellName']
+dbFiles = ['SpecSetMember','SpellName']
 for dbFile in dbFiles:
     with open(os.path.join(generatedDir, f'{dbFile}.csv')) as csvfile:
         reader = csv.DictReader(csvfile, escapechar='\\')
@@ -49,7 +50,20 @@ with open(os.path.join(generatedDir, 'SoulbindConduitRank.csv')) as csvfile:
             
             conduit['conduitName'] = db['SpellName'][conduit['conduitSpellID']]['name']
             Conduits.append(conduit)
-    
+
+# Get conduits specs
+for conduit in Conduits:  
+    with open(os.path.join(generatedDir, 'SoulbindConduit.csv')) as csvfile:
+        reader = csv.DictReader(csvfile, escapechar='\\')
+        for row in reader:
+            if int(row['id']) == conduit['conduitId']:
+                powerIdSpecSetMember = row['id_spec_set']
+                if powerIdSpecSetMember != '0':
+                    powerSpecs = []
+                    for entryId, entry in db['SpecSetMember'].items():
+                        if powerIdSpecSetMember == entry['id_parent']:
+                            powerSpecs.append(int(entry['id_spec']))
+                    conduit['specs'] = powerSpecs
 
 # json output
 with open(os.path.join(parsedDir, 'Conduits.json'), 'w') as jsonFile:
