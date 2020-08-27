@@ -71,12 +71,14 @@ with open(os.path.join(parsedDir, 'Conduits.json'), 'w') as jsonFile:
     json.dump(Conduits, jsonFile, indent=4, sort_keys=True)
 
 # lua output
-""" with open(os.path.join(parsedDir, 'Conduits.lua'), 'w', encoding='utf-8') as file:
-        file.write('MoreTooltipInfo.Enum.Conduits = {\n')
-        iMax = len(ValidRows) - 1
-        for i, row in enumerate(ValidRows):
-            if i == iMax:
-                file.write('  [' + row['id_parent'] + '][] = ' + row['id_spell'] + '\n')
-            else:
-                file.write('  [' + row['id_parent'] + '][] = ' + row['id_spell'] + ',\n')
-        file.write('}\n') """
+with open(os.path.join(parsedDir, 'ConduitsSpell.lua'), 'w', encoding='utf-8') as file:
+    file.write('MoreTooltipInfo.Enum.Conduits = {\n')
+    iMax = len(Conduits) - 1
+    i = 0
+    for conduit in Conduits:
+        if i == iMax:
+            file.write('  [' + str(conduit['conduitId']) + '] = ' + str(conduit['conduitSpellID']) + '\n')
+        else:
+            file.write('  [' + str(conduit['conduitId']) + '] = ' + str(conduit['conduitSpellID']) + ',\n')
+        i = i+1
+    file.write('}\n')
