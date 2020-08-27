@@ -19,7 +19,8 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 ## Mapping
 #SoulbindConduitRank.id_spell = SpellName.id
-#SoulbindConduit.id = SoulbindConduitRank.id_parent
+#SoulbindConduitRank.id_parent = SoulbindConduit.id
+#SoulbindConduit.id_spec_set = SpecSetMember.id_parent
 
 # Parse every csv files into dict
 db = {}
