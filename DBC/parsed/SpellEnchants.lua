@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.1.35755 client data on 2020-09-03T10:12:14.284987.
+-- Generated using WoW 9.0.1.35755 client data on 2020-09-03T14:04:12.022140.
 MoreTooltipInfo.Enum.SpellEnchants = {
   [81] = 3,
   [107] = 3,
@@ -13679,5 +13679,6 @@ MoreTooltipInfo.Enum.SpellEnchants = {
   [307506] = 15,
   [310133] = 7,
   [306000] = 45,
-  [306920] = 2
+  [306920] = 2,
+  [344446] = 5
 }
