@@ -23,26 +23,18 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 
 # Get every spell id associated to an item effect
-Enchants = {}
+Enchants = []
 with open(os.path.join(generatedDir, 'SpellItemEnchantment.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
         if int(row['id_property_1']) > 0:
-            Enchants[row['id']] = {}
-            Enchants[row['id']][1] = row['id_property_1']
-
-with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
-    reader = csv.DictReader(csvfile, escapechar='\\')
-    ValidRows = []
-    for row in reader:
-        if int(row['misc_value_1']) > 0 and row['misc_value_1'] in Enchants:
-            ValidRows.append(row)
+            Enchants.append(row)
     with open(os.path.join(parsedDir, 'SpellEnchants.lua'), 'w', encoding='utf-8') as file:
         file.write('MoreTooltipInfo.Enum.SpellEnchants = {\n')
-        iMax = len(ValidRows) - 1
-        for i, row in enumerate(ValidRows):
+        iMax = len(Enchants) - 1
+        for i, row in enumerate(Enchants):
             if i == iMax:
-                file.write('  [' + row['id_parent'] + '] = ' + Enchants[row['misc_value_1']][1] + '\n')
+                file.write('  [' + row['id'] + '] = ' + row['id_property_1'] + '\n')
             else:
-                file.write('  [' + row['id_parent'] + '] = ' + Enchants[row['misc_value_1']][1] + ',\n')
+                file.write('  [' + row['id'] + '] = ' + row['id_property_1'] + ',\n')
         file.write('}\n')
