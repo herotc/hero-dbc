@@ -1444,7 +1444,7 @@
     },
     {
         "conduitId": 164,
-        "conduitName": "Light's Reach",
+        "conduitName": "Expurgation",
         "conduitSpellID": 339371,
         "specs": [
             70
@@ -2161,7 +2161,7 @@
     },
     {
         "conduitId": 243,
-        "conduitName": "Slight of Hand",
+        "conduitName": "Sleight of Hand",
         "conduitSpellID": 341543,
         "specs": [
             260
@@ -2399,7 +2399,7 @@
     },
     {
         "conduitId": 243,
-        "conduitName": "Slight of Hand",
+        "conduitName": "Sleight of Hand",
         "conduitSpellID": 341543,
         "specs": [
             260
@@ -2702,6 +2702,23 @@
             103,
             104,
             105
+        ]
+    },
+    {
+        "conduitId": 203,
+        "conduitName": "Cold Embrace",
+        "conduitSpellID": 339576,
+        "specs": [
+            265
+        ]
+    },
+    {
+        "conduitId": 281,
+        "conduitName": "Unnatural Mailce",
+        "conduitSpellID": 344358,
+        "specs": [
+            577,
+            581
         ]
     }
 ]

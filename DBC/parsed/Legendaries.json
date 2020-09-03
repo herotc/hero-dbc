@@ -242,7 +242,7 @@
         ],
         "legendaryBonusID": 7041,
         "legendaryId": 18,
-        "legendaryName": "Sigil of the Illidari",
+        "legendaryName": "Collective Anguish",
         "legendarySpellID": 337504,
         "specs": [
             577,
@@ -257,7 +257,7 @@
         ],
         "legendaryBonusID": 7042,
         "legendaryId": 19,
-        "legendaryName": "Apexis Empowerment",
+        "legendaryName": "Half-Giant Empowerment",
         "legendarySpellID": 337532,
         "specs": [
             577,
@@ -386,7 +386,7 @@
         ],
         "legendaryBonusID": 7047,
         "legendaryId": 28,
-        "legendaryName": "Cloak of Fel Flames",
+        "legendaryName": "Fel Flame Fortification",
         "legendarySpellID": 337545,
         "specs": [
             581
@@ -1400,14 +1400,14 @@
         ]
     },
     {
-        "InventoryTypeMask": 2560,
+        "InventoryTypeMask": 36,
         "itemSlot": [
-            "Finger",
-            "Wrist"
+            "Chest",
+            "Neck"
         ],
         "legendaryBonusID": 7053,
         "legendaryId": 98,
-        "legendaryName": "Uther's Guard",
+        "legendaryName": "Uther's Devotion",
         "legendarySpellID": 337600,
         "specs": [
             65,
@@ -1432,10 +1432,10 @@
         ]
     },
     {
-        "InventoryTypeMask": 36,
+        "InventoryTypeMask": 2560,
         "itemSlot": [
-            "Chest",
-            "Neck"
+            "Finger",
+            "Wrist"
         ],
         "legendaryBonusID": 7056,
         "legendaryId": 101,
@@ -1595,8 +1595,8 @@
         ],
         "legendaryBonusID": 7065,
         "legendaryId": 112,
-        "legendaryName": "Badge of the Mad Paragon",
-        "legendarySpellID": 337594,
+        "legendaryName": "Vanguard's Momentum",
+        "legendarySpellID": 337638,
         "specs": [
             70
         ]
@@ -2729,9 +2729,9 @@
         ]
     },
     {
-        "InventoryTypeMask": 65792,
+        "InventoryTypeMask": 1280,
         "itemSlot": [
-            "Back",
+            "Hands",
             "Feet"
         ],
         "legendaryBonusID": 6956,
@@ -2743,9 +2743,9 @@
         ]
     },
     {
-        "InventoryTypeMask": 1032,
+        "InventoryTypeMask": 65544,
         "itemSlot": [
-            "Hands",
+            "Back",
             "Shoulder"
         ],
         "legendaryBonusID": 6957,
@@ -2757,10 +2757,10 @@
         ]
     },
     {
-        "InventoryTypeMask": 384,
+        "InventoryTypeMask": 2080,
         "itemSlot": [
-            "Feet",
-            "Legs"
+            "Finger",
+            "Chest"
         ],
         "legendaryBonusID": 6967,
         "legendaryId": 192,
@@ -2771,10 +2771,10 @@
         ]
     },
     {
-        "InventoryTypeMask": 2080,
+        "InventoryTypeMask": 384,
         "itemSlot": [
-            "Finger",
-            "Chest"
+            "Feet",
+            "Legs"
         ],
         "legendaryBonusID": 6969,
         "legendaryId": 193,
@@ -2792,8 +2792,8 @@
         ],
         "legendaryBonusID": 7054,
         "legendaryId": 196,
-        "legendaryName": "Liadrin's Fury Reborn",
-        "legendarySpellID": 337638,
+        "legendaryName": "The Mad Paragon",
+        "legendarySpellID": 337594,
         "specs": [
             65,
             66,

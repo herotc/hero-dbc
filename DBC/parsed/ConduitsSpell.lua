@@ -1,3 +1,4 @@
+-- Generated using WoW 9.0.1.35755 client data on 2020-09-03T10:12:14.284987.
 MoreTooltipInfo.Enum.Conduits = {
   [5] = 334993,
   [7] = 335010,
@@ -299,5 +300,7 @@ MoreTooltipInfo.Enum.Conduits = {
   [277] = 341378,
   [278] = 341447,
   [279] = 341446,
-  [280] = 341383
+  [280] = 341383,
+  [203] = 339576,
+  [281] = 344358
 }
