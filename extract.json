@@ -27,6 +27,7 @@
   "parsers": [
     "Conduits",
     "ItemRangeUnfiltered",
+    "ItemData",
     "ItemSpell",
     "LegendaryItems",
     "ProjectileSpeed",
