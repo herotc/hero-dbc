@@ -72,8 +72,10 @@ if wowDirPath is None:
 else:
     if realm == 'ptr':
         hotfixFilePath = path.join(wowDirPath, '_ptr_', 'Cache', 'ADB', 'enUS', 'DBCache.bin')
+    elif realm == 'beta':
+        hotfixFilePath = path.join(wowDirPath, '_beta_', 'Cache', 'ADB', 'enUS', 'DBCache.bin')
     else:
-        hotfixFilePath = path.join(wowDirPath, 'Cache', 'ADB', 'enUS', 'DBCache.bin')
+        hotfixFilePath = path.join(wowDirPath, '_retail_', 'Cache', 'ADB', 'enUS', 'DBCache.bin')
     if path.isfile(hotfixFilePath):
         print(f'WoW hotfix file exists, using it from: "{hotfixFilePath}".')
         dbcExtractCmd += f' --hotfix="{hotfixFilePath}"'
