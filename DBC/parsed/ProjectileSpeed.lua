@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.1.35755 client data on 2020-09-03T10:12:14.284987.
+-- Generated using WoW 9.0.1.35789 client data on 2020-09-05T09:10:18.531248.
 HeroLib.Enum.ProjectileSpeed = {
   [11] = 35,
   [59] = 25,
