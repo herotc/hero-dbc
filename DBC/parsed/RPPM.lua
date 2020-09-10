@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.1.35789 client data on 2020-09-05T09:10:18.531248.
+-- Generated using WoW 9.0.2.35854 client data on 2020-09-10T08:47:31.412968.
 MoreTooltipInfo.Enum.RPPM = {
   [5301] = {
     [0] = 3.0,
@@ -4081,7 +4081,8 @@ MoreTooltipInfo.Enum.RPPM = {
     [0] = 2.0
   },
   [327856] = {
-    [0] = 1.0
+    [0] = 1.5,
+    [1] = true
   },
   [329536] = {
     [0] = 0.75,
@@ -4237,7 +4238,8 @@ MoreTooltipInfo.Enum.RPPM = {
     [0] = 1.0
   },
   [337148] = {
-    [0] = 1.0
+    [0] = 3.0,
+    [1] = true
   },
   [337548] = {
     [0] = 1.5,

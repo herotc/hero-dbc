@@ -2538,13 +2538,13 @@
                     "talentId": 19221
                 },
                 "1": {
-                    "spellId": 219786,
-                    "spellName": "Ossuary",
+                    "spellId": 317610,
+                    "spellName": "Relish in Blood",
                     "talentId": 22134
                 },
                 "2": {
-                    "spellId": 317610,
-                    "spellName": "Relish in Blood",
+                    "spellId": 221699,
+                    "spellName": "Blood Tap",
                     "talentId": 22135
                 }
             },
@@ -2821,8 +2821,8 @@
                     "talentId": 22532
                 },
                 "1": {
-                    "spellId": 207317,
-                    "spellName": "Epidemic",
+                    "spellId": 319230,
+                    "spellName": "Unholy Pact",
                     "talentId": 22534
                 },
                 "2": {
@@ -2838,8 +2838,8 @@
                     "talentId": 22030
                 },
                 "1": {
-                    "spellId": 319230,
-                    "spellName": "Unholy Pact",
+                    "spellId": 49206,
+                    "spellName": "Summon Gargoyle",
                     "talentId": 22110
                 },
                 "2": {

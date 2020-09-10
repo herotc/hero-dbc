@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.1.35789 client data on 2020-09-05T09:10:18.531248.
+-- Generated using WoW 9.0.2.35854 client data on 2020-09-10T08:47:31.412968.
 MoreTooltipInfo.Enum.Conduits = {
   [5] = 334993,
   [7] = 335010,

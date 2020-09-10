@@ -32,6 +32,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184125,
+                "name": "Centurion Core Cincture",
+                "ilevel": 187,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "leather": [
@@ -66,6 +82,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184130,
+                "name": "Nurgash's Belt of Many Sinstones",
+                "ilevel": 187,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "cloth": [
@@ -95,6 +127,22 @@
                     "int",
                     "stam",
                     "crit",
+                    "vers"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184133,
+                "name": "Spine Crawler Waistcord",
+                "ilevel": 187,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
                     "vers"
                 ],
                 "set": "",
@@ -134,6 +182,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184138,
+                "name": "Stonebark Girdle",
+                "ilevel": 187,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ]
     },
@@ -158,6 +222,22 @@
             {
                 "id": 182982,
                 "name": "Watchful Arbelist's Bracers",
+                "ilevel": 187,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184126,
+                "name": "Ironroot Bindings",
                 "ilevel": 187,
                 "type": "wrists",
                 "material": "mail",
@@ -204,6 +284,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184136,
+                "name": "Anima-Charged Wristbanding",
+                "ilevel": 187,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "cloth": [
@@ -238,6 +334,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184131,
+                "name": "Comfortable Slumberwraps",
+                "ilevel": 187,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "plate": [
@@ -268,6 +380,22 @@
                     "stam",
                     "crit",
                     "vers"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184135,
+                "name": "Shoulderblade Vambraces",
+                "ilevel": 187,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
                 ],
                 "set": "",
                 "gems": 0,
@@ -308,6 +436,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184127,
+                "name": "Slippers of the Leafy Undergrowth",
+                "ilevel": 187,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "plate": [
@@ -342,12 +486,28 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184139,
+                "name": "Valinor's Ground Pounders",
+                "ilevel": 187,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "mail": [
             {
                 "id": 182990,
-                "name": "Legionnaire's Bloodstained Sabotons",
+                "name": "Legionnaire's Bloodstained Sabatons",
                 "ilevel": 187,
                 "type": "feet",
                 "material": "mail",
@@ -372,6 +532,22 @@
                     "stam",
                     "mastery",
                     "crit"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184134,
+                "name": "Jingling Stone Stompers",
+                "ilevel": 187,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
                 ],
                 "set": "",
                 "gems": 0,
@@ -410,6 +586,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184140,
+                "name": "Bone-Cleated Footpads",
+                "ilevel": 187,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ]
     },
@@ -436,6 +628,22 @@
             {
                 "id": 182997,
                 "name": "Diadem of Imperious Desire",
+                "ilevel": 187,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184132,
+                "name": "Oversized Centurion Helm",
                 "ilevel": 187,
                 "type": "head",
                 "material": "plate",
@@ -622,6 +830,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184129,
+                "name": "Oranomonos' Diaphanous Leggings",
+                "ilevel": 187,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ]
     },
@@ -654,6 +878,22 @@
                     "stam",
                     "crit",
                     "haste"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184171,
+                "name": "Hardened Castle Crushers",
+                "ilevel": 187,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
                 ],
                 "set": "",
                 "gems": 0,
@@ -692,6 +932,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184173,
+                "name": "Bone Crushing Vicegrips",
+                "ilevel": 187,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "leather": [
@@ -721,6 +977,22 @@
                     "agi/int",
                     "stam",
                     "mastery",
+                    "crit"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184172,
+                "name": "Seed-Tender's Handwraps",
+                "ilevel": 187,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
                     "crit"
                 ],
                 "set": "",
@@ -756,6 +1028,22 @@
                     "stam",
                     "mastery",
                     "haste"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
+            },
+            {
+                "id": 184170,
+                "name": "Doubtweaver's Handwraps",
+                "ilevel": 187,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "vers"
                 ],
                 "set": "",
                 "gems": 0,
@@ -864,6 +1152,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184128,
+                "name": "Mortanis' Ribcage",
+                "ilevel": 187,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "leather": [
@@ -954,6 +1258,22 @@
                 "set": "",
                 "gems": 0,
                 "bonus_id": "3524"
+            },
+            {
+                "id": 184137,
+                "name": "Sinstone Shoulderpadding",
+                "ilevel": 187,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "set": "",
+                "gems": 0,
+                "bonus_id": "3524"
             }
         ],
         "leather": [
@@ -1023,6 +1343,22 @@
             "set": "",
             "gems": 0,
             "bonus_id": "3524"
+        },
+        {
+            "id": 184141,
+            "name": "Shroud of the Penitent",
+            "ilevel": 187,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "crit",
+                "haste"
+            ],
+            "set": "",
+            "gems": 0,
+            "bonus_id": "3524"
         }
     ],
     "finger": [
@@ -1085,6 +1421,36 @@
             "set": "",
             "gems": 0,
             "bonus_id": "3524"
+        },
+        {
+            "id": 184142,
+            "name": "Twisted Witherroot Band",
+            "ilevel": 187,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "vers"
+            ],
+            "set": "",
+            "gems": 0,
+            "bonus_id": "3524"
+        },
+        {
+            "id": 184143,
+            "name": "Band of the Risen Bonelord",
+            "ilevel": 187,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "mastery"
+            ],
+            "set": "",
+            "gems": 0,
+            "bonus_id": "3524"
         }
     ],
     "neck": [
@@ -1112,6 +1478,21 @@
             "stats": [
                 "stam",
                 "haste",
+                "mastery"
+            ],
+            "set": "",
+            "gems": 0,
+            "bonus_id": "3524"
+        },
+        {
+            "id": 184144,
+            "name": "Muckformed Chain Choker",
+            "ilevel": 187,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
                 "mastery"
             ],
             "set": "",
