@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.2.35854 client data on 2020-09-10T08:47:31.412968.
+-- Generated using WoW 9.0.2.35938 client data on 2020-09-17T21:34:37.629309.
 HeroLib.Enum.ItemRangeUnfiltered = {
   Melee = {
     [5] = {
@@ -186,7 +186,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       183522,
       183725,
       183806,
-      183900
+      183900,
+      184308
     },
     [8] = {
       180052,
@@ -1443,6 +1444,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       178464,
       178568,
       178747,
+      179977,
+      180062,
       180626,
       180709,
       180713,
@@ -1453,7 +1456,9 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       183126,
       183187,
       183807,
-      183939
+      183939,
+      184292,
+      184314
     },
     [12] = {
       137440,
@@ -3270,7 +3275,8 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       183718,
       183808,
       184017,
-      184196
+      184196,
+      184313
     },
     [45] = {
       4390,
@@ -3361,6 +3367,7 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       160556,
       160557,
       161452,
+      161475,
       163828,
       163829,
       165568,
@@ -3380,6 +3387,7 @@ HeroLib.Enum.ItemRangeUnfiltered = {
       176408,
       182451,
       183131,
+      184020,
       184029,
       184030
     },
