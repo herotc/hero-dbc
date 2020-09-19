@@ -20,6 +20,14 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 ## Mapping
 #Covenant.id = Soulbind.id_covenant
 
+db = {}
+dbFiles = ['SpellName']
+for dbFile in dbFiles:
+    with open(os.path.join(generatedDir, f'{dbFile}.csv')) as csvfile:
+        reader = csv.DictReader(csvfile, escapechar='\\')
+        db[dbFile] = {}
+        for row in reader:
+            db[dbFile][row['id']] = row
 
 # Get every covenants
 Covenants = []
@@ -58,12 +66,13 @@ with open(os.path.join(generatedDir, 'Soulbind.csv')) as csvfile:
             for rowTalents in reader:
                 if int(rowTalents['id_garr_talent_tree']) == int(row['id_garr_talent_tree']):
                     soulbindAbility = {
-                        'soulbindAbilityId': int(rowTalents['id']), 
+                        'soulbindAbilityId': int(rowTalents['id']),
                         'soulbindAbilityName': rowTalents['name']
                     }
                     # assign spell id
                     if int(rowTalents['id']) in TreeSpell:
                         soulbindAbility['soulbindAbilitySpellId'] = TreeSpell[int(rowTalents['id'])]
+                        soulbindAbility['soulbindAbilityName'] = db['SpellName'][str(TreeSpell[int(rowTalents['id'])])]['name']
                     if int(rowTalents['conduit_type']) > 0:
                         soulbindAbility['soulbindAbilityConduitType'] = int(rowTalents['conduit_type'])
                     if int(rowTalents['id_garr_talent_prereq']) > 0:

@@ -139,17 +139,17 @@
                     "3": {
                         "0": {
                             "soulbindAbilityId": 1371,
-                            "soulbindAbilityName": "Kyrian Perseverence",
+                            "soulbindAbilityName": "Resonant Accolades",
                             "soulbindAbilitySpellId": 329781
                         },
                         "1": {
                             "soulbindAbilityId": 1370,
-                            "soulbindAbilityName": "Kyrian Grace",
+                            "soulbindAbilityName": "Bearer's Pursuit",
                             "soulbindAbilitySpellId": 329779
                         },
                         "2": {
                             "soulbindAbilityId": 1369,
-                            "soulbindAbilityName": "Kyrian Insight",
+                            "soulbindAbilityName": "Pointed Courage",
                             "soulbindAbilitySpellId": 329778
                         }
                     },
@@ -209,7 +209,7 @@
                     "0": {
                         "0": {
                             "soulbindAbilityId": 1407,
-                            "soulbindAbilityName": "Elite Mixture",
+                            "soulbindAbilityName": "Charged Additive",
                             "soulbindAbilitySpellId": 331610
                         },
                         "2": {
@@ -291,14 +291,14 @@
                         },
                         "2": {
                             "soulbindAbilityId": 1417,
-                            "soulbindAbilityName": "Steward's Resilience",
+                            "soulbindAbilityName": "Resilient Plumage",
                             "soulbindAbilitySpellId": 331725
                         }
                     },
                     "7": {
                         "1": {
                             "soulbindAbilityId": 1418,
-                            "soulbindAbilityName": "Forgelite Prime's Expertise",
+                            "soulbindAbilityName": "Bron's Call to Action",
                             "soulbindAbilitySpellId": 333950
                         }
                     }
@@ -407,7 +407,7 @@
                     "7": {
                         "1": {
                             "soulbindAbilityId": 1426,
-                            "soulbindAbilityName": "Service in Stone",
+                            "soulbindAbilityName": "Service In Stone",
                             "soulbindAbilitySpellId": 340159
                         }
                     }
@@ -705,7 +705,7 @@
                     "6": {
                         "0": {
                             "soulbindAbilityId": 844,
-                            "soulbindAbilityName": "Care Package",
+                            "soulbindAbilityName": "Nature's Splendor",
                             "soulbindAbilitySpellId": 320668
                         },
                         "2": {
@@ -717,7 +717,7 @@
                     "7": {
                         "1": {
                             "soulbindAbilityId": 864,
-                            "soulbindAbilityName": "Cycle of Seasons",
+                            "soulbindAbilityName": "Grove Invigoration",
                             "soulbindAbilitySpellId": 322721
                         }
                     }
@@ -731,7 +731,7 @@
                     "0": {
                         "1": {
                             "soulbindAbilityId": 824,
-                            "soulbindAbilityName": "Field of Poppies",
+                            "soulbindAbilityName": "Field of Blossoms",
                             "soulbindAbilitySpellId": 319191
                         }
                     },
@@ -916,7 +916,7 @@
                     "7": {
                         "1": {
                             "soulbindAbilityId": 1203,
-                            "soulbindAbilityName": "Final Moments",
+                            "soulbindAbilityName": "Wild Hunt Tactics",
                             "soulbindAbilitySpellId": 325066
                         }
                     }
@@ -972,7 +972,7 @@
                         },
                         "2": {
                             "soulbindAbilityId": 1127,
-                            "soulbindAbilityName": "Plaguey's Watchful Eye",
+                            "soulbindAbilityName": "Plaguey's Preemptive Strike",
                             "soulbindAbilityPrereq": 1121,
                             "soulbindAbilitySpellId": 323090
                         }
@@ -1135,7 +1135,7 @@
                     "0": {
                         "0": {
                             "soulbindAbilityId": 1266,
-                            "soulbindAbilityName": "Serrated Shoulder Blades",
+                            "soulbindAbilityName": "Serrated Spaulders",
                             "soulbindAbilitySpellId": 326504
                         },
                         "2": {
@@ -1173,7 +1173,7 @@
                         },
                         "1": {
                             "soulbindAbilityId": 1269,
-                            "soulbindAbilityName": "Heirmir's Arsenal: Alacritous Boots",
+                            "soulbindAbilityName": "Heirmir's Arsenal: Gorestompers",
                             "soulbindAbilitySpellId": 326511
                         },
                         "2": {
@@ -1212,12 +1212,12 @@
                     "6": {
                         "0": {
                             "soulbindAbilityId": 1270,
-                            "soulbindAbilityName": "Bone Spurs",
+                            "soulbindAbilityName": "Runeforged Spurs",
                             "soulbindAbilitySpellId": 326512
                         },
                         "2": {
                             "soulbindAbilityId": 1271,
-                            "soulbindAbilityName": "Smithing Expertise",
+                            "soulbindAbilityName": "Bonesmith's Satchel",
                             "soulbindAbilitySpellId": 326513
                         }
                     },
