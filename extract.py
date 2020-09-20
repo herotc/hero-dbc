@@ -100,12 +100,12 @@ if args.updateSimc is True:
 print('Updating hero-dbc data...')
 clientDataOutPath = path.join(heroDbcDirPath, 'DBC', 'generated')
 for dbfile in extract['dbfiles']:
-    print(f'Converting {dbfile} to CSV...')
-    system(f'{dbcExtractCmd} -t csv {dbfile} > {path.join(clientDataOutPath, dbfile)}.csv')
+    print(f'Converting {dbfile} to JSON...')
+    system(f'{dbcExtractCmd} -t json {dbfile} > {path.join(clientDataOutPath, dbfile)}.json')
 
 # Parsers (using hero-dbc/parser)
 chdir(path.join(heroDbcDirPath, 'parser'))
-print('Parsing client data from CSV...')
+print('Parsing client data from JSON...')
 for parser in extract['parsers']:
     print(f'Parsing {parser}...')
     system(f'python {parser}.py')

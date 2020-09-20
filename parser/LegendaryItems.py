@@ -41,16 +41,16 @@ ItemBitMask = [
 db = {}
 dbFiles = ['SpecSetMember']
 for dbFile in dbFiles:
-    with open(os.path.join(generatedDir, f'{dbFile}.csv')) as csvfile:
-        reader = csv.DictReader(csvfile, escapechar='\\')
+    with open(os.path.join(generatedDir, f'{dbFile}.json')) as jsonfile:
+        reader = json.load(jsonfile)
         db[dbFile] = {}
         for row in reader:
             db[dbFile][row['id']] = row
 
 Legendaries = []
 # Parse Soulbind tree spells
-with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.csv')) as csvfile:
-    reader = csv.DictReader(csvfile, escapechar='\\')
+with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.json')) as jsonfile:
+    reader = json.load(jsonfile)
     for row in reader:
         legendary = {
             'legendaryId': int(row['id']),
