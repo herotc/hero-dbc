@@ -19,6 +19,9 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', 'hero-dbc'))
 
 ## Mapping
 #Covenant.id = Soulbind.id_covenant
+#Soulbind.id_garr_talent_tree = GarrTalent.id_garr_talent_tree
+#GarrTalent.id = GarrTalentRank.id
+#SpellName.id = GarrTalent.id_spell
 
 db = {}
 dbFiles = ['SpellName']
