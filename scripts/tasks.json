@@ -1,0 +1,51 @@
+{
+  "dbfiles": [
+    "AzeriteEmpoweredItem",
+    "AzeritePower",
+    "AzeritePowerSetMember",
+    "AzeriteTierUnlock",
+    "Covenant",
+    "GarrTalent",
+    "GarrTalentRank",
+    "ItemEffect",
+    "ItemSparse",
+    "RuneforgeLegendaryAbility",
+    "Soulbind",
+    "SoulbindConduit",
+    "SoulbindConduitItem",
+    "SoulbindConduitRank",
+    "SpecSetMember",
+    "Spell",
+    "SpellAuraOptions",
+    "SpellCooldowns",
+    "SpellDuration",
+    "SpellEffect",
+    "SpellItemEnchantment",
+    "SpellMisc",
+    "SpellName",
+    "SpellProcsPerMinute",
+    "SpellProcsPerMinuteMod",
+    "SpellRange",
+    "Talent"
+  ],
+  "parsers": [
+    "AzeritePower",
+    "Conduits",
+    "ItemData",
+    "ItemRange",
+    "ItemSpell",
+    "LegendaryItems",
+    "Soulbinds",
+    "SpellDuration",
+    "SpellEnchant",
+    "SpellGCD",
+    "SpellMeleeRange",
+    "SpellProjectileSpeed",
+    "SpellRPPM",
+    "SpellTickTime",
+    "Talent"
+  ],
+  "filters": [
+    "ItemRange"
+  ]
+}

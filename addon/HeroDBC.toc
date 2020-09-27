@@ -1,0 +1,24 @@
+## Interface: 90000
+
+## Title: Hero|cFFA330C9DBC|r
+## Author: HeroTC, Aethys, KutiKuti
+## Version: 9.0.0.beta1
+## Notes: Library containing DBC data used by HeroTC Addons. Can be used by others 3rd-Party Addons.
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: HeroDBCDB
+
+Core.lua
+
+DBC\AzeriteEssences.lua
+DBC\ItemRange.lua
+DBC\ItemSpell.lua
+DBC\SpellConduits.lua
+DBC\SpellDuration.lua
+DBC\SpellEnchants.lua
+DBC\SpellGCD.lua
+DBC\SpellMeleeRange.lua
+DBC\SpellProjectileSpeed.lua
+DBC\SpellRPPM.lua
+DBC\SpellTickTime.lua
