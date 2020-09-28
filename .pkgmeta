@@ -8,7 +8,7 @@ move-folders:
 ignore:
     - CDN
     - DBC
-    - HeroDBC/Dev
+    - Dev
     - scripts
     - symlink.bat
     - symlink.sh
