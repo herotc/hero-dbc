@@ -1,16 +1,17 @@
 package-as: HeroDBC
 
-license-output: LICENSE
-
 enable-nolib-creation: no
 
+move-folders:
+    HeroDBC/addon: HeroDBC
+
 ignore:
-    - addon/Dev
     - CDN
     - DBC
+    - HeroDBC/Dev
     - scripts
     - symlink.bat
     - symlink.sh
 
-move-folders:
-    HeroDBC/addon: HeroDBC
+license-output: LICENSE
+)
