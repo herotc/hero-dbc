@@ -30,8 +30,8 @@ if args.wowDir is not None:
     wowDirPath = args.wowDir
     print(f'WoW directory passed as arg, using: "{wowDirPath}"')
 else:
-    wowDirFinderPath = path.join('scripts', 'tools', 'wowDirFinder.py')
-    wowDirFinderProc = subprocess.Popen([f'python3 {wowDirFinderPath}'], stdout=subprocess.PIPE,
+    wowDirFinderPath = path.join(heroDbcDirPath, 'scripts', 'tools', 'wowDirFinder.py')
+    wowDirFinderProc = subprocess.Popen(['python3', wowDirFinderPath], stdout=subprocess.PIPE,
                                         stderr=subprocess.STDOUT, shell=True)
     wowDirFinderResult = wowDirFinderProc.communicate()[0].decode().rstrip()
     if wowDirFinderResult == 'False':
@@ -53,7 +53,7 @@ system(cascExtractCmd)
 
 # Find the wow version (using hero-dbc/scripts/tools/wowVersion.py)
 chdir(path.join(heroDbcDirPath, 'scripts', 'tools'))
-wowVersionProc = subprocess.Popen([f'python3 wowVersion.py --cdnDirPath={cdnDirPath}'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+wowVersionProc = subprocess.Popen(f'python3 wowVersion.py --cdnDirPath={cdnDirPath}', stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 version = wowVersionProc.communicate()[0].decode().rstrip()
 print(f'Using {version} client data from the CDN.')
 
