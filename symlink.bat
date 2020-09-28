@@ -4,6 +4,6 @@ set WoWRep="C:\Program Files (x86)\World of Warcraft"
 set CWD=%cd%
 
 REM Don't touch anything bellow this if you aren't experienced
-mklink /J %WoWRep%"\_retail_\Interface\AddOns\HeroDBC" %CWD%
+mklink /J %WoWRep%"\_retail_\Interface\AddOns\HeroDBC" %CWD%"\addon"
 
 pause

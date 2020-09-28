@@ -7,4 +7,4 @@ WoWRep="/Applications/World of Warcraft"
 CWD=$(pwd)
 
 # Don't touch anything bellow this if you aren't experienced
-ln -s "$CWD" "$WoWRep/_retail_/Interface/AddOns/HeroDBC"
+ln -s "$CWD/addon" "$WoWRep/_retail_/Interface/AddOns/HeroDBC"
