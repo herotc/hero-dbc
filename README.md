@@ -1,8 +1,11 @@
-# hero-dbc
+# HeroDBC
+
+[![GitHub license](https://img.shields.io/badge/license-EUPL-blue.svg)](https://raw.githubusercontent.com/herotc/hero-dbc/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/herotc/hero-dbc.svg)](https://github.com/herotc/hero-dbc/network) [![GitHub stars](https://img.shields.io/github/stars/herotc/hero-dbc.svg)](https://github.com/herotc/hero-dbc/stargazers) [![GitHub issues](https://img.shields.io/github/issues/herotc/hero-dbc.svg)](https://github.com/herotc/hero-dbc/issues)
 
 ## AddOn
 
 World of Warcraft AddOn to make info from DBC available in-game.
+You can also find it on [CurseForge](https://www.curseforge.com/wow/addons/herodbc).
 
 ### Usage
 
