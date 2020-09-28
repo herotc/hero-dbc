@@ -14,4 +14,3 @@ ignore:
     - symlink.sh
 
 license-output: LICENSE
-)
