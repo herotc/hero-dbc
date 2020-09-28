@@ -12,7 +12,7 @@ import operator
 import json
 from slpp import slpp as lua  # SLPP-23 package: https://pypi.org/project/SLPP-23
 
-generatedDir = os.path.join('DBC', 'generated')
+generatedDir = os.path.join('scripts', 'DBC', 'generated')
 addonDevDir = os.path.join('addon', 'Dev')
 addonEnumDir = os.path.join('addon', 'DBC')
 

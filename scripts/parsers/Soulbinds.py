@@ -12,8 +12,8 @@ import csv
 import json
 from collections import OrderedDict
 
-generatedDir = os.path.join('DBC', 'generated')
-parsedDir = os.path.join('DBC', 'parsed')
+generatedDir = os.path.join('scripts', 'DBC', 'generated')
+parsedDir = os.path.join('scripts', 'DBC', 'parsed')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 

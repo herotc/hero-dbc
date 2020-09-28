@@ -11,8 +11,8 @@ import os
 import csv
 import json
 
-generatedDir = os.path.join('DBC', 'generated')
-parsedDir = os.path.join('DBC', 'parsed')
+generatedDir = os.path.join('scripts', 'DBC', 'generated')
+parsedDir = os.path.join('scripts', 'DBC', 'parsed')
 ItemDataList = ""
 LegendaryDataList = ""
 

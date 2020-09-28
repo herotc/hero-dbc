@@ -18,11 +18,12 @@ args = parser.parse_args()
 extractStartTime = math.floor(datetime.datetime.now().timestamp())
 
 topLevelWorkingDir = path.dirname(getcwd())
-heroDbcDirPath = path.join(topLevelWorkingDir, 'hero-dbc')
+scriptsDirPath = path.join(topLevelWorkingDir, 'hero-dbc', 'scripts')
+cdnDirPath = path.join(scriptsDirPath, 'CDN')
+dbcDirPath = path.join(scriptsDirPath, 'DBC')
 simcDirPath = path.normpath(path.join(topLevelWorkingDir, '../simulationcraft/simc'))
 
 realm = args.wowRealm
-cdnDirPath = path.join(heroDbcDirPath, 'CDN')
 
 # Get wow directory path
 wowDirPath = None
@@ -30,8 +31,8 @@ if args.wowDir is not None:
     wowDirPath = args.wowDir
     print(f'WoW directory passed as arg, using: "{wowDirPath}"')
 else:
-    wowDirFinderPath = path.join(heroDbcDirPath, 'scripts', 'tools', 'wowDirFinder.py')
-    wowDirFinderProc = subprocess.Popen(['python3', wowDirFinderPath], stdout=subprocess.PIPE,
+    wowDirFinderPath = path.join(scriptsDirPath, 'tools', 'wowDirFinder.py')
+    wowDirFinderProc = subprocess.Popen(f'python3 {wowDirFinderPath}', stdout=subprocess.PIPE,
                                         stderr=subprocess.STDOUT, shell=True)
     wowDirFinderResult = wowDirFinderProc.communicate()[0].decode().rstrip()
     if wowDirFinderResult == 'False':
@@ -41,7 +42,7 @@ else:
         print(f'WoW directory not passed as arg, found using wowDirFinder: "{wowDirPath}"')
 
 # Load tasks information (from hero-dbc/scripts/tasks.json)
-with open(path.join(heroDbcDirPath, 'scripts', 'tasks.json')) as tasksFile:
+with open(path.join(scriptsDirPath, 'tasks.json')) as tasksFile:
     tasks = json.load(tasksFile)
 
 # CDN (using simc/casc_extract)
@@ -52,7 +53,7 @@ chdir(path.join(simcDirPath, 'casc_extract'))
 system(cascExtractCmd)
 
 # Find the wow version (using hero-dbc/scripts/tools/wowVersion.py)
-chdir(path.join(heroDbcDirPath, 'scripts', 'tools'))
+chdir(path.join(scriptsDirPath, 'tools'))
 wowVersionProc = subprocess.Popen(f'python3 wowVersion.py --cdnDirPath={cdnDirPath}', stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 version = wowVersionProc.communicate()[0].decode().rstrip()
 print(f'Using {version} client data from the CDN.')
@@ -97,18 +98,18 @@ if args.updateSimc is True:
 
 # hero-dbc
 print('Updating hero-dbc data...')
-clientDataOutPath = path.join(heroDbcDirPath, 'DBC', 'generated')
+clientDataOutPath = path.join(dbcDirPath, 'generated')
 for dbfile in tasks['dbfiles']:
     print(f'Converting {dbfile} to CSV...')
     system(f'{dbcExtractCmd} -t csv {dbfile} > {path.join(clientDataOutPath, dbfile)}.csv')
 
 # Parsers (using hero-dbc/scripts/parsers)
-chdir(path.join(heroDbcDirPath, 'scripts', 'parsers'))
+chdir(path.join(scriptsDirPath, 'parsers'))
 print('Parsing client data from CSV...')
 for parser in tasks['parsers']:
     print(f'Parsing {parser}...')
     system(f'python3 {parser}.py')
 
 # Update .lua meta info (using hero-dbc/scripts/tools/luaMeta.py)
-chdir(path.join(heroDbcDirPath, 'scripts', 'tools'))
+chdir(path.join(scriptsDirPath, 'tools'))
 system(f'python3 luaMeta.py --mtime={extractStartTime} --version={version}')

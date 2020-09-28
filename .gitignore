@@ -1,10 +1,10 @@
 # Project #
 ###########
-CDN/*
-!CDN/.gitkeep
-DBC/generated/*
-!DBC/generated/.gitkeep
-DBC/parsed/AzeritePowerWithItems.json
+scripts/CDN/*
+!scripts/CDN/.gitkeep
+scripts/DBC/generated/*
+!scripts/DBC/generated/.gitkeep
+scripts/DBC/parsed/AzeritePowerWithItems.json
 
 # Project dependencies #
 ########################

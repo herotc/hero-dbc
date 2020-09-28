@@ -6,8 +6,6 @@ move-folders:
     HeroDBC/addon: HeroDBC
 
 ignore:
-    - CDN
-    - DBC
     - Dev
     - scripts
     - symlink.bat
