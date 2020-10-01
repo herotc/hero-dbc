@@ -1,3 +1,4 @@
+-- Generated using WoW 9.0.2.36086 client data on 2020-10-01T13:58:25.516681.
 -- { [SpellID] = { [1] = IsMelee, [2] = MinRange, [3] = MaxRange } }
 HeroDBC.DBC.SpellMeleeRange = {
   [11] = { false, 0, 100 },

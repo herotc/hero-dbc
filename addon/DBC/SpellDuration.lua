@@ -1,3 +1,4 @@
+-- Generated using WoW 9.0.2.36086 client data on 2020-10-01T13:58:25.516681.
 HeroDBC.DBC.SpellDuration = {
   [13] = {30000, 39000},
   [17] = {15000, 19500},
