@@ -26,6 +26,7 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 Enchants = []
 with open(os.path.join(generatedDir, 'SpellItemEnchantment.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id']))
     for row in reader:
         if int(row['id_property_1']) > 0:
             Enchants.append(row)
