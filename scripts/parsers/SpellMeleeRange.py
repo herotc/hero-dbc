@@ -33,9 +33,12 @@ with open(os.path.join(generatedDir, 'SpellRange.csv')) as csvfile:
 
 with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_parent']))
+    current_id = 0
     ValidRows = []
     for row in reader:
-        if row['id_range'] in Ranges:
+        if row['id_range'] in Ranges and current_id != int(row['id_parent']):
+            current_id = int(row['id_parent'])
             ValidRows.append(row)
     with open(os.path.join(addonEnumDir, 'SpellMeleeRange.lua'), 'w', encoding='utf-8') as file:
         file.write('-- { [SpellID] = { [1] = IsMelee, [2] = MinRange, [3] = MaxRange } }\n')
