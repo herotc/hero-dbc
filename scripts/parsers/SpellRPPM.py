@@ -92,7 +92,7 @@ with open(os.path.join(generatedDir, 'SpellProcsPerMinuteMod.csv')) as csvfile:
                 ModPPM[int(row['id_parent'])] = {}
             if modType == 'HASTE' or modType == 'CRIT':  # Haste and crit modifier only have a boolean
                 ModPPM[int(row['id_parent'])][int(row['unk_1'])] = True
-            if modType == 'CLASS':  # for class mak , we have to iterate through the mask to determine which class it concerns
+            if modType == 'CLASS':  # for class mask , we have to iterate through the mask to determine which class it concerns
                 racemask = int(row['id_chr_spec'])
                 for i in range(12, 0, -1):
                     if racemask - computeClass(i) >= 0:
@@ -115,6 +115,7 @@ with open(os.path.join(generatedDir, 'SpellProcsPerMinuteMod.csv')) as csvfile:
 PPMID = {}
 with open(os.path.join(generatedDir, 'SpellAuraOptions.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_parent']))
     for row in reader:
         if not int(row['id_ppm']) == 0:  # Only if spell has a rppm
             PPMID[int(row['id_parent'])] = int(row['id_ppm'])
