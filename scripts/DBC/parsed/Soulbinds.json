@@ -131,9 +131,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1375,
-                            "soulbindAbilityName": "Potency Conduit"
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1365,
+                            "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
                     "3": {
@@ -175,9 +175,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1365,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1375,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -544,9 +544,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1549,
-                            "soulbindAbilityName": "Potency Conduit"
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1556,
+                            "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
                     "3": {
@@ -588,9 +588,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1556,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1549,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -1043,9 +1043,9 @@
                     },
                     "1": {
                         "0": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1767,
-                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1168,
+                            "soulbindAbilityName": "Potency Conduit",
                             "soulbindAbilityPrereq": 1163
                         },
                         "2": {
@@ -1057,9 +1057,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1168,
-                            "soulbindAbilityName": "Potency Conduit"
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1767,
+                            "soulbindAbilityName": "Finesse Conduit"
                         }
                     },
                     "3": {
@@ -1121,7 +1121,7 @@
                     "7": {
                         "1": {
                             "soulbindAbilityId": 1154,
-                            "soulbindAbilityName": "Embody the Construct",
+                            "soulbindAbilityName": "Lead by Example",
                             "soulbindAbilitySpellId": 342156
                         }
                     }

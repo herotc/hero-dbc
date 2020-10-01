@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.2.36037 client data on 2020-09-28T22:54:20.985984.
+-- Generated using WoW 9.0.2.36086 client data on 2020-10-01T10:08:17.545245.
 -- { [Type] = { [Range] = { [1] = ItemID, [2] = ItemId, [3] = ... } } }
 HeroDBC.DBC.ItemRangeUnfiltered = {
   Melee = {
@@ -191,6 +191,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       184308,
     },
     [8] = {
+      178811,
       180052,
       180053,
     },
@@ -888,7 +889,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       176928,
       177223,
       177817,
-      177835,
       178515,
       178681,
       179823,
@@ -916,6 +916,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       183793,
       183797,
       184218,
+      184485,
     },
     [6] = {
       38317,
@@ -946,6 +947,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       98117,
       153249,
       173881,
+      177835,
       183799,
     },
     [8] = {
@@ -996,6 +998,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       178901,
       182301,
       183901,
+      184415,
     },
     [9] = {
       72578,
@@ -1461,6 +1464,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       183939,
       184292,
       184314,
+      184447,
     },
     [12] = {
       137440,
@@ -2765,6 +2769,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       163705,
       173692,
       183135,
+      184449,
     },
     [38] = {
       140786,
@@ -3244,6 +3249,8 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       178495,
       178496,
       178567,
+      178809,
+      178810,
       178826,
       178826,
       178849,
@@ -3272,6 +3279,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       181298,
       181337,
       181357,
+      182653,
       182892,
       183125,
       183186,
@@ -3280,6 +3288,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       184017,
       184196,
       184313,
+      184396,
     },
     [45] = {
       4390,
@@ -3384,6 +3393,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       170123,
       172222,
       172223,
+      173078,
       173538,
       173939,
       173944,
@@ -3734,7 +3744,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       180238,
       180899,
       182836,
-      182847,
       182869,
       183141,
       183696,

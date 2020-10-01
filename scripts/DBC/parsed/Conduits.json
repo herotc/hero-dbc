@@ -863,8 +863,8 @@
     },
     {
         "conduitId": 100,
-        "conduitName": "Earth and Sky",
-        "conduitSpellID": 338307,
+        "conduitName": "Pyroclastic Shock",
+        "conduitSpellID": 345594,
         "specs": [
             262
         ]
@@ -1223,7 +1223,7 @@
     },
     {
         "conduitId": 142,
-        "conduitName": "Stalwart as a Crusader",
+        "conduitName": "Pure Concentration",
         "conduitSpellID": 339124,
         "specs": [
             65,
@@ -1322,7 +1322,7 @@
     },
     {
         "conduitId": 150,
-        "conduitName": "Demon's Touch",
+        "conduitName": "Relentless Onslaught",
         "conduitSpellID": 339151,
         "specs": [
             577
@@ -1349,7 +1349,8 @@
         "conduitName": "Growing Inferno",
         "conduitSpellID": 339231,
         "specs": [
-            577
+            577,
+            581
         ]
     },
     {

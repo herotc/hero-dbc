@@ -130,7 +130,7 @@
         "72": {
             "0": {
                 "0": {
-                    "spellId": 262231,
+                    "spellId": 346002,
                     "spellName": "War Machine",
                     "talentId": 22632
                 },
@@ -2474,8 +2474,8 @@
                     "talentId": 21637
                 },
                 "1": {
-                    "spellId": 193225,
-                    "spellName": "Legacy of the Void",
+                    "spellId": 345218,
+                    "spellName": "Hungering Void",
                     "talentId": 21978
                 },
                 "2": {
