@@ -636,16 +636,6 @@
         ]
     },
     {
-        "conduitId": 74,
-        "conduitName": "Reinforced Shell",
-        "conduitSpellID": 337764,
-        "specs": [
-            250,
-            251,
-            252
-        ]
-    },
-    {
         "conduitId": 76,
         "conduitName": "Pain Transformation",
         "conduitSpellID": 337786,
@@ -1252,26 +1242,6 @@
         ]
     },
     {
-        "conduitId": 143,
-        "conduitName": "Necrotic Barrage",
-        "conduitSpellID": 339129,
-        "specs": [
-            253,
-            254,
-            255
-        ]
-    },
-    {
-        "conduitId": 144,
-        "conduitName": "Fel Celerity",
-        "conduitSpellID": 339130,
-        "specs": [
-            265,
-            266,
-            267
-        ]
-    },
-    {
         "conduitId": 145,
         "conduitName": "Lost in Darkness",
         "conduitSpellID": 339149,
@@ -1414,16 +1384,6 @@
         ]
     },
     {
-        "conduitId": 157,
-        "conduitName": "Markman's Advantage",
-        "conduitSpellID": 339264,
-        "specs": [
-            253,
-            254,
-            255
-        ]
-    },
-    {
         "conduitId": 162,
         "conduitName": "Accrued Vitality",
         "conduitSpellID": 339282,
@@ -1477,16 +1437,6 @@
         "conduitSpellID": 339374,
         "specs": [
             70
-        ]
-    },
-    {
-        "conduitId": 166,
-        "conduitName": "Harmony of the Tortollan",
-        "conduitSpellID": 339377,
-        "specs": [
-            253,
-            254,
-            255
         ]
     },
     {
@@ -1714,14 +1664,6 @@
         "conduitSpellID": 339984,
         "specs": [
             65
-        ]
-    },
-    {
-        "conduitId": 192,
-        "conduitName": "Deadly Chain",
-        "conduitSpellID": 339973,
-        "specs": [
-            254
         ]
     },
     {
@@ -2209,56 +2151,6 @@
         ]
     },
     {
-        "conduitId": 225,
-        "conduitName": "Reverberation",
-        "conduitSpellID": 341264,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 227,
-        "conduitName": "Sudden Fractures",
-        "conduitSpellID": 341272,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 228,
-        "conduitName": "Septic Shock",
-        "conduitSpellID": 341309,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 229,
-        "conduitName": "Slaughter Scars",
-        "conduitSpellID": 341310,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 230,
-        "conduitName": "Nimble Fingers",
-        "conduitSpellID": 341311,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
         "conduitId": 249,
         "conduitName": "Controlled Destruction",
         "conduitSpellID": 341325,
@@ -2298,152 +2190,6 @@
         "conduitSpellID": 341440,
         "specs": [
             253
-        ]
-    },
-    {
-        "conduitId": 232,
-        "conduitName": "Cloaked in Shadows",
-        "conduitSpellID": 341529,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 233,
-        "conduitName": "Quick Decisions",
-        "conduitSpellID": 341531,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 234,
-        "conduitName": "Fade to Nothing",
-        "conduitSpellID": 341532,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 235,
-        "conduitName": "Rushed Setup",
-        "conduitSpellID": 341534,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 236,
-        "conduitName": "Prepared for All",
-        "conduitSpellID": 341535,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
-        "conduitId": 237,
-        "conduitName": "Poisoned Katar",
-        "conduitSpellID": 341536,
-        "specs": [
-            259
-        ]
-    },
-    {
-        "conduitId": 238,
-        "conduitName": "Well-Placed Steel",
-        "conduitSpellID": 341537,
-        "specs": [
-            259
-        ]
-    },
-    {
-        "conduitId": 239,
-        "conduitName": "Maim, Mangle",
-        "conduitSpellID": 341538,
-        "specs": [
-            259
-        ]
-    },
-    {
-        "conduitId": 240,
-        "conduitName": "Lethal Poisons",
-        "conduitSpellID": 341539,
-        "specs": [
-            259
-        ]
-    },
-    {
-        "conduitId": 241,
-        "conduitName": "Triple Threat",
-        "conduitSpellID": 341540,
-        "specs": [
-            260
-        ]
-    },
-    {
-        "conduitId": 242,
-        "conduitName": "Ambidexterity",
-        "conduitSpellID": 341542,
-        "specs": [
-            260
-        ]
-    },
-    {
-        "conduitId": 243,
-        "conduitName": "Sleight of Hand",
-        "conduitSpellID": 341543,
-        "specs": [
-            260
-        ]
-    },
-    {
-        "conduitId": 244,
-        "conduitName": "Count the Odds",
-        "conduitSpellID": 341546,
-        "specs": [
-            260
-        ]
-    },
-    {
-        "conduitId": 245,
-        "conduitName": "Deeper Daggers",
-        "conduitSpellID": 341549,
-        "specs": [
-            261
-        ]
-    },
-    {
-        "conduitId": 246,
-        "conduitName": "Planned Execution",
-        "conduitSpellID": 341556,
-        "specs": [
-            261
-        ]
-    },
-    {
-        "conduitId": 247,
-        "conduitName": "Stiletto Staccato",
-        "conduitSpellID": 341559,
-        "specs": [
-            261
-        ]
-    },
-    {
-        "conduitId": 248,
-        "conduitName": "Perforated Veins",
-        "conduitSpellID": 341567,
-        "specs": [
-            261
         ]
     },
     {
@@ -2588,16 +2334,6 @@
         ]
     },
     {
-        "conduitId": 231,
-        "conduitName": "Recuperator",
-        "conduitSpellID": 341312,
-        "specs": [
-            259,
-            260,
-            261
-        ]
-    },
-    {
         "conduitId": 269,
         "conduitName": "Unchecked Aggression",
         "conduitSpellID": 340552,
@@ -2703,14 +2439,6 @@
             103,
             104,
             105
-        ]
-    },
-    {
-        "conduitId": 203,
-        "conduitName": "Cold Embrace",
-        "conduitSpellID": 339576,
-        "specs": [
-            265
         ]
     },
     {

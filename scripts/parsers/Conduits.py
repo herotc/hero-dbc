@@ -37,6 +37,7 @@ for dbFile in dbFiles:
 Conduits = []
 with open(os.path.join(generatedDir, 'SoulbindConduitRank.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_parent']))
     current_id = 0
     for row in reader:
         if int(row['id_spell']) > 0 and current_id != int(row['id_parent']):
