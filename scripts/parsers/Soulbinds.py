@@ -54,6 +54,7 @@ with open(os.path.join(generatedDir, 'GarrTalentRank.csv')) as csvfile:
 
 with open(os.path.join(generatedDir, 'Soulbind.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id']))
     Soulbinds = []
     for row in reader:
         soulbind = {
@@ -66,6 +67,7 @@ with open(os.path.join(generatedDir, 'Soulbind.csv')) as csvfile:
         # Get the soulbind tree
         with open(os.path.join(generatedDir, 'GarrTalent.csv')) as csvfile:
             reader = csv.DictReader(csvfile, escapechar='\\')
+            reader = sorted(reader, key=lambda d: int(d['id']))
             for rowTalents in reader:
                 if int(rowTalents['id_garr_talent_tree']) == int(row['id_garr_talent_tree']):
                     soulbindAbility = {
