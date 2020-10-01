@@ -51,18 +51,18 @@ Legendaries = []
 # Parse Soulbind tree spells
 with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_bonus']))
     for row in reader:
         legendary = {
             'legendaryId': int(row['id']),
             'legendaryName': row['name'],
             'legendarySpellID': int(row['id_spell']),
             'legendaryBonusID': int(row['id_bonus']),
-            'InventoryTypeMask': int(row['mask_inv_type'])            
         }
 
         # Retrieve the items it applies to
         legendarySlot = []
-        currentMask = legendary['InventoryTypeMask']
+        currentMask = int(row['mask_inv_type']) 
         for i in reversed(ItemBitMask):
             if currentMask / i['mask'] >= 1:
                 currentMask = currentMask - i['mask']
