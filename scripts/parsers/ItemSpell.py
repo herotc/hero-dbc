@@ -25,7 +25,10 @@ Items = {}
 with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
-        Items[int(row['id_parent'])] = int(row['id_spell'])
+        if int(row['id_parent']) > 0:
+            Items[int(row['id_parent'])] = int(row['id_spell'])
+
+Items = {k: v for k, v in sorted(Items.items(), key=lambda item: item[0])}
 
 with open(os.path.join(addonEnumDir, 'ItemSpell.lua'), 'w', encoding='utf-8') as file:
     file.write('HeroDBC.DBC.ItemSpell = {\n')
