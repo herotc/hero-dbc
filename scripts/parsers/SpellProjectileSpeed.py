@@ -24,9 +24,12 @@ PrjSpeedNbValue = 0
 
 with open(os.path.join(generatedDir, 'SpellMisc.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_parent']))
+    current_id = 0
     ValidRows = []
     for row in reader:
-        if float(row['proj_speed']) > 0:
+        if float(row['proj_speed']) > 0 and current_id != int(row['id_parent']):
+            current_id = int(row['id_parent'])
             ValidRows.append(row)
     with open(os.path.join(addonEnumDir, 'SpellProjectileSpeed.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroDBC.DBC.SpellProjectileSpeed = {\n')
