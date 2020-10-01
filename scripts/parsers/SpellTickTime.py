@@ -17,9 +17,12 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 
 with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id_parent']))
+    current_id = 0
     ValidRows = []
     for row in reader:
-        if not int(row['amplitude']) == 0:
+        if not int(row['amplitude']) == 0 and current_id != int(row['id_parent']):
+            current_id = int(row['id_parent'])
             ValidRows.append(row)
     with open(os.path.join(addonEnumDir, 'SpellTickTime.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroDBC.DBC.SpellTickTime = {\n')
