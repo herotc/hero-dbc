@@ -33,3 +33,8 @@ for dbcDir in dbcDirs:
                 with open(entry.path, 'w') as entryFile:
                     entryFile.write(luaMetas)
                     entryFile.write(entryContent)
+
+# Generate metaFile
+with open(path.join(path.join('addon', 'DBC'), 'Meta.lua'), 'w', encoding='utf-8') as file:
+    file.write(f'HeroDBC.DBC.metaVersion = "{version}"\n')
+    file.write(f'HeroDBC.DBC.metaTime = "{datetime.datetime.now().isoformat()}"\n')
