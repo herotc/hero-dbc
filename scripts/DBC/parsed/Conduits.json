@@ -7,7 +7,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 7,
@@ -17,7 +18,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 8,
@@ -27,7 +29,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 9,
@@ -37,7 +40,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 10,
@@ -45,7 +49,8 @@
         "conduitSpellID": 335225,
         "specs": [
             73
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 11,
@@ -55,7 +60,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 12,
@@ -63,7 +69,8 @@
         "conduitSpellID": 335242,
         "specs": [
             71
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 13,
@@ -73,7 +80,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 14,
@@ -81,7 +89,8 @@
         "conduitSpellID": 335260,
         "specs": [
             71
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 15,
@@ -91,7 +100,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 16,
@@ -99,7 +109,8 @@
         "conduitSpellID": 336452,
         "specs": [
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 17,
@@ -107,7 +118,8 @@
         "conduitSpellID": 336460,
         "specs": [
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 18,
@@ -115,7 +127,8 @@
         "conduitSpellID": 336472,
         "specs": [
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 19,
@@ -123,7 +136,8 @@
         "conduitSpellID": 336526,
         "specs": [
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 20,
@@ -131,7 +145,8 @@
         "conduitSpellID": 336522,
         "specs": [
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 21,
@@ -139,7 +154,8 @@
         "conduitSpellID": 336569,
         "specs": [
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 22,
@@ -147,7 +163,8 @@
         "conduitSpellID": 336598,
         "specs": [
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 23,
@@ -157,7 +174,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 24,
@@ -165,7 +183,8 @@
         "conduitSpellID": 336616,
         "specs": [
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 25,
@@ -175,7 +194,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 26,
@@ -185,7 +205,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 27,
@@ -195,7 +216,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 28,
@@ -203,7 +225,8 @@
         "conduitSpellID": 336773,
         "specs": [
             270
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 29,
@@ -213,7 +236,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 30,
@@ -221,7 +245,8 @@
         "conduitSpellID": 336821,
         "specs": [
             63
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 31,
@@ -229,7 +254,8 @@
         "conduitSpellID": 336812,
         "specs": [
             270
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 32,
@@ -237,7 +263,8 @@
         "conduitSpellID": 336852,
         "specs": [
             63
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 33,
@@ -247,7 +274,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 34,
@@ -255,7 +283,8 @@
         "conduitSpellID": 336873,
         "specs": [
             62
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 35,
@@ -265,7 +294,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 36,
@@ -273,7 +303,8 @@
         "conduitSpellID": 336886,
         "specs": [
             62
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 37,
@@ -283,7 +314,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 38,
@@ -293,7 +325,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 39,
@@ -303,7 +336,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 40,
@@ -313,7 +347,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 41,
@@ -323,7 +358,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 42,
@@ -333,7 +369,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 43,
@@ -343,7 +380,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 44,
@@ -351,7 +389,8 @@
         "conduitSpellID": 337099,
         "specs": [
             270
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 45,
@@ -361,7 +400,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 46,
@@ -369,7 +409,8 @@
         "conduitSpellID": 337119,
         "specs": [
             268
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 47,
@@ -377,7 +418,8 @@
         "conduitSpellID": 337134,
         "specs": [
             268
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 48,
@@ -387,7 +429,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 49,
@@ -395,7 +438,8 @@
         "conduitSpellID": 337154,
         "specs": [
             73
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 50,
@@ -403,7 +447,8 @@
         "conduitSpellID": 337162,
         "specs": [
             72
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 51,
@@ -411,7 +456,8 @@
         "conduitSpellID": 337192,
         "specs": [
             62
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 52,
@@ -419,7 +465,8 @@
         "conduitSpellID": 337214,
         "specs": [
             72
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 53,
@@ -427,7 +474,8 @@
         "conduitSpellID": 337224,
         "specs": [
             63
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 54,
@@ -435,7 +483,8 @@
         "conduitSpellID": 337241,
         "specs": [
             270
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 55,
@@ -443,7 +492,8 @@
         "conduitSpellID": 337240,
         "specs": [
             62
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 56,
@@ -451,7 +501,8 @@
         "conduitSpellID": 337250,
         "specs": [
             268
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 57,
@@ -459,7 +510,8 @@
         "conduitSpellID": 337264,
         "specs": [
             268
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 58,
@@ -469,7 +521,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 59,
@@ -479,7 +532,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 60,
@@ -489,7 +543,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 61,
@@ -499,7 +554,8 @@
             62,
             63,
             64
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 62,
@@ -509,7 +565,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 63,
@@ -519,7 +576,8 @@
             268,
             270,
             269
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 64,
@@ -527,7 +585,8 @@
         "conduitSpellID": 337302,
         "specs": [
             72
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 65,
@@ -535,7 +594,8 @@
         "conduitSpellID": 337381,
         "specs": [
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 66,
@@ -545,7 +605,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 67,
@@ -555,7 +616,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 68,
@@ -565,7 +627,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 69,
@@ -575,7 +638,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 70,
@@ -585,7 +649,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 71,
@@ -595,7 +660,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 72,
@@ -605,7 +671,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 73,
@@ -615,7 +682,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 74,
@@ -625,7 +693,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 75,
@@ -633,7 +702,8 @@
         "conduitSpellID": 337778,
         "specs": [
             256
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 76,
@@ -641,7 +711,8 @@
         "conduitSpellID": 337786,
         "specs": [
             256
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 77,
@@ -649,7 +720,8 @@
         "conduitSpellID": 337790,
         "specs": [
             256
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 78,
@@ -657,7 +729,8 @@
         "conduitSpellID": 337811,
         "specs": [
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 79,
@@ -665,7 +738,8 @@
         "conduitSpellID": 337822,
         "specs": [
             251
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 80,
@@ -673,7 +747,8 @@
         "conduitSpellID": 337884,
         "specs": [
             250
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 81,
@@ -681,7 +756,8 @@
         "conduitSpellID": 337891,
         "specs": [
             256
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 82,
@@ -689,7 +765,8 @@
         "conduitSpellID": 337914,
         "specs": [
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 83,
@@ -697,7 +774,8 @@
         "conduitSpellID": 337934,
         "specs": [
             251
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 84,
@@ -705,7 +783,8 @@
         "conduitSpellID": 337947,
         "specs": [
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 85,
@@ -715,7 +794,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 86,
@@ -723,7 +803,8 @@
         "conduitSpellID": 337957,
         "specs": [
             250
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 87,
@@ -733,7 +814,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 88,
@@ -743,7 +825,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 89,
@@ -751,7 +834,8 @@
         "conduitSpellID": 337980,
         "specs": [
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 90,
@@ -761,7 +845,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 91,
@@ -769,7 +854,8 @@
         "conduitSpellID": 337988,
         "specs": [
             251
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 92,
@@ -779,7 +865,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 93,
@@ -789,7 +876,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 94,
@@ -799,7 +887,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 95,
@@ -809,7 +898,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 96,
@@ -819,7 +909,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 97,
@@ -829,7 +920,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 98,
@@ -839,7 +931,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 99,
@@ -849,7 +942,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 100,
@@ -857,7 +951,8 @@
         "conduitSpellID": 345594,
         "specs": [
             262
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 101,
@@ -867,7 +962,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 102,
@@ -875,7 +971,8 @@
         "conduitSpellID": 338131,
         "specs": [
             262
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 103,
@@ -883,7 +980,8 @@
         "conduitSpellID": 338252,
         "specs": [
             262
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 104,
@@ -891,7 +989,8 @@
         "conduitSpellID": 338303,
         "specs": [
             262
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 105,
@@ -901,7 +1000,8 @@
             258,
             256,
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 106,
@@ -911,7 +1011,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 107,
@@ -919,7 +1020,8 @@
         "conduitSpellID": 338319,
         "specs": [
             258
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 108,
@@ -929,7 +1031,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 109,
@@ -937,7 +1040,8 @@
         "conduitSpellID": 338318,
         "specs": [
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 110,
@@ -945,7 +1049,8 @@
         "conduitSpellID": 338322,
         "specs": [
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 111,
@@ -953,7 +1058,8 @@
         "conduitSpellID": 338331,
         "specs": [
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 112,
@@ -961,7 +1067,8 @@
         "conduitSpellID": 338325,
         "specs": [
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 113,
@@ -969,7 +1076,8 @@
         "conduitSpellID": 338332,
         "specs": [
             258
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 114,
@@ -977,7 +1085,8 @@
         "conduitSpellID": 338338,
         "specs": [
             258
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 115,
@@ -985,7 +1094,8 @@
         "conduitSpellID": 338342,
         "specs": [
             258
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 116,
@@ -993,7 +1103,8 @@
         "conduitSpellID": 338345,
         "specs": [
             257
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 117,
@@ -1001,7 +1112,8 @@
         "conduitSpellID": 338329,
         "specs": [
             264
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 118,
@@ -1009,7 +1121,8 @@
         "conduitSpellID": 338339,
         "specs": [
             264
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 119,
@@ -1017,7 +1130,8 @@
         "conduitSpellID": 338343,
         "specs": [
             264
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 120,
@@ -1025,7 +1139,8 @@
         "conduitSpellID": 338346,
         "specs": [
             264
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 121,
@@ -1033,7 +1148,8 @@
         "conduitSpellID": 338435,
         "specs": [
             250
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 122,
@@ -1041,7 +1157,8 @@
         "conduitSpellID": 338492,
         "specs": [
             251
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 123,
@@ -1049,7 +1166,8 @@
         "conduitSpellID": 338516,
         "specs": [
             250
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 124,
@@ -1057,7 +1175,8 @@
         "conduitSpellID": 338553,
         "specs": [
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 125,
@@ -1065,7 +1184,8 @@
         "conduitSpellID": 338566,
         "specs": [
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 126,
@@ -1075,7 +1195,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 127,
@@ -1085,7 +1206,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 128,
@@ -1095,7 +1217,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 129,
@@ -1105,7 +1228,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 130,
@@ -1114,7 +1238,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 131,
@@ -1123,7 +1248,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 132,
@@ -1132,7 +1258,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 133,
@@ -1142,7 +1269,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 134,
@@ -1151,7 +1279,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 135,
@@ -1160,7 +1289,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 137,
@@ -1170,7 +1300,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 138,
@@ -1179,7 +1310,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 139,
@@ -1189,7 +1321,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 140,
@@ -1199,7 +1332,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 141,
@@ -1209,7 +1343,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 142,
@@ -1219,7 +1354,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 143,
@@ -1229,7 +1365,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 144,
@@ -1239,7 +1376,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 145,
@@ -1248,7 +1386,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 146,
@@ -1258,7 +1397,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 147,
@@ -1268,7 +1408,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 148,
@@ -1278,7 +1419,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 149,
@@ -1288,7 +1430,8 @@
             262,
             264,
             263
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 150,
@@ -1296,7 +1439,8 @@
         "conduitSpellID": 339151,
         "specs": [
             577
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 151,
@@ -1304,7 +1448,8 @@
         "conduitSpellID": 339228,
         "specs": [
             577
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 152,
@@ -1312,7 +1457,8 @@
         "conduitSpellID": 339230,
         "specs": [
             577
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 153,
@@ -1321,7 +1467,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 154,
@@ -1331,7 +1478,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 157,
@@ -1341,7 +1489,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 158,
@@ -1351,7 +1500,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 159,
@@ -1361,7 +1511,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 160,
@@ -1371,7 +1522,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 161,
@@ -1381,7 +1533,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 162,
@@ -1391,7 +1544,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 163,
@@ -1401,7 +1555,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 164,
@@ -1409,7 +1564,8 @@
         "conduitSpellID": 339371,
         "specs": [
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 165,
@@ -1419,7 +1575,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 166,
@@ -1429,7 +1586,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 167,
@@ -1437,7 +1595,8 @@
         "conduitSpellID": 339374,
         "specs": [
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 168,
@@ -1447,7 +1606,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 169,
@@ -1455,7 +1615,8 @@
         "conduitSpellID": 339386,
         "specs": [
             71
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 170,
@@ -1465,7 +1626,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 171,
@@ -1475,7 +1637,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 172,
@@ -1483,7 +1646,8 @@
         "conduitSpellID": 339423,
         "specs": [
             581
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 173,
@@ -1493,7 +1657,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 174,
@@ -1501,7 +1666,8 @@
         "conduitSpellID": 339455,
         "specs": [
             265
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 175,
@@ -1511,7 +1677,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 176,
@@ -1519,7 +1686,8 @@
         "conduitSpellID": 339531,
         "specs": [
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 177,
@@ -1527,7 +1695,8 @@
         "conduitSpellID": 339570,
         "specs": [
             65
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 178,
@@ -1537,7 +1706,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 179,
@@ -1545,7 +1715,8 @@
         "conduitSpellID": 339587,
         "specs": [
             581
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 180,
@@ -1553,7 +1724,8 @@
         "conduitSpellID": 339644,
         "specs": [
             581
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 181,
@@ -1563,7 +1735,8 @@
             253,
             254,
             255
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 182,
@@ -1571,7 +1744,8 @@
         "conduitSpellID": 339518,
         "specs": [
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 183,
@@ -1579,7 +1753,8 @@
         "conduitSpellID": 339704,
         "specs": [
             253
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 184,
@@ -1587,7 +1762,8 @@
         "conduitSpellID": 339712,
         "specs": [
             65
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 185,
@@ -1595,7 +1771,8 @@
         "conduitSpellID": 339750,
         "specs": [
             253
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 186,
@@ -1603,7 +1780,8 @@
         "conduitSpellID": 339818,
         "specs": [
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 187,
@@ -1612,7 +1790,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 188,
@@ -1620,7 +1799,8 @@
         "conduitSpellID": 339920,
         "specs": [
             254
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 189,
@@ -1628,7 +1808,8 @@
         "conduitSpellID": 339924,
         "specs": [
             254
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 190,
@@ -1638,7 +1819,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 191,
@@ -1648,7 +1830,8 @@
             72,
             71,
             73
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 192,
@@ -1656,7 +1839,8 @@
         "conduitSpellID": 339973,
         "specs": [
             254
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 193,
@@ -1664,7 +1848,8 @@
         "conduitSpellID": 339984,
         "specs": [
             65
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 194,
@@ -1672,7 +1857,8 @@
         "conduitSpellID": 339987,
         "specs": [
             65
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 195,
@@ -1680,7 +1866,8 @@
         "conduitSpellID": 340006,
         "specs": [
             66
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 196,
@@ -1688,7 +1875,8 @@
         "conduitSpellID": 340012,
         "specs": [
             66
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 197,
@@ -1696,7 +1884,8 @@
         "conduitSpellID": 340023,
         "specs": [
             66
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 198,
@@ -1705,7 +1894,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 199,
@@ -1713,7 +1903,8 @@
         "conduitSpellID": 340033,
         "specs": [
             254
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 200,
@@ -1722,7 +1913,8 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 201,
@@ -1730,7 +1922,8 @@
         "conduitSpellID": 339481,
         "specs": [
             265
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 202,
@@ -1738,7 +1931,8 @@
         "conduitSpellID": 339500,
         "specs": [
             265
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 203,
@@ -1746,7 +1940,8 @@
         "conduitSpellID": 339576,
         "specs": [
             265
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 204,
@@ -1754,7 +1949,8 @@
         "conduitSpellID": 339578,
         "specs": [
             266
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 205,
@@ -1762,7 +1958,8 @@
         "conduitSpellID": 339656,
         "specs": [
             266
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 206,
@@ -1770,7 +1967,8 @@
         "conduitSpellID": 339766,
         "specs": [
             266
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 207,
@@ -1778,7 +1976,8 @@
         "conduitSpellID": 339845,
         "specs": [
             266
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 208,
@@ -1786,7 +1985,8 @@
         "conduitSpellID": 339890,
         "specs": [
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 209,
@@ -1794,7 +1994,8 @@
         "conduitSpellID": 340030,
         "specs": [
             66
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 210,
@@ -1804,7 +2005,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 211,
@@ -1812,7 +2014,8 @@
         "conduitSpellID": 339892,
         "specs": [
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 212,
@@ -1820,7 +2023,8 @@
         "conduitSpellID": 339896,
         "specs": [
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 213,
@@ -1830,7 +2034,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 214,
@@ -1838,7 +2043,8 @@
         "conduitSpellID": 340041,
         "specs": [
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 215,
@@ -1848,7 +2054,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 216,
@@ -1858,7 +2065,8 @@
             65,
             66,
             70
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 217,
@@ -1868,7 +2076,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 218,
@@ -1878,7 +2087,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 219,
@@ -1888,7 +2098,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 220,
@@ -1898,7 +2109,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 221,
@@ -1908,7 +2120,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 222,
@@ -1918,7 +2131,8 @@
             265,
             266,
             267
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 223,
@@ -1926,7 +2140,8 @@
         "conduitSpellID": 340876,
         "specs": [
             253
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 224,
@@ -1934,7 +2149,8 @@
         "conduitSpellID": 341222,
         "specs": [
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 225,
@@ -1944,7 +2160,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 226,
@@ -1952,7 +2169,8 @@
         "conduitSpellID": 341246,
         "specs": [
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 227,
@@ -1962,7 +2180,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 228,
@@ -1972,7 +2191,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 229,
@@ -1982,7 +2202,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 230,
@@ -1992,7 +2213,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 231,
@@ -2002,7 +2224,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 232,
@@ -2012,7 +2235,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 233,
@@ -2022,7 +2246,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 234,
@@ -2032,7 +2257,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 235,
@@ -2042,7 +2268,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 236,
@@ -2052,7 +2279,8 @@
             259,
             260,
             261
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 237,
@@ -2060,7 +2288,8 @@
         "conduitSpellID": 341536,
         "specs": [
             259
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 238,
@@ -2068,7 +2297,8 @@
         "conduitSpellID": 341537,
         "specs": [
             259
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 239,
@@ -2076,7 +2306,8 @@
         "conduitSpellID": 341538,
         "specs": [
             259
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 240,
@@ -2084,7 +2315,8 @@
         "conduitSpellID": 341539,
         "specs": [
             259
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 241,
@@ -2092,7 +2324,8 @@
         "conduitSpellID": 341540,
         "specs": [
             260
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 242,
@@ -2100,7 +2333,8 @@
         "conduitSpellID": 341542,
         "specs": [
             260
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 243,
@@ -2108,7 +2342,8 @@
         "conduitSpellID": 341543,
         "specs": [
             260
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 244,
@@ -2116,7 +2351,8 @@
         "conduitSpellID": 341546,
         "specs": [
             260
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 245,
@@ -2124,7 +2360,8 @@
         "conduitSpellID": 341549,
         "specs": [
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 246,
@@ -2132,7 +2369,8 @@
         "conduitSpellID": 341556,
         "specs": [
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 247,
@@ -2140,7 +2378,8 @@
         "conduitSpellID": 341559,
         "specs": [
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 248,
@@ -2148,7 +2387,8 @@
         "conduitSpellID": 341567,
         "specs": [
             261
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 249,
@@ -2156,7 +2396,8 @@
         "conduitSpellID": 341325,
         "specs": [
             63
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 250,
@@ -2166,7 +2407,8 @@
             250,
             251,
             252
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 251,
@@ -2174,7 +2416,8 @@
         "conduitSpellID": 341350,
         "specs": [
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 252,
@@ -2182,7 +2425,8 @@
         "conduitSpellID": 341399,
         "specs": [
             255
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 253,
@@ -2190,7 +2434,8 @@
         "conduitSpellID": 341440,
         "specs": [
             253
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 254,
@@ -2201,7 +2446,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 255,
@@ -2212,7 +2458,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 256,
@@ -2223,7 +2470,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 257,
@@ -2234,7 +2482,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 258,
@@ -2245,7 +2494,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 259,
@@ -2256,7 +2506,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 260,
@@ -2267,7 +2518,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "0"
     },
     {
         "conduitId": 261,
@@ -2275,7 +2527,8 @@
         "conduitSpellID": 340720,
         "specs": [
             102
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 262,
@@ -2283,7 +2536,8 @@
         "conduitSpellID": 340706,
         "specs": [
             102
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 263,
@@ -2291,7 +2545,8 @@
         "conduitSpellID": 340708,
         "specs": [
             102
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 264,
@@ -2299,7 +2554,8 @@
         "conduitSpellID": 340719,
         "specs": [
             102
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 265,
@@ -2307,7 +2563,8 @@
         "conduitSpellID": 340682,
         "specs": [
             103
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 266,
@@ -2315,7 +2572,8 @@
         "conduitSpellID": 340686,
         "specs": [
             103
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 267,
@@ -2323,7 +2581,8 @@
         "conduitSpellID": 340694,
         "specs": [
             103
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 268,
@@ -2331,7 +2590,8 @@
         "conduitSpellID": 340705,
         "specs": [
             103
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 269,
@@ -2339,7 +2599,8 @@
         "conduitSpellID": 340552,
         "specs": [
             104
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 270,
@@ -2347,7 +2608,8 @@
         "conduitSpellID": 340609,
         "specs": [
             104
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 271,
@@ -2355,7 +2617,8 @@
         "conduitSpellID": 340553,
         "specs": [
             104
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 272,
@@ -2363,7 +2626,8 @@
         "conduitSpellID": 340605,
         "specs": [
             104
-        ]
+        ],
+        "type": "2"
     },
     {
         "conduitId": 273,
@@ -2371,7 +2635,8 @@
         "conduitSpellID": 340549,
         "specs": [
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 274,
@@ -2379,7 +2644,8 @@
         "conduitSpellID": 340616,
         "specs": [
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 275,
@@ -2387,7 +2653,8 @@
         "conduitSpellID": 340621,
         "specs": [
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 276,
@@ -2395,7 +2662,8 @@
         "conduitSpellID": 340550,
         "specs": [
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 277,
@@ -2406,7 +2674,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 278,
@@ -2417,7 +2686,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 279,
@@ -2428,7 +2698,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 280,
@@ -2439,7 +2710,8 @@
             103,
             104,
             105
-        ]
+        ],
+        "type": "1"
     },
     {
         "conduitId": 281,
@@ -2448,6 +2720,7 @@
         "specs": [
             577,
             581
-        ]
+        ],
+        "type": "1"
     }
 ]
