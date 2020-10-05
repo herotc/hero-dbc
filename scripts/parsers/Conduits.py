@@ -67,7 +67,7 @@ for conduit in Conduits:
                         if powerIdSpecSetMember == entry['id_parent']:
                             powerSpecs.append(int(entry['id_spec']))
                     conduit['specs'] = powerSpecs
-                    conduit['type'] = row['type']
+                    conduit['conduitType'] = int(row['type'])
 
 # json output
 with open(os.path.join(parsedDir, 'Conduits.json'), 'w') as jsonFile:
