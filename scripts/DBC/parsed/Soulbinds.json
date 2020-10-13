@@ -16,68 +16,49 @@
                     },
                     "1": {
                         "0": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1306,
+                            "soulbindAbilityName": "Finesse Conduit"
+                        },
+                        "1": {
                             "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1311,
+                            "soulbindAbilityId": 1765,
                             "soulbindAbilityName": "Endurance Conduit"
                         },
                         "2": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1313,
-                            "soulbindAbilityName": "Finesse Conduit"
-                        }
-                    },
-                    "2": {
-                        "1": {
                             "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1315,
+                            "soulbindAbilityId": 1305,
                             "soulbindAbilityName": "Potency Conduit"
                         }
                     },
-                    "3": {
+                    "2": {
                         "0": {
                             "soulbindAbilityId": 1309,
                             "soulbindAbilityName": "Phial of Patience",
+                            "soulbindAbilityPrereq": 1306,
                             "soulbindAbilitySpellId": 329777
                         },
                         "1": {
                             "soulbindAbilityId": 1317,
                             "soulbindAbilityName": "Road of Trials",
+                            "soulbindAbilityPrereq": 1765,
                             "soulbindAbilitySpellId": 329786
                         },
                         "2": {
                             "soulbindAbilityId": 1308,
                             "soulbindAbilityName": "Focusing Mantra",
+                            "soulbindAbilityPrereq": 1305,
                             "soulbindAbilitySpellId": 328261
                         }
                     },
-                    "4": {
-                        "0": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1306,
-                            "soulbindAbilityName": "Finesse Conduit",
-                            "soulbindAbilityPrereq": 1309
-                        },
-                        "1": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1765,
-                            "soulbindAbilityName": "Endurance Conduit",
-                            "soulbindAbilityPrereq": 1317
-                        },
-                        "2": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1305,
-                            "soulbindAbilityName": "Potency Conduit",
-                            "soulbindAbilityPrereq": 1308
-                        }
-                    },
-                    "5": {
+                    "3": {
                         "1": {
                             "soulbindAbilityConduitType": 3,
                             "soulbindAbilityId": 1312,
                             "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
-                    "6": {
+                    "4": {
                         "0": {
                             "soulbindAbilityId": 1314,
                             "soulbindAbilityName": "Bond of Friendship",
@@ -87,6 +68,25 @@
                             "soulbindAbilityId": 1310,
                             "soulbindAbilityName": "Cleansed Vestments",
                             "soulbindAbilitySpellId": 328263
+                        }
+                    },
+                    "5": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1315,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "6": {
+                        "0": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1311,
+                            "soulbindAbilityName": "Potency Conduit"
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1313,
+                            "soulbindAbilityName": "Finesse Conduit"
                         }
                     },
                     "7": {
@@ -117,9 +117,9 @@
                     },
                     "1": {
                         "0": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 1,
                             "soulbindAbilityId": 1374,
-                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityName": "Finesse Conduit",
                             "soulbindAbilityPrereq": 1367
                         },
                         "2": {
@@ -131,9 +131,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1365,
-                            "soulbindAbilityName": "Finesse Conduit"
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1375,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "3": {
@@ -176,7 +176,7 @@
                     "5": {
                         "1": {
                             "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1375,
+                            "soulbindAbilityId": 1365,
                             "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
@@ -220,9 +220,9 @@
                     },
                     "1": {
                         "0": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 1,
                             "soulbindAbilityId": 1409,
-                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityName": "Finesse Conduit",
                             "soulbindAbilityPrereq": 1407
                         },
                         "2": {
@@ -234,9 +234,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityConduitType": 3,
                             "soulbindAbilityId": 1379,
-                            "soulbindAbilityName": "Finesse Conduit"
+                            "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
                     "3": {
@@ -278,9 +278,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1380,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -392,9 +392,9 @@
                     },
                     "6": {
                         "0": {
-                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1005,
-                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityName": "Potency Conduit",
                             "soulbindAbilityPrereq": 1424
                         },
                         "2": {
@@ -460,9 +460,9 @@
                     },
                     "4": {
                         "0": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1401,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1399,
+                            "soulbindAbilityName": "Finesse Conduit"
                         },
                         "1": {
                             "soulbindAbilityConduitType": 2,
@@ -470,16 +470,16 @@
                             "soulbindAbilityName": "Potency Conduit"
                         },
                         "2": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1399,
-                            "soulbindAbilityName": "Finesse Conduit"
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1401,
+                            "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
                     "5": {
                         "0": {
                             "soulbindAbilityId": 1402,
                             "soulbindAbilityName": "Exacting Preparation",
-                            "soulbindAbilityPrereq": 1401,
+                            "soulbindAbilityPrereq": 1399,
                             "soulbindAbilitySpellId": 331580
                         },
                         "1": {
@@ -491,15 +491,15 @@
                         "2": {
                             "soulbindAbilityId": 1404,
                             "soulbindAbilityName": "Dauntless Duelist",
-                            "soulbindAbilityPrereq": 1399,
+                            "soulbindAbilityPrereq": 1401,
                             "soulbindAbilitySpellId": 331584
                         }
                     },
                     "6": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1405,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "7": {
@@ -530,9 +530,9 @@
                     },
                     "1": {
                         "0": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1556,
-                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1547,
+                            "soulbindAbilityName": "Potency Conduit",
                             "soulbindAbilityPrereq": 1545
                         },
                         "2": {
@@ -545,7 +545,7 @@
                     "2": {
                         "1": {
                             "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1547,
+                            "soulbindAbilityId": 1549,
                             "soulbindAbilityName": "Potency Conduit"
                         }
                     },
@@ -589,7 +589,7 @@
                     "5": {
                         "1": {
                             "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1549,
+                            "soulbindAbilityId": 1556,
                             "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
@@ -697,9 +697,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 995,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -742,16 +742,16 @@
                             "soulbindAbilityName": "Finesse Conduit"
                         },
                         "2": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 870,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 836,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 836,
-                            "soulbindAbilityName": "Potency Conduit"
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 870,
+                            "soulbindAbilityName": "Endurance Conduit"
                         }
                     },
                     "3": {
@@ -793,9 +793,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 832,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -896,9 +896,9 @@
                     },
                     "5": {
                         "1": {
-                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1215,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "6": {
@@ -943,67 +943,48 @@
                     "1": {
                         "0": {
                             "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1132,
+                            "soulbindAbilityId": 1123,
                             "soulbindAbilityName": "Endurance Conduit"
+                        },
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1122,
+                            "soulbindAbilityName": "Potency Conduit"
                         },
                         "2": {
                             "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1133,
+                            "soulbindAbilityId": 1121,
                             "soulbindAbilityName": "Finesse Conduit"
                         }
                     },
                     "2": {
-                        "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1135,
-                            "soulbindAbilityName": "Potency Conduit"
-                        }
-                    },
-                    "3": {
                         "0": {
                             "soulbindAbilityId": 1125,
                             "soulbindAbilityName": "Travel with Bloop",
+                            "soulbindAbilityPrereq": 1123,
                             "soulbindAbilitySpellId": 323089
                         },
                         "1": {
                             "soulbindAbilityId": 1126,
                             "soulbindAbilityName": "Ooz's Frictionless Coating",
+                            "soulbindAbilityPrereq": 1122,
                             "soulbindAbilitySpellId": 323091
                         },
                         "2": {
                             "soulbindAbilityId": 1127,
                             "soulbindAbilityName": "Plaguey's Preemptive Strike",
+                            "soulbindAbilityPrereq": 1121,
                             "soulbindAbilitySpellId": 323090
                         }
                     },
-                    "4": {
-                        "0": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1123,
-                            "soulbindAbilityName": "Endurance Conduit",
-                            "soulbindAbilityPrereq": 1125
-                        },
+                    "3": {
                         "1": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1122,
-                            "soulbindAbilityName": "Potency Conduit",
-                            "soulbindAbilityPrereq": 1126
-                        },
-                        "2": {
                             "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1121,
-                            "soulbindAbilityName": "Finesse Conduit",
-                            "soulbindAbilityPrereq": 1127
-                        }
-                    },
-                    "5": {
-                        "1": {
-                            "soulbindAbilityConduitType": 3,
                             "soulbindAbilityId": 1128,
-                            "soulbindAbilityName": "Endurance Conduit"
+                            "soulbindAbilityName": "Finesse Conduit"
                         }
                     },
-                    "6": {
+                    "4": {
                         "0": {
                             "soulbindAbilityId": 1129,
                             "soulbindAbilityName": "Kevin's Keyring",
@@ -1013,6 +994,25 @@
                             "soulbindAbilityId": 1130,
                             "soulbindAbilityName": "Plagueborn Cleansing Slime",
                             "soulbindAbilitySpellId": 323081
+                        }
+                    },
+                    "5": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1135,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "6": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1132,
+                            "soulbindAbilityName": "Endurance Conduit"
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1133,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "7": {
@@ -1043,9 +1043,9 @@
                     },
                     "1": {
                         "0": {
-                            "soulbindAbilityConduitType": 2,
-                            "soulbindAbilityId": 1168,
-                            "soulbindAbilityName": "Potency Conduit",
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1767,
+                            "soulbindAbilityName": "Finesse Conduit",
                             "soulbindAbilityPrereq": 1163
                         },
                         "2": {
@@ -1057,12 +1057,31 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 1,
-                            "soulbindAbilityId": 1767,
-                            "soulbindAbilityName": "Finesse Conduit"
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1168,
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "3": {
+                        "0": {
+                            "soulbindAbilityId": 1155,
+                            "soulbindAbilityName": "Cartilaginous Legs",
+                            "soulbindAbilitySpellId": 324440
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1156,
+                            "soulbindAbilityName": "Hearth Kidneystone",
+                            "soulbindAbilitySpellId": 324441
+                        }
+                    },
+                    "4": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1167,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "5": {
                         "0": {
                             "soulbindAbilityId": 1160,
                             "soulbindAbilityName": "Gristled Toes",
@@ -1079,7 +1098,7 @@
                             "soulbindAbilitySpellId": 323916
                         }
                     },
-                    "4": {
+                    "6": {
                         "0": {
                             "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1164,
@@ -1099,29 +1118,10 @@
                             "soulbindAbilityPrereq": 1158
                         }
                     },
-                    "5": {
-                        "1": {
-                            "soulbindAbilityConduitType": 3,
-                            "soulbindAbilityId": 1167,
-                            "soulbindAbilityName": "Endurance Conduit"
-                        }
-                    },
-                    "6": {
-                        "0": {
-                            "soulbindAbilityId": 1155,
-                            "soulbindAbilityName": "Cartilaginous Legs",
-                            "soulbindAbilitySpellId": 324440
-                        },
-                        "2": {
-                            "soulbindAbilityId": 1156,
-                            "soulbindAbilityName": "Hearth Kidneystone",
-                            "soulbindAbilitySpellId": 324441
-                        }
-                    },
                     "7": {
                         "1": {
                             "soulbindAbilityId": 1154,
-                            "soulbindAbilityName": "Lead by Example",
+                            "soulbindAbilityName": "Embody the Construct",
                             "soulbindAbilitySpellId": 342156
                         }
                     }
@@ -1160,9 +1160,9 @@
                     },
                     "2": {
                         "1": {
-                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityConduitType": 2,
                             "soulbindAbilityId": 1276,
-                            "soulbindAbilityName": "Finesse Conduit"
+                            "soulbindAbilityName": "Potency Conduit"
                         }
                     },
                     "3": {

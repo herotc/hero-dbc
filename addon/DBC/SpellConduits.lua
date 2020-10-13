@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.2.36165 client data on 2020-10-07T22:36:30.976310.
+-- Generated using WoW 9.0.1.36216 client data on 2020-10-13T10:44:34.706056.
 HeroDBC.DBC.SpellConduits = {
   [5] = 334993,
   [7] = 335010,
@@ -94,7 +94,7 @@ HeroDBC.DBC.SpellConduits = {
   [97] = 338054,
   [98] = 338048,
   [99] = 338093,
-  [100] = 345594,
+  [100] = 338307,
   [101] = 338305,
   [102] = 338131,
   [103] = 338252,

@@ -947,8 +947,8 @@
     },
     {
         "conduitId": 100,
-        "conduitName": "Pyroclastic Shock",
-        "conduitSpellID": 345594,
+        "conduitName": "Earth and Sky",
+        "conduitSpellID": 338307,
         "conduitType": 1,
         "specs": [
             262
@@ -1348,7 +1348,7 @@
     },
     {
         "conduitId": 142,
-        "conduitName": "Pure Concentration",
+        "conduitName": "Stalwart as a Crusader",
         "conduitSpellID": 339124,
         "conduitType": 0,
         "specs": [
@@ -1435,7 +1435,7 @@
     },
     {
         "conduitId": 150,
-        "conduitName": "Relentless Onslaught",
+        "conduitName": "Demon's Touch",
         "conduitSpellID": 339151,
         "conduitType": 1,
         "specs": [
@@ -1466,8 +1466,7 @@
         "conduitSpellID": 339231,
         "conduitType": 1,
         "specs": [
-            577,
-            581
+            577
         ]
     },
     {
@@ -2103,7 +2102,7 @@
     },
     {
         "conduitId": 220,
-        "conduitName": "Soul Eater",
+        "conduitName": "Exhumed Soul",
         "conduitSpellID": 340348,
         "conduitType": 1,
         "specs": [
@@ -2196,7 +2195,7 @@
     },
     {
         "conduitId": 229,
-        "conduitName": "Lashing Scars",
+        "conduitName": "Slaughter Scars",
         "conduitSpellID": 341310,
         "conduitType": 1,
         "specs": [
@@ -2715,7 +2714,7 @@
     },
     {
         "conduitId": 281,
-        "conduitName": "Unnatural Malice",
+        "conduitName": "Unnatural Mailce",
         "conduitSpellID": 344358,
         "conduitType": 1,
         "specs": [
