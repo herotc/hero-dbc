@@ -2,7 +2,7 @@
 --- ======= LOCALIZE =======
 -- Addon
 local addonName, HDBC = ...
-local Enum = HDBC.Enum
+local DBC = HDBC.DBC
 local Filter = HDBC.Dev.Filter
 local Utils = HDBC.Dev.Utils
 -- Lua
@@ -61,7 +61,7 @@ function Filter.ItemRange()
   -- Inside a given frame, we do 5 iterations.
   for i = 1, 5 do
     -- Filter items that can only be casted on an unit. (i.e. blacklist ground targeted aoe items)
-    for Type, Ranges in pairs(Enum.ItemRangeUnfiltered) do
+    for Type, Ranges in pairs(DBC.ItemRangeUnfiltered) do
       local HTItemRange = Type == "Melee" and MHTItemRange or RHTItemRange
       local HTRangeIndex = Type == "Melee" and MHTRangeIndex or RHTRangeIndex
       local FTItemRange = Type == "Melee" and MFTItemRange or RFTItemRange
