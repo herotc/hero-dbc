@@ -82,3 +82,8 @@ with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.csv')) as csvfil
 # Full output
 with open(os.path.join(parsedDir, 'Legendaries.json'), 'w') as jsonFile:
     json.dump(Legendaries, jsonFile, indent=4, sort_keys=True)
+
+# LUA output
+with open(os.path.join(parsedDir, 'Legendaries.lua'), 'w', encoding='utf-8') as file:
+    for _, row in enumerate(Legendaries):
+        file.write('-- ' + str(row['legendaryId']) + ', ' + str(row['legendaryBonusID']) + ', ' + row['legendaryName'] + '\n')
