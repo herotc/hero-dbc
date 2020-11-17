@@ -45,8 +45,8 @@
     },
     {
         "conduitId": 10,
-        "conduitName": "Iron Maiden",
-        "conduitSpellID": 335225,
+        "conduitName": "Fueled by Violence",
+        "conduitSpellID": 347213,
         "conduitType": 2,
         "specs": [
             73
@@ -850,7 +850,7 @@
     },
     {
         "conduitId": 91,
-        "conduitName": "Biting Cold",
+        "conduitName": "Everfrost",
         "conduitSpellID": 337988,
         "conduitType": 1,
         "specs": [
@@ -937,7 +937,7 @@
     {
         "conduitId": 99,
         "conduitName": "Fleeting Wind",
-        "conduitSpellID": 338093,
+        "conduitSpellID": 338089,
         "conduitType": 0,
         "specs": [
             250,
@@ -947,8 +947,8 @@
     },
     {
         "conduitId": 100,
-        "conduitName": "Earth and Sky",
-        "conduitSpellID": 338307,
+        "conduitName": "Pyroclastic Shock",
+        "conduitSpellID": 345594,
         "conduitType": 1,
         "specs": [
             262
@@ -1135,7 +1135,7 @@
     },
     {
         "conduitId": 120,
-        "conduitName": "Nature's Reach",
+        "conduitName": "Nature's Focus",
         "conduitSpellID": 338346,
         "conduitType": 1,
         "specs": [
@@ -1348,7 +1348,7 @@
     },
     {
         "conduitId": 142,
-        "conduitName": "Stalwart as a Crusader",
+        "conduitName": "Pure Concentration",
         "conduitSpellID": 339124,
         "conduitType": 0,
         "specs": [
@@ -1435,7 +1435,7 @@
     },
     {
         "conduitId": 150,
-        "conduitName": "Demon's Touch",
+        "conduitName": "Relentless Onslaught",
         "conduitSpellID": 339151,
         "conduitType": 1,
         "specs": [
@@ -1466,7 +1466,8 @@
         "conduitSpellID": 339231,
         "conduitType": 1,
         "specs": [
-            577
+            577,
+            581
         ]
     },
     {
@@ -2080,7 +2081,7 @@
     },
     {
         "conduitId": 218,
-        "conduitName": "Prolonged Decimation",
+        "conduitName": "Fatal Decimation",
         "conduitSpellID": 340268,
         "conduitType": 1,
         "specs": [
@@ -2102,7 +2103,7 @@
     },
     {
         "conduitId": 220,
-        "conduitName": "Exhumed Soul",
+        "conduitName": "Soul Eater",
         "conduitSpellID": 340348,
         "conduitType": 1,
         "specs": [
@@ -2195,7 +2196,7 @@
     },
     {
         "conduitId": 229,
-        "conduitName": "Slaughter Scars",
+        "conduitName": "Lashing Scars",
         "conduitSpellID": 341310,
         "conduitType": 1,
         "specs": [
@@ -2714,12 +2715,23 @@
     },
     {
         "conduitId": 281,
-        "conduitName": "Unnatural Mailce",
+        "conduitName": "Unnatural Malice",
         "conduitSpellID": 344358,
         "conduitType": 1,
         "specs": [
             577,
             581
+        ]
+    },
+    {
+        "conduitId": 282,
+        "conduitName": "Ambuscade",
+        "conduitSpellID": 346747,
+        "conduitType": 0,
+        "specs": [
+            253,
+            254,
+            255
         ]
     }
 ]

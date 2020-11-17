@@ -1299,7 +1299,7 @@
         ],
         "legendaryBonusID": 7027,
         "legendaryId": 164,
-        "legendaryName": "Mark of Borrowed Power",
+        "legendaryName": "Relic of Demonic Synergy",
         "legendarySpellID": 337057,
         "specs": [
             265,
@@ -1497,20 +1497,6 @@
     },
     {
         "itemSlot": [
-            "Shoulder",
-            "Head"
-        ],
-        "legendaryBonusID": 7042,
-        "legendaryId": 19,
-        "legendaryName": "Half-Giant Empowerment",
-        "legendarySpellID": 337532,
-        "specs": [
-            577,
-            581
-        ]
-    },
-    {
-        "itemSlot": [
             "Waist",
             "Neck"
         ],
@@ -1591,19 +1577,6 @@
     },
     {
         "itemSlot": [
-            "Feet",
-            "Shoulder"
-        ],
-        "legendaryBonusID": 7049,
-        "legendaryId": 22,
-        "legendaryName": "Inner Demons",
-        "legendarySpellID": 337548,
-        "specs": [
-            577
-        ]
-    },
-    {
-        "itemSlot": [
             "Hands",
             "Waist"
         ],
@@ -1630,15 +1603,16 @@
     },
     {
         "itemSlot": [
-            "Back",
-            "Chest"
+            "Shoulder",
+            "Head"
         ],
         "legendaryBonusID": 7052,
-        "legendaryId": 25,
+        "legendaryId": 19,
         "legendaryName": "Fel Bombardment",
         "legendarySpellID": 337775,
         "specs": [
-            577
+            577,
+            581
         ]
     },
     {
@@ -2195,7 +2169,7 @@
         ],
         "legendaryBonusID": 7094,
         "legendaryId": 60,
-        "legendaryName": "Ursoc's Lingering Spirit",
+        "legendaryName": "Ursoc's Fury Remembered",
         "legendarySpellID": 339056,
         "specs": [
             104
@@ -2689,7 +2663,7 @@
         ],
         "legendaryBonusID": 7112,
         "legendaryId": 116,
-        "legendaryName": "Tiny Toxic Blades",
+        "legendaryName": "Tiny Toxic Blade",
         "legendarySpellID": 340078,
         "specs": [
             259,
@@ -2773,7 +2747,7 @@
         ],
         "legendaryBonusID": 7118,
         "legendaryId": 121,
-        "legendaryName": "Dustwalker's Patch",
+        "legendaryName": "Duskwalker's Patch",
         "legendarySpellID": 340084,
         "specs": [
             259
@@ -3000,6 +2974,32 @@
             268,
             270,
             269
+        ]
+    },
+    {
+        "itemSlot": [
+            "Feet",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7218,
+        "legendaryId": 22,
+        "legendaryName": "Darker Nature",
+        "legendarySpellID": 346264,
+        "specs": [
+            577
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Chest"
+        ],
+        "legendaryBonusID": 7219,
+        "legendaryId": 25,
+        "legendaryName": "Burning Wound",
+        "legendarySpellID": 346279,
+        "specs": [
+            577
         ]
     }
 ]
