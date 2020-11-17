@@ -51,7 +51,7 @@ Legendaries = []
 # Parse Soulbind tree spells
 with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
-    reader = sorted(reader, key=lambda d: int(d['id_bonus']))
+    reader = sorted(reader, key=lambda d: int(d['id']))
     for row in reader:
         legendary = {
             'legendaryId': int(row['id']),
