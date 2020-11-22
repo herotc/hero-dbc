@@ -1,4 +1,4 @@
--- Generated using WoW 9.0.2.36671 client data on 2020-11-19T15:10:53.298399.
+-- Generated using WoW 9.0.2.36710 client data on 2020-11-22T22:17:29.300188.
 HeroDBC.DBC.SpellRPPM = {
   [5301] = {
     [0] = 3.0,
@@ -4263,7 +4263,7 @@ HeroDBC.DBC.SpellRPPM = {
     [1] = true,
   },
   [337893] = {
-    [0] = 2.0,
+    [0] = 3.0,
     [1] = true,
   },
   [337928] = {
