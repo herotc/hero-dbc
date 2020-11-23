@@ -21,5 +21,6 @@ with open(os.path.join(generatedDir, 'SpellCooldowns.csv')) as csvfile:
     with open(os.path.join(addonEnumDir, 'SpellGCD.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroDBC.DBC.SpellGCD = {\n')
         for _, row in enumerate(reader):
-            file.write('  [' + row['id_parent'] + '] = ' + row['gcd_cooldown'] + ',\n')
+            if int(row['id_parent']) > 0:
+                file.write('  [' + row['id_parent'] + '] = ' + row['gcd_cooldown'] + ',\n')
         file.write('}\n')
