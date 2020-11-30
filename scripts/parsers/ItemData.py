@@ -17,6 +17,7 @@ ItemDataList = ""
 LegendaryDataList = ""
 
 classTable = {}
+encounterTable = {}
 
 checkLeg = False
 
@@ -119,13 +120,23 @@ def computeSet(set, ilvl):
     if set == 0:
         return ""
     else:
-        print("unknown set:"+ilvl)
+        print("unknown set:"+str(ilvl))
         return ""
 
-def computeBonusID(set, quality, id, type):
-    if set == "" :
-        return "3524"#Castle Nathria
-    return "3524"
+def computeSource(set, quality, id, type, ilvl):
+    if ilvl == 158 :
+        if id not in encounterTable:
+            return "pvp"
+        else:
+            return "dungeon"
+    if ilvl == 200 :
+        if id not in encounterTable:
+            return "other" #todo : craft / pvp / boe
+        else:
+            return "castle_nathria"
+
+    print("unknown source:"+str(id))
+    return ""
 
 def computeItemStat(mask):
     return {
@@ -186,11 +197,10 @@ def PrepareRow(row, rowClass="", rowSpec=""):
     preparedRow["material"] = computeItemMaterial(int(row['material']))
     preparedRow["stats"] = getItemStats(row)
 
-    set = computeSet(int(row['item_set']), int(row['ilevel']))
-
-    preparedRow["set"] = computeSet(int(row['item_set']), int(row['ilevel']))
+    # set = computeSet(int(row['item_set']), int(row['ilevel']))
+    # preparedRow["set"] = computeSet(int(row['item_set']), int(row['ilevel']))
     preparedRow["gems"] = computeGemNumber(row)
-    preparedRow["bonus_id"] = computeBonusID(set, int(row['quality']), int(row['id']), preparedRow["type"])
+    preparedRow["source"] = computeSource(set, int(row['quality']), int(row['id']), preparedRow["type"], int(row['ilevel']))
 
     return preparedRow
 
@@ -198,14 +208,20 @@ def PrepareRow(row, rowClass="", rowSpec=""):
 # Program Start
 createSpecTable()
 
+with open(os.path.join(generatedDir, f'JournalEncounterItem.csv')) as csvfile:
+    reader = csv.DictReader(csvfile, escapechar='\\')
+    for row in reader:
+        encounterTable[int(row['id_item'])] = int(row['id_encounter'])
+
 with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
+    reader = sorted(reader, key=lambda d: int(d['id']))
     ValidItemsRows = {}
 
     # Read rows and order them with each inventory type, class and material
     for row in reader:
-        # ilvl : 187
-        if int(row['ilevel']) == 187:
+        # ilvl : 158 = dungeon, 200 = castle nathria
+        if int(row['ilevel']) == 158 or int(row['ilevel']) == 200:
             itemType = computeItemType(int(row['inv_type']))
             itemMaterial = computeItemMaterial(int(row['material']))
             if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back":  # handle no materal separatly
