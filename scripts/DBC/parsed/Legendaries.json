@@ -108,7 +108,9 @@
         "legendaryName": "Temporal Warp",
         "legendarySpellID": 327351,
         "specs": [
-            62
+            62,
+            63,
+            64
         ]
     },
     {
@@ -1475,6 +1477,8 @@
         "legendaryName": "Relentless Inquisitor",
         "legendarySpellID": 337297,
         "specs": [
+            65,
+            66,
             70
         ]
     },
@@ -1717,6 +1721,8 @@
         "legendaryName": "Deathly Shadows",
         "legendarySpellID": 340092,
         "specs": [
+            259,
+            260,
             261
         ]
     },
