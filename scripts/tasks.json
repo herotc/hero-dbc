@@ -37,6 +37,7 @@
     "ItemSpell",
     "LegendaryItems",
     "Soulbinds",
+    "SpellAuraStat",
     "SpellDuration",
     "SpellEnchant",
     "SpellGCD",
