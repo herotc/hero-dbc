@@ -7572,6 +7572,16 @@
                 "stats": [],
                 "gems": 0,
                 "source": "castle_nathria"
+            },
+            {
+                "id": 184869,
+                "name": "Cache of Nathrian Treasures",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "cloth": [
