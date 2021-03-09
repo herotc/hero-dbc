@@ -53,7 +53,7 @@
 -- 54, 7109, Frenzyband
 -- 55, 7091, Apex Predator's Craving
 -- 56, 7090, Eye of Fearful Symmetry
--- 57, 7089, Cat-eye Curio
+-- 57, 7089, Cat-Eye Curio
 -- 58, 7092, Luffa-Infused Embrace
 -- 59, 7093, The Natural Order's Will
 -- 60, 7094, Ursoc's Fury Remembered

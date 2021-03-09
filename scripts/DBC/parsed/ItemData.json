@@ -647,6 +647,18 @@
             ],
             "gems": 0,
             "source": "pvp"
+        },
+        {
+            "id": 184873,
+            "name": "Soul Igniter (Test)",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "other"
         }
     ],
     "weapon": {
@@ -1283,7 +1295,7 @@
             },
             {
                 "id": 182407,
-                "name": "Sinful Gladaitor's Wingblade",
+                "name": "Sinful Gladiator's Wingblade",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
