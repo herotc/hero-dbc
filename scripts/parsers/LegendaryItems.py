@@ -39,7 +39,7 @@ ItemBitMask = [
 
 # Parse every csv files into dict
 db = {}
-dbFiles = ['SpecSetMember']
+dbFiles = ['SpecSetMember','Covenant']
 for dbFile in dbFiles:
     with open(os.path.join(generatedDir, f'{dbFile}.csv')) as csvfile:
         reader = csv.DictReader(csvfile, escapechar='\\')
@@ -77,6 +77,12 @@ with open(os.path.join(generatedDir, 'RuneforgeLegendaryAbility.csv')) as csvfil
                 if powerIdSpecSetMember == entry['id_parent']:
                     powerSpecs.append(int(entry['id_spec']))
             legendary['specs'] = powerSpecs
+
+        # Retrieve the covenant if the power is allowed only for some covenant
+        covenantId = row['id_covenant']
+        if covenantId != '0':
+            legendary['covenant'] = db['Covenant'][covenantId]['name']
+
         Legendaries.append(legendary)
 
 # Full output
