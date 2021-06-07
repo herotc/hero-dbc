@@ -24,10 +24,10 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 Items = {}
 with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
-    reader = sorted(reader, key=lambda d: int(d['id_parent']))
+    reader = sorted(reader, key=lambda d: int(d['id']))
     for row in reader:
-        if int(row['id_parent']) > 0:
-            Items[int(row['id_parent'])] = int(row['id_spell'])
+        if int(row['id']) > 0:
+            Items[int(row['id'])] = int(row['id_spell'])
 
 with open(os.path.join(addonEnumDir, 'ItemSpell.lua'), 'w', encoding='utf-8') as file:
     file.write('HeroDBC.DBC.ItemSpell = {\n')
