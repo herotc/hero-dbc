@@ -1483,7 +1483,7 @@
     },
     {
         "conduitId": 157,
-        "conduitName": "Markman's Advantage",
+        "conduitName": "Marksman's Advantage",
         "conduitSpellID": 339264,
         "conduitType": 2,
         "specs": [
@@ -1936,7 +1936,7 @@
     },
     {
         "conduitId": 203,
-        "conduitName": "Cold Embrace",
+        "conduitName": "Withering Bolt",
         "conduitSpellID": 339576,
         "conduitType": 1,
         "specs": [
@@ -2732,6 +2732,64 @@
             253,
             254,
             255
+        ]
+    },
+    {
+        "conduitId": 283,
+        "conduitName": "Condensed Anima Sphere",
+        "conduitSpellID": 357888,
+        "conduitType": 2,
+        "specs": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            70,
+            71,
+            72,
+            73,
+            102,
+            103,
+            104,
+            105,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            577,
+            581
+        ]
+    },
+    {
+        "conduitId": 284,
+        "conduitName": "Adaptive Armor Fragment",
+        "conduitSpellID": 357902,
+        "conduitType": 1,
+        "specs": [
+            66,
+            73,
+            104,
+            581,
+            268,
+            250
         ]
     }
 ]

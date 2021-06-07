@@ -95,6 +95,46 @@
                             "soulbindAbilityName": "Let Go of the Past",
                             "soulbindAbilitySpellId": 328257
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1811,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1812,
+                            "soulbindAbilityName": "Better Together",
+                            "soulbindAbilitySpellId": 351146
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1813,
+                            "soulbindAbilityName": "Path of the Devoted",
+                            "soulbindAbilitySpellId": 351147
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1814,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1812
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1815,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1813
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1816,
+                            "soulbindAbilityName": "Newfound Resolve",
+                            "soulbindAbilitySpellId": 351149
+                        }
                     }
                 },
                 "soulbindTreeID": 357
@@ -198,6 +238,46 @@
                             "soulbindAbilityPrereq": 1766,
                             "soulbindAbilitySpellId": 329781
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1825,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1826,
+                            "soulbindAbilityName": "Spear of the Archon",
+                            "soulbindAbilitySpellId": 351488
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1827,
+                            "soulbindAbilityName": "Hope Springs Eternal",
+                            "soulbindAbilitySpellId": 351489
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1828,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1826
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1829,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1827
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1830,
+                            "soulbindAbilityName": "Light the Path",
+                            "soulbindAbilitySpellId": 351491
+                        }
                     }
                 },
                 "soulbindTreeID": 360
@@ -300,6 +380,46 @@
                             "soulbindAbilityName": "Sparkling Driftglobe Core",
                             "soulbindAbilityPrereq": 1413,
                             "soulbindAbilitySpellId": 331612
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1831,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1832,
+                            "soulbindAbilityName": "Soulglow Spectrometer",
+                            "soulbindAbilitySpellId": 352186
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1833,
+                            "soulbindAbilityName": "Reactive Retrofitting",
+                            "soulbindAbilitySpellId": 352187
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1834,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1832
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1835,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1833
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1836,
+                            "soulbindAbilityName": "Effusive Anima Accelerator",
+                            "soulbindAbilitySpellId": 352188
                         }
                     }
                 },
@@ -410,6 +530,48 @@
                             "soulbindAbilityPrereq": 1000,
                             "soulbindAbilitySpellId": 319973
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1855,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1856,
+                            "soulbindAbilityName": "Regenerative Stone Skin",
+                            "soulbindAbilityPrereq": 1855,
+                            "soulbindAbilitySpellId": 352365
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1857,
+                            "soulbindAbilityName": "Intimidation Tactics",
+                            "soulbindAbilityPrereq": 1855,
+                            "soulbindAbilitySpellId": 352415
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1858,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1856
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1859,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1857
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1860,
+                            "soulbindAbilityName": "Battlefield Presence",
+                            "soulbindAbilitySpellId": 352417
+                        }
                     }
                 },
                 "soulbindTreeID": 304
@@ -507,6 +669,47 @@
                             "soulbindAbilityName": "Dauntless Duelist",
                             "soulbindAbilityPrereq": 1399,
                             "soulbindAbilitySpellId": 331584
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1866,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1867,
+                            "soulbindAbilityName": "Sinful Preservation",
+                            "soulbindAbilityPrereq": 1866,
+                            "soulbindAbilitySpellId": 352405
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1868,
+                            "soulbindAbilityName": "Nimble Steps",
+                            "soulbindAbilitySpellId": 352366
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1869,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1867
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1870,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1868
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1871,
+                            "soulbindAbilityName": "Fatal Flaw",
+                            "soulbindAbilitySpellId": 352373
                         }
                     }
                 },
@@ -610,6 +813,48 @@
                             "soulbindAbilityName": "Wasteland Propriety",
                             "soulbindAbilityPrereq": 1553,
                             "soulbindAbilitySpellId": 319983
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1872,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1873,
+                            "soulbindAbilityName": "It's Always Tea Time",
+                            "soulbindAbilityPrereq": 1872,
+                            "soulbindAbilitySpellId": 351747
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1874,
+                            "soulbindAbilityName": "Life is but an Appetizer",
+                            "soulbindAbilityPrereq": 1872,
+                            "soulbindAbilitySpellId": 351748
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1875,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1873
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1876,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1874
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1877,
+                            "soulbindAbilityName": "Party Favors",
+                            "soulbindAbilitySpellId": 351750
                         }
                     }
                 },
@@ -720,6 +965,46 @@
                             "soulbindAbilityPrereq": 851,
                             "soulbindAbilitySpellId": 320662
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1837,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1838,
+                            "soulbindAbilityName": "Called Shot",
+                            "soulbindAbilitySpellId": 352501
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1839,
+                            "soulbindAbilityName": "Survivor's Rally",
+                            "soulbindAbilitySpellId": 352502
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1840,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1838
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1841,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1839
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1842,
+                            "soulbindAbilityName": "Bonded Hearts",
+                            "soulbindAbilitySpellId": 352503
+                        }
                     }
                 },
                 "soulbindTreeID": 276
@@ -815,6 +1100,46 @@
                             "soulbindAbilityId": 824,
                             "soulbindAbilityName": "Field of Blossoms",
                             "soulbindAbilitySpellId": 319191
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1843,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1844,
+                            "soulbindAbilityName": "Cunning Dreams",
+                            "soulbindAbilitySpellId": 352782
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1845,
+                            "soulbindAbilityName": "Waking Dreams",
+                            "soulbindAbilitySpellId": 352779
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1846,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1844
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1847,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1845
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1848,
+                            "soulbindAbilityName": "Dream Delver",
+                            "soulbindAbilitySpellId": 352786
                         }
                     }
                 },
@@ -919,6 +1244,46 @@
                             "soulbindAbilityPrereq": 1214,
                             "soulbindAbilitySpellId": 325601
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1849,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1850,
+                            "soulbindAbilityName": "Vorkai Ambush",
+                            "soulbindAbilitySpellId": 352800
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1851,
+                            "soulbindAbilityName": "Hunt's Exhilaration",
+                            "soulbindAbilitySpellId": 352806
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1852,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1850
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1853,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1851
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1854,
+                            "soulbindAbilityName": "Wild Hunt Strategem",
+                            "soulbindAbilitySpellId": 352805
+                        }
                     }
                 },
                 "soulbindTreeID": 334
@@ -1020,6 +1385,46 @@
                             "soulbindAbilityId": 1136,
                             "soulbindAbilityName": "Ultimate Form",
                             "soulbindAbilitySpellId": 323095
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1819,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1820,
+                            "soulbindAbilityName": "Viscous Trail",
+                            "soulbindAbilitySpellId": 352108
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1821,
+                            "soulbindAbilityName": "Undulating Maneuvers",
+                            "soulbindAbilitySpellId": 352109
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1822,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1820
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1823,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1821
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1824,
+                            "soulbindAbilityName": "Kevin's Oozeling",
+                            "soulbindAbilitySpellId": 352110
                         }
                     }
                 },
@@ -1124,6 +1529,46 @@
                             "soulbindAbilityPrereq": 1165,
                             "soulbindAbilitySpellId": 323916
                         }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1799,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1800,
+                            "soulbindAbilityName": "Sole Slough",
+                            "soulbindAbilitySpellId": 351089
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1803,
+                            "soulbindAbilityName": "Resilient Stitching",
+                            "soulbindAbilitySpellId": 351093
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1801,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1800
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1804,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1803
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1802,
+                            "soulbindAbilityName": "Pustule Eruption",
+                            "soulbindAbilitySpellId": 351094
+                        }
                     }
                 },
                 "soulbindTreeID": 330
@@ -1226,6 +1671,46 @@
                             "soulbindAbilityName": "Heirmir's Arsenal: Ravenous Pendant",
                             "soulbindAbilityPrereq": 1275,
                             "soulbindAbilitySpellId": 326509
+                        }
+                    },
+                    "8": {
+                        "1": {
+                            "soulbindAbilityConduitType": 2,
+                            "soulbindAbilityId": 1805,
+                            "soulbindAbilityName": "Potency Conduit"
+                        }
+                    },
+                    "9": {
+                        "0": {
+                            "soulbindAbilityId": 1806,
+                            "soulbindAbilityName": "Carver's Eye",
+                            "soulbindAbilitySpellId": 350899
+                        },
+                        "2": {
+                            "soulbindAbilityId": 1807,
+                            "soulbindAbilityName": "Waking Bone Breastplate",
+                            "soulbindAbilitySpellId": 350935
+                        }
+                    },
+                    "10": {
+                        "0": {
+                            "soulbindAbilityConduitType": 3,
+                            "soulbindAbilityId": 1808,
+                            "soulbindAbilityName": "Endurance Conduit",
+                            "soulbindAbilityPrereq": 1806
+                        },
+                        "2": {
+                            "soulbindAbilityConduitType": 1,
+                            "soulbindAbilityId": 1809,
+                            "soulbindAbilityName": "Finesse Conduit",
+                            "soulbindAbilityPrereq": 1807
+                        }
+                    },
+                    "11": {
+                        "1": {
+                            "soulbindAbilityId": 1810,
+                            "soulbindAbilityName": "Mnemonic Equipment",
+                            "soulbindAbilitySpellId": 350936
                         }
                     }
                 },

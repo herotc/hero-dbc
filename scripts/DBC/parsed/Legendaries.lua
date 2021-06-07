@@ -198,3 +198,51 @@
 -- 204, 7105, Third Eye of the Jailer
 -- 205, 7106, Vitality Sacrifice
 -- 206, 7159, Maw Rattle
+-- 210, 7466, Rampant Transference
+-- 211, 7467, Final Sentence
+-- 212, 7468, Insatiable Hunger
+-- 213, 7458, Abomination's Frenzy
+-- 214, 7469, Glory
+-- 215, 7470, Sinful Surge
+-- 216, 7471, Nature's Fury
+-- 217, 7472, Locust Swarm
+-- 218, 7473, Harmonic Echo
+-- 220, 7474, Sinful Hysteria
+-- 221, 7475, Death's Fathom
+-- 222, 7476, Sinful Delight
+-- 223, 7477, Kindred Affinity
+-- 224, 7478, Toxic Onslaught
+-- 226, 7571, Celestial Spirits
+-- 228, 7570, Splintered Elements
+-- 229, 7572, Obedience
+-- 230, 7573, Deathspike
+-- 231, 7577, Resounding Clarity
+-- 234, 7679, Divine Resonance
+-- 235, 7680, Duty-Bound Gavel
+-- 236, 7681, Agony Gaze
+-- 237, 7698, Blazing Slaughter
+-- 238, 7699, Blind Faith
+-- 239, 7700, Demonic Oath
+-- 240, 7701, Radiant Embers
+-- 241, 7702, Seasons of Plenty
+-- 242, 7703, Bwonsamdi's Pact
+-- 243, 7704, Shadow Word: Manipulation
+-- 244, 7707, Bountiful Brew
+-- 246, 7708, Seeds of Rampant Growth
+-- 247, 7709, Elemental Conduit
+-- 248, 7710, Languishing Soul Detritus
+-- 249, 7711, Shard of Annihilation
+-- 250, 7712, Decaying Soul Satchel
+-- 251, 7713, Contained Perpetual Explosion
+-- 252, 7714, Pact of the Soulstalkers
+-- 253, 7715, Bag of Munitions
+-- 254, 7716, Fragments of the Elder Antlers
+-- 255, 7717, Pouch of Razor Fragments
+-- 256, 7718, Call to Arms
+-- 257, 7721, Faeline Harmony
+-- 258, 7722, Raging Vesper Vortex
+-- 259, 7726, Sinister Teachings
+-- 260, 7727, Heart of the Fae
+-- 261, 7728, Spheres' Harmony
+-- 262, 7729, Pallid Command
+-- 263, 7730, Elysian Might

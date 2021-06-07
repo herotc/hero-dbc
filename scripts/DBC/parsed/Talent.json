@@ -723,13 +723,13 @@
             },
             "5": {
                 "0": {
-                    "spellId": 202354,
-                    "spellName": "Stellar Drift",
+                    "spellId": 279620,
+                    "spellName": "Twin Moons",
                     "talentId": 22389
                 },
                 "1": {
-                    "spellId": 279620,
-                    "spellName": "Twin Moons",
+                    "spellId": 202354,
+                    "spellName": "Stellar Drift",
                     "talentId": 21712
                 },
                 "2": {
@@ -3621,8 +3621,8 @@
             },
             "5": {
                 "0": {
-                    "spellId": 334183,
-                    "spellName": "Dark Caller",
+                    "spellId": 32388,
+                    "spellName": "Shadow Embrace",
                     "talentId": 23139
                 },
                 "1": {
