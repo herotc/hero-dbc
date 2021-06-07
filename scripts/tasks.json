@@ -1,9 +1,5 @@
 {
   "dbfiles": [
-    "AzeriteEmpoweredItem",
-    "AzeritePower",
-    "AzeritePowerSetMember",
-    "AzeriteTierUnlock",
     "Covenant",
     "GarrTalent",
     "GarrTalentRank",
@@ -30,7 +26,6 @@
     "Talent"
   ],
   "parsers": [
-    "AzeritePower",
     "Conduits",
     "ItemData",
     "ItemRange",
