@@ -4,6 +4,7 @@
     "GarrTalent",
     "GarrTalentRank",
     "ItemEffect",
+    "ItemXItemEffect",
     "ItemSparse",
     "JournalEncounterItem",
     "RuneforgeLegendaryAbility",
