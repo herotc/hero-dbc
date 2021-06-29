@@ -2102,7 +2102,7 @@
             },
             {
                 "id": 186004,
-                "name": "Kris of Dark Temptaition",
+                "name": "Kris of Dark Temptation",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -2299,7 +2299,7 @@
             },
             {
                 "id": 186761,
-                "name": "Korthian Attendent's Blade",
+                "name": "Korthian Attendant's Blade",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -2344,7 +2344,7 @@
             },
             {
                 "id": 186765,
-                "name": "Vault Patroler's Mace",
+                "name": "Vault Patroller's Mace",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -2359,7 +2359,7 @@
             },
             {
                 "id": 186767,
-                "name": "Korthian Attendent's Scepter",
+                "name": "Korthian Attendant's Scepter",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -3738,7 +3738,7 @@
             },
             {
                 "id": 186625,
-                "name": "Hood of Malevolance",
+                "name": "Hood of Malevolence",
                 "ilevel": 200,
                 "type": "head",
                 "material": "leather",
@@ -4206,7 +4206,7 @@
         },
         {
             "id": 186770,
-            "name": "Vault Attendent's Cape",
+            "name": "Vault Attendant's Cape",
             "ilevel": 200,
             "type": "back",
             "material": "cloth",
@@ -8375,7 +8375,7 @@
             },
             {
                 "id": 186211,
-                "name": "Pantaloons of the Condembed Bard",
+                "name": "Pantaloons of the Condemned Bard",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "cloth",
@@ -11713,7 +11713,7 @@
         },
         {
             "id": 185895,
-            "name": "Lost Wayfairer's Band",
+            "name": "Lost Wayfarer's Band",
             "ilevel": 200,
             "type": "finger",
             "material": "",
@@ -13331,6 +13331,20 @@
             "source": "other"
         },
         {
+            "id": 185954,
+            "name": "Passably-Forged Credentials",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
             "id": 186244,
             "name": "Shakorzeth's Gorget",
             "ilevel": 200,
@@ -13906,6 +13920,16 @@
                     "vers",
                     "haste"
                 ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 187187,
+                "name": "Korthian Armaments",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
                 "gems": 0,
                 "source": "other"
             },
@@ -14657,7 +14681,7 @@
             },
             {
                 "id": 186766,
-                "name": "Vault Patroler's Staff",
+                "name": "Vault Patroller's Staff",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "",
@@ -14672,7 +14696,7 @@
             },
             {
                 "id": 186768,
-                "name": "Korthian Attendent's Cane",
+                "name": "Korthian Attendant's Cane",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "",
@@ -14688,7 +14712,7 @@
             },
             {
                 "id": 186771,
-                "name": "Vault Patroler's Slicer",
+                "name": "Vault Patroller's Slicer",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "",
