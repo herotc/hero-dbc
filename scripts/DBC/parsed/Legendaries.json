@@ -193,6 +193,7 @@
     },
     {
         "itemSlot": [
+            "Hands",
             "Feet",
             "Legs"
         ],
@@ -279,7 +280,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Shoulder"
+            "Shoulder",
+            "Head"
         ],
         "legendaryBonusID": 7218,
         "legendaryId": 22,
@@ -318,6 +320,7 @@
     {
         "itemSlot": [
             "Back",
+            "Finger",
             "Chest"
         ],
         "legendaryBonusID": 7219,
@@ -397,6 +400,7 @@
     },
     {
         "itemSlot": [
+            "Hands",
             "Shoulder",
             "Head"
         ],
@@ -469,7 +473,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Legs"
+            "Legs",
+            "Waist"
         ],
         "legendaryBonusID": 6943,
         "legendaryId": 36,
@@ -533,6 +538,7 @@
     },
     {
         "itemSlot": [
+            "Finger",
             "Hands",
             "Wrist"
         ],
@@ -690,7 +696,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Legs"
+            "Legs",
+            "Waist"
         ],
         "legendaryBonusID": 7107,
         "legendaryId": 52,
@@ -918,6 +925,7 @@
     },
     {
         "itemSlot": [
+            "Hands",
             "Chest",
             "Neck"
         ],
@@ -947,7 +955,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Legs"
+            "Legs",
+            "Waist"
         ],
         "legendaryBonusID": 7008,
         "legendaryId": 71,
@@ -1135,7 +1144,8 @@
     {
         "itemSlot": [
             "Finger",
-            "Wrist"
+            "Wrist",
+            "Feet"
         ],
         "legendaryBonusID": 7081,
         "legendaryId": 85,
@@ -1175,6 +1185,7 @@
     },
     {
         "itemSlot": [
+            "Finger",
             "Feet",
             "Legs"
         ],
@@ -1322,6 +1333,7 @@
     },
     {
         "itemSlot": [
+            "Back",
             "Shoulder",
             "Head"
         ],
@@ -1358,7 +1370,7 @@
         "legendaryBonusID": 7128,
         "legendaryId": 102,
         "legendaryName": "Maraad's Dying Breath",
-        "legendarySpellID": 234848,
+        "legendarySpellID": 340458,
         "specs": [
             65
         ]
@@ -1366,7 +1378,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Legs"
+            "Legs",
+            "Neck"
         ],
         "legendaryBonusID": 7059,
         "legendaryId": 103,
@@ -1444,7 +1457,8 @@
     {
         "itemSlot": [
             "Hands",
-            "Wrist"
+            "Wrist",
+            "Chest"
         ],
         "legendaryBonusID": 7063,
         "legendaryId": 109,
@@ -1623,7 +1637,8 @@
     {
         "itemSlot": [
             "Hands",
-            "Wrist"
+            "Wrist",
+            "Feet"
         ],
         "legendaryBonusID": 7122,
         "legendaryId": 122,
@@ -1803,6 +1818,7 @@
     },
     {
         "itemSlot": [
+            "Wrist",
             "Feet",
             "Legs"
         ],
@@ -2087,6 +2103,7 @@
     },
     {
         "itemSlot": [
+            "Finger",
             "Wrist",
             "Neck"
         ],
@@ -2100,6 +2117,7 @@
     },
     {
         "itemSlot": [
+            "Back",
             "Waist",
             "Head"
         ],
@@ -2196,6 +2214,7 @@
     },
     {
         "itemSlot": [
+            "Waist",
             "Shoulder",
             "Head"
         ],
@@ -2332,6 +2351,7 @@
     },
     {
         "itemSlot": [
+            "Back",
             "Legs",
             "Waist"
         ],
@@ -2400,6 +2420,7 @@
     },
     {
         "itemSlot": [
+            "Waist",
             "Shoulder",
             "Head"
         ],
@@ -2485,7 +2506,8 @@
     {
         "itemSlot": [
             "Hands",
-            "Wrist"
+            "Wrist",
+            "Chest"
         ],
         "legendaryBonusID": 6970,
         "legendaryId": 185,
@@ -2589,7 +2611,8 @@
     {
         "itemSlot": [
             "Feet",
-            "Legs"
+            "Legs",
+            "Head"
         ],
         "legendaryBonusID": 6969,
         "legendaryId": 193,
@@ -3006,6 +3029,774 @@
             270,
             577,
             581
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Waist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7466,
+        "legendaryId": 210,
+        "legendaryName": "Rampant Transference",
+        "legendarySpellID": 353882,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Shoulder",
+            "Head"
+        ],
+        "legendaryBonusID": 7467,
+        "legendaryId": 211,
+        "legendaryName": "Final Sentence",
+        "legendarySpellID": 353822,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7468,
+        "legendaryId": 212,
+        "legendaryName": "Insatiable Hunger",
+        "legendarySpellID": 353699,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Hands",
+            "Wrist"
+        ],
+        "legendaryBonusID": 7458,
+        "legendaryId": 213,
+        "legendaryName": "Abomination's Frenzy",
+        "legendarySpellID": 353447,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Waist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7469,
+        "legendaryId": 214,
+        "legendaryName": "Glory",
+        "legendarySpellID": 353577,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Shoulder",
+            "Head"
+        ],
+        "legendaryBonusID": 7470,
+        "legendaryId": 215,
+        "legendaryName": "Sinful Surge",
+        "legendarySpellID": 354131,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Hands",
+            "Wrist"
+        ],
+        "legendaryBonusID": 7471,
+        "legendaryId": 216,
+        "legendaryName": "Nature's Fury",
+        "legendarySpellID": 354161,
+        "specs": [
+            72,
+            71,
+            73
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Wrist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7472,
+        "legendaryId": 217,
+        "legendaryName": "Locust Swarm",
+        "legendarySpellID": 354123,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Waist",
+            "Head"
+        ],
+        "legendaryBonusID": 7473,
+        "legendaryId": 218,
+        "legendaryName": "Harmonic Echo",
+        "legendarySpellID": 354186,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Hands",
+            "Waist"
+        ],
+        "legendaryBonusID": 7474,
+        "legendaryId": 220,
+        "legendaryName": "Sinful Hysteria",
+        "legendarySpellID": 354109,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Wrist",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7475,
+        "legendaryId": 221,
+        "legendaryName": "Death's Fathom",
+        "legendarySpellID": 354294,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7476,
+        "legendaryId": 222,
+        "legendaryName": "Sinful Delight",
+        "legendarySpellID": 354333,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Shoulder",
+            "Neck"
+        ],
+        "legendaryBonusID": 7477,
+        "legendaryId": 223,
+        "legendaryName": "Kindred Affinity",
+        "legendarySpellID": 354115,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Feet",
+            "Chest"
+        ],
+        "legendaryBonusID": 7478,
+        "legendaryId": 224,
+        "legendaryName": "Toxic Onslaught",
+        "legendarySpellID": 354473,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7571,
+        "legendaryId": 226,
+        "legendaryName": "Celestial Spirits",
+        "legendarySpellID": 354118,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Waist",
+            "Neck"
+        ],
+        "legendaryBonusID": 7570,
+        "legendaryId": 228,
+        "legendaryName": "Splintered Elements",
+        "legendarySpellID": 354647,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Back",
+            "Head"
+        ],
+        "legendaryBonusID": 7572,
+        "legendaryId": 229,
+        "legendaryName": "Obedience",
+        "legendarySpellID": 354703,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Hands",
+            "Wrist"
+        ],
+        "legendaryBonusID": 7573,
+        "legendaryId": 230,
+        "legendaryName": "Deathspike",
+        "legendarySpellID": 354731,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Waist",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7577,
+        "legendaryId": 231,
+        "legendaryName": "Resounding Clarity",
+        "legendarySpellID": 354837,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Waist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7679,
+        "legendaryId": 234,
+        "legendaryName": "Divine Resonance",
+        "legendarySpellID": 355098,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Shoulder",
+            "Head"
+        ],
+        "legendaryBonusID": 7680,
+        "legendaryId": 235,
+        "legendaryName": "Duty-Bound Gavel",
+        "legendarySpellID": 355099,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Legs",
+            "Head"
+        ],
+        "legendaryBonusID": 7681,
+        "legendaryId": 236,
+        "legendaryName": "Agony Gaze",
+        "legendarySpellID": 355886,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Feet",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7698,
+        "legendaryId": 237,
+        "legendaryName": "Blazing Slaughter",
+        "legendarySpellID": 355890,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Back",
+            "Chest"
+        ],
+        "legendaryBonusID": 7699,
+        "legendaryId": 238,
+        "legendaryName": "Blind Faith",
+        "legendarySpellID": 355893,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Wrist",
+            "Waist"
+        ],
+        "legendaryBonusID": 7700,
+        "legendaryId": 239,
+        "legendaryName": "Demonic Oath",
+        "legendarySpellID": 355996,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Hands",
+            "Wrist"
+        ],
+        "legendaryBonusID": 7701,
+        "legendaryId": 240,
+        "legendaryName": "Radiant Embers",
+        "legendarySpellID": 355447,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7702,
+        "legendaryId": 241,
+        "legendaryName": "Seasons of Plenty",
+        "legendarySpellID": 355100,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Waist",
+            "Head"
+        ],
+        "legendaryBonusID": 7703,
+        "legendaryId": 242,
+        "legendaryName": "Bwonsamdi's Pact",
+        "legendarySpellID": 356391,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Wrist",
+            "Neck"
+        ],
+        "legendaryBonusID": 7704,
+        "legendaryId": 243,
+        "legendaryName": "Shadow Word: Manipulation",
+        "legendarySpellID": 356392,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Chest",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7707,
+        "legendaryId": 244,
+        "legendaryName": "Bountiful Brew",
+        "legendarySpellID": 356592,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Hands",
+            "Head"
+        ],
+        "legendaryBonusID": 7708,
+        "legendaryId": 246,
+        "legendaryName": "Seeds of Rampant Growth",
+        "legendarySpellID": 356218,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Wrist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7709,
+        "legendaryId": 247,
+        "legendaryName": "Elemental Conduit",
+        "legendarySpellID": 356250,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Wrist",
+            "Chest"
+        ],
+        "legendaryBonusID": 7710,
+        "legendaryId": 248,
+        "legendaryName": "Languishing Soul Detritus",
+        "legendarySpellID": 356254,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Legs",
+            "Waist"
+        ],
+        "legendaryBonusID": 7711,
+        "legendaryId": 249,
+        "legendaryName": "Shard of Annihilation",
+        "legendarySpellID": 356344,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Hands",
+            "Feet"
+        ],
+        "legendaryBonusID": 7712,
+        "legendaryId": 250,
+        "legendaryName": "Decaying Soul Satchel",
+        "legendarySpellID": 356362,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Shoulder",
+            "Head"
+        ],
+        "legendaryBonusID": 7713,
+        "legendaryId": 251,
+        "legendaryName": "Contained Perpetual Explosion",
+        "legendarySpellID": 356259,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Hands",
+            "Waist"
+        ],
+        "legendaryBonusID": 7714,
+        "legendaryId": 252,
+        "legendaryName": "Pact of the Soulstalkers",
+        "legendarySpellID": 356262,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Wrist",
+            "Head"
+        ],
+        "legendaryBonusID": 7715,
+        "legendaryId": 253,
+        "legendaryName": "Bag of Munitions",
+        "legendarySpellID": 356264,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Chest",
+            "Neck"
+        ],
+        "legendaryBonusID": 7716,
+        "legendaryId": 254,
+        "legendaryName": "Fragments of the Elder Antlers",
+        "legendarySpellID": 356375,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7717,
+        "legendaryId": 255,
+        "legendaryName": "Pouch of Razor Fragments",
+        "legendarySpellID": 356618,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7718,
+        "legendaryId": 256,
+        "legendaryName": "Call to Arms",
+        "legendarySpellID": 356684,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Hands",
+            "Waist"
+        ],
+        "legendaryBonusID": 7721,
+        "legendaryId": 257,
+        "legendaryName": "Faeline Harmony",
+        "legendarySpellID": 356705,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7722,
+        "legendaryId": 258,
+        "legendaryName": "Raging Vesper Vortex",
+        "legendarySpellID": 356789,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "covenant": "Venthyr",
+        "itemSlot": [
+            "Finger",
+            "Wrist"
+        ],
+        "legendaryBonusID": 7726,
+        "legendaryId": 259,
+        "legendaryName": "Sinister Teachings",
+        "legendarySpellID": 356818,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "covenant": "Night Fae",
+        "itemSlot": [
+            "Hands",
+            "Chest"
+        ],
+        "legendaryBonusID": 7727,
+        "legendaryId": 260,
+        "legendaryName": "Heart of the Fae",
+        "legendarySpellID": 356877,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Legs",
+            "Shoulder"
+        ],
+        "legendaryBonusID": 7728,
+        "legendaryId": 261,
+        "legendaryName": "Spheres' Harmony",
+        "legendarySpellID": 356395,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "covenant": "Necrolord",
+        "itemSlot": [
+            "Finger",
+            "Feet"
+        ],
+        "legendaryBonusID": 7729,
+        "legendaryId": 262,
+        "legendaryName": "Pallid Command",
+        "legendarySpellID": 356390,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "covenant": "Kyrian",
+        "itemSlot": [
+            "Feet",
+            "Legs"
+        ],
+        "legendaryBonusID": 7730,
+        "legendaryId": 263,
+        "legendaryName": "Elysian Might",
+        "legendarySpellID": 357996,
+        "specs": [
+            72,
+            71,
+            73
         ]
     }
 ]

@@ -1,13 +1,10 @@
 {
   "dbfiles": [
-    "AzeriteEmpoweredItem",
-    "AzeritePower",
-    "AzeritePowerSetMember",
-    "AzeriteTierUnlock",
     "Covenant",
     "GarrTalent",
     "GarrTalentRank",
     "ItemEffect",
+    "ItemXItemEffect",
     "ItemSparse",
     "JournalEncounterItem",
     "RuneforgeLegendaryAbility",
@@ -30,7 +27,6 @@
     "Talent"
   ],
   "parsers": [
-    "AzeritePower",
     "Conduits",
     "ItemData",
     "ItemRange",

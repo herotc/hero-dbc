@@ -26,7 +26,7 @@ Items = {}
 with open(os.path.join(generatedDir, 'ItemEffect.csv')) as csvfile:
     reader = csv.DictReader(csvfile, escapechar='\\')
     for row in reader:
-        Items[row['id_spell']] = row['id_parent']
+        Items[row['id_spell']] = row['id']
 # Get every 'valid' ranges for our parser, those that aren't a range but a single value.
 # We only take values with a min_range of 0 and a max_range between 0 and 100 (WoW limit for range check))
 Ranges = {}
