@@ -13331,20 +13331,6 @@
             "source": "other"
         },
         {
-            "id": 185954,
-            "name": "Passably-Forged Credentials",
-            "ilevel": 200,
-            "type": "neck",
-            "material": "",
-            "stats": [
-                "stam",
-                "haste",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
             "id": 186244,
             "name": "Shakorzeth's Gorget",
             "ilevel": 200,
