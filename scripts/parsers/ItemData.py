@@ -134,6 +134,8 @@ def computeSource(set, quality, id, type, ilvl):
             return "other" #todo : craft / pvp / boe
         else:
             return "castle_nathria"
+    if ilvl == 226 or ilvl == 233 :
+        return "sanctum_of_domination"
 
     print("unknown source:"+str(id))
     return ""
@@ -220,11 +222,11 @@ with open(os.path.join(generatedDir, 'ItemSparse.csv')) as csvfile:
 
     # Read rows and order them with each inventory type, class and material
     for row in reader:
-        # ilvl : 158 = dungeon, 200 = castle nathria
-        if int(row['ilevel']) == 158 or int(row['ilevel']) == 200:
+        # ilvl : 158 = dungeon, 200 = castle nathria, 226/233 = Sanctum of domination
+        if int(row['ilevel']) == 158 or int(row['ilevel']) == 200 or int(row['ilevel']) == 226 or int(row['ilevel']) == 233:
             itemType = computeItemType(int(row['inv_type']))
             itemMaterial = computeItemMaterial(int(row['material']))
-            if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back":  # handle no materal separatly
+            if not itemType == "trinket" and not itemType == "neck" and not itemType == "finger" and not itemType == "back":  # handle no material separatly
                 if itemType not in ValidItemsRows:
                     ValidItemsRows[itemType] = {}
                 if itemMaterial not in ValidItemsRows[itemType]:
