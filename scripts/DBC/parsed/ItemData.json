@@ -841,6 +841,210 @@
             "source": "other"
         },
         {
+            "id": 186421,
+            "name": "Forbidden Necromantic Tome",
+            "ilevel": 233,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186422,
+            "name": "Tome of Monstrous Constructions",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186423,
+            "name": "Titanic Ocular Gland",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186424,
+            "name": "Shard of Annhylde's Aegis",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186425,
+            "name": "Scrawled Word of Recall",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186427,
+            "name": "Whispering Shard of Power",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186428,
+            "name": "Shadowed Orb of Torment",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186429,
+            "name": "Decanter of Endless Howling",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "crit"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186430,
+            "name": "Tormented Rack Fragment",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186431,
+            "name": "Ebonsoul Vise",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186432,
+            "name": "Salvaged Fusion Amplifier",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186433,
+            "name": "Reactive Defense Matrix",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186434,
+            "name": "Weave of Warped Fates",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186435,
+            "name": "Carved Ivory Keepsake",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186436,
+            "name": "Resonant Silver Bell",
+            "ilevel": 233,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186437,
+            "name": "Relic of the Frozen Wastes",
+            "ilevel": 233,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186438,
+            "name": "Old Warrior's Soul",
+            "ilevel": 233,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "str"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
             "id": 186976,
             "name": "Fine Razorwing Quill",
             "ilevel": 200,
@@ -851,6 +1055,18 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 187447,
+            "name": "Soul Cage Fragment",
+            "ilevel": 226,
+            "type": "trinket",
+            "material": "plate",
+            "stats": [
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
         }
     ],
     "weapon": {
@@ -2298,6 +2514,167 @@
                 "source": "other"
             },
             {
+                "id": 186381,
+                "name": "Elethium-Bladed Glaive",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186383,
+                "name": "Gazepiercer",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186384,
+                "name": "Skyja's Revenant Fury",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186385,
+                "name": "Signe's Sonorous Scramaseax",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186386,
+                "name": "Betrayer's Shadowspike",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186387,
+                "name": "Dormazain's Tenderizer",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186388,
+                "name": "Cruciform Veinripper",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186391,
+                "name": "Shadowsteel Demoralizer",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186392,
+                "name": "Exacting Mindslicer",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186393,
+                "name": "Torch of Eternal Knowledge",
+                "ilevel": 226,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186398,
+                "name": "Edge of Night",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186761,
                 "name": "Korthian Attendant's Blade",
                 "ilevel": 200,
@@ -2386,6 +2763,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187056,
+                "name": "The Devouring Cold",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 187362,
@@ -2645,6 +3037,51 @@
                 "source": "other"
             },
             {
+                "id": 186415,
+                "name": "Moriaz's Spare Targe",
+                "ilevel": 226,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186416,
+                "name": "Infinity's Last Bulwark",
+                "ilevel": 226,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186417,
+                "name": "Guard of the Sundered Defender",
+                "ilevel": 233,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186758,
                 "name": "Korthian Keeper's Buckler",
                 "ilevel": 200,
@@ -2900,6 +3337,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186315,
+                "name": "Dark Tormentor's Gaze",
+                "ilevel": 226,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186350,
+                "name": "Valorous Visage of Krexus",
+                "ilevel": 233,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186748,
@@ -3180,6 +3647,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186287,
+                "name": "Hood of Vengeful Possession",
+                "ilevel": 226,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186325,
+                "name": "Veil of the Banshee Queen",
+                "ilevel": 233,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186666,
@@ -3472,6 +3969,36 @@
                 "source": "other"
             },
             {
+                "id": 186304,
+                "name": "Crest of the Fallen",
+                "ilevel": 226,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186341,
+                "name": "Shadowsteel Facecage",
+                "ilevel": 226,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186743,
                 "name": "Razorwing Scale Hood",
                 "ilevel": 200,
@@ -3735,6 +4262,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186292,
+                "name": "Cap of Writhing Malevolence",
+                "ilevel": 226,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186330,
+                "name": "Cowl of Haunting Precognition",
+                "ilevel": 226,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186625,
@@ -4190,6 +4747,51 @@
             "source": "other"
         },
         {
+            "id": 186289,
+            "name": "Cloak of Scarred Honor",
+            "ilevel": 226,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "crit",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186374,
+            "name": "Self-Replicating Tissue",
+            "ilevel": 226,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186439,
+            "name": "Dark Ranger's Quiver",
+            "ilevel": 233,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi",
+                "stam",
+                "crit",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
             "id": 186624,
             "name": "Death Wing Drape",
             "ilevel": 200,
@@ -4484,6 +5086,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186282,
+                "name": "Sacrificer's Sacramental Cassock",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186320,
+                "name": "Diviner's Draped Finery",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186622,
@@ -4796,6 +5428,36 @@
                 "source": "other"
             },
             {
+                "id": 186312,
+                "name": "Cuirass of the Lonely Citadel",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186347,
+                "name": "Ancient Colossus Chassis",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186749,
                 "name": "Vault Guardian's Chestpiece",
                 "ilevel": 200,
@@ -5089,6 +5751,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186303,
+                "name": "Colossus Slayer's Hauberk",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186340,
+                "name": "Conjunction-Forged Chainmail",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186740,
@@ -5386,6 +6078,36 @@
                 "source": "other"
             },
             {
+                "id": 186296,
+                "name": "Mawsworn Eviscerator's Cuirass",
+                "ilevel": 226,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186334,
+                "name": "Witherheart Studded Breastplate",
+                "ilevel": 233,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186756,
                 "name": "Shardhide Leather Jerkin",
                 "ilevel": 200,
@@ -5681,6 +6403,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186318,
+                "name": "Champion's Gruesome Greaves",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186353,
+                "name": "Greaves of Haunting Ruination",
+                "ilevel": 233,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186373,
+                "name": "Towering Shadowghast Greatboots",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186617,
@@ -5993,6 +6760,51 @@
                 "source": "other"
             },
             {
+                "id": 186281,
+                "name": "Phantasma-Forged Striders",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186319,
+                "name": "Tormented Shadowcleft Boots",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186354,
+                "name": "Sandals of Sacred Symmetry",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186664,
                 "name": "Korthian Caretaker's Sandals",
                 "ilevel": 200,
@@ -6303,6 +7115,51 @@
                 "source": "other"
             },
             {
+                "id": 186306,
+                "name": "Greaves of Extermination",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186343,
+                "name": "Ragebound Leg Irons",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186366,
+                "name": "Stygian Chain Greaves",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186741,
                 "name": "Razorwing Scale Footguards",
                 "ilevel": 200,
@@ -6596,6 +7453,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186299,
+                "name": "Daschla's Defiant Treads",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186337,
+                "name": "Trenchant Warmonger Treads",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186363,
+                "name": "Unstable Energizer Boots",
+                "ilevel": 226,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186734,
@@ -6912,6 +7814,51 @@
                 "source": "other"
             },
             {
+                "id": 186295,
+                "name": "Loyal Kvaldir's Handwraps",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186333,
+                "name": "Hangman's Knotbinders",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186361,
+                "name": "Grips of Unleashed Suffering",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186620,
                 "name": "Rezara's Fencing Grips",
                 "ilevel": 200,
@@ -6955,6 +7902,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187537,
+                "name": "Subtle Mortality Manipulators",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 187538,
+                "name": "Gloves of Advancing Death",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             }
         ],
         "plate": [
@@ -7222,6 +8199,51 @@
                 "source": "other"
             },
             {
+                "id": 186311,
+                "name": "Cavalier Oathbreaker's Grasps",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186346,
+                "name": "Kyra's Unending Protectors",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186369,
+                "name": "Guillotine Gauntlets",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186628,
                 "name": "Razkazzar's Axe Grippers",
                 "ilevel": 200,
@@ -7265,6 +8287,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187536,
+                "name": "Prototype Guardian Grips",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 187539,
+                "name": "Gauntlets of Death's Guardian",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             }
         ],
         "cloth": [
@@ -7530,6 +8582,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186288,
+                "name": "Grasps of the Clairvoyant Sage",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186326,
+                "name": "Gloves of Forsaken Purpose",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186358,
+                "name": "Soulcaster's Woven Grips",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186665,
@@ -7812,6 +8909,51 @@
                 "source": "other"
             },
             {
+                "id": 186308,
+                "name": "Grasps of Ancestral Whispers",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186345,
+                "name": "Demigaunts of Predestination",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186368,
+                "name": "Mor'geth's Gauntlets of Damnation",
+                "ilevel": 226,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186742,
                 "name": "Razorwing Scale Fists",
                 "ilevel": 200,
@@ -8092,6 +9234,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186313,
+                "name": "Agatha's Gothic Greaves",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186348,
+                "name": "Fateforged Legplates",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186370,
+                "name": "Caged Legplates",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186752,
@@ -8389,6 +9576,51 @@
                 "source": "other"
             },
             {
+                "id": 186285,
+                "name": "Sorcerer's Headlong Legwraps",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186323,
+                "name": "Leggings of the Screaming Flames",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186357,
+                "name": "Sorrowful Trousers",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186667,
                 "name": "Korthian Caretaker's Pantaloons",
                 "ilevel": 200,
@@ -8667,6 +9899,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186307,
+                "name": "Aradne's Lancer Legguards",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186344,
+                "name": "Hyperdense Greaves",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186367,
+                "name": "Bonded Soulsmelt Greaves",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186613,
@@ -8979,6 +10256,51 @@
                 "source": "other"
             },
             {
+                "id": 186293,
+                "name": "Flameclasp-Scorched Legguards",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186331,
+                "name": "Elite Aranakk Breeches",
+                "ilevel": 233,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186359,
+                "name": "Scoundrel's Harrowed Leggings",
+                "ilevel": 226,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186737,
                 "name": "Shardhide Leather Trousers",
                 "ilevel": 200,
@@ -9246,6 +10568,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186298,
+                "name": "Smuggler's Plundered Pauldrons",
+                "ilevel": 226,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186336,
+                "name": "Spaulders of the Crooked Confidant",
+                "ilevel": 233,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186757,
@@ -9528,6 +10880,36 @@
                 "source": "other"
             },
             {
+                "id": 186314,
+                "name": "Ruinous Warchief's Shoulderguards",
+                "ilevel": 226,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186349,
+                "name": "Spires of Broken Hope",
+                "ilevel": 233,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186619,
                 "name": "Bloodspattered Shoulders of the Flayer",
                 "ilevel": 200,
@@ -9808,6 +11190,36 @@
                 "source": "other"
             },
             {
+                "id": 186286,
+                "name": "Mantle of Arthura's Chosen",
+                "ilevel": 226,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186324,
+                "name": "Frame of the False Margrave",
+                "ilevel": 233,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186623,
                 "name": "Lost Soul's Mantle",
                 "ilevel": 200,
@@ -10086,6 +11498,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186305,
+                "name": "Pauldrons of Tyrannical Defiance",
+                "ilevel": 226,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186342,
+                "name": "Epaulettes of the Master Ranger",
+                "ilevel": 233,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186745,
@@ -10383,6 +11825,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186317,
+                "name": "Disintegration-Proof Waistband",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186352,
+                "name": "Binding of Dark Destinies",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186372,
+                "name": "Tormentor's Greatbelt",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186630,
@@ -10695,6 +12182,51 @@
                 "source": "other"
             },
             {
+                "id": 186284,
+                "name": "Enigmatic Energy Circuit",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186322,
+                "name": "Sash of Duplicitous Magics",
+                "ilevel": 233,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186356,
+                "name": "Forlorn Prisoner's Strap",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186668,
                 "name": "Korthian Caretaker's Sash",
                 "ilevel": 200,
@@ -10723,6 +12255,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187535,
+                "name": "Attendant Scholar's Waistcord",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 187540,
+                "name": "Cincture of Enveloping Death",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             }
         ],
         "mail": [
@@ -10990,6 +12552,51 @@
                 "source": "other"
             },
             {
+                "id": 186301,
+                "name": "Coiled Stygian Grapnel",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186338,
+                "name": "Ceremonial Construct Clasp",
+                "ilevel": 233,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186364,
+                "name": "Cord of Coerced Spirits",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186618,
                 "name": "Willbreaker's Chain",
                 "ilevel": 200,
@@ -11033,6 +12640,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187534,
+                "name": "Korthite Crystal Waistguard",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 187541,
+                "name": "Chain of Encircling Death",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
             }
         ],
         "leather": [
@@ -11298,6 +12935,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186294,
+                "name": "Agonizing Spiked Belt",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186332,
+                "name": "Windrunner's Baldric",
+                "ilevel": 233,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186360,
+                "name": "Tormented Soul Harness",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186627,
@@ -11778,6 +13460,62 @@
             "source": "other"
         },
         {
+            "id": 186290,
+            "name": "Sworn Oath of the Nine",
+            "ilevel": 226,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186375,
+            "name": "Miniature Breaking Wheel",
+            "ilevel": 226,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186376,
+            "name": "Oscillating Ouroboros",
+            "ilevel": 226,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186377,
+            "name": "Tarnished Insignia of Quel'Thalas",
+            "ilevel": 233,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "vers"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
             "id": 186450,
             "name": "Crude Stygian Fastener",
             "ilevel": 200,
@@ -12128,6 +13866,51 @@
                 "source": "other"
             },
             {
+                "id": 186283,
+                "name": "Cruel Overlord's Shackles",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186321,
+                "name": "Desecrator's Keening Wristwraps",
+                "ilevel": 233,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186355,
+                "name": "Wristwraps of Anguish",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186626,
                 "name": "Bloodwicking Bands",
                 "ilevel": 200,
@@ -12438,6 +14221,51 @@
                 "source": "other"
             },
             {
+                "id": 186316,
+                "name": "Airborne Abductor's Vambraces",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186351,
+                "name": "Vyraz's Parade Cuffs",
+                "ilevel": 233,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 1,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186371,
+                "name": "Ancient Brokensoul Bands",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186755,
                 "name": "Vault Guardian's Binders",
                 "ilevel": 200,
@@ -12731,6 +14559,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186302,
+                "name": "Mistwrap Manacles",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186339,
+                "name": "Brynja's Mournful Wristwraps",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186365,
+                "name": "Bands of the Fallen House",
+                "ilevel": 233,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186616,
@@ -13043,6 +14916,51 @@
                 "source": "other"
             },
             {
+                "id": 186297,
+                "name": "Clasps of the Unfortunate Troubadour",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186335,
+                "name": "Fate-Threaded Bindings",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186362,
+                "name": "Bindings of the Subjugated",
+                "ilevel": 226,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186632,
                 "name": "Rune Covered Bindings",
                 "ilevel": 200,
@@ -13345,6 +15263,48 @@
             "source": "other"
         },
         {
+            "id": 186291,
+            "name": "Periapt of Pristine Preservation",
+            "ilevel": 226,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "mastery",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186378,
+            "name": "Weathered Talisman of the Shadowmoon",
+            "ilevel": 226,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "vers"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
+            "id": 186379,
+            "name": "Interplanar Keystone",
+            "ilevel": 233,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
+        },
+        {
             "id": 186633,
             "name": "Mawrat Mongrel's Collar",
             "ilevel": 200,
@@ -13535,6 +15495,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186411,
+                "name": "Soulrent Outrider's Recurve",
+                "ilevel": 226,
+                "type": "ranged",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186414,
+                "name": "Rae'shalare, Death's Whisper",
+                "ilevel": 233,
+                "type": "ranged",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             },
             {
                 "id": 186760,
@@ -13896,6 +15886,59 @@
                 "source": "other"
             },
             {
+                "id": 186413,
+                "name": "Directional Meltdown Projector",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186418,
+                "name": "Guarm's Lost Chew Toy",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186419,
+                "name": "Record of Collapsing Realities",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186531,
+                "name": "Cache of Sanctum Treasures",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186759,
                 "name": "Korthian Anima Vessel",
                 "ilevel": 200,
@@ -13944,6 +15987,16 @@
                 "stats": [],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 186530,
+                "name": "Cache of Sanctum Treasures",
+                "ilevel": 226,
+                "type": "",
+                "material": "cloth",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             }
         ]
     },
@@ -14636,6 +16689,107 @@
                 "source": "other"
             },
             {
+                "id": 186403,
+                "name": "Stygian Lance of Passage",
+                "ilevel": 226,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186404,
+                "name": "Jotungeirr, Destiny's Call",
+                "ilevel": 226,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186405,
+                "name": "Gnarled Staff of the Elder Shaman",
+                "ilevel": 226,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186406,
+                "name": "Maledict Opus",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186407,
+                "name": "Hellscream's Requiem",
+                "ilevel": 226,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186409,
+                "name": "Pylon of the Great Purge",
+                "ilevel": 226,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186410,
+                "name": "Jaithys, the Prison Blade",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
                 "id": 186563,
                 "name": "Spear of the Impaler",
                 "ilevel": 200,
@@ -14756,6 +16910,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 187542,
+                "name": "Jaithys, the Prison Blade",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             }
         ],
         "plate": [

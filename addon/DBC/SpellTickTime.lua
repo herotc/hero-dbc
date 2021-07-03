@@ -1,4 +1,4 @@
--- Generated using WoW 9.1.0.39229 client data on 2021-07-01T09:33:11.246132.
+-- Generated using WoW 9.1.0.39289 client data on 2021-07-03T23:07:18.646473.
 HeroDBC.DBC.SpellTickTime = {
   [66] = { 1000, true },
   [96] = { 2000, true },
