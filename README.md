@@ -19,7 +19,7 @@ World of Warcraft AddOn to make info from DBC available in-game.\
 It is used by [HeroLib](https://github.com/herotc/hero-lib) and [HeroRotation](https://github.com/herotc/hero-rotation).\
 The project is hosted on [GitHub](https://github.com/herotc/hero-dbc).\
 It is maintained by [Aethys](https://github.com/aethys256/) and the [HeroTC](https://github.com/herotc) team.\
-Also, you can find it on [CurseForge](https://www.curseforge.com/wow/addons/herolib).
+Also, you can find it on [CurseForge](https://www.curseforge.com/wow/addons/herodbc).
 
 ### Usage
 
