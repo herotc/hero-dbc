@@ -7466,7 +7466,7 @@
                     "crit",
                     "haste"
                 ],
-                "gems": 0,
+                "gems": 1,
                 "source": "sanctum_of_domination"
             },
             {
@@ -8210,7 +8210,7 @@
                     "mastery",
                     "crit"
                 ],
-                "gems": 0,
+                "gems": 1,
                 "source": "sanctum_of_domination"
             },
             {
@@ -15249,6 +15249,20 @@
             "source": "other"
         },
         {
+            "id": 185954,
+            "name": "Passably-Forged Credentials",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
             "id": 186244,
             "name": "Shakorzeth's Gorget",
             "ilevel": 200,
@@ -15359,6 +15373,20 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 187552,
+            "name": "Perfectly-Forged Credentials",
+            "ilevel": 226,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "sanctum_of_domination"
         }
     ],
     "ranged": {
