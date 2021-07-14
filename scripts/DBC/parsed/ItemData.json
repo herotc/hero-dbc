@@ -2407,22 +2407,6 @@
                 "source": "other"
             },
             {
-                "id": 186042,
-                "name": "Forsaken Crusader's Blade",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "mastery",
-                    "int"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 186142,
                 "name": "Mawsworn Darkcaster's Kris",
                 "ilevel": 200,
@@ -2495,19 +2479,6 @@
                 "material": "",
                 "stats": [
                     "agi",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186154,
-                "name": "Mawsworn Guard's Cleaver",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
                     "stam"
                 ],
                 "gems": 0,
@@ -4362,7 +4333,7 @@
                 "type": "head",
                 "material": "",
                 "stats": [
-                    "str",
+                    "str/int",
                     "stam",
                     "haste",
                     "vers"
@@ -16678,6 +16649,22 @@
                 "source": "other"
             },
             {
+                "id": 186042,
+                "name": "Forsaken Crusader's Blade",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery",
+                    "int"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 186144,
                 "name": "Mawsworn Reaver's Greataxe",
                 "ilevel": 200,
@@ -16711,6 +16698,19 @@
                 "material": "",
                 "stats": [
                     "int",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186154,
+                "name": "Mawsworn Guard's Cleaver",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
                     "stam"
                 ],
                 "gems": 0,
