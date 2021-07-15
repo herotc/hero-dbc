@@ -17,7 +17,7 @@ chdir(path.join(path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 
 # Prepend meta infos to every lua parsed files
 luaMetas = f'-- Generated using WoW {version} client data on {datetime.datetime.now().isoformat()}.\n'
-dbcDirs = [path.join('addon', 'DBC'), path.join('addon', 'Dev', 'Unfiltered')]
+dbcDirs = [path.join('HeroDBC', 'DBC'), path.join('HeroDBC', 'Dev', 'Unfiltered')]
 for dbcDir in dbcDirs:
     with scandir(dbcDir) as iterator:
         for entry in iterator:
@@ -35,6 +35,6 @@ for dbcDir in dbcDirs:
                     entryFile.write(entryContent)
 
 # Generate metaFile
-with open(path.join(path.join('addon', 'DBC'), 'Meta.lua'), 'w', encoding='utf-8') as file:
+with open(path.join(path.join('HeroDBC', 'DBC'), 'Meta.lua'), 'w', encoding='utf-8') as file:
     file.write(f'HeroDBC.DBC.metaVersion = "{version}"\n')
     file.write(f'HeroDBC.DBC.metaTime = "{datetime.datetime.now().isoformat()}"\n')

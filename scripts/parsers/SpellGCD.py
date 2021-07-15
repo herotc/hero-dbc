@@ -11,7 +11,7 @@ import os
 import csv
 
 generatedDir = os.path.join('scripts', 'DBC', 'generated')
-addonEnumDir = os.path.join('addon', 'DBC')
+addonEnumDir = os.path.join('HeroDBC', 'DBC')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 

@@ -3,7 +3,7 @@ package-as: HeroDBC
 enable-nolib-creation: no
 
 move-folders:
-    HeroDBC/addon: HeroDBC
+    HeroDBC/HeroDBC: HeroDBC
 
 ignore:
     - Dev

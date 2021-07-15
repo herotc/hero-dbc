@@ -14,7 +14,7 @@ from collections import OrderedDict
 
 generatedDir = os.path.join('scripts', 'DBC', 'generated')
 parsedDir = os.path.join('scripts', 'DBC', 'parsed')
-addonEnumDir = os.path.join('addon', 'DBC')
+addonEnumDir = os.path.join('HeroDBC', 'DBC')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 

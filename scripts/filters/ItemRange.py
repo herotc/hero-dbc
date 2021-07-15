@@ -13,8 +13,8 @@ import json
 from slpp import slpp as lua  # SLPP-23 package: https://pypi.org/project/SLPP-23
 
 generatedDir = os.path.join('scripts', 'DBC', 'generated')
-addonDevDir = os.path.join('addon', 'Dev')
-addonEnumDir = os.path.join('addon', 'DBC')
+addonDevDir = os.path.join('HeroDBC', 'Dev')
+addonEnumDir = os.path.join('HeroDBC', 'DBC')
 
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 
