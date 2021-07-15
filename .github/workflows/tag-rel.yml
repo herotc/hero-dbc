@@ -26,7 +26,7 @@ jobs:
         with:
           filename: HeroDBC-${{ steps.vars.outputs.tag }}.zip
           path: ./HeroDBC
-          exclusions: '*.git* *.pkgmeta *.svn* LICENSE README.md'
+          exclusions: '*.git* *.pkgmeta *.svn* LICENSE README.md HeroDBC/symlink.bat HeroDBC/symlink.sh'
       # Create a release on GitHub
       - name: Create Release
         id: create_release
