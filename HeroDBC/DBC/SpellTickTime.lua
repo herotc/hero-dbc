@@ -1,4 +1,4 @@
--- Generated using WoW 9.1.0.39335 client data on 2021-07-15T12:34:00.708231.
+-- Generated using WoW 9.1.0.39804 client data on 2021-08-19T10:41:36.839541.
 HeroDBC.DBC.SpellTickTime = {
   [66] = { 1000, true },
   [96] = { 2000, true },
@@ -25583,6 +25583,7 @@ HeroDBC.DBC.SpellTickTime = {
   [351505] = { 5000, true },
   [351553] = { 2400, true },
   [351562] = { 3000, true },
+  [351570] = { 500, true },
   [351609] = { 1000, true },
   [351649] = { 3000, true },
   [351656] = { 100, true },
@@ -26211,4 +26212,7 @@ HeroDBC.DBC.SpellTickTime = {
   [359425] = { 20000, true },
   [359487] = { 1000, true },
   [359495] = { 500, true },
+  [359659] = { 2000, true },
+  [359660] = { 2000, true },
+  [359735] = { 1000, true },
 }
