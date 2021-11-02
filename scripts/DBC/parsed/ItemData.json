@@ -2363,7 +2363,7 @@
             },
             {
                 "id": 186008,
-                "name": "Foresworn's Judgment",
+                "name": "Forsworn's Judgment",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -2809,6 +2809,66 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 188661,
+                "name": "Unchained Gladiator's Gavel",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188664,
+                "name": "Unchained Gladiator's Mageblade",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188665,
+                "name": "Unchained Gladiator's Slicer",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188667,
+                "name": "Unchained Gladiator's Ripper",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ]
     },
@@ -3078,6 +3138,21 @@
                     "stam",
                     "mastery",
                     "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188660,
+                "name": "Unchained Gladiator's Barrier",
+                "ilevel": 200,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -13420,7 +13495,7 @@
         },
         {
             "id": 186153,
-            "name": "Foresworn Seal",
+            "name": "Forsworn Seal",
             "ilevel": 200,
             "type": "finger",
             "material": "",
@@ -15974,6 +16049,131 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 188153,
+                "name": "Korthian Cloak",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188154,
+                "name": "Korthian Chestpiece",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188155,
+                "name": "Korthian Boots",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188156,
+                "name": "Korthian Accessory",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188157,
+                "name": "Korthian Gloves",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188158,
+                "name": "Korthian Helm",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188159,
+                "name": "Korthian Legguards",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188160,
+                "name": "Korthian Shoulders",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188161,
+                "name": "Korthian Belt",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188162,
+                "name": "Korthian Weaponry",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188163,
+                "name": "Korthian Bracers",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188666,
+                "name": "Unchained Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "cloth": [
@@ -16953,6 +17153,36 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 188662,
+                "name": "Unchained Gladiator's Greatstaff",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188668,
+                "name": "Unchained Gladiator's Greatsword",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "plate": [
@@ -16982,6 +17212,21 @@
                     "stam",
                     "vers",
                     "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188663,
+                "name": "Unchained Gladiator's Focus Staff",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "plate",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"

@@ -1,4 +1,4 @@
--- Generated using WoW 9.1.0.39804 client data on 2021-08-19T10:41:36.839541.
+-- Generated using WoW 9.1.5.40871 client data on 2021-11-02T17:59:33.568765.
 -- { [Type] = { [Range] = { [1] = ItemID, [2] = ItemId, [3] = ... } } }
 HeroDBC.DBC.ItemRangeUnfiltered = {
   Melee = {
@@ -191,6 +191,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       136205,
       136357,
       138626,
+      139435,
     },
     [8] = {
       118001,
@@ -483,7 +484,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       10025,
       10035,
       10036,
-      10070,
       10082,
       10085,
       10145,
@@ -935,6 +935,9 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       139048,
       139237,
       139304,
+      139812,
+      139952,
+      139953,
     },
     [6] = {
       7733,
@@ -1488,6 +1491,8 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       138984,
       139007,
       139248,
+      139522,
+      139643,
     },
     [12] = {
       29993,
@@ -2134,7 +2139,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       136191,
       136231,
       138502,
-      138706,
       138814,
       138856,
       138857,
@@ -2142,6 +2146,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       138859,
       139063,
       139064,
+      139246,
     },
     [25] = {
       951,
@@ -2200,6 +2205,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       125678,
       126832,
       138403,
+      138706,
     },
     [30] = {
       14,
@@ -2354,7 +2360,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       3577,
       3766,
       3935,
-      3941,
       4107,
       4132,
       4381,
@@ -2458,7 +2463,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       9998,
       10027,
       10040,
-      10053,
       10067,
       10129,
       10183,
@@ -2467,7 +2471,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       10625,
       10655,
       10665,
-      10776,
       11105,
       11144,
       11159,
@@ -2784,6 +2787,9 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       138976,
       139031,
       139058,
+      139808,
+      139810,
+      139811,
     },
     [35] = {
       121,
@@ -3832,10 +3838,12 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       138652,
       138653,
       138855,
+      139191,
       139213,
       139279,
       139306,
       139496,
+      139991,
     },
   },
 }
