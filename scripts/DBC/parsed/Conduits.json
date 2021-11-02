@@ -2617,7 +2617,10 @@
         "conduitSpellID": 340553,
         "conduitType": 2,
         "specs": [
-            104
+            102,
+            103,
+            104,
+            105
         ]
     },
     {
