@@ -2307,8 +2307,8 @@
             },
             "2": {
                 "0": {
-                    "spellId": 238136,
-                    "spellName": "Cosmic Ripple",
+                    "spellId": 368275,
+                    "spellName": "Binding Heals",
                     "talentId": 22487
                 },
                 "1": {
@@ -2341,8 +2341,8 @@
                     "talentId": 19764
                 },
                 "1": {
-                    "spellId": 32546,
-                    "spellName": "Binding Heal",
+                    "spellId": 238136,
+                    "spellName": "Cosmic Ripple",
                     "talentId": 22327
                 },
                 "2": {

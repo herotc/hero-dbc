@@ -3831,5 +3831,293 @@
             71,
             73
         ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8119,
+        "legendaryId": 264,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364758,
+        "specs": [
+            250,
+            251,
+            252
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8120,
+        "legendaryId": 267,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364824,
+        "specs": [
+            577,
+            581
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8121,
+        "legendaryId": 268,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364814,
+        "specs": [
+            102,
+            103,
+            104,
+            105
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8122,
+        "legendaryId": 269,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364743,
+        "specs": [
+            253,
+            254,
+            255
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8123,
+        "legendaryId": 270,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364852,
+        "specs": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8124,
+        "legendaryId": 271,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364857,
+        "specs": [
+            268,
+            270,
+            269
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8125,
+        "legendaryId": 272,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364642,
+        "specs": [
+            65,
+            66,
+            70
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8126,
+        "legendaryId": 273,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364911,
+        "specs": [
+            258,
+            256,
+            257
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8127,
+        "legendaryId": 274,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364922,
+        "specs": [
+            259,
+            260,
+            261
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8128,
+        "legendaryId": 275,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364738,
+        "specs": [
+            262,
+            264,
+            263
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8129,
+        "legendaryId": 276,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364939,
+        "specs": [
+            265,
+            266,
+            267
+        ]
+    },
+    {
+        "itemSlot": [
+            "Back",
+            "Finger",
+            "Hands",
+            "Wrist",
+            "Feet",
+            "Legs",
+            "Waist",
+            "Chest",
+            "Shoulder",
+            "Neck",
+            "Head"
+        ],
+        "legendaryBonusID": 8130,
+        "legendaryId": 277,
+        "legendaryName": "Unity",
+        "legendarySpellID": 364929,
+        "specs": [
+            72,
+            71,
+            73
+        ]
     }
 ]
