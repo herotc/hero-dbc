@@ -4336,21 +4336,6 @@
                 "source": "sanctum_of_domination"
             },
             {
-                "id": 189780,
-                "name": "<DNT> 9.2 Raid - Sepulcher of the First Ones - Boss 01 - Solitary Guardian - Shield",
-                "ilevel": 226,
-                "type": "shield",
-                "material": "plate",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
                 "id": 189819,
                 "name": "Assimilated Safeguard",
                 "ilevel": 226,
@@ -5711,7 +5696,7 @@
                 "type": "head",
                 "material": "mail",
                 "stats": [
-                    "str/int",
+                    "agi/int",
                     "stam",
                     "crit",
                     "haste"
@@ -6186,7 +6171,7 @@
                 "type": "head",
                 "material": "leather",
                 "stats": [
-                    "str/int",
+                    "agi/int",
                     "stam",
                     "vers",
                     "crit"
@@ -10237,7 +10222,7 @@
                 "type": "feet",
                 "material": "mail",
                 "stats": [
-                    "str/int",
+                    "agi/int",
                     "stam",
                     "mastery",
                     "crit"
@@ -11795,21 +11780,6 @@
                 "source": "sanctum_of_domination"
             },
             {
-                "id": 189777,
-                "name": "Unstable Giant's Cuffs",
-                "ilevel": 226,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
                 "id": 189850,
                 "name": "Handguards of Hidden Realms",
                 "ilevel": 233,
@@ -12351,7 +12321,7 @@
                 "type": "hands",
                 "material": "cloth",
                 "stats": [
-                    "str/int",
+                    "int",
                     "stam",
                     "haste",
                     "vers"
@@ -14623,7 +14593,7 @@
                 "type": "legs",
                 "material": "leather",
                 "stats": [
-                    "str/int",
+                    "agi/int",
                     "stam",
                     "vers",
                     "crit"
@@ -15992,7 +15962,7 @@
                 "type": "shoulders",
                 "material": "cloth",
                 "stats": [
-                    "str/int",
+                    "int",
                     "stam",
                     "haste",
                     "crit"
@@ -16918,6 +16888,21 @@
                     "stam",
                     "haste",
                     "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 189826,
+                "name": "Enforcer's Containment Cinch",
+                "ilevel": 226,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
@@ -19258,6 +19243,7 @@
             "type": "finger",
             "material": "",
             "stats": [
+                "mastery",
                 "stam",
                 "haste"
             ],
@@ -19271,6 +19257,7 @@
             "type": "finger",
             "material": "",
             "stats": [
+                "haste",
                 "stam",
                 "mastery"
             ],
@@ -20271,16 +20258,16 @@
                 "source": "sanctum_of_domination"
             },
             {
-                "id": 189826,
-                "name": "Enforcer's Containment Cinch",
+                "id": 189777,
+                "name": "Unstable Giant's Cuffs",
                 "ilevel": 226,
                 "type": "wrists",
                 "material": "plate",
                 "stats": [
                     "str/int",
                     "stam",
-                    "mastery",
-                    "crit"
+                    "haste",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
@@ -22891,6 +22878,206 @@
             {
                 "id": 190823,
                 "name": "Firim's Mysterious Cache",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191002,
+                "name": "Mystic Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191003,
+                "name": "Venerated Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191004,
+                "name": "Zenith Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191005,
+                "name": "Dreadful Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191006,
+                "name": "Dreadful Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191007,
+                "name": "Mystic Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191008,
+                "name": "Venerated Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191009,
+                "name": "Zenith Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191010,
+                "name": "Dreadful Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191011,
+                "name": "Mystic Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191012,
+                "name": "Venerated Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191013,
+                "name": "Zenith Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191014,
+                "name": "Dreadful Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191015,
+                "name": "Mystic Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191016,
+                "name": "Venerated Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191017,
+                "name": "Zenith Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191018,
+                "name": "Dreadful Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191019,
+                "name": "Mystic Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191020,
+                "name": "Venerated Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191021,
+                "name": "Zenith Leg Module",
                 "ilevel": 226,
                 "type": "",
                 "material": "",
