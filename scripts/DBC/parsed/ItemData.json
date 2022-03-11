@@ -1475,18 +1475,6 @@
             "source": "other"
         },
         {
-            "id": 190374,
-            "name": "Gemstone of Prismatic Brilliance",
-            "ilevel": 226,
-            "type": "trinket",
-            "material": "",
-            "stats": [
-                "agi/str/int"
-            ],
-            "gems": 0,
-            "source": "sanctum_of_domination"
-        },
-        {
             "id": 190389,
             "name": "Broker's Lucky Coin",
             "ilevel": 226,
