@@ -1,4 +1,4 @@
--- Generated using WoW 9.2.0.42698 client data on 2022-03-14T14:14:01.523319.
+-- Generated using WoW 9.2.0.42698 client data on 2022-03-17T23:36:33.944127.
 HeroDBC.DBC.SpellAuraStat = {
   [13] = false,
   [17] = false,
@@ -29494,6 +29494,7 @@ HeroDBC.DBC.SpellAuraStat = {
   [113896] = false,
   [113899] = false,
   [113900] = false,
+  [113904] = false,
   [113930] = false,
   [113931] = false,
   [113942] = false,
@@ -118968,6 +118969,7 @@ HeroDBC.DBC.SpellAuraStat = {
   [351128] = false,
   [351133] = false,
   [351137] = false,
+  [351138] = false,
   [351139] = false,
   [351141] = false,
   [351143] = false,
@@ -125778,6 +125780,8 @@ HeroDBC.DBC.SpellAuraStat = {
   [369933] = false,
   [369937] = false,
   [369964] = false,
+  [369976] = false,
+  [369979] = false,
   [370016] = false,
   [370017] = false,
   [370025] = false,
@@ -125790,4 +125794,9 @@ HeroDBC.DBC.SpellAuraStat = {
   [370133] = false,
   [370159] = false,
   [370220] = false,
+  [370358] = false,
+  [370400] = false,
+  [370407] = false,
+  [370448] = false,
+  [370670] = false,
 }
