@@ -1,4 +1,4 @@
--- Generated using WoW 9.2.0.42979 client data on 2022-04-08T09:13:05.853128.
+-- Generated using WoW 9.2.0.43340 client data on 2022-04-27T09:09:21.529317.
 HeroDBC.DBC.SpellAuraStat = {
   [13] = false,
   [17] = false,
@@ -125806,4 +125806,6 @@ HeroDBC.DBC.SpellAuraStat = {
   [370850] = false,
   [371168] = false,
   [371695] = false,
+  [372149] = false,
+  [373308] = false,
 }
