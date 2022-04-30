@@ -28,7 +28,20 @@ with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
         for _, row in enumerate(reader):
             if int(row['id_parent']) > 0 and current != int(row['id_parent']) and int(row['type']) == 6:
                 current = int(row['id_parent'])
-                if int(row['sub_type']) == 29:
+                # Attribute (29)
+                # Modify Total Stat% (137)
+                # Modify Rating (189) with misc values mapping to stats
+                # Modify All Haste% (193)
+                # Modify Critical Strike% (290)
+                # Modify Mastery% (318)
+                # Modify Versatility% (471)
+                if (int(row['sub_type']) == 29 or
+                    int(row['sub_type']) == 137 or
+                    int(row['sub_type']) == 193 or
+                    int(row['sub_type']) == 290 or
+                    int(row['sub_type']) == 318 or
+                    int(row['sub_type']) == 471 or
+                    int(row['sub_type']) == 189 and (int(row['misc_value_1']) == 1792 or int(row['misc_value_1']) == 917504 or int(row['misc_value_1']) == 33554432 or int(row['misc_value_1']) == 1879048192)):
                     file.write('  [' + row['id_parent'] + '] = true,\n')
                 else:
                     file.write('  [' + row['id_parent'] + '] = false,\n')
