@@ -37,7 +37,10 @@ with open(os.path.join(generatedDir, 'ItemXItemEffect.csv')) as csvfile:
     reader = sorted(reader, key=lambda d: int(d['id_parent']))
     for row in reader:
         if int(row['id']) > 0:
-            Items[int(row['id_parent'])] = int(db['ItemEffect'][int(row['id_item_effect'])]['id_spell'])
+            effect = db['ItemEffect'][int(row['id_item_effect'])]
+            # trigger_type 0 for only on-use effects
+            if int(effect['trigger_type']) == 0 and int(effect['id_spell']) > 0:
+                Items[int(row['id_parent'])] = int(effect['id_spell'])
 
 with open(os.path.join(addonEnumDir, 'ItemSpell.lua'), 'w', encoding='utf-8') as file:
     file.write('HeroDBC.DBC.ItemSpell = {\n')
