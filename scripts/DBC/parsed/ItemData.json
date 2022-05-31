@@ -1404,7 +1404,7 @@
         },
         {
             "id": 188273,
-            "name": "Auxillary Attendant Chime",
+            "name": "Auxiliary Attendant Chime",
             "ilevel": 226,
             "type": "trinket",
             "material": "",
@@ -1545,6 +1545,210 @@
             ],
             "gems": 0,
             "source": "sanctum_of_domination"
+        },
+        {
+            "id": 192295,
+            "name": "Eternal Gladiator's Badge of Ferocity",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192296,
+            "name": "Eternal Gladiator's Insignia of Alacrity",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192297,
+            "name": "Eternal Gladiator's Emblem",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192298,
+            "name": "Eternal Gladiator's Medallion",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192299,
+            "name": "Eternal Gladiator's Relentless Brooch",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192300,
+            "name": "Eternal Gladiator's Sigil of Adaptation",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192301,
+            "name": "Eternal Gladiator's Fastidious Resolve",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192302,
+            "name": "Eternal Gladiator's Echoing Resolve",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192303,
+            "name": "Eternal Gladiator's Resonator",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192304,
+            "name": "Eternal Gladiator's Eternal Aegis",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192305,
+            "name": "Eternal Gladiator's Devouring Malediction",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "vers"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192352,
+            "name": "Eternal Aspirant's Badge of Ferocity",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "haste"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192388,
+            "name": "Eternal Aspirant's Insignia of Alacrity",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "haste"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192392,
+            "name": "Eternal Aspirant's Emblem",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192412,
+            "name": "Eternal Aspirant's Medallion",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192413,
+            "name": "Eternal Aspirant's Relentless Brooch",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192414,
+            "name": "Eternal Aspirant's Sigil of Adaptation",
+            "ilevel": 158,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "pvp"
         }
     ],
     "weapon": {
@@ -3961,6 +4165,426 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192283,
+                "name": "Eternal Gladiator's Splitter",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192284,
+                "name": "Eternal Gladiator's Hacker",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192285,
+                "name": "Eternal Gladiator's Knife",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192286,
+                "name": "Eternal Gladiator's Ritual Dagger",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192287,
+                "name": "Eternal Gladiator's Gladius",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192288,
+                "name": "Eternal Gladiator's Ceremonial Sword",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192289,
+                "name": "Eternal Gladiator's Xiphos",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192290,
+                "name": "Eternal Gladiator's Warglaive",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192311,
+                "name": "Eternal Gladiator's Gavel",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192312,
+                "name": "Eternal Gladiator's Ripper",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192313,
+                "name": "Eternal Gladiator's Slicer",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192394,
+                "name": "Eternal Aspirant's Battleaxe",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192395,
+                "name": "Eternal Aspirant's Dagger",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192396,
+                "name": "Eternal Aspirant's Mace",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192399,
+                "name": "Eternal Aspirant's Sword",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192403,
+                "name": "Eternal Aspirant's Warglaive",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192404,
+                "name": "Eternal Aspirant's Gavel",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192406,
+                "name": "Eternal Aspirant's Hatchet",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192409,
+                "name": "Eternal Aspirant's Blade",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192410,
+                "name": "Eternal Aspirant's Blackjack",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192411,
+                "name": "Eternal Aspirant's Crescent",
+                "ilevel": 158,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192425,
+                "name": "Legato Hammer",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192426,
+                "name": "Waltzing Glaive",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192427,
+                "name": "Senza Spellblade",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192430,
+                "name": "Meno Sword",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192440,
+                "name": "Tempo Smasher",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192449,
+                "name": "Overture's Shiv",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192451,
+                "name": "Lamenting Blade",
+                "ilevel": 233,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             }
         ]
     },
@@ -4351,6 +4975,66 @@
                     "haste",
                     "mastery",
                     "int"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192208,
+                "name": "Eternal Gladiator's Guard",
+                "ilevel": 200,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192306,
+                "name": "Eternal Gladiator's Barrier",
+                "ilevel": 200,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192405,
+                "name": "Eternal Aspirant's Barrier",
+                "ilevel": 158,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192428,
+                "name": "Ballad Shield",
+                "ilevel": 233,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "haste",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
@@ -4791,6 +5475,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192273,
+                "name": "Eternal Gladiator's Plate Helm",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192274,
+                "name": "Eternal Gladiator's Plate Helmet",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192318,
+                "name": "Eternal Aspirant's Plate Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192354,
+                "name": "Eternal Aspirant's Plate Headguard",
+                "ilevel": 158,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -5236,6 +5980,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192225,
+                "name": "Eternal Gladiator's Silk Hood",
+                "ilevel": 200,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192226,
+                "name": "Eternal Gladiator's Silk Guise",
+                "ilevel": 200,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192332,
+                "name": "Eternal Aspirant's Silk Hood",
+                "ilevel": 158,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192368,
+                "name": "Eternal Aspirant's Silk Cover",
+                "ilevel": 158,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -5736,6 +6540,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192257,
+                "name": "Eternal Gladiator's Chain Helm",
+                "ilevel": 200,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192258,
+                "name": "Eternal Gladiator's Chain Faceguard",
+                "ilevel": 200,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192333,
+                "name": "Eternal Aspirant's Chain Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192369,
+                "name": "Eternal Aspirant's Chain Headguard",
+                "ilevel": 158,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -6211,6 +7075,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192241,
+                "name": "Eternal Gladiator's Leather Helm",
+                "ilevel": 200,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192242,
+                "name": "Eternal Gladiator's Leather Mask",
+                "ilevel": 200,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192334,
+                "name": "Eternal Aspirant's Leather Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192370,
+                "name": "Eternal Aspirant's Leather Mask",
+                "ilevel": 158,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -6904,6 +7828,111 @@
             ],
             "gems": 0,
             "source": "sanctum_of_domination"
+        },
+        {
+            "id": 192209,
+            "name": "Eternal Gladiator's Cloak",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192210,
+            "name": "Eternal Gladiator's Drape",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192211,
+            "name": "Eternal Gladiator's Shawl",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192212,
+            "name": "Eternal Gladiator's Greatcloak",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "mastery",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192319,
+            "name": "Eternal Aspirant's Cloak",
+            "ilevel": 158,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192355,
+            "name": "Eternal Aspirant's Drape",
+            "ilevel": 158,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192390,
+            "name": "Eternal Aspirant's Cape",
+            "ilevel": 158,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "pvp"
         }
     ],
     "chest": {
@@ -7410,6 +8439,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192219,
+                "name": "Eternal Gladiator's Silk Robe",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192220,
+                "name": "Eternal Gladiator's Silk Vestments",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192320,
+                "name": "Eternal Aspirant's Silk Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192356,
+                "name": "Eternal Aspirant's Silk Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -7885,6 +8974,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192267,
+                "name": "Eternal Gladiator's Plate Chestguard",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192268,
+                "name": "Eternal Gladiator's Plate Chestplate",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192321,
+                "name": "Eternal Aspirant's Plate Chestplate",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192357,
+                "name": "Eternal Aspirant's Plate Armor",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -8330,6 +9479,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192251,
+                "name": "Eternal Gladiator's Chain Vest",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192252,
+                "name": "Eternal Gladiator's Chain Tunic",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192322,
+                "name": "Eternal Aspirant's Chain Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192358,
+                "name": "Eternal Aspirant's Chain Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -8775,6 +9984,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192235,
+                "name": "Eternal Gladiator's Leather Vest",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192236,
+                "name": "Eternal Gladiator's Leather Jerkin",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192323,
+                "name": "Eternal Aspirant's Leather Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192359,
+                "name": "Eternal Aspirant's Leather Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -9237,6 +10506,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192269,
+                "name": "Eternal Gladiator's Plate Warboots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192270,
+                "name": "Eternal Gladiator's Plate Stompers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192324,
+                "name": "Eternal Aspirant's Plate Warboots",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192360,
+                "name": "Eternal Aspirant's Plate Stompers",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -9712,6 +11041,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192221,
+                "name": "Eternal Gladiator's Silk Slippers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192222,
+                "name": "Eternal Gladiator's Silk Treads",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192325,
+                "name": "Eternal Aspirant's Silk Treads",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192361,
+                "name": "Eternal Aspirant's Silk Footwraps",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -10262,6 +11651,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192253,
+                "name": "Eternal Gladiator's Chain Sabatons",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192254,
+                "name": "Eternal Gladiator's Chain Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192326,
+                "name": "Eternal Aspirant's Chain Sabatons",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192362,
+                "name": "Eternal Aspirant's Chain Stompers",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -10752,6 +12201,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192237,
+                "name": "Eternal Gladiator's Leather Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192238,
+                "name": "Eternal Gladiator's Leather Treads",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192327,
+                "name": "Eternal Aspirant's Leather Boots",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192363,
+                "name": "Eternal Aspirant's Leather Footpads",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -11306,6 +12815,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192239,
+                "name": "Eternal Gladiator's Leather Gloves",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192240,
+                "name": "Eternal Gladiator's Leather Grips",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192328,
+                "name": "Eternal Aspirant's Leather Gloves",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192364,
+                "name": "Eternal Aspirant's Leather Grips",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -11841,6 +13410,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192271,
+                "name": "Eternal Gladiator's Plate Gauntlets",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192272,
+                "name": "Eternal Gladiator's Plate Handguards",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192329,
+                "name": "Eternal Aspirant's Plate Gauntlets",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192365,
+                "name": "Eternal Aspirant's Plate Handguards",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -12316,6 +13945,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192223,
+                "name": "Eternal Gladiator's Silk Gloves",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192224,
+                "name": "Eternal Gladiator's Silk Handwraps",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192330,
+                "name": "Eternal Aspirant's Silk Gloves",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192366,
+                "name": "Eternal Aspirant's Silk Handwraps",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -12776,6 +14465,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192255,
+                "name": "Eternal Gladiator's Chain Gauntlets",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192256,
+                "name": "Eternal Gladiator's Chain Handguards",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192331,
+                "name": "Eternal Aspirant's Chain Gauntlets",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192367,
+                "name": "Eternal Aspirant's Chain Handguards",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -13208,6 +14957,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192275,
+                "name": "Eternal Gladiator's Plate Legguards",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192276,
+                "name": "Eternal Gladiator's Plate Wargreaves",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192335,
+                "name": "Eternal Aspirant's Plate Legguards",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192371,
+                "name": "Eternal Aspirant's Plate Wargreaves",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -13683,6 +15492,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192227,
+                "name": "Eternal Gladiator's Silk Leggings",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192228,
+                "name": "Eternal Gladiator's Silk Trousers",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192336,
+                "name": "Eternal Aspirant's Silk Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192372,
+                "name": "Eternal Aspirant's Silk Legwraps",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -14143,6 +16012,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192259,
+                "name": "Eternal Gladiator's Chain Leggings",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192260,
+                "name": "Eternal Gladiator's Chain Breeches",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192337,
+                "name": "Eternal Aspirant's Chain Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192373,
+                "name": "Eternal Aspirant's Chain Wargreaves",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -14588,6 +16517,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192243,
+                "name": "Eternal Gladiator's Leather Breeches",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192244,
+                "name": "Eternal Gladiator's Leather Legwraps",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192338,
+                "name": "Eternal Aspirant's Leather Breeches",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192374,
+                "name": "Eternal Aspirant's Leather Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -15067,6 +17056,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192245,
+                "name": "Eternal Gladiator's Leather Spaulders",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192246,
+                "name": "Eternal Gladiator's Leather Shoulderpads",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192339,
+                "name": "Eternal Aspirant's Leather Spaulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192375,
+                "name": "Eternal Aspirant's Leather Mantle",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -15512,6 +17561,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192277,
+                "name": "Eternal Gladiator's Plate Shoulders",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192278,
+                "name": "Eternal Gladiator's Plate Pauldrons",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192340,
+                "name": "Eternal Aspirant's Plate Shoulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192376,
+                "name": "Eternal Aspirant's Plate Pauldrons",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -16002,6 +18111,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192229,
+                "name": "Eternal Gladiator's Silk Mantle",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192230,
+                "name": "Eternal Gladiator's Silk Amice",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192341,
+                "name": "Eternal Aspirant's Silk Mantle",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192377,
+                "name": "Eternal Aspirant's Silk Shawl",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -16447,6 +18616,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192261,
+                "name": "Eternal Gladiator's Chain Monnion",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192262,
+                "name": "Eternal Gladiator's Chain Shoulderguard",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192342,
+                "name": "Eternal Aspirant's Chain Spaulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192378,
+                "name": "Eternal Aspirant's Chain Shoulderguards",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -16924,6 +19153,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192279,
+                "name": "Eternal Gladiator's Plate Girdle",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192280,
+                "name": "Eternal Gladiator's Plate Greatbelt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192343,
+                "name": "Eternal Aspirant's Plate Girdle",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192379,
+                "name": "Eternal Aspirant's Plate Greatbelt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -17429,6 +19718,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192231,
+                "name": "Eternal Gladiator's Silk Cord",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192232,
+                "name": "Eternal Gladiator's Silk Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192344,
+                "name": "Eternal Aspirant's Silk Cord",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192380,
+                "name": "Eternal Aspirant's Silk Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -17964,6 +20313,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192263,
+                "name": "Eternal Gladiator's Chain Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192264,
+                "name": "Eternal Gladiator's Chain Girdle",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192345,
+                "name": "Eternal Aspirant's Chain Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192381,
+                "name": "Eternal Aspirant's Chain Clasp",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -18454,6 +20863,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192247,
+                "name": "Eternal Gladiator's Leather Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192248,
+                "name": "Eternal Gladiator's Leather Strap",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192346,
+                "name": "Eternal Aspirant's Leather Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192382,
+                "name": "Eternal Aspirant's Leather Cord",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -19293,6 +21762,90 @@
             ],
             "gems": 0,
             "source": "sanctum_of_domination"
+        },
+        {
+            "id": 192213,
+            "name": "Eternal Gladiator's Ring",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192214,
+            "name": "Eternal Gladiator's Band",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192215,
+            "name": "Eternal Gladiator's Signet",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192347,
+            "name": "Eternal Aspirant's Ring",
+            "ilevel": 158,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192383,
+            "name": "Eternal Aspirant's Band",
+            "ilevel": 158,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192391,
+            "name": "Eternal Aspirant's Signet",
+            "ilevel": 158,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "pvp"
         }
     ],
     "wrists": {
@@ -19829,6 +22382,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192233,
+                "name": "Eternal Gladiator's Silk Wristwraps",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192234,
+                "name": "Eternal Gladiator's Silk Armbands",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192348,
+                "name": "Eternal Aspirant's Silk Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192384,
+                "name": "Eternal Aspirant's Silk Bindings",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -20274,6 +22887,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192281,
+                "name": "Eternal Gladiator's Plate Wristguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192282,
+                "name": "Eternal Gladiator's Plate Vambraces",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192349,
+                "name": "Eternal Aspirant's Plate Cuffs",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192385,
+                "name": "Eternal Aspirant's Plate Armguards",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -20794,6 +23467,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192265,
+                "name": "Eternal Gladiator's Chain Wristguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192266,
+                "name": "Eternal Gladiator's Chain Bracers",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192350,
+                "name": "Eternal Aspirant's Chain Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192386,
+                "name": "Eternal Aspirant's Chain Bracer",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -21269,6 +24002,66 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192249,
+                "name": "Eternal Gladiator's Leather Wristwraps",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192250,
+                "name": "Eternal Gladiator's Leather Wristguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192351,
+                "name": "Eternal Aspirant's Leather Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192387,
+                "name": "Eternal Aspirant's Leather Armguards",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -21835,6 +24628,90 @@
             ],
             "gems": 0,
             "source": "sanctum_of_domination"
+        },
+        {
+            "id": 192216,
+            "name": "Eternal Gladiator's Necklace",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192217,
+            "name": "Eternal Gladiator's Pendant",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192218,
+            "name": "Eternal Gladiator's Amulet",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 192353,
+            "name": "Eternal Aspirant's Necklace",
+            "ilevel": 158,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192389,
+            "name": "Eternal Aspirant's Choker",
+            "ilevel": 158,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "pvp"
+        },
+        {
+            "id": 192393,
+            "name": "Eternal Aspirant's Pendant",
+            "ilevel": 158,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "pvp"
         }
     ],
     "ranged": {
@@ -22046,6 +24923,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 192407,
+                "name": "Eternal Aspirant's Recurve",
+                "ilevel": 158,
+                "type": "ranged",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -23090,6 +25982,93 @@
                 "type": "",
                 "material": "",
                 "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192207,
+                "name": "Eternal Gladiator's Chalice",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192292,
+                "name": "Eternal Gladiator's Ballista",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192307,
+                "name": "Eternal Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192402,
+                "name": "Eternal Aspirant's Orb",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192422,
+                "name": "Harmonium Lantern",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192423,
+                "name": "Serenading Arbalest",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
             }
@@ -24402,6 +27381,186 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192291,
+                "name": "Eternal Gladiator's Pulverizer",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192293,
+                "name": "Eternal Gladiator's Scythe",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192308,
+                "name": "Eternal Gladiator's Greatsword",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192310,
+                "name": "Eternal Gladiator's Greatstaff",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192397,
+                "name": "Eternal Aspirant's Polearm",
+                "ilevel": 158,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192398,
+                "name": "Eternal Aspirant's Staff",
+                "ilevel": 158,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192400,
+                "name": "Eternal Aspirant's Greataxe",
+                "ilevel": 158,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192401,
+                "name": "Eternal Aspirant's Greatsword",
+                "ilevel": 158,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192408,
+                "name": "Eternal Aspirant's Longspear",
+                "ilevel": 158,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192424,
+                "name": "Rhapsodic Cleaver",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192429,
+                "name": "Scepter of Requiem",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192450,
+                "name": "Choral Staff",
+                "ilevel": 233,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
             }
         ],
         "plate": [
@@ -24468,6 +27627,36 @@
             {
                 "id": 189566,
                 "name": "Cosmic Gladiator's Focus Staff",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "plate",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192294,
+                "name": "Eternal Gladiator's Vesper",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "plate",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192309,
+                "name": "Eternal Gladiator's Focus Staff",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "plate",
