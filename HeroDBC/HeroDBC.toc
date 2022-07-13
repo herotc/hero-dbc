@@ -2,7 +2,7 @@
 
 ## Title: Hero|cFFA330C9DBC|r
 ## Author: HeroTC, Aethys, KutiKuti
-## Version: 9.2.5.02
+## Version: 9.2.5.03
 ## Notes: Library containing DBC data used by HeroTC Addons. Can be used by others 3rd-Party Addons.
 
 ## DefaultState: Enabled
