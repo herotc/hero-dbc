@@ -2778,7 +2778,9 @@
             269,
             270,
             577,
-            581
+            581,
+            1467,
+            1468
         ]
     },
     {
@@ -2793,6 +2795,106 @@
             581,
             268,
             250
+        ]
+    },
+    {
+        "conduitId": 285,
+        "conduitName": "Legacy of Coldarra",
+        "conduitSpellID": 387270,
+        "conduitType": 0,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 286,
+        "conduitName": "Graceful Stride",
+        "conduitSpellID": 387240,
+        "conduitType": 0,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 287,
+        "conduitName": "Natural Weapons",
+        "conduitSpellID": 387267,
+        "conduitType": 0,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 288,
+        "conduitName": "Circle of Life",
+        "conduitSpellID": 387228,
+        "conduitType": 2,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 289,
+        "conduitName": "Inherent Resistance",
+        "conduitSpellID": 387227,
+        "conduitType": 2,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 290,
+        "conduitName": "Primal Fortitude",
+        "conduitSpellID": 387225,
+        "conduitType": 2,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 291,
+        "conduitName": "Spark of Savagery",
+        "conduitSpellID": 387201,
+        "conduitType": 1,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 292,
+        "conduitName": "Bronze Acceleration",
+        "conduitSpellID": 387222,
+        "conduitType": 1,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 293,
+        "conduitName": "Intense Awakening",
+        "conduitSpellID": 387202,
+        "conduitType": 1,
+        "specs": [
+            1467,
+            1468
+        ]
+    },
+    {
+        "conduitId": 294,
+        "conduitName": "Grandiose Boon",
+        "conduitSpellID": 387198,
+        "conduitType": 1,
+        "specs": [
+            1467,
+            1468
         ]
     }
 ]

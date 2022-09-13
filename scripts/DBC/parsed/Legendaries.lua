@@ -207,7 +207,7 @@
 -- 216, 7471, Nature's Fury
 -- 217, 7472, Locust Swarm
 -- 218, 7473, Harmonic Echo
--- 220, 7474, Sinful Hysteria
+-- 220, 7474, Sinful Indulgence
 -- 221, 7475, Death's Fathom
 -- 222, 7476, Sinful Delight
 -- 223, 7477, Kindred Affinity
@@ -258,3 +258,4 @@
 -- 275, 8128, Unity
 -- 276, 8129, Unity
 -- 277, 8130, Unity
+-- 279, 8934, Unity

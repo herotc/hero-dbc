@@ -1717,5 +1717,25 @@
                 "soulbindTreeID": 349
             }
         ]
+    },
+    {
+        "covenantId": 12,
+        "covenantName": "Maruuk Centaur",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 13,
+        "covenantName": "Dragonscale Expedition",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 14,
+        "covenantName": "Iskaara Tuskarr",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 15,
+        "covenantName": "The Valdrakken Accord",
+        "soulbinds": []
     }
 ]
