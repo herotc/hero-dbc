@@ -5452,21 +5452,6 @@
                 "source": "other"
             },
             {
-                "id": 198004,
-                "name": "Steel Draconic Gavel",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 198006,
                 "name": "Sharpened Silver Sword",
                 "ilevel": 200,
@@ -6775,6 +6760,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201085,
+                "name": "Dreamfire Helm",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201093,
+                "name": "Crimson Aspirant's Plate Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201125,
+                "name": "Crimson Aspirant's Plate Headguard",
+                "ilevel": 158,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -7401,6 +7431,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201066,
+                "name": "Hood of the Verdant Wing",
+                "ilevel": 200,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201106,
+                "name": "Crimson Aspirant's Silk Hood",
+                "ilevel": 158,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201139,
+                "name": "Crimson Aspirant's Silk Cover",
+                "ilevel": 158,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -7952,7 +8027,7 @@
             },
             {
                 "id": 191799,
-                "name": "Emerald Dracthyr Battlegear Helm",
+                "name": "Obsidian Dracthyr Battlegear Helm",
                 "ilevel": 200,
                 "type": "head",
                 "material": "mail",
@@ -8147,6 +8222,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201067,
+                "name": "Emerald Scale Coif",
+                "ilevel": 200,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201107,
+                "name": "Crimson Aspirant's Chain Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201140,
+                "name": "Crimson Aspirant's Chain Headguard",
+                "ilevel": 158,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -8803,6 +8923,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201068,
+                "name": "Green Draketracker's Cowl",
+                "ilevel": 200,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201108,
+                "name": "Crimson Aspirant's Leather Helm",
+                "ilevel": 158,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201141,
+                "name": "Crimson Aspirant's Leather Mask",
+                "ilevel": 158,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -10389,6 +10554,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201058,
+                "name": "Robes of the Verdant Wing",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201094,
+                "name": "Crimson Aspirant's Silk Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201126,
+                "name": "Crimson Aspirant's Silk Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -11030,6 +11240,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201059,
+                "name": "Dreamfire Battleplate",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201095,
+                "name": "Crimson Aspirant's Plate Chestplate",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201127,
+                "name": "Crimson Aspirant's Plate Armor",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -11516,7 +11771,7 @@
             },
             {
                 "id": 191797,
-                "name": "Emerald Dracthyr Battlegear Hauberk",
+                "name": "Obsidian Dracthyr Battlegear Hauberk",
                 "ilevel": 200,
                 "type": "chest",
                 "material": "mail",
@@ -11686,6 +11941,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201060,
+                "name": "Emerald Scale Chainmail",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201096,
+                "name": "Crimson Aspirant's Chain Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201128,
+                "name": "Crimson Aspirant's Chain Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -12297,6 +12597,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201061,
+                "name": "Green Draketracker's Vest",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201097,
+                "name": "Crimson Aspirant's Leather Vest",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201129,
+                "name": "Crimson Aspirant's Leather Tunic",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -12925,6 +13270,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201057,
+                "name": "Dreamfire Sabatons",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201098,
+                "name": "Crimson Aspirant's Plate Warboots",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201130,
+                "name": "Crimson Aspirant's Plate Stompers",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -13566,6 +13956,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201086,
+                "name": "Slippers of the Verdant Wing",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201099,
+                "name": "Crimson Aspirant's Silk Treads",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201131,
+                "name": "Crimson Aspirant's Silk Footwraps",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -14157,7 +14592,7 @@
             },
             {
                 "id": 191804,
-                "name": "Emerald Dracthyr Battlegear Cover",
+                "name": "Obsidian Dracthyr Battlegear Cover",
                 "ilevel": 200,
                 "type": "feet",
                 "material": "mail",
@@ -14327,6 +14762,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201087,
+                "name": "Emerald Scale Treads",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201100,
+                "name": "Crimson Aspirant's Chain Sabatons",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201132,
+                "name": "Crimson Aspirant's Chain Stompers",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -14983,6 +15463,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201088,
+                "name": "Green Draketracker's Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201101,
+                "name": "Crimson Aspirant's Leather Boots",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201133,
+                "name": "Crimson Aspirant's Leather Footpads",
+                "ilevel": 158,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -15688,6 +16213,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201062,
+                "name": "Green Draketracker's Mitts",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201102,
+                "name": "Crimson Aspirant's Leather Gloves",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201135,
+                "name": "Crimson Aspirant's Leather Grips",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -16374,6 +16944,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201063,
+                "name": "Dreamfire Gauntlets",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201103,
+                "name": "Crimson Aspirant's Plate Gauntlets",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201136,
+                "name": "Crimson Aspirant's Plate Handguards",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -16989,6 +17604,21 @@
                 "source": "other"
             },
             {
+                "id": 198000,
+                "name": "Windswept Gloves",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198987,
                 "name": "Drakewatcher's Handwraps",
                 "ilevel": 200,
@@ -17000,6 +17630,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201064,
+                "name": "Gloves of the Verdant Wing",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201104,
+                "name": "Crimson Aspirant's Silk Gloves",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201137,
+                "name": "Crimson Aspirant's Silk Handwraps",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -17501,7 +18176,7 @@
             },
             {
                 "id": 191798,
-                "name": "Emerald Dracthyr Battlegear Grips",
+                "name": "Obsidian Dracthyr Battlegear Grips",
                 "ilevel": 200,
                 "type": "hands",
                 "material": "mail",
@@ -17656,6 +18331,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201065,
+                "name": "Emerald Scale Grips",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201105,
+                "name": "Crimson Aspirant's Chain Gauntlets",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201138,
+                "name": "Crimson Aspirant's Chain Handguards",
+                "ilevel": 158,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -18254,6 +18974,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201069,
+                "name": "Dreamfire Legplates",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201109,
+                "name": "Crimson Aspirant's Plate Legguards",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201142,
+                "name": "Crimson Aspirant's Plate Wargreaves",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -18895,6 +19660,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201070,
+                "name": "Leggings of the Verdant Wing",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201110,
+                "name": "Crimson Aspirant's Silk Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201143,
+                "name": "Crimson Aspirant's Silk Legwraps",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -19396,7 +20206,7 @@
             },
             {
                 "id": 191800,
-                "name": "Emerald Dracthyr Battlegear Leggings",
+                "name": "Obsidian Dracthyr Battlegear Leggings",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "mail",
@@ -19566,6 +20376,66 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 200212,
+                "name": "Sand-Encrusted Greaves",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201071,
+                "name": "Emerald Scale Legguards",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201111,
+                "name": "Crimson Aspirant's Chain Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201144,
+                "name": "Crimson Aspirant's Chain Wargreaves",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -20177,6 +21047,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201072,
+                "name": "Green Draketracker's Britches",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201112,
+                "name": "Crimson Aspirant's Leather Breeches",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201145,
+                "name": "Crimson Aspirant's Leather Leggings",
+                "ilevel": 158,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "": [
@@ -20807,6 +21722,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201073,
+                "name": "Green Draketracker's Shoulderpads",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201113,
+                "name": "Crimson Aspirant's Leather Spaulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201146,
+                "name": "Crimson Aspirant's Leather Mantle",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -21403,6 +22363,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201074,
+                "name": "Dreamfire Pauldrons",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201114,
+                "name": "Crimson Aspirant's Plate Shoulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201147,
+                "name": "Crimson Aspirant's Plate Pauldrons",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -22044,6 +23049,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201075,
+                "name": "Mantle of the Verdant Wing",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201115,
+                "name": "Crimson Aspirant's Silk Mantle",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201148,
+                "name": "Crimson Aspirant's Silk Shawl",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -22530,7 +23580,7 @@
             },
             {
                 "id": 191801,
-                "name": "Emerald Dracthyr Battlegear Monnion",
+                "name": "Obsidian Dracthyr Battlegear Monnion",
                 "ilevel": 200,
                 "type": "shoulders",
                 "material": "mail",
@@ -22685,6 +23735,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201076,
+                "name": "Emerald Scale Spaulders",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201116,
+                "name": "Crimson Aspirant's Chain Spaulders",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201149,
+                "name": "Crimson Aspirant's Chain Shoulderguards",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -23343,6 +24438,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201077,
+                "name": "Dreamfire Buckle",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201117,
+                "name": "Crimson Aspirant's Plate Girdle",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201150,
+                "name": "Crimson Aspirant's Plate Greatbelt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "cloth": [
@@ -24029,6 +25169,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201078,
+                "name": "Cord of the Verdant Wing",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201118,
+                "name": "Crimson Aspirant's Silk Cord",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201151,
+                "name": "Crimson Aspirant's Silk Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -24605,7 +25790,7 @@
             },
             {
                 "id": 191802,
-                "name": "Emerald Dracthyr Battlegear Belt",
+                "name": "Obsidian Dracthyr Battlegear Belt",
                 "ilevel": 200,
                 "type": "waist",
                 "material": "mail",
@@ -24790,6 +25975,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201079,
+                "name": "Emerald Scale Loop",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201119,
+                "name": "Crimson Aspirant's Chain Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201152,
+                "name": "Crimson Aspirant's Chain Clasp",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -25461,6 +26691,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201080,
+                "name": "Green Draketracker's Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201120,
+                "name": "Crimson Aspirant's Leather Belt",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201153,
+                "name": "Crimson Aspirant's Leather Cord",
+                "ilevel": 158,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
@@ -27305,6 +28580,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201081,
+                "name": "Wraps of the Verdant Wing",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201121,
+                "name": "Crimson Aspirant's Silk Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201154,
+                "name": "Crimson Aspirant's Silk Bindings",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "plate": [
@@ -27931,6 +29251,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201082,
+                "name": "Dreamfire Wristguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201122,
+                "name": "Crimson Aspirant's Plate Cuffs",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201155,
+                "name": "Crimson Aspirant's Plate Armguards",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "mail": [
@@ -28492,7 +29857,7 @@
             },
             {
                 "id": 191803,
-                "name": "Emerald Dracthyr Battlegear Bracers",
+                "name": "Obsidian Dracthyr Battlegear Bracers",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "mail",
@@ -28677,6 +30042,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201083,
+                "name": "Emerald Scale Armguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201123,
+                "name": "Crimson Aspirant's Chain Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201156,
+                "name": "Crimson Aspirant's Chain Bracer",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ],
         "leather": [
@@ -29333,6 +30743,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201084,
+                "name": "Green Draketracker's Bracers",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201124,
+                "name": "Crimson Aspirant's Leather Wristwraps",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 201157,
+                "name": "Crimson Aspirant's Leather Armguards",
+                "ilevel": 158,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
             }
         ]
     },
