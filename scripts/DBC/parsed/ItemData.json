@@ -1835,12 +1835,36 @@
             "source": "other"
         },
         {
+            "id": 198036,
+            "name": "Spineripper's Fang",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
             "id": 198037,
             "name": "Brimming Arcanocrystal",
             "ilevel": 200,
             "type": "trinket",
             "material": "",
             "stats": [],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 198432,
+            "name": "Crude Wind Charm",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "int"
+            ],
             "gems": 0,
             "source": "other"
         },
@@ -5123,7 +5147,7 @@
             },
             {
                 "id": 194377,
-                "name": "Reliquary Dissection Knife",
+                "name": "Expedition Dissection Knife",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -5168,7 +5192,7 @@
             },
             {
                 "id": 194386,
-                "name": "League Mercenary's Mace",
+                "name": "Expedition Mercenary's Mace",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -5206,7 +5230,7 @@
                     "agi",
                     "stam",
                     "vers",
-                    "mastery"
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -5228,7 +5252,7 @@
             },
             {
                 "id": 194392,
-                "name": "Reliquary Defender's Blade",
+                "name": "Expedition Defender's Blade",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -5325,8 +5349,8 @@
                 "stats": [
                     "str",
                     "stam",
-                    "mastery",
-                    "haste"
+                    "haste",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -5340,7 +5364,7 @@
                 "stats": [
                     "agi",
                     "stam",
-                    "vers",
+                    "haste",
                     "crit"
                 ],
                 "gems": 0,
@@ -5445,8 +5469,53 @@
                 "stats": [
                     "agi",
                     "stam",
-                    "haste",
-                    "vers"
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198003,
+                "name": "Ornate Steel Cleaver",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198004,
+                "name": "Steel Draconic Gavel",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198005,
+                "name": "Sleek Obsidian Kris",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -5462,6 +5531,21 @@
                     "stam",
                     "haste",
                     "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198009,
+                "name": "Gleaming Bronze Blade",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "haste",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -6151,6 +6235,21 @@
                 "source": "other"
             },
             {
+                "id": 198034,
+                "name": "Rustic Barrier",
+                "ilevel": 200,
+                "type": "shield",
+                "material": "plate",
+                "stats": [
+                    "str",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199032,
                 "name": "Drake Scale Shield",
                 "ilevel": 200,
@@ -6749,6 +6848,21 @@
                 "source": "other"
             },
             {
+                "id": 198028,
+                "name": "Sleet Shined Skullguard",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199006,
                 "name": "Shorebreaker's Helm",
                 "ilevel": 200,
@@ -6760,51 +6874,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201085,
-                "name": "Dreamfire Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201093,
-                "name": "Crimson Aspirant's Plate Helm",
-                "ilevel": 158,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201125,
-                "name": "Crimson Aspirant's Plate Headguard",
-                "ilevel": 158,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -7361,7 +7430,7 @@
             },
             {
                 "id": 194347,
-                "name": "Reliquary Novice's Hood",
+                "name": "Expedition Researcher's Hood",
                 "ilevel": 200,
                 "type": "head",
                 "material": "cloth",
@@ -7420,6 +7489,21 @@
                 "source": "other"
             },
             {
+                "id": 197999,
+                "name": "Windswept Hood",
+                "ilevel": 200,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198988,
                 "name": "Drakewatcher's Hood",
                 "ilevel": 200,
@@ -7431,51 +7515,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201066,
-                "name": "Hood of the Verdant Wing",
-                "ilevel": 200,
-                "type": "head",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201106,
-                "name": "Crimson Aspirant's Silk Hood",
-                "ilevel": 158,
-                "type": "head",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201139,
-                "name": "Crimson Aspirant's Silk Cover",
-                "ilevel": 158,
-                "type": "head",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -8137,7 +8176,7 @@
             },
             {
                 "id": 194348,
-                "name": "League Mercenary's Helm",
+                "name": "Expedition Mercenary's Helm",
                 "ilevel": 200,
                 "type": "head",
                 "material": "mail",
@@ -8222,51 +8261,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201067,
-                "name": "Emerald Scale Coif",
-                "ilevel": 200,
-                "type": "head",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201107,
-                "name": "Crimson Aspirant's Chain Helm",
-                "ilevel": 158,
-                "type": "head",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201140,
-                "name": "Crimson Aspirant's Chain Headguard",
-                "ilevel": 158,
-                "type": "head",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -8912,6 +8906,21 @@
                 "source": "other"
             },
             {
+                "id": 198013,
+                "name": "Twisted Leather Hood",
+                "ilevel": 200,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198994,
                 "name": "Isle Trapper's Helm",
                 "ilevel": 200,
@@ -8923,51 +8932,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201068,
-                "name": "Green Draketracker's Cowl",
-                "ilevel": 200,
-                "type": "head",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201108,
-                "name": "Crimson Aspirant's Leather Helm",
-                "ilevel": 158,
-                "type": "head",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201141,
-                "name": "Crimson Aspirant's Leather Mask",
-                "ilevel": 158,
-                "type": "head",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "": [
@@ -9856,6 +9820,21 @@
             "source": "other"
         },
         {
+            "id": 198676,
+            "name": "Divo's Worn Cloth",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
             "id": 199019,
             "name": "Aerodynamic Cape",
             "ilevel": 200,
@@ -9864,21 +9843,6 @@
             "stats": [
                 "agi/str/int",
                 "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 200278,
-            "name": "Drake Archaeologist's Shawl",
-            "ilevel": 200,
-            "type": "back",
-            "material": "cloth",
-            "stats": [
-                "agi/str/int",
-                "stam",
-                "haste",
-                "crit"
             ],
             "gems": 0,
             "source": "other"
@@ -10499,7 +10463,7 @@
             },
             {
                 "id": 194400,
-                "name": "Reliquary Novice's Vestments",
+                "name": "Expedition Researcher's Vestments",
                 "ilevel": 200,
                 "type": "chest",
                 "material": "cloth",
@@ -10543,6 +10507,21 @@
                 "source": "other"
             },
             {
+                "id": 197994,
+                "name": "Windswept Vestments",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198985,
                 "name": "Drakewatcher's Vestment",
                 "ilevel": 200,
@@ -10554,51 +10533,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201058,
-                "name": "Robes of the Verdant Wing",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201094,
-                "name": "Crimson Aspirant's Silk Tunic",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201126,
-                "name": "Crimson Aspirant's Silk Vest",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "plate": [
@@ -11229,6 +11163,21 @@
                 "source": "other"
             },
             {
+                "id": 198032,
+                "name": "Sleet Shined Chestplate",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199007,
                 "name": "Shorebreaker's Breastplate",
                 "ilevel": 200,
@@ -11240,51 +11189,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201059,
-                "name": "Dreamfire Battleplate",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201095,
-                "name": "Crimson Aspirant's Plate Chestplate",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201127,
-                "name": "Crimson Aspirant's Plate Armor",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -11871,7 +11775,7 @@
             },
             {
                 "id": 194402,
-                "name": "League Mercenary's Hauberk",
+                "name": "Expedition Mercenary's Hauberk",
                 "ilevel": 200,
                 "type": "chest",
                 "material": "mail",
@@ -11941,51 +11845,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201060,
-                "name": "Emerald Scale Chainmail",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201096,
-                "name": "Crimson Aspirant's Chain Vest",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201128,
-                "name": "Crimson Aspirant's Chain Tunic",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -12586,6 +12445,21 @@
                 "source": "other"
             },
             {
+                "id": 198010,
+                "name": "Twisted Leather Vest",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199014,
                 "name": "Isle Trapper's Tunic",
                 "ilevel": 200,
@@ -12597,51 +12471,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201061,
-                "name": "Green Draketracker's Vest",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201097,
-                "name": "Crimson Aspirant's Leather Vest",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201129,
-                "name": "Crimson Aspirant's Leather Tunic",
-                "ilevel": 158,
-                "type": "chest",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ]
     },
@@ -13244,6 +13073,21 @@
                 "source": "other"
             },
             {
+                "id": 198027,
+                "name": "Sleet Shined Stompers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199008,
                 "name": "Shorebreaker's Footguards",
                 "ilevel": 200,
@@ -13255,66 +13099,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 200274,
-                "name": "Spearbreaker Footguards",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201057,
-                "name": "Dreamfire Sabatons",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201098,
-                "name": "Crimson Aspirant's Plate Warboots",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201130,
-                "name": "Crimson Aspirant's Plate Stompers",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -13901,7 +13685,7 @@
             },
             {
                 "id": 194381,
-                "name": "Reliquary Novice's Treads",
+                "name": "Expedition Researcher's Treads",
                 "ilevel": 200,
                 "type": "feet",
                 "material": "cloth",
@@ -13930,6 +13714,21 @@
                 "source": "other"
             },
             {
+                "id": 197995,
+                "name": "Windswept Slippers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198986,
                 "name": "Drakewatcher's Sandals",
                 "ilevel": 200,
@@ -13941,66 +13740,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 200275,
-                "name": "Geyserwalker Sandals",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201086,
-                "name": "Slippers of the Verdant Wing",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201099,
-                "name": "Crimson Aspirant's Silk Treads",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201131,
-                "name": "Crimson Aspirant's Silk Footwraps",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -14692,7 +14431,7 @@
             },
             {
                 "id": 194382,
-                "name": "League Mercenary's Boots",
+                "name": "Expedition Mercenary's Boots",
                 "ilevel": 200,
                 "type": "feet",
                 "material": "mail",
@@ -14747,66 +14486,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 200272,
-                "name": "Keratin-Reinforced Boots",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201087,
-                "name": "Emerald Scale Treads",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201100,
-                "name": "Crimson Aspirant's Chain Sabatons",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201132,
-                "name": "Crimson Aspirant's Chain Stompers",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -15437,6 +15116,21 @@
                 "source": "other"
             },
             {
+                "id": 198012,
+                "name": "Twisted Leather Moccasins",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198992,
                 "name": "Isle Trapper's Treads",
                 "ilevel": 200,
@@ -15448,66 +15142,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 200277,
-                "name": "Embroidered Broadhoof Footwraps",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201088,
-                "name": "Green Draketracker's Boots",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201101,
-                "name": "Crimson Aspirant's Leather Boots",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201133,
-                "name": "Crimson Aspirant's Leather Footpads",
-                "ilevel": 158,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "": [
@@ -16202,6 +15836,21 @@
                 "source": "other"
             },
             {
+                "id": 198014,
+                "name": "Twisted Leather Gloves",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198993,
                 "name": "Isle Trapper's Grips",
                 "ilevel": 200,
@@ -16213,51 +15862,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201062,
-                "name": "Green Draketracker's Mitts",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201102,
-                "name": "Crimson Aspirant's Leather Gloves",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201135,
-                "name": "Crimson Aspirant's Leather Grips",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "plate": [
@@ -16933,6 +16537,21 @@
                 "source": "other"
             },
             {
+                "id": 198031,
+                "name": "Sleet Shined Crushers",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199009,
                 "name": "Shorebreaker's Gauntlets",
                 "ilevel": 200,
@@ -16944,51 +16563,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201063,
-                "name": "Dreamfire Gauntlets",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201103,
-                "name": "Crimson Aspirant's Plate Gauntlets",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201136,
-                "name": "Crimson Aspirant's Plate Handguards",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -17575,7 +17149,7 @@
             },
             {
                 "id": 194345,
-                "name": "Reliquary Novice's Gloves",
+                "name": "Expedition Researcher's Gloves",
                 "ilevel": 200,
                 "type": "hands",
                 "material": "cloth",
@@ -17612,7 +17186,7 @@
                 "stats": [
                     "int",
                     "stam",
-                    "crit",
+                    "mastery",
                     "vers"
                 ],
                 "gems": 0,
@@ -17630,51 +17204,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201064,
-                "name": "Gloves of the Verdant Wing",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201104,
-                "name": "Crimson Aspirant's Silk Gloves",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201137,
-                "name": "Crimson Aspirant's Silk Handwraps",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -18276,7 +17805,7 @@
             },
             {
                 "id": 194346,
-                "name": "League Mercenary's Grips",
+                "name": "Expedition Mercenary's Grips",
                 "ilevel": 200,
                 "type": "hands",
                 "material": "mail",
@@ -18331,51 +17860,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201065,
-                "name": "Emerald Scale Grips",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201105,
-                "name": "Crimson Aspirant's Chain Gauntlets",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201138,
-                "name": "Crimson Aspirant's Chain Handguards",
-                "ilevel": 158,
-                "type": "hands",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ]
     },
@@ -18963,6 +18447,21 @@
                 "source": "other"
             },
             {
+                "id": 198030,
+                "name": "Sleet Shined Legplates",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199010,
                 "name": "Shorebreaker's Legguards",
                 "ilevel": 200,
@@ -18974,51 +18473,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201069,
-                "name": "Dreamfire Legplates",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "crit",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201109,
-                "name": "Crimson Aspirant's Plate Legguards",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201142,
-                "name": "Crimson Aspirant's Plate Wargreaves",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -19605,7 +19059,7 @@
             },
             {
                 "id": 194339,
-                "name": "Reliquary Novice's Pantaloons",
+                "name": "Expedition Researcher's Pantaloons",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "cloth",
@@ -19620,7 +19074,7 @@
             },
             {
                 "id": 194351,
-                "name": "Reliquary Novice's Leggings",
+                "name": "Expedition Researcher's Leggings",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "cloth",
@@ -19649,6 +19103,21 @@
                 "source": "other"
             },
             {
+                "id": 197998,
+                "name": "Windswept Leggings",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198989,
                 "name": "Drakewatcher's Pantaloons",
                 "ilevel": 200,
@@ -19660,51 +19129,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201070,
-                "name": "Leggings of the Verdant Wing",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201110,
-                "name": "Crimson Aspirant's Silk Leggings",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201143,
-                "name": "Crimson Aspirant's Silk Legwraps",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -20306,7 +19730,7 @@
             },
             {
                 "id": 194341,
-                "name": "League Mercenary's Legguards",
+                "name": "Expedition Mercenary's Legguards",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "mail",
@@ -20321,7 +19745,7 @@
             },
             {
                 "id": 194352,
-                "name": "League Mercenary's Leggings",
+                "name": "Expedition Mercenary's Leggings",
                 "ilevel": 200,
                 "type": "legs",
                 "material": "mail",
@@ -20376,66 +19800,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 200212,
-                "name": "Sand-Encrusted Greaves",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201071,
-                "name": "Emerald Scale Legguards",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201111,
-                "name": "Crimson Aspirant's Chain Leggings",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201144,
-                "name": "Crimson Aspirant's Chain Wargreaves",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -21036,6 +20400,21 @@
                 "source": "other"
             },
             {
+                "id": 198015,
+                "name": "Twisted Leather Breeches",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198995,
                 "name": "Isle Trapper's Breeches",
                 "ilevel": 200,
@@ -21047,51 +20426,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201072,
-                "name": "Green Draketracker's Britches",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201112,
-                "name": "Crimson Aspirant's Leather Breeches",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201145,
-                "name": "Crimson Aspirant's Leather Leggings",
-                "ilevel": 158,
-                "type": "legs",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "": [
@@ -21711,6 +21045,21 @@
                 "source": "other"
             },
             {
+                "id": 198011,
+                "name": "Twisted Leather Spaulders",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199015,
                 "name": "Isle Trapper's Epaulets",
                 "ilevel": 200,
@@ -21722,51 +21071,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201073,
-                "name": "Green Draketracker's Shoulderpads",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201113,
-                "name": "Crimson Aspirant's Leather Spaulders",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201146,
-                "name": "Crimson Aspirant's Leather Mantle",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "plate": [
@@ -22352,6 +21656,21 @@
                 "source": "other"
             },
             {
+                "id": 198029,
+                "name": "Sleet Shined Shoulderguards",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199011,
                 "name": "Shorebreaker's Pauldrons",
                 "ilevel": 200,
@@ -22363,51 +21682,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201074,
-                "name": "Dreamfire Pauldrons",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201114,
-                "name": "Crimson Aspirant's Plate Shoulders",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201147,
-                "name": "Crimson Aspirant's Plate Pauldrons",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -23009,7 +22283,7 @@
             },
             {
                 "id": 194356,
-                "name": "Reliquary Novice's Mantle",
+                "name": "Expedition Researcher's Mantle",
                 "ilevel": 200,
                 "type": "shoulders",
                 "material": "cloth",
@@ -23038,6 +22312,21 @@
                 "source": "other"
             },
             {
+                "id": 197997,
+                "name": "Windswept Mantle",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199016,
                 "name": "Drakewatcher's Shoulderpads",
                 "ilevel": 200,
@@ -23049,51 +22338,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201075,
-                "name": "Mantle of the Verdant Wing",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201115,
-                "name": "Crimson Aspirant's Silk Mantle",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201148,
-                "name": "Crimson Aspirant's Silk Shawl",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -23680,7 +22924,7 @@
             },
             {
                 "id": 194357,
-                "name": "League Mercenary's Monnion",
+                "name": "Expedition Mercenary's Monnion",
                 "ilevel": 200,
                 "type": "shoulders",
                 "material": "mail",
@@ -23735,51 +22979,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201076,
-                "name": "Emerald Scale Spaulders",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201116,
-                "name": "Crimson Aspirant's Chain Spaulders",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201149,
-                "name": "Crimson Aspirant's Chain Shoulderguards",
-                "ilevel": 158,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ]
     },
@@ -24427,6 +23626,21 @@
                 "source": "other"
             },
             {
+                "id": 198026,
+                "name": "Sleet Shined Waistguard",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 199012,
                 "name": "Shorebreaker's Cincture",
                 "ilevel": 200,
@@ -24438,51 +23652,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201077,
-                "name": "Dreamfire Buckle",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201117,
-                "name": "Crimson Aspirant's Plate Girdle",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201150,
-                "name": "Crimson Aspirant's Plate Greatbelt",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "cloth": [
@@ -25099,7 +24268,7 @@
             },
             {
                 "id": 194359,
-                "name": "Reliquary Novice's Sash",
+                "name": "Expedition Researcher's Sash",
                 "ilevel": 200,
                 "type": "waist",
                 "material": "cloth",
@@ -25158,6 +24327,21 @@
                 "source": "other"
             },
             {
+                "id": 197996,
+                "name": "Windswept Sash",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198990,
                 "name": "Drakewatcher's Cord",
                 "ilevel": 200,
@@ -25169,51 +24353,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201078,
-                "name": "Cord of the Verdant Wing",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201118,
-                "name": "Crimson Aspirant's Silk Cord",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201151,
-                "name": "Crimson Aspirant's Silk Belt",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "mail": [
@@ -25890,7 +25029,7 @@
             },
             {
                 "id": 194360,
-                "name": "League Mercenary's Belt",
+                "name": "Expedition Mercenary's Belt",
                 "ilevel": 200,
                 "type": "waist",
                 "material": "mail",
@@ -25958,7 +25097,7 @@
                     "agi/int",
                     "stam",
                     "mastery",
-                    "haste"
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -25975,51 +25114,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201079,
-                "name": "Emerald Scale Loop",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201119,
-                "name": "Crimson Aspirant's Chain Belt",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201152,
-                "name": "Crimson Aspirant's Chain Clasp",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -26636,7 +25730,7 @@
             },
             {
                 "id": 194410,
-                "name": "Cinch of the Red Defenders",
+                "name": "Cinch of the Ruby Defenders",
                 "ilevel": 200,
                 "type": "waist",
                 "material": "leather",
@@ -26680,6 +25774,21 @@
                 "source": "other"
             },
             {
+                "id": 198017,
+                "name": "Twisted Leather Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198996,
                 "name": "Isle Trapper's Belt",
                 "ilevel": 200,
@@ -26691,51 +25800,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201080,
-                "name": "Green Draketracker's Belt",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201120,
-                "name": "Crimson Aspirant's Leather Belt",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201153,
-                "name": "Crimson Aspirant's Leather Cord",
-                "ilevel": 158,
-                "type": "waist",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ]
     },
@@ -27839,6 +26903,20 @@
             "source": "other"
         },
         {
+            "id": 197988,
+            "name": "Frozen Shard Ring",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
             "id": 197989,
             "name": "Water Ordained Signet",
             "ilevel": 200,
@@ -28510,7 +27588,7 @@
             },
             {
                 "id": 194362,
-                "name": "Reliquary Novice's Wraps",
+                "name": "Expedition Researcher's Wraps",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "cloth",
@@ -28525,7 +27603,7 @@
             },
             {
                 "id": 194411,
-                "name": "Reliquary Novice's Binders",
+                "name": "Expedition Researcher's Binders",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "cloth",
@@ -28569,6 +27647,21 @@
                 "source": "other"
             },
             {
+                "id": 197993,
+                "name": "Windswept Wraps",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198991,
                 "name": "Drakewatcher's Wristwraps",
                 "ilevel": 200,
@@ -28580,51 +27673,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201081,
-                "name": "Wraps of the Verdant Wing",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201121,
-                "name": "Crimson Aspirant's Silk Wristwraps",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201154,
-                "name": "Crimson Aspirant's Silk Bindings",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "plate": [
@@ -29240,21 +28288,8 @@
                 "source": "other"
             },
             {
-                "id": 199013,
-                "name": "Shorebreaker's Armplates",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201082,
-                "name": "Dreamfire Wristguards",
+                "id": 198033,
+                "name": "Sleet Shined Armguards",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "plate",
@@ -29268,34 +28303,17 @@
                 "source": "other"
             },
             {
-                "id": 201122,
-                "name": "Crimson Aspirant's Plate Cuffs",
-                "ilevel": 158,
+                "id": 199013,
+                "name": "Shorebreaker's Armplates",
+                "ilevel": 200,
                 "type": "wrists",
                 "material": "plate",
                 "stats": [
                     "str/int",
-                    "stam",
-                    "vers",
-                    "crit"
+                    "stam"
                 ],
                 "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201155,
-                "name": "Crimson Aspirant's Plate Armguards",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
+                "source": "other"
             }
         ],
         "mail": [
@@ -29957,7 +28975,7 @@
             },
             {
                 "id": 194364,
-                "name": "League Mercenary's Bracers",
+                "name": "Expedition Mercenary's Bracers",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "mail",
@@ -29972,7 +28990,7 @@
             },
             {
                 "id": 194413,
-                "name": "League Mercenary's Wristwraps",
+                "name": "Expedition Mercenary's Wristwraps",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "mail",
@@ -29994,8 +29012,8 @@
                 "stats": [
                     "agi/int",
                     "stam",
-                    "haste",
-                    "vers"
+                    "vers",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -30025,7 +29043,7 @@
                     "agi/int",
                     "stam",
                     "crit",
-                    "mastery"
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -30042,51 +29060,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201083,
-                "name": "Emerald Scale Armguards",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201123,
-                "name": "Crimson Aspirant's Chain Wristwraps",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201156,
-                "name": "Crimson Aspirant's Chain Bracer",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ],
         "leather": [
@@ -30732,6 +29705,21 @@
                 "source": "other"
             },
             {
+                "id": 198016,
+                "name": "Twisted Leather Bindings",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
                 "id": 198997,
                 "name": "Isle Trapper's Bindings",
                 "ilevel": 200,
@@ -30743,51 +29731,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 201084,
-                "name": "Green Draketracker's Bracers",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 201124,
-                "name": "Crimson Aspirant's Leather Wristwraps",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 201157,
-                "name": "Crimson Aspirant's Leather Armguards",
-                "ilevel": 158,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
             }
         ]
     },
@@ -31558,7 +30501,21 @@
             "stats": [
                 "stam",
                 "vers",
-                "mastery"
+                "haste"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 198671,
+            "name": "Mystic's String of Slime",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "vers"
             ],
             "gems": 0,
             "source": "other"
@@ -31571,20 +30528,6 @@
             "material": "",
             "stats": [
                 "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 200251,
-            "name": "Medallion of the Ancestors",
-            "ilevel": 200,
-            "type": "neck",
-            "material": "",
-            "stats": [
-                "stam",
-                "mastery",
-                "vers"
             ],
             "gems": 0,
             "source": "other"
@@ -31854,8 +30797,23 @@
                 "stats": [
                     "agi",
                     "stam",
-                    "mastery",
-                    "vers"
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198035,
+                "name": "Archer's Decorated Bow",
+                "ilevel": 200,
+                "type": "ranged",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -33163,8 +32121,8 @@
                 "material": "",
                 "stats": [
                     "stam",
-                    "vers",
-                    "crit"
+                    "crit",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -33178,8 +32136,22 @@
                 "stats": [
                     "agi",
                     "stam",
-                    "crit",
-                    "vers"
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198002,
+                "name": "Draconic Compendium",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -35233,6 +34205,36 @@
                     "stam",
                     "haste",
                     "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198007,
+                "name": "Large Brass Cleaver",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "str",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198008,
+                "name": "Shined Iron Polearm",
+                "ilevel": 200,
+                "type": "2hweapon",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
