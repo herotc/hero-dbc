@@ -5222,7 +5222,7 @@
             },
             {
                 "id": 194389,
-                "name": "Brush Clearing Axe",
+                "name": "Brush-Clearing Axe",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -5645,7 +5645,7 @@
             },
             {
                 "id": 199038,
-                "name": "Rune Carving Knife",
+                "name": "Runecarving Knife",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -5671,7 +5671,7 @@
             },
             {
                 "id": 199043,
-                "name": "Skull Splitting Axe",
+                "name": "Skullsplitting Axe",
                 "ilevel": 200,
                 "type": "weapon",
                 "material": "",
@@ -6251,7 +6251,7 @@
             },
             {
                 "id": 199032,
-                "name": "Drake Scale Shield",
+                "name": "Drakescale Shield",
                 "ilevel": 200,
                 "type": "shield",
                 "material": "plate",
@@ -29050,7 +29050,7 @@
             },
             {
                 "id": 199005,
-                "name": "Horn Strider's Bracers",
+                "name": "Hornstrider's Bracers",
                 "ilevel": 200,
                 "type": "wrists",
                 "material": "mail",
@@ -32158,7 +32158,7 @@
             },
             {
                 "id": 199020,
-                "name": "Drake Racing Starter Pistol",
+                "name": "Drake Race Starting Rifle",
                 "ilevel": 200,
                 "type": "",
                 "material": "",
@@ -33640,81 +33640,6 @@
                 "source": "other"
             },
             {
-                "id": 189555,
-                "name": "10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Brown",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189556,
-                "name": "10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Green",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189557,
-                "name": "10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Gray",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189558,
-                "name": "10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Dark",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189559,
-                "name": "10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Light",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189564,
                 "name": "Cosmic Gladiator's Greatsword",
                 "ilevel": 200,
@@ -34106,7 +34031,7 @@
             },
             {
                 "id": 194397,
-                "name": "Darkscale Twinblade Polearm",
+                "name": "Darkscale Twinblade",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "",
@@ -34271,7 +34196,7 @@
             },
             {
                 "id": 199027,
-                "name": "Drake Slayer's Greatsword",
+                "name": "Drakeslayer's Greatsword",
                 "ilevel": 200,
                 "type": "2hweapon",
                 "material": "",
