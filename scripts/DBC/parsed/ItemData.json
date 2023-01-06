@@ -1,4 +1,1412 @@
 {
+    "": {
+        "": [
+            {
+                "id": 38682,
+                "name": "Enchanting Vellum",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 177866,
+                "name": "Sinful Gladiator's Chalice",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 178478,
+                "name": "Sinful Aspirant's Orb",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 178735,
+                "name": "Blight Belcher",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "dungeon"
+            },
+            {
+                "id": 178828,
+                "name": "Nathrian Tabernacle",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "dungeon"
+            },
+            {
+                "id": 178852,
+                "name": "Vessel of Shining Radiance",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "dungeon"
+            },
+            {
+                "id": 178868,
+                "name": "Deathwalker's Promise",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "dungeon"
+            },
+            {
+                "id": 179348,
+                "name": "Xy Cartel Crossbow",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "dungeon"
+            },
+            {
+                "id": 179569,
+                "name": "Sinful Gladiator's Lyre",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 180019,
+                "name": "Sinful Gladiator's Wand",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 182411,
+                "name": "Sinful Gladiator's Repeating Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 182413,
+                "name": "Sinful Gladiator's Spell Foci",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 183439,
+                "name": "Sinful Gladiator's Crystal",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 183445,
+                "name": "Sinful Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 183888,
+                "name": "Apogee Anima Bead",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 183889,
+                "name": "Thaumaturgic Anima Bead",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 183890,
+                "name": "Zenith Anima Spherule",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 183891,
+                "name": "Venerated Anima Spherule",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 183892,
+                "name": "Mystic Anima Spherule",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 183893,
+                "name": "Abominable Anima Spherule",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "castle_nathria"
+            },
+            {
+                "id": 184869,
+                "name": "Cache of Nathrian Treasures",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 185203,
+                "name": "Unchained Gladiator's Chalice",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 185292,
+                "name": "Unchained Aspirant's Orb",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 185888,
+                "name": "Korthian Caretaker's Orb",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186013,
+                "name": "Vessel of Primordial Death",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186140,
+                "name": "Mawsworn Darkcaster's Orb",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186413,
+                "name": "Directional Meltdown Projector",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186418,
+                "name": "Guarm's Lost Chew Toy",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186419,
+                "name": "Record of Collapsing Realities",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186531,
+                "name": "Cache of Sanctum Treasures",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 186759,
+                "name": "Korthian Anima Vessel",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186778,
+                "name": "Cosmic Gladiator's Chalice",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186863,
+                "name": "Cosmic Gladiator's Ballista",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186956,
+                "name": "Cosmic Aspirant's Orb",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 187187,
+                "name": "Korthian Armaments",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 187360,
+                "name": "Orb of Enveloping Rifts",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188039,
+                "name": "Harmonic Actuator",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 188040,
+                "name": "Burnished Arbalest",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 188153,
+                "name": "Korthian Cloak",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188154,
+                "name": "Korthian Chestpiece",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188155,
+                "name": "Korthian Boots",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188156,
+                "name": "Korthian Accessory",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188157,
+                "name": "Korthian Gloves",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188158,
+                "name": "Korthian Helm",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188159,
+                "name": "Korthian Legguards",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188160,
+                "name": "Korthian Shoulders",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188161,
+                "name": "Korthian Belt",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188162,
+                "name": "Korthian Weaponry",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188163,
+                "name": "Korthian Bracers",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 188666,
+                "name": "Unchained Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189104,
+                "name": "10.0 QRP Template <Descriptor> Offhand",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189107,
+                "name": "10.0 QRP Template <Descriptor> Gun",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189128,
+                "name": "10.0 QRP Template <Descriptor> Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189140,
+                "name": "10.0 QRP Template <Descriptor> Wand",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189334,
+                "name": "10.0 Zone Uncommon Template <Descriptor> Offhand",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189337,
+                "name": "10.0 Zone Uncommon Template <Descriptor> Gun",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189347,
+                "name": "10.0 Zone Uncommon Template <Descriptor> Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189359,
+                "name": "10.0 Zone Uncommon Template <Descriptor> Wand",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189563,
+                "name": "Cosmic Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 189781,
+                "name": "Obscured Fractal Prism",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit",
+                    "int"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 189790,
+                "name": "Final Forte",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 189828,
+                "name": "Xy Captain's Crossbow",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 189853,
+                "name": "Astral Verdict",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 189860,
+                "name": "Forbidden Truth",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "mastery",
+                    "int"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190741,
+                "name": "Broker's Weaponry",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190755,
+                "name": "Broker's Shoulders",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190756,
+                "name": "Broker's Legguards",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190757,
+                "name": "Broker's Helm",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190758,
+                "name": "Broker's Gloves",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190759,
+                "name": "Broker's Cloak",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190760,
+                "name": "Broker's Chestpiece",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190761,
+                "name": "Broker's Bracers",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190762,
+                "name": "Broker's Boots",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190763,
+                "name": "Broker's Belt",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190764,
+                "name": "Broker's Ring",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 190823,
+                "name": "Firim's Mysterious Cache",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191002,
+                "name": "Mystic Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191003,
+                "name": "Venerated Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191004,
+                "name": "Zenith Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191005,
+                "name": "Dreadful Helm Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191006,
+                "name": "Dreadful Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191007,
+                "name": "Mystic Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191008,
+                "name": "Venerated Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191009,
+                "name": "Zenith Shoulder Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191010,
+                "name": "Dreadful Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191011,
+                "name": "Mystic Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191012,
+                "name": "Venerated Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191013,
+                "name": "Zenith Chest Module",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191014,
+                "name": "Dreadful Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191015,
+                "name": "Mystic Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191016,
+                "name": "Venerated Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191017,
+                "name": "Zenith Hand Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191018,
+                "name": "Dreadful Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191019,
+                "name": "Mystic Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191020,
+                "name": "Venerated Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191021,
+                "name": "Zenith Leg Module",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191036,
+                "name": "Broker's Accessory",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 191037,
+                "name": "Broker's Braid",
+                "ilevel": 226,
+                "type": "",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192207,
+                "name": "Eternal Gladiator's Chalice",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192292,
+                "name": "Eternal Gladiator's Ballista",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192307,
+                "name": "Eternal Gladiator's Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 192402,
+                "name": "Eternal Aspirant's Orb",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "pvp"
+            },
+            {
+                "id": 192422,
+                "name": "Harmonium Lantern",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 192423,
+                "name": "Serenading Arbalest",
+                "ilevel": 233,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            },
+            {
+                "id": 194372,
+                "name": "Vault Guardian's Missive",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 194374,
+                "name": "Explorer's League Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 194387,
+                "name": "Obsidian Watcher's Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 197675,
+                "name": "Code of the Maruuk",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "crit",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 197693,
+                "name": "Shikaar Hunter's Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 198002,
+                "name": "Draconic Compendium",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199020,
+                "name": "Drake Race Starting Rifle",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199033,
+                "name": "Drakewatcher's Scriptures",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199042,
+                "name": "Hornstrider's Crossbow",
+                "ilevel": 200,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "agi",
+                    "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            }
+        ],
+        "cloth": [
+            {
+                "id": 184316,
+                "name": "Cache of Nathrian Treasures",
+                "ilevel": 200,
+                "type": "",
+                "material": "cloth",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 186530,
+                "name": "Cache of Sanctum Treasures",
+                "ilevel": 226,
+                "type": "",
+                "material": "cloth",
+                "stats": [],
+                "gems": 0,
+                "source": "sanctum_of_domination"
+            }
+        ]
+    },
     "trinket": [
         {
             "id": 173069,
@@ -30817,1404 +32225,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            }
-        ]
-    },
-    "": {
-        "": [
-            {
-                "id": 177866,
-                "name": "Sinful Gladiator's Chalice",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 178478,
-                "name": "Sinful Aspirant's Orb",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 178735,
-                "name": "Blight Belcher",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "dungeon"
-            },
-            {
-                "id": 178828,
-                "name": "Nathrian Tabernacle",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "dungeon"
-            },
-            {
-                "id": 178852,
-                "name": "Vessel of Shining Radiance",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "dungeon"
-            },
-            {
-                "id": 178868,
-                "name": "Deathwalker's Promise",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "dungeon"
-            },
-            {
-                "id": 179348,
-                "name": "Xy Cartel Crossbow",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "dungeon"
-            },
-            {
-                "id": 179569,
-                "name": "Sinful Gladiator's Lyre",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 180019,
-                "name": "Sinful Gladiator's Wand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 182411,
-                "name": "Sinful Gladiator's Repeating Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 182413,
-                "name": "Sinful Gladiator's Spell Foci",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 183439,
-                "name": "Sinful Gladiator's Crystal",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 183445,
-                "name": "Sinful Gladiator's Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 183888,
-                "name": "Apogee Anima Bead",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 183889,
-                "name": "Thaumaturgic Anima Bead",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 183890,
-                "name": "Zenith Anima Spherule",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 183891,
-                "name": "Venerated Anima Spherule",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 183892,
-                "name": "Mystic Anima Spherule",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 183893,
-                "name": "Abominable Anima Spherule",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "castle_nathria"
-            },
-            {
-                "id": 184869,
-                "name": "Cache of Nathrian Treasures",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 185203,
-                "name": "Unchained Gladiator's Chalice",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 185292,
-                "name": "Unchained Aspirant's Orb",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 185888,
-                "name": "Korthian Caretaker's Orb",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186013,
-                "name": "Vessel of Primordial Death",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186140,
-                "name": "Mawsworn Darkcaster's Orb",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186413,
-                "name": "Directional Meltdown Projector",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 186418,
-                "name": "Guarm's Lost Chew Toy",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 186419,
-                "name": "Record of Collapsing Realities",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 186531,
-                "name": "Cache of Sanctum Treasures",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 186759,
-                "name": "Korthian Anima Vessel",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186778,
-                "name": "Cosmic Gladiator's Chalice",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186863,
-                "name": "Cosmic Gladiator's Ballista",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186956,
-                "name": "Cosmic Aspirant's Orb",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 187187,
-                "name": "Korthian Armaments",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 187360,
-                "name": "Orb of Enveloping Rifts",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188039,
-                "name": "Harmonic Actuator",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 188040,
-                "name": "Burnished Arbalest",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 188153,
-                "name": "Korthian Cloak",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188154,
-                "name": "Korthian Chestpiece",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188155,
-                "name": "Korthian Boots",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188156,
-                "name": "Korthian Accessory",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188157,
-                "name": "Korthian Gloves",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188158,
-                "name": "Korthian Helm",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188159,
-                "name": "Korthian Legguards",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188160,
-                "name": "Korthian Shoulders",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188161,
-                "name": "Korthian Belt",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188162,
-                "name": "Korthian Weaponry",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188163,
-                "name": "Korthian Bracers",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 188666,
-                "name": "Unchained Gladiator's Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189104,
-                "name": "10.0 QRP Template <Descriptor> Offhand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189107,
-                "name": "10.0 QRP Template <Descriptor> Gun",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189128,
-                "name": "10.0 QRP Template <Descriptor> Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189140,
-                "name": "10.0 QRP Template <Descriptor> Wand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189334,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Offhand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189337,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Gun",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189347,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189359,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Wand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189563,
-                "name": "Cosmic Gladiator's Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189781,
-                "name": "Obscured Fractal Prism",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit",
-                    "int"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 189790,
-                "name": "Final Forte",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 189828,
-                "name": "Xy Captain's Crossbow",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 189853,
-                "name": "Astral Verdict",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 189860,
-                "name": "Forbidden Truth",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "haste",
-                    "mastery",
-                    "int"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190741,
-                "name": "Broker's Weaponry",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190755,
-                "name": "Broker's Shoulders",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190756,
-                "name": "Broker's Legguards",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190757,
-                "name": "Broker's Helm",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190758,
-                "name": "Broker's Gloves",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190759,
-                "name": "Broker's Cloak",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190760,
-                "name": "Broker's Chestpiece",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190761,
-                "name": "Broker's Bracers",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190762,
-                "name": "Broker's Boots",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190763,
-                "name": "Broker's Belt",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190764,
-                "name": "Broker's Ring",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 190823,
-                "name": "Firim's Mysterious Cache",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191002,
-                "name": "Mystic Helm Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191003,
-                "name": "Venerated Helm Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191004,
-                "name": "Zenith Helm Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191005,
-                "name": "Dreadful Helm Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191006,
-                "name": "Dreadful Shoulder Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191007,
-                "name": "Mystic Shoulder Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191008,
-                "name": "Venerated Shoulder Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191009,
-                "name": "Zenith Shoulder Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191010,
-                "name": "Dreadful Chest Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191011,
-                "name": "Mystic Chest Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191012,
-                "name": "Venerated Chest Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191013,
-                "name": "Zenith Chest Module",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191014,
-                "name": "Dreadful Hand Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191015,
-                "name": "Mystic Hand Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191016,
-                "name": "Venerated Hand Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191017,
-                "name": "Zenith Hand Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191018,
-                "name": "Dreadful Leg Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191019,
-                "name": "Mystic Leg Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191020,
-                "name": "Venerated Leg Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191021,
-                "name": "Zenith Leg Module",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191036,
-                "name": "Broker's Accessory",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 191037,
-                "name": "Broker's Braid",
-                "ilevel": 226,
-                "type": "",
-                "material": "",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 192207,
-                "name": "Eternal Gladiator's Chalice",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 192292,
-                "name": "Eternal Gladiator's Ballista",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 192307,
-                "name": "Eternal Gladiator's Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 192402,
-                "name": "Eternal Aspirant's Orb",
-                "ilevel": 158,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "pvp"
-            },
-            {
-                "id": 192422,
-                "name": "Harmonium Lantern",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 192423,
-                "name": "Serenading Arbalest",
-                "ilevel": 233,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "sanctum_of_domination"
-            },
-            {
-                "id": 194372,
-                "name": "Vault Guardian's Missive",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 194374,
-                "name": "Explorer's League Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 194387,
-                "name": "Obsidian Watcher's Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 197675,
-                "name": "Code of the Maruuk",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 197693,
-                "name": "Shikaar Hunter's Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 198002,
-                "name": "Draconic Compendium",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 199020,
-                "name": "Drake Race Starting Rifle",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 199033,
-                "name": "Drakewatcher's Scriptures",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 199042,
-                "name": "Hornstrider's Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            }
-        ],
-        "cloth": [
-            {
-                "id": 184316,
-                "name": "Cache of Nathrian Treasures",
-                "ilevel": 200,
-                "type": "",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 186530,
-                "name": "Cache of Sanctum Treasures",
-                "ilevel": 226,
-                "type": "",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "sanctum_of_domination"
             }
         ]
     },
