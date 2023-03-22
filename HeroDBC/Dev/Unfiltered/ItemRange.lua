@@ -1,4 +1,4 @@
--- Generated using WoW 10.0.5.48001 client data on 2023-02-09T23:10:00.337893.
+-- Generated using WoW 10.0.7.48676 client data on 2023-03-22T08:46:56.694845.
 -- { [Type] = { [Range] = { [1] = ItemID, [2] = ItemId, [3] = ... } } }
 HeroDBC.DBC.ItemRangeUnfiltered = {
   Melee = {
@@ -72,7 +72,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       3130,
       3131,
       3158,
-      3257,
       5278,
       5598,
       5605,
@@ -202,6 +201,8 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       170983,
       171083,
       171186,
+      172570,
+      173503,
     },
     [8] = {
       118001,
@@ -869,6 +870,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       113744,
       113829,
       114000,
+      114368,
       114369,
       115072,
       115094,
@@ -988,6 +990,9 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       171025,
       171091,
       171188,
+      172884,
+      173928,
+      174175,
     },
     [6] = {
       7733,
@@ -1365,7 +1370,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       19898,
       19956,
       19957,
-      19966,
       19980,
       20158,
       20235,
@@ -1584,7 +1588,10 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       172032,
       172034,
       172383,
+      172883,
       173161,
+      173449,
+      173499,
     },
     [12] = {
       29993,
@@ -1895,6 +1902,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       171139,
       171456,
       172276,
+      173325,
     },
     [18] = {
       32285,
@@ -1935,7 +1943,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       2697,
       2747,
       2801,
-      3255,
       3411,
       3490,
       3644,
@@ -2294,6 +2301,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       170231,
       171183,
       172604,
+      173501,
     },
     [22] = {
       139492,
@@ -2511,7 +2519,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       3036,
       3040,
       3159,
-      3256,
       3339,
       3551,
       3577,
@@ -2984,7 +2991,9 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       171196,
       171201,
       171269,
+      172555,
       172727,
+      173502,
     },
     [35] = {
       121,
@@ -3575,7 +3584,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       166082,
       166298,
       166316,
-      166356,
       166724,
       166868,
       167071,
@@ -3617,6 +3625,10 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       172042,
       172126,
       172367,
+      173428,
+      173442,
+      173452,
+      173854,
     },
     [45] = {
       379,
@@ -3803,6 +3815,8 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       109182,
       138397,
       138511,
+      172704,
+      173453,
     },
     [75] = {
       138451,
@@ -4162,6 +4176,8 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       171336,
       171604,
       172336,
+      172557,
+      173797,
     },
   },
 }
