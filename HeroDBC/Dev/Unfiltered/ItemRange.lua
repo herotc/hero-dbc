@@ -1,4 +1,4 @@
--- Generated using WoW 10.1.5.51130 client data on 2023-09-02T14:51:52.007518.
+-- Generated using WoW 10.1.7.51187 client data on 2023-09-05T15:14:17.229497.
 -- { [Type] = { [Range] = { [1] = ItemID, [2] = ItemId, [3] = ... } } }
 HeroDBC.DBC.ItemRangeUnfiltered = {
   Melee = {
@@ -907,7 +907,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       116919,
       116942,
       117100,
-      117166,
       117188,
       117338,
       117494,
@@ -1939,6 +1938,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       173325,
       174426,
       178625,
+      180062,
     },
     [18] = {
       32285,
@@ -4097,7 +4097,6 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       31914,
       32254,
       32373,
-      32574,
       32575,
       32903,
       33021,
@@ -4279,6 +4278,7 @@ HeroDBC.DBC.ItemRangeUnfiltered = {
       179447,
       179497,
       179514,
+      179642,
     },
   },
 }
