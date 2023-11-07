@@ -1742,5 +1742,10 @@
         "covenantId": 20,
         "covenantName": "Loamm Niffen",
         "soulbinds": []
+    },
+    {
+        "covenantId": 21,
+        "covenantName": "Dream Wardens",
+        "soulbinds": []
     }
 ]
