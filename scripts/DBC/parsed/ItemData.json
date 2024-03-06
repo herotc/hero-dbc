@@ -7128,6 +7128,30 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201934,
+                "name": "Nokhud Whittling Knife",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 202692,
+                "name": "Gnoll Fiend Flail",
+                "ilevel": 200,
+                "type": "weapon",
+                "material": "",
+                "stats": [
+                    "agi/str",
+                    "stam",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ]
     },
@@ -8282,6 +8306,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201085,
+                "name": "Dreamfire Helm",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "cloth": [
@@ -8920,6 +8959,21 @@
                 "stats": [
                     "int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201066,
+                "name": "Hood of the Verdant Wing",
+                "ilevel": 200,
+                "type": "head",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -9669,6 +9723,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201067,
+                "name": "Emerald Scale Coif",
+                "ilevel": 200,
+                "type": "head",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -10337,6 +10406,21 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201068,
+                "name": "Green Draketracker's Cowl",
+                "ilevel": 200,
+                "type": "head",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -11254,6 +11338,51 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 200278,
+            "name": "Drake Archaeologist's Shawl",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "haste",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 201295,
+            "name": "Neelo's Spare Blanket",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "mastery",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 202201,
+            "name": "Tuskarr Spirit Shawl",
+            "ilevel": 200,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
         }
     ],
     "chest": {
@@ -11941,6 +12070,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201058,
+                "name": "Robes of the Verdant Wing",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "plate": [
@@ -12594,6 +12738,21 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201059,
+                "name": "Dreamfire Battleplate",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -13253,6 +13412,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201060,
+                "name": "Emerald Scale Chainmail",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -13876,6 +14050,21 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201061,
+                "name": "Green Draketracker's Vest",
+                "ilevel": 200,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -14504,6 +14693,51 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199828,
+                "name": "Tuskarr Feet Buckets",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 200274,
+                "name": "Spearbreaker Footguards",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201057,
+                "name": "Dreamfire Sabatons",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -15145,6 +15379,51 @@
                 "stats": [
                     "int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199826,
+                "name": "Tuskarr Puddle Steppers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 200275,
+                "name": "Geyserwalker Sandals",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201086,
+                "name": "Slippers of the Verdant Wing",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -15894,6 +16173,51 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 199829,
+                "name": "Tuskarr Wading Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 200272,
+                "name": "Keratin-Reinforced Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201087,
+                "name": "Emerald Scale Treads",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -16547,6 +16871,51 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 199827,
+                "name": "Tuskarr Water Kickers",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 200277,
+                "name": "Embroidered Broadhoof Footwraps",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201088,
+                "name": "Green Draketracker's Boots",
+                "ilevel": 200,
+                "type": "feet",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -17270,6 +17639,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201062,
+                "name": "Green Draketracker's Mitts",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "plate": [
@@ -17971,6 +18355,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201063,
+                "name": "Dreamfire Gauntlets",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "cloth": [
@@ -18609,6 +19008,21 @@
                 "stats": [
                     "int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201064,
+                "name": "Gloves of the Verdant Wing",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -19268,6 +19682,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201065,
+                "name": "Emerald Scale Grips",
+                "ilevel": 200,
+                "type": "hands",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ]
     },
@@ -19878,6 +20307,21 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201069,
+                "name": "Dreamfire Legplates",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "crit",
+                    "vers"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -20534,6 +20978,21 @@
                 "stats": [
                     "int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201070,
+                "name": "Leggings of the Verdant Wing",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -21208,6 +21667,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 200212,
+                "name": "Sand-Encrusted Greaves",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201071,
+                "name": "Emerald Scale Legguards",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -21831,6 +22320,21 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201072,
+                "name": "Green Draketracker's Britches",
+                "ilevel": 200,
+                "type": "legs",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -22479,6 +22983,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201073,
+                "name": "Green Draketracker's Shoulderpads",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "plate": [
@@ -23087,6 +23606,21 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201074,
+                "name": "Dreamfire Pauldrons",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -23746,6 +24280,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201075,
+                "name": "Mantle of the Verdant Wing",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "mail": [
@@ -24384,6 +24933,21 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201076,
+                "name": "Emerald Scale Spaulders",
+                "ilevel": 200,
+                "type": "shoulders",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -25057,6 +25621,36 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201077,
+                "name": "Dreamfire Buckle",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201293,
+                "name": "Sleet Shined Waistguard",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "vers",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -25758,6 +26352,36 @@
                 "stats": [
                     "int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201078,
+                "name": "Cord of the Verdant Wing",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "vers",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201290,
+                "name": "Windswept Sash",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "crit",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -26522,6 +27146,36 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201079,
+                "name": "Emerald Scale Loop",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201292,
+                "name": "Bramble Chain Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -27205,6 +27859,36 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201080,
+                "name": "Green Draketracker's Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "crit",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201291,
+                "name": "Twisted Leather Belt",
+                "ilevel": 200,
+                "type": "waist",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "crit"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -28349,6 +29033,48 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 201294,
+            "name": "Salt Crystal Ring",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 202198,
+            "name": "Salt Crystal Ring",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "haste",
+                "vers"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 202199,
+            "name": "Frozen Shard Ring",
+            "ilevel": 200,
+            "type": "finger",
+            "material": "",
+            "stats": [
+                "stam",
+                "mastery",
+                "crit"
+            ],
+            "gems": 0,
+            "source": "other"
         }
     ],
     "wrists": {
@@ -29081,6 +29807,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201081,
+                "name": "Wraps of the Verdant Wing",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "plate": [
@@ -29719,6 +30460,21 @@
                 "stats": [
                     "str/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201082,
+                "name": "Dreamfire Wristguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "mastery",
+                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -30468,6 +31224,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 201083,
+                "name": "Emerald Scale Armguards",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "mail",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "haste",
+                    "vers"
+                ],
+                "gems": 0,
+                "source": "other"
             }
         ],
         "leather": [
@@ -31136,6 +31907,21 @@
                 "stats": [
                     "agi/int",
                     "stam"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 201084,
+                "name": "Green Draketracker's Bracers",
+                "ilevel": 200,
+                "type": "wrists",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "vers",
+                    "mastery"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -31936,6 +32722,34 @@
             "material": "",
             "stats": [
                 "stam"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 200251,
+            "name": "Medallion of the Ancestors",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "mastery",
+                "vers"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 202200,
+            "name": "Solemn Seashell String",
+            "ilevel": 200,
+            "type": "neck",
+            "material": "",
+            "stats": [
+                "stam",
+                "crit",
+                "mastery"
             ],
             "gems": 0,
             "source": "other"
