@@ -625,124 +625,6 @@
                 "source": "other"
             },
             {
-                "id": 189104,
-                "name": "10.0 QRP Template <Descriptor> Offhand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189107,
-                "name": "10.0 QRP Template <Descriptor> Gun",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189128,
-                "name": "10.0 QRP Template <Descriptor> Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189140,
-                "name": "10.0 QRP Template <Descriptor> Wand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189334,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Offhand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189337,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Gun",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189347,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Crossbow",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189359,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Wand",
-                "ilevel": 200,
-                "type": "",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189563,
                 "name": "Cosmic Gladiator's Rifle",
                 "ilevel": 200,
@@ -2878,30 +2760,6 @@
             "material": "",
             "stats": [
                 "vers"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189004,
-            "name": "10.0 Zone Uncommon Template <Descriptor> Trinket",
-            "ilevel": 200,
-            "type": "trinket",
-            "material": "",
-            "stats": [
-                "agi/str/int"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189096,
-            "name": "10.0 QRP Template <Descriptor> Trinket",
-            "ilevel": 200,
-            "type": "trinket",
-            "material": "",
-            "stats": [
-                "agi/str/int"
             ],
             "gems": 0,
             "source": "other"
@@ -5475,396 +5333,6 @@
                 "source": "other"
             },
             {
-                "id": 189108,
-                "name": "10.0 QRP Template <Descriptor> Glaive",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189109,
-                "name": "10.0 QRP Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189111,
-                "name": "10.0 QRP Template <Descriptor> Dagger",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189112,
-                "name": "10.0 QRP Template <Descriptor> Dagger",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189113,
-                "name": "10.0 QRP Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189121,
-                "name": "10.0 QRP Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189129,
-                "name": "10.0 QRP Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189130,
-                "name": "10.0 QRP Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189131,
-                "name": "10.0 QRP Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189132,
-                "name": "10.0 QRP Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189133,
-                "name": "10.0 QRP Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189134,
-                "name": "10.0 QRP Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189137,
-                "name": "10.0 QRP Template <Descriptor> Fist",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189338,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Glaive",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189339,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189341,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Dagger",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189342,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Dagger",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189343,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189345,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189348,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189349,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189350,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189351,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189352,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Sword",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189353,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189356,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Fist",
-                "ilevel": 200,
-                "type": "weapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189568,
                 "name": "Cosmic Gladiator's Gavel",
                 "ilevel": 200,
@@ -7486,36 +6954,6 @@
                 "source": "other"
             },
             {
-                "id": 189103,
-                "name": "10.0 QRP Template <Descriptor> Shield",
-                "ilevel": 200,
-                "type": "shield",
-                "material": "plate",
-                "stats": [
-                    "str",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189333,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Shield",
-                "ilevel": 200,
-                "type": "shield",
-                "material": "plate",
-                "stats": [
-                    "str",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189562,
                 "name": "Cosmic Gladiator's Barrier",
                 "ilevel": 200,
@@ -8055,34 +7493,6 @@
                 ],
                 "gems": 0,
                 "source": "sanctum_of_domination"
-            },
-            {
-                "id": 188981,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189115,
-                "name": "10.0 QRP Template <Descriptor> Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 189787,
@@ -8733,34 +8143,6 @@
                 "source": "other"
             },
             {
-                "id": 188963,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Hood",
-                "ilevel": 200,
-                "type": "head",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189072,
-                "name": "10.0 QRP Template <Descriptor> Hood",
-                "ilevel": 200,
-                "type": "head",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189801,
                 "name": "Ephemera-Charged Thinking Cap",
                 "ilevel": 226,
@@ -8864,16 +8246,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192588,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Hood",
-                "ilevel": 200,
-                "type": "head",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194347,
@@ -9394,34 +8766,6 @@
                 "source": "other"
             },
             {
-                "id": 188976,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189073,
-                "name": "10.0 QRP Template <Descriptor> Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189775,
                 "name": "Helm of Solemn Vigil",
                 "ilevel": 226,
@@ -9615,26 +8959,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192579,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Faceguard",
-                "ilevel": 200,
-                "type": "head",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 192597,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194348,
@@ -10135,34 +9459,6 @@
                 "source": "other"
             },
             {
-                "id": 188969,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Helm",
-                "ilevel": 200,
-                "type": "head",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189074,
-                "name": "10.0 QRP Template <Descriptor> Hood",
-                "ilevel": 200,
-                "type": "head",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189783,
                 "name": "Sin-Steeped Coronet",
                 "ilevel": 226,
@@ -10311,16 +9607,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192570,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Guise",
-                "ilevel": 200,
-                "type": "head",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194349,
@@ -11059,49 +10345,6 @@
             "source": "other"
         },
         {
-            "id": 189006,
-            "name": "10.0 Zone Uncommon Template <Descriptor> Cape",
-            "ilevel": 200,
-            "type": "back",
-            "material": "cloth",
-            "stats": [
-                "agi/str/int",
-                "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189101,
-            "name": "10.0 QRP Template <Descriptor> Shroud",
-            "ilevel": 200,
-            "type": "back",
-            "material": "cloth",
-            "stats": [
-                "agi/str/int",
-                "stam",
-                "mastery",
-                "vers"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189102,
-            "name": "10.0 QRP Template <Descriptor> Cloak",
-            "ilevel": 200,
-            "type": "back",
-            "material": "cloth",
-            "stats": [
-                "agi/str/int",
-                "stam",
-                "haste",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
             "id": 189791,
             "name": "Drape of Mournful Melodies",
             "ilevel": 226,
@@ -11811,34 +11054,6 @@
                 "source": "other"
             },
             {
-                "id": 188960,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Vestment",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189064,
-                "name": "10.0 QRP Template <Descriptor> Vestments",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189782,
                 "name": "Haunting Hymnal Robes",
                 "ilevel": 226,
@@ -11987,16 +11202,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192584,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Vestments",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194400,
@@ -12497,34 +11702,6 @@
                 "source": "other"
             },
             {
-                "id": 188982,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Breastplate",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189065,
-                "name": "10.0 QRP Template <Descriptor> ChestPlate",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189796,
                 "name": "Duty's Ascendant Breastplate",
                 "ilevel": 226,
@@ -12658,16 +11835,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192581,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Chestpiece",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194401,
@@ -13168,34 +12335,6 @@
                 "source": "other"
             },
             {
-                "id": 188973,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Chainmail",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189066,
-                "name": "10.0 QRP Template <Descriptor> Hauberk",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189785,
                 "name": "Oracle's Chromatic Cuirass",
                 "ilevel": 226,
@@ -13329,16 +12468,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192595,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Vest",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194402,
@@ -13839,34 +12968,6 @@
                 "source": "other"
             },
             {
-                "id": 188989,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Tunic",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189067,
-                "name": "10.0 QRP Template <Descriptor> Vest",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189774,
                 "name": "Fractured Colossus Core",
                 "ilevel": 226,
@@ -13970,16 +13071,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192573,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Jerkin",
-                "ilevel": 200,
-                "type": "chest",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194403,
@@ -14512,34 +13603,6 @@
                 "source": "other"
             },
             {
-                "id": 188983,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Footguards",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189063,
-                "name": "10.0 QRP Template <Descriptor> Sabatons",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189786,
                 "name": "Song-Mad Sabatons",
                 "ilevel": 226,
@@ -14628,16 +13691,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192576,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Warboots",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194338,
@@ -15183,34 +14236,6 @@
                 "source": "other"
             },
             {
-                "id": 188961,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Sandals",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189116,
-                "name": "10.0 QRP Template <Descriptor> Feet",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189770,
                 "name": "Pre-Fabricated Footpads",
                 "ilevel": 226,
@@ -15314,16 +14339,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192585,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Footpads",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194381,
@@ -15869,34 +14884,6 @@
                 "source": "other"
             },
             {
-                "id": 188974,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Striders",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189117,
-                "name": "10.0 QRP Template <Descriptor> Cover",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189795,
                 "name": "Winter's Stampeding Striders",
                 "ilevel": 226,
@@ -16105,16 +15092,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192593,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Footguards",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194382,
@@ -16645,34 +15622,6 @@
                 "source": "other"
             },
             {
-                "id": 188967,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Treads",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189118,
-                "name": "10.0 QRP Template <Descriptor> Boots",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189794,
                 "name": "Boots of Ceaseless Conflict",
                 "ilevel": 226,
@@ -16806,16 +15755,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192568,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Footwraps",
-                "ilevel": 200,
-                "type": "feet",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194383,
@@ -17410,34 +16349,6 @@
                 "source": "other"
             },
             {
-                "id": 188968,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Grips",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189068,
-                "name": "10.0 QRP Template <Descriptor> Gloves",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189843,
                 "name": "Grasps of Abducted Fate",
                 "ilevel": 233,
@@ -17571,16 +16482,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192569,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Handwraps",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194343,
@@ -18126,34 +17027,6 @@
                 "source": "other"
             },
             {
-                "id": 188984,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Gauntlets",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189069,
-                "name": "10.0 QRP Template <Descriptor> Gauntlets",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189850,
                 "name": "Handguards of Hidden Realms",
                 "ilevel": 233,
@@ -18287,16 +17160,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192580,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Gloves",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194344,
@@ -18812,34 +17675,6 @@
                 "source": "other"
             },
             {
-                "id": 188962,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Handwraps",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189070,
-                "name": "10.0 QRP Template <Descriptor> Gloves",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189855,
                 "name": "Bindings of the Banished One",
                 "ilevel": 233,
@@ -18943,16 +17778,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192587,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Grips",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194345,
@@ -19438,34 +18263,6 @@
                 "source": "other"
             },
             {
-                "id": 188975,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Gloves",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189071,
-                "name": "10.0 QRP Template <Descriptor> Grips",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189824,
                 "name": "Unlicensed Hyperlight Handlers",
                 "ilevel": 226,
@@ -19614,16 +18411,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192596,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Gauntlets",
-                "ilevel": 200,
-                "type": "hands",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194346,
@@ -20111,34 +18898,6 @@
                 "source": "other"
             },
             {
-                "id": 188985,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Legguards",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189075,
-                "name": "10.0 QRP Template <Descriptor> Legguards",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189778,
                 "name": "Legplates of the Slumbering Sentinel",
                 "ilevel": 226,
@@ -20227,16 +18986,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192578,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Legguards",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194340,
@@ -20767,34 +19516,6 @@
                 "source": "other"
             },
             {
-                "id": 188964,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Leggings",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189076,
-                "name": "10.0 QRP Template <Descriptor> Leggings",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189771,
                 "name": "Ancient Materium Tassets",
                 "ilevel": 226,
@@ -20898,16 +19619,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192586,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Legwraps",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194339,
@@ -21423,34 +20134,6 @@
                 "source": "other"
             },
             {
-                "id": 188977,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Leggings",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189077,
-                "name": "10.0 QRP Template <Descriptor> Leggings",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189857,
                 "name": "Epochal Oppressor's Greaves",
                 "ilevel": 233,
@@ -21584,16 +20267,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192594,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Breeches",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194341,
@@ -22109,34 +20782,6 @@
                 "source": "other"
             },
             {
-                "id": 188970,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Breeches",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189078,
-                "name": "10.0 QRP Template <Descriptor> Breeches",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189803,
                 "name": "Automa-Tender's Tights",
                 "ilevel": 226,
@@ -22240,16 +20885,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192571,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Leggings",
-                "ilevel": 200,
-                "type": "legs",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194342,
@@ -22739,34 +21374,6 @@
                 "source": "other"
             },
             {
-                "id": 188990,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Epaulets",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189079,
-                "name": "10.0 QRP Template <Descriptor> Spaulders",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189784,
                 "name": "Epaulets of the Ailing Aria",
                 "ilevel": 226,
@@ -22915,16 +21522,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192572,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Shoulderpads",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194354,
@@ -23410,34 +22007,6 @@
                 "source": "other"
             },
             {
-                "id": 188986,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Pauldrons",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189080,
-                "name": "10.0 QRP Template <Descriptor> Spaulders",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189813,
                 "name": "Mantle of the Broken Beast",
                 "ilevel": 226,
@@ -23541,16 +22110,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192577,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Shoulderguards",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194355,
@@ -24036,34 +22595,6 @@
                 "source": "other"
             },
             {
-                "id": 188991,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Shoulderpads",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189081,
-                "name": "10.0 QRP Template <Descriptor> Mantle",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "vers",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189810,
                 "name": "Ephemera-Softened Exoskeleton",
                 "ilevel": 226,
@@ -24212,16 +22743,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192590,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Mantle",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194356,
@@ -24677,34 +23198,6 @@
                 "source": "other"
             },
             {
-                "id": 188978,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Shoulderguards",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189082,
-                "name": "10.0 QRP Template <Descriptor> Monnion",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 190362,
                 "name": "Enigmatic Epaulets",
                 "ilevel": 233,
@@ -24868,16 +23361,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192592,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Spaulders",
-                "ilevel": 200,
-                "type": "shoulders",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194357,
@@ -25395,34 +23878,6 @@
                 "source": "other"
             },
             {
-                "id": 188987,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Cincture",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189083,
-                "name": "10.0 QRP Template <Descriptor> Girdle",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "vers",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189826,
                 "name": "Enforcer's Containment Cinch",
                 "ilevel": 226,
@@ -25526,16 +23981,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192582,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Greatbelt",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194358,
@@ -26126,34 +24571,6 @@
                 "source": "other"
             },
             {
-                "id": 188965,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Cord",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189084,
-                "name": "10.0 QRP Template <Descriptor> Sash",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "haste",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189793,
                 "name": "Sash of the Silent Sonata",
                 "ilevel": 226,
@@ -26257,16 +24674,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192589,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Cincture",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194359,
@@ -26857,34 +25264,6 @@
                 "source": "other"
             },
             {
-                "id": 188979,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Cinch",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189085,
-                "name": "10.0 QRP Template <Descriptor> Belt",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189776,
                 "name": "Girdle of the First Gate",
                 "ilevel": 226,
@@ -27048,16 +25427,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192598,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Clasp",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194360,
@@ -27618,34 +25987,6 @@
                 "source": "other"
             },
             {
-                "id": 188971,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Belt",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189086,
-                "name": "10.0 QRP Template <Descriptor> Belt",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "vers",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189773,
                 "name": "Clasp of Crooked Crescendos",
                 "ilevel": 226,
@@ -27764,16 +26105,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192567,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Cinch",
-                "ilevel": 200,
-                "type": "waist",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194361,
@@ -28621,100 +26952,6 @@
             "source": "other"
         },
         {
-            "id": 189002,
-            "name": "10.0 Zone Uncommon Template <Descriptor> Signet",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189003,
-            "name": "10.0 Zone Uncommon Template <Descriptor> Band",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189091,
-            "name": "10.0 QRP Template <Descriptor> Signet",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam",
-                "haste",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189092,
-            "name": "10.0 QRP Template <Descriptor> Ring",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam",
-                "mastery",
-                "haste"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189093,
-            "name": "10.0 QRP Template <Descriptor> Band",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam",
-                "crit",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189094,
-            "name": "10.0 QRP Template <Descriptor> Signet",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam",
-                "vers",
-                "haste"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189119,
-            "name": "10.0 QRP Template <Descriptor> Signet",
-            "ilevel": 200,
-            "type": "finger",
-            "material": "",
-            "stats": [
-                "stam",
-                "mastery",
-                "vers"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
             "id": 189772,
             "name": "Modified Defense Grid",
             "ilevel": 226,
@@ -29533,34 +27770,6 @@
                 "source": "other"
             },
             {
-                "id": 188966,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Wristwraps",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189087,
-                "name": "10.0 QRP Template <Descriptor> Wraps",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189809,
                 "name": "Skolex's Ravenous Skinguards",
                 "ilevel": 226,
@@ -29709,16 +27918,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192583,
-                "name": "10.0 Poor Item Template - <Descriptor> Cloth Armbands",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "cloth",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194362,
@@ -30249,34 +28448,6 @@
                 "source": "other"
             },
             {
-                "id": 188988,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Armplates",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189088,
-                "name": "10.0 QRP Template <Descriptor> Vambraces",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam",
-                    "haste",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189777,
                 "name": "Unstable Giant's Cuffs",
                 "ilevel": 226,
@@ -30365,16 +28536,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192575,
-                "name": "10.0 Poor Item Template - <Descriptor> Plate Vambraces",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "plate",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194363,
@@ -30920,34 +29081,6 @@
                 "source": "other"
             },
             {
-                "id": 188980,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Bracers",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189089,
-                "name": "10.0 QRP Template <Descriptor> Bracers",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189797,
                 "name": "Wristwraps of Night's Renewal",
                 "ilevel": 226,
@@ -31126,16 +29259,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192591,
-                "name": "10.0 Poor Item Template - <Descriptor> Chain Armguards",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "mail",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194364,
@@ -31681,34 +29804,6 @@
                 "source": "other"
             },
             {
-                "id": 188972,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Bindings",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189090,
-                "name": "10.0 QRP Template <Descriptor> Bindings",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [
-                    "agi/int",
-                    "stam",
-                    "crit",
-                    "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
                 "id": 189812,
                 "name": "Devourer's Sandblown Hidebinders",
                 "ilevel": 226,
@@ -31812,16 +29907,6 @@
                 ],
                 "gems": 0,
                 "source": "pvp"
-            },
-            {
-                "id": 192574,
-                "name": "10.0 Poor Item Template - <Descriptor> Leather Bracers",
-                "ilevel": 200,
-                "type": "wrists",
-                "material": "leather",
-                "stats": [],
-                "gems": 0,
-                "source": "other"
             },
             {
                 "id": 194365,
@@ -32422,46 +30507,6 @@
             "source": "other"
         },
         {
-            "id": 189005,
-            "name": "10.0 Zone Uncommon Template <Descriptor> Necklace",
-            "ilevel": 200,
-            "type": "neck",
-            "material": "",
-            "stats": [
-                "stam"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189099,
-            "name": "10.0 QRP Template <Descriptor> Pendant",
-            "ilevel": 200,
-            "type": "neck",
-            "material": "",
-            "stats": [
-                "stam",
-                "crit",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
-            "id": 189100,
-            "name": "10.0 QRP Template <Descriptor> Pendant",
-            "ilevel": 200,
-            "type": "neck",
-            "material": "",
-            "stats": [
-                "stam",
-                "haste",
-                "mastery"
-            ],
-            "gems": 0,
-            "source": "other"
-        },
-        {
             "id": 189827,
             "name": "Cartel Xy's Proof of Initiation",
             "ilevel": 226,
@@ -32961,36 +31006,6 @@
                     "stam",
                     "crit",
                     "mastery"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189127,
-                "name": "10.0 QRP Template <Descriptor> Longbow",
-                "ilevel": 200,
-                "type": "ranged",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189346,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Longbow",
-                "ilevel": 200,
-                "type": "ranged",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
@@ -34189,276 +32204,6 @@
                     "stam",
                     "vers",
                     "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189105,
-                "name": "10.0 QRP Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189106,
-                "name": "10.0 QRP Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189110,
-                "name": "10.0 QRP Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189120,
-                "name": "10.0 QRP Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189135,
-                "name": "10.0 QRP Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189136,
-                "name": "10.0 QRP Template <Descriptor> Greatsword",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189138,
-                "name": "10.0 QRP Template <Descriptor> Greatmace",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189139,
-                "name": "10.0 QRP Template <Descriptor> Greatsword",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189141,
-                "name": "10.0 QRP Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189335,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Mace",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189336,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189340,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189344,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "mastery",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189354,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Axe",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "haste",
-                    "vers"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189355,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Greatsword",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "str",
-                    "stam",
-                    "mastery",
-                    "crit"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189357,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Greatmace",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189358,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Greatsword",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "int",
-                    "stam",
-                    "crit",
-                    "haste"
-                ],
-                "gems": 0,
-                "source": "other"
-            },
-            {
-                "id": 189360,
-                "name": "10.0 Zone Uncommon Template <Descriptor> Staff",
-                "ilevel": 200,
-                "type": "2hweapon",
-                "material": "",
-                "stats": [
-                    "agi",
-                    "stam",
-                    "mastery",
-                    "haste"
                 ],
                 "gems": 0,
                 "source": "other"
