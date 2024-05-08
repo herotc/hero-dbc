@@ -10626,6 +10626,21 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 223769,
+            "name": "Eternal Aspirant's Cape",
+            "ilevel": 158,
+            "type": "back",
+            "material": "cloth",
+            "stats": [
+                "agi/str/int",
+                "stam",
+                "vers",
+                "mastery"
+            ],
+            "gems": 0,
+            "source": "pvp"
         }
     ],
     "chest": {
