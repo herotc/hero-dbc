@@ -1,4 +1,4 @@
--- Generated using WoW 10.2.7.54577 client data on 2024-05-07T19:56:12.465105.
+-- Generated using WoW 10.2.7.54762 client data on 2024-05-20T08:06:47.971090.
 HeroDBC.DBC.SpellEnchants = {
   [25] = 14122,
   [26] = 96089,
