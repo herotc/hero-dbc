@@ -3169,6 +3169,62 @@
             ],
             "gems": 0,
             "source": "other"
+        },
+        {
+            "id": 223507,
+            "name": "Recruit's Pocket Watch",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 223508,
+            "name": "Recruit's Whetstone",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 223513,
+            "name": "Faded Ebony Scale",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [
+                "agi/str/int"
+            ],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 223516,
+            "name": "Recruit's Trumpet",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [],
+            "gems": 0,
+            "source": "other"
+        },
+        {
+            "id": 223517,
+            "name": "Recruit's Warhorn",
+            "ilevel": 200,
+            "type": "trinket",
+            "material": "",
+            "stats": [],
+            "gems": 0,
+            "source": "other"
         }
     ],
     "weapon": {
@@ -7728,6 +7784,19 @@
                     "stam",
                     "crit",
                     "haste"
+                ],
+                "gems": 0,
+                "source": "other"
+            },
+            {
+                "id": 213099,
+                "name": "Test Warbound until equipped (DNT)",
+                "ilevel": 200,
+                "type": "head",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam"
                 ],
                 "gems": 0,
                 "source": "other"
