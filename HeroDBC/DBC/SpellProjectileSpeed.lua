@@ -1,4 +1,4 @@
--- Generated using WoW 11.0.2.56110 client data on 2024-08-13T16:00:25.807073.
+-- Generated using WoW 11.0.2.56196 client data on 2024-08-20T18:50:32.846015.
 HeroDBC.DBC.SpellProjectileSpeed = {
   [11] = 35,
   [59] = 25,
@@ -29480,7 +29480,7 @@ HeroDBC.DBC.SpellProjectileSpeed = {
   [461851] = 40,
   [461872] = 30,
   [461879] = 35,
-  [461883] = 80,
+  [461883] = 20,
   [461884] = 35,
   [461914] = 40,
   [461935] = 100,

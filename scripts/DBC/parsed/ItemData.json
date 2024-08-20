@@ -7814,19 +7814,6 @@
                 ],
                 "gems": 0,
                 "source": "other"
-            },
-            {
-                "id": 213099,
-                "name": "Test Warbound until equipped (DNT)",
-                "ilevel": 200,
-                "type": "head",
-                "material": "plate",
-                "stats": [
-                    "str/int",
-                    "stam"
-                ],
-                "gems": 0,
-                "source": "other"
             }
         ],
         "cloth": [
