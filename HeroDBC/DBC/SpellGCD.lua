@@ -1,4 +1,4 @@
--- Generated using WoW 11.0.5.57171 client data on 2024-10-22T13:51:17.747113.
+-- Generated using WoW 11.0.5.57171 client data on 2024-10-22T23:36:28.768698.
 HeroDBC.DBC.SpellGCD = {
   [17] = 1500,
   [53] = 1000,
@@ -32135,6 +32135,7 @@ HeroDBC.DBC.SpellGCD = {
   [472158] = 0,
   [472159] = 0,
   [472173] = 0,
+  [473302] = 0,
   [473498] = 0,
   [473499] = 0,
   [473501] = 0,
