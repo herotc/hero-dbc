@@ -1747,5 +1747,35 @@
         "covenantId": 21,
         "covenantName": "Dream Wardens",
         "soulbinds": []
+    },
+    {
+        "covenantId": 23,
+        "covenantName": "Keg Leg's Crew",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 24,
+        "covenantName": "Council of Dornogal",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 25,
+        "covenantName": "The Assembly of the Deeps",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 26,
+        "covenantName": "Hallowfall Arathi",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 27,
+        "covenantName": "The Severed Threads",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 28,
+        "covenantName": "[DNT] 11.0 Delves Season 1",
+        "soulbinds": []
     }
 ]
