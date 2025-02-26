@@ -1,4 +1,4 @@
--- Generated using WoW 11.0.7.58162 client data on 2024-12-17T19:13:49.636534.
+-- Generated using WoW 11.1.0.59347 client data on 2025-02-25T20:15:34.846117.
 HeroDBC.DBC.SpellEnchants = {
   [25] = 14122,
   [26] = 96089,
@@ -4359,4 +4359,7 @@ HeroDBC.DBC.SpellEnchants = {
   [7599] = 7,
   [7600] = 7,
   [7601] = 7,
+  [7652] = 7,
+  [7653] = 7,
+  [7654] = 7,
 }
