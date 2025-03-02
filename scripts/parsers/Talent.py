@@ -41,7 +41,7 @@ for entryId, entry in db['Talent'].items():
     talents[classId][specId][row][entry['col']] = {
         'talentId': int(entry['id']),
         'spellId': int(spellId),
-        'spellName': db['SpellName'][spellId]['name']
+        'spellName': db['SpellName'].get(spellId, {'name': f'Unknown Spell ({spellId})'})['name']
     }
 
 # Full output
