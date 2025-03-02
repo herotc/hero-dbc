@@ -1,17 +1,11 @@
 {
   "dbfiles": [
-    "Covenant",
     "GarrTalent",
     "GarrTalentRank",
     "ItemEffect",
     "ItemXItemEffect",
     "ItemSparse",
     "JournalEncounterItem",
-    "RuneforgeLegendaryAbility",
-    "Soulbind",
-    "SoulbindConduit",
-    "SoulbindConduitItem",
-    "SoulbindConduitRank",
     "SpecSetMember",
     "Spell",
     "SpellAuraOptions",
@@ -27,12 +21,9 @@
     "Talent"
   ],
   "parsers": [
-    "Conduits",
     "ItemData",
     "ItemRange",
     "ItemSpell",
-    "LegendaryItems",
-    "Soulbinds",
     "SpellAuraStat",
     "SpellDuration",
     "SpellEnchant",
