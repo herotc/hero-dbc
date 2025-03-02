@@ -1777,5 +1777,20 @@
         "covenantId": 28,
         "covenantName": "[DNT] 11.0 Delves Season 1",
         "soulbinds": []
+    },
+    {
+        "covenantId": 29,
+        "covenantName": "[DNT] TBD The Undermine",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 31,
+        "covenantName": "[DNT] 11.0 Delves Season 2",
+        "soulbinds": []
+    },
+    {
+        "covenantId": 32,
+        "covenantName": "Gallagio Loyalty Rewards",
+        "soulbinds": []
     }
 ]
