@@ -1,4 +1,4 @@
--- Generated using WoW 11.1.0.59347 client data on 2025-02-25T20:15:34.846117.
+-- Generated using WoW 11.1.0.59466 client data on 2025-03-02T11:13:42.823967.
 HeroDBC.DBC.ItemSpell = {
   [17] = 7,
   [117] = 433,
