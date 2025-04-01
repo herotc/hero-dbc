@@ -1,4 +1,4 @@
--- Generated using WoW 11.1.0.59888 client data on 2025-03-26T21:23:15.970030.
+-- Generated using WoW 11.1.0.60037 client data on 2025-04-01T15:53:54.578793.
 HeroDBC.DBC.SpellRPPM = {
   [5301] = {
     [0] = 3.0,
@@ -5855,7 +5855,6 @@ HeroDBC.DBC.SpellRPPM = {
   },
   [443378] = {
     [0] = 0.5,
-    [1] = true,
   },
   [443380] = {
     [0] = 2.0,
@@ -6636,7 +6635,7 @@ HeroDBC.DBC.SpellRPPM = {
     [1] = true,
   },
   [1215687] = {
-    [0] = 2.0,
+    [0] = 2.5,
     [1] = true,
   },
   [1215689] = {
