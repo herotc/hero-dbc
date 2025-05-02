@@ -17,11 +17,12 @@ args = parser.parse_args()
 
 extractStartTime = math.floor(datetime.datetime.now().timestamp())
 
-topLevelWorkingDir = path.dirname(getcwd())
-scriptsDirPath = path.join(topLevelWorkingDir, 'hero-dbc', 'scripts')
+#topLevelWorkingDir = path.dirname(getcwd())
+#scriptsDirPath = path.join(topLevelWorkingDir, 'hero-dbc', 'scripts')
+scriptsDirPath = path.dirname(path.abspath(__file__)) # Correctly get the directory this script is in
 cdnDirPath = path.join(scriptsDirPath, 'CDN')
 dbcDirPath = path.join(scriptsDirPath, 'DBC')
-simcDirPath = path.normpath(path.join(topLevelWorkingDir, '../simulationcraft/simc'))
+simcDirPath = path.normpath(path.join(scriptsDirPath, '..', '..', 'simc'))
 
 realm = args.wowRealm
 
@@ -113,3 +114,7 @@ for parser in tasks['parsers']:
 # Update .lua meta info (using hero-dbc/scripts/tools/luaMeta.py)
 chdir(path.join(scriptsDirPath, 'tools'))
 system(f'python3 luaMeta.py --mtime={extractStartTime} --version={version}')
+
+# Filters (using hero-dbc/scripts/filter.py)
+chdir(path.join(scriptsDirPath))
+system('python3 filter.py')
