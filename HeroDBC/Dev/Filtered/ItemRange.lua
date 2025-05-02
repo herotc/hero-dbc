@@ -1,4 +1,4 @@
-{
+return {
     ["Melee"] = {
         ["Hostile"] = {
             ["RangeIndex"] = "[\"5\"]",
