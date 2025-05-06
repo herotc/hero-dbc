@@ -26,13 +26,21 @@ for dbcDir in dbcDirs:
                 # Prevent changing metadata from older files
                 if path.getmtime(entry.path) <= mtime:
                     continue
-                # Read the content
+                # Read the content, skipping the old header
+                lines = []
                 with open(entry.path, 'r') as entryFile:
-                    entryContent = entryFile.read()
-                # Rewrite the file adding the header then the content
+                    first_line = True
+                    for line in entryFile:
+                        if first_line and line.startswith('-- Generated using WoW'):
+                            first_line = False
+                            continue
+                        lines.append(line)
+                        first_line = False
+
+                # Rewrite the file adding the new header then the rest of the content
                 with open(entry.path, 'w') as entryFile:
                     entryFile.write(luaMetas)
-                    entryFile.write(entryContent)
+                    entryFile.writelines(lines)
 
 # Generate metaFile
 with open(path.join(path.join('HeroDBC', 'DBC'), 'Meta.lua'), 'w', encoding='utf-8') as file:

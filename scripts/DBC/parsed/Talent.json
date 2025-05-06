@@ -1,11 +1,30 @@
 {
     "1": {
         "0": {
+            "0": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16038
+                }
+            },
             "1": {
                 "0": {
                     "spellId": 103827,
                     "spellName": "Double Time",
                     "talentId": 19676
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16039
+                }
+            },
+            "2": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16040
                 }
             },
             "3": {
@@ -13,6 +32,25 @@
                     "spellId": 202163,
                     "spellName": "Bounding Stride",
                     "talentId": 22627
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16041
+                }
+            },
+            "4": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16042
+                }
+            },
+            "5": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 15764
                 }
             }
         },
@@ -1227,6 +1265,11 @@
                     "spellId": 114158,
                     "spellName": "Light's Hammer",
                     "talentId": 17569
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17571
                 }
             },
             "1": {
@@ -1234,6 +1277,11 @@
                     "spellId": 114165,
                     "spellName": "Holy Prism",
                     "talentId": 17577
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17579
                 }
             },
             "2": {
@@ -1251,6 +1299,11 @@
                     "spellId": 115750,
                     "spellName": "Blinding Light",
                     "talentId": 21811
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17587
                 }
             },
             "3": {
@@ -1263,6 +1316,11 @@
                     "spellId": 230332,
                     "spellName": "Cavalier",
                     "talentId": 22434
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17595
                 }
             },
             "4": {
@@ -1280,6 +1338,18 @@
                     "spellId": 152262,
                     "spellName": "Unknown Spell (152262)",
                     "talentId": 17601
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17603
+                }
+            },
+            "5": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 17611
                 }
             }
         },
@@ -2112,6 +2182,353 @@
             }
         }
     },
+    "5": {
+        "0": {
+            "0": {
+                "0": {
+                    "spellId": 193134,
+                    "spellName": "Castigation",
+                    "talentId": 19752
+                }
+            },
+            "1": {
+                "0": {
+                    "spellId": 64129,
+                    "spellName": "Body and Soul",
+                    "talentId": 22315
+                },
+                "2": {
+                    "spellId": 121536,
+                    "spellName": "Angelic Feather",
+                    "talentId": 19758
+                }
+            },
+            "2": {
+                "0": {
+                    "spellId": 197045,
+                    "spellName": "Shield Discipline",
+                    "talentId": 22440
+                },
+                "1": {
+                    "spellId": 123040,
+                    "spellName": "Mindbender",
+                    "talentId": 22094
+                },
+                "2": {
+                    "spellId": 129250,
+                    "spellName": "Unknown Spell (129250)",
+                    "talentId": 19755
+                }
+            },
+            "3": {
+                "2": {
+                    "spellId": 204263,
+                    "spellName": "Shining Force",
+                    "talentId": 19761
+                }
+            },
+            "4": {
+                "1": {
+                    "spellId": 197419,
+                    "spellName": "Penance",
+                    "talentId": 19765
+                },
+                "2": {
+                    "spellId": 314867,
+                    "spellName": "Shadow Covenant",
+                    "talentId": 19766
+                }
+            },
+            "5": {
+                "0": {
+                    "spellId": 193157,
+                    "spellName": "Benediction",
+                    "talentId": 19767
+                },
+                "1": {
+                    "spellId": 110744,
+                    "spellName": "Divine Star",
+                    "talentId": 19760
+                },
+                "2": {
+                    "spellId": 120517,
+                    "spellName": "Halo",
+                    "talentId": 19763
+                }
+            },
+            "6": {
+                "1": {
+                    "spellId": 109964,
+                    "spellName": "Spirit Shell",
+                    "talentId": 21184
+                }
+            }
+        },
+        "256": {
+            "0": {
+                "1": {
+                    "spellId": 265259,
+                    "spellName": "Twist of Fate",
+                    "talentId": 22313
+                },
+                "2": {
+                    "spellId": 214621,
+                    "spellName": "Mind Blast",
+                    "talentId": 22329
+                }
+            },
+            "1": {
+                "1": {
+                    "spellId": 193063,
+                    "spellName": "Protective Light",
+                    "talentId": 22316
+                }
+            },
+            "3": {
+                "0": {
+                    "spellId": 196704,
+                    "spellName": "Psychic Voice",
+                    "talentId": 19759
+                },
+                "1": {
+                    "spellId": 205367,
+                    "spellName": "Dominant Mind",
+                    "talentId": 19769
+                }
+            },
+            "4": {
+                "0": {
+                    "spellId": 280391,
+                    "spellName": "Sins of the Many",
+                    "talentId": 22330
+                }
+            },
+            "5": {
+                "0": {
+                    "spellId": 204197,
+                    "spellName": "Purge the Wicked",
+                    "talentId": 22161
+                }
+            },
+            "6": {
+                "0": {
+                    "spellId": 238063,
+                    "spellName": "Lenience",
+                    "talentId": 21183
+                },
+                "2": {
+                    "spellId": 246287,
+                    "spellName": "Unknown Spell (246287)",
+                    "talentId": 22976
+                }
+            }
+        },
+        "257": {
+            "0": {
+                "0": {
+                    "spellId": 193155,
+                    "spellName": "Enlightenment",
+                    "talentId": 22312
+                },
+                "1": {
+                    "spellId": 200128,
+                    "spellName": "Trail of Light",
+                    "talentId": 19753
+                },
+                "2": {
+                    "spellId": 341997,
+                    "spellName": "Renewed Faith",
+                    "talentId": 19754
+                }
+            },
+            "1": {
+                "0": {
+                    "spellId": 238100,
+                    "spellName": "Angel's Mercy",
+                    "talentId": 22325
+                },
+                "1": {
+                    "spellId": 64129,
+                    "spellName": "Body and Soul",
+                    "talentId": 22326
+                }
+            },
+            "2": {
+                "0": {
+                    "spellId": 368275,
+                    "spellName": "Binding Heals",
+                    "talentId": 22487
+                },
+                "1": {
+                    "spellId": 200209,
+                    "spellName": "Guardian Angel",
+                    "talentId": 22095
+                },
+                "2": {
+                    "spellId": 196707,
+                    "spellName": "Afterlife",
+                    "talentId": 22562
+                }
+            },
+            "3": {
+                "0": {
+                    "spellId": 196704,
+                    "spellName": "Psychic Voice",
+                    "talentId": 21750
+                },
+                "1": {
+                    "spellId": 200199,
+                    "spellName": "Censure",
+                    "talentId": 21977
+                }
+            },
+            "4": {
+                "0": {
+                    "spellId": 109186,
+                    "spellName": "Surge of Light",
+                    "talentId": 19764
+                },
+                "1": {
+                    "spellId": 238136,
+                    "spellName": "Cosmic Ripple",
+                    "talentId": 22327
+                },
+                "2": {
+                    "spellId": 321377,
+                    "spellName": "Prayer Circle",
+                    "talentId": 21754
+                }
+            },
+            "6": {
+                "0": {
+                    "spellId": 196985,
+                    "spellName": "Light of the Naaru",
+                    "talentId": 21636
+                },
+                "1": {
+                    "spellId": 200183,
+                    "spellName": "Apotheosis",
+                    "talentId": 21644
+                }
+            }
+        },
+        "258": {
+            "0": {
+                "0": {
+                    "spellId": 193195,
+                    "spellName": "Fortress of the Mind",
+                    "talentId": 22328
+                },
+                "1": {
+                    "spellId": 321291,
+                    "spellName": "Death and Madness",
+                    "talentId": 22136
+                },
+                "2": {
+                    "spellId": 341273,
+                    "spellName": "Unfurling Darkness",
+                    "talentId": 22314
+                }
+            },
+            "1": {
+                "1": {
+                    "spellId": 199855,
+                    "spellName": "San'layn",
+                    "talentId": 23374
+                },
+                "2": {
+                    "spellId": 288733,
+                    "spellName": "Intangibility",
+                    "talentId": 21976
+                }
+            },
+            "2": {
+                "0": {
+                    "spellId": 109142,
+                    "spellName": "Twist of Fate",
+                    "talentId": 23125
+                },
+                "1": {
+                    "spellId": 238558,
+                    "spellName": "Misery",
+                    "talentId": 23126
+                },
+                "2": {
+                    "spellId": 341385,
+                    "spellName": "Unknown Spell (341385)",
+                    "talentId": 23127
+                }
+            },
+            "3": {
+                "0": {
+                    "spellId": 263716,
+                    "spellName": "Last Word",
+                    "talentId": 23137
+                },
+                "1": {
+                    "spellId": 205369,
+                    "spellName": "Unknown Spell (205369)",
+                    "talentId": 23375
+                },
+                "2": {
+                    "spellId": 64044,
+                    "spellName": "Psychic Horror",
+                    "talentId": 21752
+                }
+            },
+            "4": {
+                "0": {
+                    "spellId": 155271,
+                    "spellName": "Auspicious Spirits",
+                    "talentId": 22310
+                },
+                "1": {
+                    "spellId": 199484,
+                    "spellName": "Psychic Link",
+                    "talentId": 22311
+                },
+                "2": {
+                    "spellId": 205385,
+                    "spellName": "Shadow Crash",
+                    "talentId": 21755
+                }
+            },
+            "5": {
+                "0": {
+                    "spellId": 341374,
+                    "spellName": "Damnation",
+                    "talentId": 21718
+                },
+                "1": {
+                    "spellId": 200174,
+                    "spellName": "Mindbender",
+                    "talentId": 21719
+                },
+                "2": {
+                    "spellId": 263165,
+                    "spellName": "Void Torrent",
+                    "talentId": 21720
+                }
+            },
+            "6": {
+                "0": {
+                    "spellId": 341240,
+                    "spellName": "Ancient Madness",
+                    "talentId": 21637
+                },
+                "1": {
+                    "spellId": 345218,
+                    "spellName": "Hungering Void",
+                    "talentId": 21978
+                },
+                "2": {
+                    "spellId": 319952,
+                    "spellName": "Unknown Spell (319952)",
+                    "talentId": 21979
+                }
+            }
+        }
+    },
     "6": {
         "0": {
             "4": {
@@ -2833,11 +3250,23 @@
     },
     "8": {
         "0": {
+            "0": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16014
+                }
+            },
             "1": {
                 "1": {
                     "spellId": 212653,
                     "spellName": "Shimmer",
                     "talentId": 22443
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16018
                 }
             },
             "2": {
@@ -2855,6 +3284,18 @@
                     "spellId": 116011,
                     "spellName": "Rune of Power",
                     "talentId": 22447
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16022
+                }
+            },
+            "3": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16026
                 }
             },
             "4": {
@@ -2867,6 +3308,18 @@
                     "spellId": 113724,
                     "spellName": "Ring of Frost",
                     "talentId": 22471
+                },
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16030
+                }
+            },
+            "5": {
+                "3": {
+                    "spellId": 102052,
+                    "spellName": "Dummy 5.0 Talent",
+                    "talentId": 16034
                 }
             },
             "6": {
