@@ -15,7 +15,6 @@ DBC\Meta.lua
 DBC\ItemRange.lua
 DBC\ItemSpell.lua
 DBC\SpellAuraStat.lua
-DBC\SpellConduits.lua
 DBC\SpellDuration.lua
 DBC\SpellEnchants.lua
 DBC\SpellGCD.lua

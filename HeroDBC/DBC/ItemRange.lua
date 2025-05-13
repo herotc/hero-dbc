@@ -1,4 +1,4 @@
--- Generated using WoW 11.1.5.60568 client data on 2025-04-30T09:18:22.768425.
+-- Generated using WoW 11.1.5.60822 client data on 2025-05-14T07:31:19.963701.
 HeroDBC.DBC.ItemRange = {
   Melee = {
     Hostile = {
