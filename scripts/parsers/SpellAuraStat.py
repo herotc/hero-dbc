@@ -21,7 +21,7 @@ os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 
 with open(os.path.join(generatedDir, 'SpellEffect.csv')) as csvfile:
     reader = list(csv.DictReader(csvfile, escapechar='\\'))
-    reader = sorted(reader, key=lambda d: int(d['id_parent']))
+    reader = sorted(reader, key=lambda d: (int(d['id_parent']), -int(d['sub_type'])))
     with open(os.path.join(addonEnumDir, 'SpellAuraStat.lua'), 'w', encoding='utf-8') as file:
         file.write('HeroDBC.DBC.SpellAuraStat = {\n')
         current = 0
