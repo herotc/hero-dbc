@@ -19,7 +19,11 @@ addonEnumDir = os.path.join('HeroDBC', 'DBC')
 os.chdir(os.path.join(os.path.dirname(sys.path[0]), '..', '..', 'hero-dbc'))
 
 with open(os.path.join(addonDevDir, 'Filtered', 'ItemRange.lua')) as luafile:
-    data = luafile.read().replace('\n', '')
+    data = luafile.read()
+    # Strip leading 'return' from Lua file for proper decoding
+    brace_index = data.find('{')
+    if brace_index != -1:
+        data = data[brace_index:]
     ItemRangeFiltered = lua.decode(data)
 
 ItemRange = {}
