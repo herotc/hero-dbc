@@ -10,5 +10,6 @@ ignore:
     - scripts
     - symlink.bat
     - symlink.sh
+    - README.md
 
 license-output: LICENSE

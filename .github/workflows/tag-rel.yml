@@ -58,4 +58,4 @@ jobs:
         env:
             WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
         with:
-            args: -t ./HeroDBC -g retail -a QKywanN7 -n "${{ env.tag }}"
+            args: -g retail -a QKywanN7 -n "${{ env.tag }}"
