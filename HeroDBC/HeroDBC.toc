@@ -5,6 +5,9 @@
 ## Version: 11.1.5.02
 ## Notes: Library containing DBC data used by HeroTC Addons. Can be used by others 3rd-Party Addons.
 
+## X-Curse-Project-ID: 410191
+## X-Wago-ID: QKywanN7
+
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## SavedVariables: HeroDBCDB
