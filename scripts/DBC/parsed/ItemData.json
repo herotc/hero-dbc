@@ -1264,6 +1264,20 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 246284,
+                "name": "Nathrian Reliquary",
+                "ilevel": 158,
+                "type": "",
+                "material": "",
+                "stats": [
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "dungeon"
             }
         ],
         "cloth": [
@@ -1937,18 +1951,6 @@
             ],
             "gems": 0,
             "source": "pvp"
-        },
-        {
-            "id": 184873,
-            "name": "Soul Igniter (Test)",
-            "ilevel": 200,
-            "type": "trinket",
-            "material": "",
-            "stats": [
-                "int"
-            ],
-            "gems": 0,
-            "source": "other"
         },
         {
             "id": 185161,
@@ -13257,6 +13259,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 246273,
+                "name": "Vest of Refracted Shadows",
+                "ilevel": 158,
+                "type": "chest",
+                "material": "leather",
+                "stats": [
+                    "agi/int",
+                    "stam",
+                    "mastery",
+                    "crit"
+                ],
+                "gems": 0,
+                "source": "dungeon"
             }
         ]
     },
@@ -22281,6 +22298,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 246286,
+                "name": "Spaulders of Unleashed Pride",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "plate",
+                "stats": [
+                    "str/int",
+                    "stam",
+                    "haste",
+                    "mastery"
+                ],
+                "gems": 0,
+                "source": "dungeon"
             }
         ],
         "cloth": [
@@ -22914,6 +22946,21 @@
                 ],
                 "gems": 0,
                 "source": "other"
+            },
+            {
+                "id": 246276,
+                "name": "Sinlight Shoulderpads",
+                "ilevel": 158,
+                "type": "shoulders",
+                "material": "cloth",
+                "stats": [
+                    "int",
+                    "stam",
+                    "mastery",
+                    "haste"
+                ],
+                "gems": 0,
+                "source": "dungeon"
             }
         ],
         "mail": [
@@ -30217,7 +30264,6 @@
             "type": "neck",
             "material": "",
             "stats": [
-                "stam",
                 "stam",
                 "haste",
                 "mastery"
