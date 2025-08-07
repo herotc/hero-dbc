@@ -1,7 +1,5 @@
 {
   "dbfiles": [
-    "GarrTalent",
-    "GarrTalentRank",
     "ItemEffect",
     "ItemXItemEffect",
     "ItemSparse",
@@ -17,11 +15,9 @@
     "SpellName",
     "SpellProcsPerMinute",
     "SpellProcsPerMinuteMod",
-    "SpellRange",
-    "Talent"
+    "SpellRange"
   ],
   "parsers": [
-    "ItemData",
     "ItemRange",
     "ItemSpell",
     "SpellAuraStat",
@@ -31,8 +27,7 @@
     "SpellMeleeRange",
     "SpellProjectileSpeed",
     "SpellRPPM",
-    "SpellTickTime",
-    "Talent"
+    "SpellTickTime"
   ],
   "filters": [
     "ItemRange"
