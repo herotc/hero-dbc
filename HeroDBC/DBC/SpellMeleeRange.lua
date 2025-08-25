@@ -1,4 +1,5 @@
--- Generated using WoW 11.2.0.62493 client data on 2025-08-11T20:10:24.886374.
+-- Generated using WoW 11.2.0.62748 client data on 2025-08-24T22:10:58.609840.
+-- Generated using WoW 11.2.0.62748 client data on 2025-08-24T22:10:58.287447.
 -- { [SpellID] = { [1] = IsMelee, [2] = MinRange, [3] = MaxRange } }
 HeroDBC.DBC.SpellMeleeRange = {
   [11] = { false, 0, 100 },
@@ -108652,7 +108653,7 @@ HeroDBC.DBC.SpellMeleeRange = {
   [440111] = { false, 0, 50 },
   [440112] = { false, 0, 50 },
   [440121] = { false, 0, 100 },
-  [440122] = { false, 0, 40 },
+  [440122] = { false, 0, 100 },
   [440126] = { false, 0, 30 },
   [440127] = { false, 0, 30 },
   [440131] = { false, 0, 100 },
@@ -110857,10 +110858,10 @@ HeroDBC.DBC.SpellMeleeRange = {
   [450605] = { false, 0, 100 },
   [450611] = { false, 0, 50 },
   [450613] = { false, 0, 40 },
-  [450617] = { false, 0, 9 },
+  [450617] = { false, 0, 40 },
   [450618] = { false, 0, 10 },
   [450619] = { false, 0, 40 },
-  [450620] = { false, 0, 9 },
+  [450620] = { false, 0, 40 },
   [450621] = { false, 0, 50 },
   [450628] = { false, 0, 50 },
   [450629] = { false, 0, 100 },
@@ -111027,7 +111028,7 @@ HeroDBC.DBC.SpellMeleeRange = {
   [451246] = { true, 0, 8 },
   [451247] = { false, 0, 100 },
   [451249] = { false, 0, 100 },
-  [451250] = { false, 0, 9 },
+  [451250] = { false, 0, 40 },
   [451251] = { false, 0, 100 },
   [451261] = { false, 0, 60 },
   [451264] = { false, 0, 10 },
@@ -117558,7 +117559,7 @@ HeroDBC.DBC.SpellMeleeRange = {
   [1228379] = { false, 0, 100 },
   [1228380] = { false, 0, 100 },
   [1228429] = { false, 0, 40 },
-  [1228433] = { true, 0, 5 },
+  [1228433] = { false, 0, 40 },
   [1228436] = { false, 0, 100 },
   [1228437] = { false, 0, 100 },
   [1228440] = { false, 0, 100 },
@@ -118847,4 +118848,7 @@ HeroDBC.DBC.SpellMeleeRange = {
   [1254780] = { false, 0, 100 },
   [1254849] = { false, 0, 5 },
   [1254876] = { false, 0, 100 },
+  [1256884] = { false, 0, 100 },
+  [1257733] = { false, 0, 100 },
+  [1258336] = { false, 0, 100 },
 }
